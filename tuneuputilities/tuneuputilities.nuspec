@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>tuneuputilities</id>
+    <title>TuneUp Utilities 2013</title>
+    <version>13.0.3020.10</version>
+    <authors>Microsoft</authors>
+    <owners>tonigellida</owners>
+    <summary></summary>
+    <description>
+Windows Essentials is a suite of free software by Microsoft, that helps you do more with photos, movies, instant messaging, email, blogging, and family safety.
+It includes Windows Movie Maker, Photo Gallery, Messenger, Live Mesh, and more.
+	</description>
+    <projectUrl>http://www.tune-up.com/</projectUrl>
+    <tags>notSilent notUninstallable trial-version cleaner startup-manager memory-optimization customization increase-performance process-manager fix-error pc-optimization</tags>
+    <copyright></copyright>
+    <licenseUrl>http://www.tune-up.com/products/tuneup-utilities/eula/tuu17082012/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<iconUrl>https://raw.github.com/tonigellida/nugetpackages/master/tuneuputilities/tuneuputilities.jpg</iconUrl>
+  </metadata>
+</package>

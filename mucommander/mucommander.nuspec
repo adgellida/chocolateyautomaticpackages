@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>mucommander</id>
+    <title>muCommander</title>
+    <version>0.9.0</version>
+    <authors>Maxence Bernard</authors>
+    <owners>tonigellida</owners>
+    <summary></summary>
+    <description>
+muCommander is a cross-platform file manager that will run on any operating system which supports Java.
+It features a Norton Commander style interface to allow easy manipulation of files with many keyboard shortcuts.
+Pre-compiled builds are available for Mac OS X, Windows, Linux, Solaris, *BSD, etc.
+	</description>
+    <projectUrl>http://www.mucommander.com/index.php#download</projectUrl>
+    <tags>file-manager file-management dual-panel</tags>
+    <copyright></copyright>
+    <licenseUrl>http://trac.mucommander.com/wiki/License</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<iconUrl>https://raw.github.com/tonigellida/nugetpackages/master/mucommander/mucommander.png</iconUrl>
+  </metadata>
+</package>

@@ -1,0 +1,68 @@
+//* translated and corrected by: HUNited
+//* email: hunited@gmail.com
+
+Your changes will take effect when CCEnhancer is restarted.|A módosítások a CCEnhancer újraindítása után lesznek elérhetőek.
+Remove Item|Elem törlése
+Options|Beállítások
+Portable Locations|Hordozható verzió elérési útja
+Please select the directory containing portable CCleaner.|Válasszuk ki a hordozható CCleaner mappáját.
+Debug winapp2.ini entries|winapp2.ini hibakeresés
+Add Portable Location|Hordozható verzió hozzáadása
+Advanced|Speciális
+File|Fájl
+Help|Súgó
+Proxy Server:|Proxy Szerver:
+Port:|Port:
+Exit|Kilépés
+User Name:|Felhasználónév:
+Password:|Jelszó:
+Save and Close|Mentés és bezárás
+Version|Verzió
+Save Log|LOG mentése
+Refresh|Frissítés
+Close|Bezárás
+Settings|Beállítások
+Documentation|Dokumentáció
+About|Névjegy
+Check For Update|Frissítések keresése
+Functions|Funkciók
+Proxy Settings|Proxy beállítások
+Visit Website|Honlap meglátogatása
+Save to:|Mentés ide:
+Save To:|Mentés ide:
+File Size:|Fájlméret:
+Download Speed:|Letöltési sebesség:
+Language:|Nyelv:
+Online Documentation|Online Dokumentáció
+Saved Path|Mentési útvonal
+Speed|Sebesség
+Speed:|Sebesség:
+Speed: Calculating...|Sebesség: Számítás...
+Rules Last Updated:|Szabályok utolsó frissítése:
+Would you like to save|Szeretnénk menteni
+so CCEnhancer can find it next time?|tehát, a CCleaner itt található meg legközelebb?
+Rules Last Updated:|Szabályok utolsó frissítése:
+Download Latest|Legfrissebb letöltése
+Automatically download and install the latest definitions to increase the cleaning capabilities of CCleaner by adding hundreds of extra programs.|A legfrissebb szabályok automatikus letöltése és telepítése javítja a CCleaner teljesítményét, több száz újabb program támogatásának hozzáadásával.
+Buy Me Cake :)|Szeretnék egy sütit :)
+Update On Windows startup|Frissítés a Windows indításakor
+Run CCleaner silently on completion|CCleaner futtatása a háttérben frissítés után
+Delete Custom Rules|Szabályok törlése
+Install For Portable CCleaner|Hordozható CCleaner mellé telepítés
+Cancelled|Megszakítva
+Download has been cancelled.|A letöltés megszakadt.
+Successfully downloaded|Sikeres letöltés
+Would you like to run CCleaner now?|A CCleaner indítása most?
+Update completed|Sikeres frissítés
+The rules have not been downloaded yet.|A szabályok még nincsenek letöltve.
+The custom rules were successfully removed.|A szabályokat sikeresen töröltük.
+It looks like the rules aren't installed or you don't have permission to delete the file. You can manually remove the custom rules by deleting the following file:|Úgy tűnik, hogy a szabályok nem lettek telepítve, vagy nincs engedélyünk a fájl törléséhez. A probléma megoldása a következő fájl kézi törlése:
+Could not make a connection to The Web Atom server or the Upload Central server. Please see our online help for assistance.|Nem tudok csatlakozni a központi szerverhez vagy a WebAtom szerveréhez. Az Online dokumentációban keressünk megoldást.
+This error can be caused by incorrect proxy settings or a security product conflict.|A hibát nem megfelelő proxy beállítás, vagy biztonsági programokkal való összeütközés (pl blokkol a tűzfal) okozhatja.
+An error was encountered.|Hiba történt.
+An error occurred while downloading file. Possible causes:|Hiba történt a fájl letöltésekor. Lehetséges okok:
+1) File doesn't exist|1) A fájl nem létezik
+2)Remote server error|2) Távoli szerver hiba
+error|hiba
+CCleaner.exe could not be found in the directory you selected.|CCleaner.exe nem található a megadott útvonalon.
+Use proxy server to download definitions?|Proxy szerver használata a szabályok letöltéséhez?

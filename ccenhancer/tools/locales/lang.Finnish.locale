@@ -1,0 +1,60 @@
+Help|Apua
+Proxy Server:|Välityspalvelin:
+Port:|Portti:
+Exit|Poistu
+User Name:|Käyttäjänimi:
+Password:|Salasana:
+Save and Close|Tallenna ja sulje
+Version|Versio
+Save Log|Tallenna loki
+Refresh|Päivitä
+Close|Sulje
+Settings|Asetukset
+Documentation|Ohjeet
+About|Tietoa
+Check For Update|Tarkista päivitykset
+Functions|Toiminnot
+Proxy Settings|Välityspalvelinasetukset
+Visit Website|Vieraile www-sivulla
+Save To:|Tallenna kohteeseen:
+File Size:|Tiedostokoko:
+Download Speed:|Latausnopeus:
+Language:|Kieli:
+Online Documentation|Online-ohjeet
+Saved Path|Tallennettu polku
+Speed:|Nopeus:
+Speed: Calculating...|Nopeus: Lasketaan...
+Rules Last Updated:|Viimeisin sääntöpäivitys:
+Would you like to save|Haluaisitko tallentaa,
+so CCEnhancer can find it next time?|jotta CCEnhancer löytää sen seuraavalla kerralla?
+Rules Last Updated:|Viimeisin sääntöpäivitys:
+Download Latest|Lataa uusimmat
+Automatically download and install the latest definitions to increase the cleaning capabilities of CCleaner by adding hundreds of extra programs.|Lataa ja asenna automaattisesti uusimmat tunnisteet lisätäksesi CCleanerin puhdistuskykyä lisäämällä siihen satoja ohjelmatietoja.
+Buy Me Cake :)|Osta minulle kakku :)
+Update On Windows startup|Päivitä Windowsin käynnistyessä
+Run CCleaner silently on completion|Aja CCleaner taustalla päivityksen jälkeen
+Delete Custom Rules|Poista lisätyt säännöt
+Install For Portable CCleaner|Asenna kannettava CCleaner
+Cancelled|Peruttu
+Download has been cancelled.|Lataus on peruttu.
+Successfully downloaded|Ladattu onnistuneesti
+Would you like to run CCleaner now?|Haluatko nyt käynnistää CCleanerin?
+Update completed|Päivitys suoritettu
+The rules have not been downloaded yet.|Päivityksiä ei ole vielä ladattu.
+The custom rules were successfully removed.|Uudet säännöt on poistettu onnistuneesti.
+It looks like the rules aren't installed or you don't have permission to delete the file. You can manually remove the custom rules by deleting the following file:|Sääntöjä ei ole vielä ladattu tai sinulla ei ole oikeutta poistaa tiedostoa. Voit poistaa säännöt manuaalisesti poistamalla seuraavan tiedoston:
+Could not make a connection to The Web Atom server or the Upload Central server. Please see our online help for assistance.|Yhteyttä Web Atom - tai Upload Central -palvelimeen ei saatu. Katso apua online-ohjeistuksestamme.
+This error can be caused by incorrect proxy settings or a security product conflict.|Tämä virhe johtuu vääristä välityspalvelinasetuksista tai tietoturvaristiriidasta.
+An error was encountered.|Virhe havaittu.
+An error occurred while downloading file. Possible causes:|Virhe ladattaessa tiedostoa. Mahdolliset aiheuttajat:
+1) File doesn't exist|1) Tiedostoa ei ole olemassa
+2) Remote server error|2) Etäpalvelinvirhe
+error|virhe
+Please select the directory containing portable CCleaner.|Valitse kannettavan CCleanerin hakemisto.
+CCleaner.exe could not be found in the directory you selected.|CCleaner.exe -tiedostoa ei löydy hakemistosta.
+Use proxy server to download definitions?|Käytä välityspalvelinta tunnistelatauksissa?
+Advanced|Lisäasetukset
+Debug winapp2.ini entries|Muokkaa winapp2.ini -tiedostoa
+Add Portable Location|Lisää kannettavan sijainti
+Options|Asetukset
+Portable Locations|Kannettavien sijainnit

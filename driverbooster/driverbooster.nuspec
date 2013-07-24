@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>driverbooster</id>
+    <title>Driver Booster</title>
+    <version>2.0</version>
+    <authors>IObit</authors>
+    <owners>tonigellida</owners>
+    <summary></summary>
+    <description>
+Outdated drivers may heavily affect your PC performance and lead to system crashes.
+Driver Booster scans and identifies outdated drivers automatically, and downloads and installs the right update for you with just ONE click, saving you loads of time.
+Moreover, it's specially designed to tweak drivers for best gaming performance.
+It's the right tool to protect your PC from hardware failures, conflicts, and system crashes.
+	</description>
+    <projectUrl>http://www.iobit.com/driver-booster.php</projectUrl>
+    <tags>beta-version update-drivers</tags>
+    <copyright></copyright>
+    <licenseUrl>http://www.iobit.com/legal.php</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<iconUrl>https://raw.github.com/tonigellida/nugetpackages/master/driverbooster/driverbooster.png</iconUrl>
+  </metadata>
+</package>

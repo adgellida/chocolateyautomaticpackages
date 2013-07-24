@@ -1,0 +1,70 @@
+File|ფაილი
+Help|დახმარება
+Proxy Server:|პროქსის სერვერი:
+Port:|პორტი:
+Exit|გასვლა
+User Name:|მომხმარებლის სახელი:
+Password:|პაროლი:
+Save and Close|შენახვა
+Version|ვერსია
+Save Log|რეესტრის შენახვა
+Refresh|განახლება
+Close|დაკეტვა
+Settings|პარამეტრები
+Documentation|დოცუმენტაცია
+About|როგრამის შესახებ
+Check For Update|აქტუალიზირების შემოწმება
+Functions|ფუნქციები
+Proxy Settings|პროქსის პარამეტრები
+Visit Website|ვებგვერდის გახსნა
+Save To:|შენახვის ადგილი:
+File Size:|ფაილის ზომა:
+Download Speed:|ჩამოტვირტვის სიჩქარე:
+Language:|ენა:
+Online Documentation|დოცუმენტაცია ქსელში
+Saved Path|შენახვის ადგილსამყოფელი
+Speed:|სიჩქარე:
+Speed: Calculating...|სიჩქარე: გამოთვლა...
+Rules Last Updated:|ფილტრი ბოლოს აქტუალიზირებულია:
+Would you like to save|გსურთ შენახვა
+so CCEnhancer can find it next time?|შეგიძლიათ მომავალში მოძებნოთ CCEnhancer-ი?
+Rules Last Updated:|ფილტრი ბოლოს აქტუალიზირებულია:
+Download Latest|აქტუალიზირება
+Automatically download and install the latest definitions to increase the cleaning capabilities of CCleaner by adding hundreds of extra programs.|უახლესი ფილტრის ავტომატურად ჩამოიტვირთება და დაყენება, CCleaner-ის მუშაობის გასაუმჯობესებლად, რომელიც ასობით პროგრამის პარამეტრებს შეიცავს.
+Buy Me Cake :)|დამპატიჟეთ ტორტზე :)
+Update On Windows startup|სისტემის ჩართვისას აქტუალიზირება
+Run CCleaner silently on completion|დასრულებისას, CCleaner-ის ჩუმი რეჯიმით გაშვება
+Delete Custom Rules|ჩამოტვირთული ფილტრის წაშლა
+Install For Portable CCleaner|პორტატული ვერსიისთვის დაყენება
+Cancelled|შეწყვეტილია
+Download has been cancelled.|ჩამოტვირთვა შეწყვეტილია.
+Successfully downloaded|ჩამოტვირთვა წარმატებულია
+Would you like to run CCleaner now?|გსურთ CCleaner-ის გაშვება?
+Update completed|აქტუალიზირება დასრულებულია
+The rules have not been downloaded yet.|ფილტრის ჩამოტვირთვა არ დასრულებულა.
+The custom rules were successfully removed.|პერსონალიზირებული ფილტრები წარმატებით წაიშალა.
+It looks like the rules aren't installed or you don't have permission to delete the file. You can manually remove the custom rules by deleting the following file:|შესაძლებელია რომ ფილტრი არ არსებოს, ან არ გაქვთ შესაბამისი უფლებები წასაშლელად. შეგიძლიათ ხელით წაშალოდ შემდეგი ფაილი:
+Could not make a connection to The Web Atom server or the Upload Central server. Please see our online help for assistance.|"Web Atom"-ის ან "Upload Central"-ის სერვერთად დაკავშირება წარუმატებელია. მეტი ინფორმაციისთვის, გთხოვთ წაიკითხოთ ჩვენი დახმარება ქსელში.
+This error can be caused by incorrect proxy settings or a security product conflict.|ეს შეცდომა შეიძლება გამოწვეული იყოს, არასწორი პროქსის პარამეტრების ან ანტივირუსის შედეგად.
+An error was encountered.|დაფიქსირდა შეცდომა
+An error occurred while downloading file. Possibe causes:|ფაილის ჩამოტვირთვისას დაფიქსირდა შეცდომა. შეასძლებელი მიზეზებია:
+1) File doesn't exist|1) ფაილი არ არსებობს
+2) Remote server error|2) სერვერის შეცდომა
+error|შეცდომა
+Please select the directory containing portable CCleaner.|გთხოვთ აირჩიოთ CCleaner-ის პორტატული ვერსიის ადგილსამყოფელი.
+CCleaner.exe could not be found in the directory you selected.|CCleaner.exe აღნიშნულ ფოლდერში ვერ მოიძებნა.
+Use proxy server to download definitions?|გსურთ პროქსის სესვერის გამოყენება ჩამოსათვირთვად?
+Options|პარამეტრები
+Portable Locations|პორტატულის ადგილსამყოფელი
+Add Portable Location|პორტატულის ადგილსამყოფელის დამატება
+Debug winapp2.ini entries|winapp2.ini-ს შეცდომის ძებნა
+Completed analysis of winapp2.ini.|winapp2.ini-ს ანალიზირება დასრულებულია.
+Trimmed winapp2.ini in:|winapp2.ini-ი შეიკვეცა ფოლდერში:
+errors were detected.| შეცდომა დაფიქსირდა
+Use Alternate Downloader|სხვა ჩამომტვირთველის გამოყენება
+Trim winapp2.ini|winapp2.ini-ს შეკვეცა
+Advanced|დამატებით
+Save to:|შენახვის ადგილი:
+Your changes will take effect when CCEnhancer is restarted.|ცვლიბება ჯალაში შევა პროგრამის გადატვირთვის შემდეგ.
+File needs to be created|ფაილი უნდა შეიქმნას: 
+No config file needs to be created.|კონფიგურაციის ფალის შექმნა არასავალდებულოა.

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>wassapp</id>
+    <title>Wassapp</title>
+    <version>1.1.1</version>
+    <authors>Lowlevel Studios</authors>
+    <owners>tonigellida</owners>
+    <summary></summary>
+    <description>
+Wassapp is a PC application developed as a non-official client for WhatsApp Messenger.
+Login with your phone number, import your contacts and chat with them instantly using your keyboard! Just like if you were using your smartphone.
+	</description>
+    <projectUrl>http://lowlevel-studios.com/wassapp/</projectUrl>
+    <tags>notSilent notUninstallable whatsapp chat messenger</tags>
+    <copyright></copyright>
+    <licenseUrl>http://en.wikipedia.org/wiki/Free_software_license</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<iconUrl>https://raw.github.com/tonigellida/nugetpackages/master/wassapp/wassapp.jpg</iconUrl>
+  </metadata>
+</package>
