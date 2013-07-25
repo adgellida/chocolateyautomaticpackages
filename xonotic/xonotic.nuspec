@@ -19,7 +19,7 @@ Previous version is removed and all your user data remains.
     <copyright></copyright>
     <licenseUrl>http://dev.xonotic.org/projects/3/wiki/Legal</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/nugetpackages/master/xonotic/xonotic.png</iconUrl>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/xonotic/xonotic.png</iconUrl>
 	<dependencies>
 	<dependency id="7zip.commandline" />
     <dependency id="Wget" />

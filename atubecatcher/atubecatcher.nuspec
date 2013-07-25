@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>atubecatcher</id>
+    <id>{{PackageName}}</id>
     <title>aTube Catcher</title>
-    <version>3.8.1496</version>
+    <version>{{PackageVersion}}</version>
     <authors>Diego Uscanga</authors>
     <owners>tonigellida</owners>
     <summary></summary>
@@ -16,6 +16,6 @@ now has support for more than 100+ video sharing sites.
     <copyright></copyright>
     <licenseUrl>http://atube-catcher.dsnetwb.com/video/node/41?q=node/41</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/nugetpackages/master/atubecatcher/atubecatcher.jpg</iconUrl>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/atubecatcher/atubecatcher.jpg</iconUrl>
   </metadata>
 </package>

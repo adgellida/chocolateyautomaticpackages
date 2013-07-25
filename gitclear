@@ -1,0 +1,3 @@
+git rm -r --cached ".git"
+git commit -m 'git cache cleared'
+git push -u origin master

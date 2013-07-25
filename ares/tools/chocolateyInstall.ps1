@@ -1,6 +1,6 @@
 ﻿$packageName = 'ares'
 $installerType = 'EXE'
-$url = 'http://garr.dl.sourceforge.net/project/aresgalaxy/aresgalaxy/AresRegular224_021013/aresregular224_installer.exe'
+$url = 'http://downloads.sourceforge.net/aresgalaxy/aresregular225_installer.exe'
 $silentArgs = '/S'
 $validExitCodes = @(0) #please insert other valid exit codes here, exit codes for ms http://msdn.microsoft.com/en-us/library/aa368542(VS.85).aspx
 
