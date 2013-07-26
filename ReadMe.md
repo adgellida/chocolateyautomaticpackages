@@ -20,7 +20,7 @@ Porting...
 * avirafreeantivirus - not automatic yet
 * bleachbit - not automatic yet
 * ccenhancer
-* ccleaner
+* ccleaner - auto
 * cpu-z
 * crystaldiskinfo
 * daemontoolslite
@@ -29,13 +29,13 @@ Porting...
 * drivergenius
 * dumeter
 * easybcd
-* emule - working
+* emule - manual - 0.50"a" not accepted
 * fritzing
 * geany
 * genymotion
 * goodsync - auto
 * hdtune
-* heroesofnewerth - working
+* heroesofnewerth - manual - 3.2.0 not downloadable but yes updatable on game
 * hpusbdisk
 * kasperskyanti-virus
 * kcleaner
@@ -63,7 +63,7 @@ Porting...
 * startisback
 * startmenu8 - auto
 * startmenureviver - auto
-* sumo
+* sumo - auto
 * superantispyware
 * systemninja
 * tiggit
