@@ -6,11 +6,11 @@ Porting...
 
 *Packages - State
 
-adblockplus - not automatic yet
-adobeshockwaveplayer - auto
-advancedsystemcarefree - auto
-advancedsystemtweaker - auto
-aida64extreme - auto
+* adblockplus - not automatic yet
+*adobeshockwaveplayer - auto
+*advancedsystemcarefree - auto
+* advancedsystemtweaker - auto
+* aida64extreme - auto
 arduinoide - not automatic yet
 ares - not automatic yet
 atubecatcher - not automatic yet
