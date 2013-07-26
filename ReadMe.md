@@ -75,6 +75,6 @@ Porting...
 * viber - not automatic yet
 * wassapp - not automatic yet
 * windowsessentials - not automatic yet
-* windowsrepair - not automatic yet
+* windowsrepair - auto
 * winlockless - not automatic yet
 * xonotic - not automatic yet
