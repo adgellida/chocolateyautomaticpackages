@@ -6,11 +6,9 @@ Porting...
 
 *Packages - State
 
+**not automatic yet
+
 * adblockplus - not automatic yet
-* adobeshockwaveplayer - auto
-* advancedsystemcarefree - auto
-* advancedsystemtweaker - auto
-* aida64extreme - auto
 * arduinoide - not automatic yet
 * ares - not automatic yet
 * atubecatcher - not automatic yet
@@ -20,7 +18,6 @@ Porting...
 * avirafreeantivirus - not automatic yet
 * bleachbit - not automatic yet
 * ccenhancer - not automatic yet
-* ccleaner - auto
 * cpu-z - not automatic yet
 * crystaldiskinfo - not automatic yet
 * daemontoolslite - not automatic yet
@@ -33,7 +30,6 @@ Porting...
 * fritzing - not automatic yet
 * geany - not automatic yet
 * genymotion - not automatic yet
-* goodsync - auto
 * hdtune - not automatic yet
 * heroesofnewerth - manual - 3.2.0 not downloadable but yes updatable on game
 * hpusbdisk - not automatic yet
@@ -52,18 +48,14 @@ Porting...
 * mro - not automatic yet
 * mucommander - not automatic yet
 * orwelldevcpp - not automatic yet
-* peazip - auto
 * redeclipse - not automatic yet
 * rmprepusb - not automatic yet
 * rollbackrx - not automatic yet
-* simplesystemtweaker - not automatic yet
+* simplesystemtweaker - auto
 * songr - not automatic yet
 * speedfan - not automatic yet
 * spybot - not automatic yet
 * startisback - not automatic yet
-* startmenu8 - auto
-* startmenureviver - auto
-* sumo - auto
 * superantispyware - not automatic yet
 * systemninja - not automatic yet
 * tiggit - not automatic yet
@@ -73,8 +65,21 @@ Porting...
 * ultraiso - not automatic yet
 * unitywebplayer - not automatic yet
 * viber - not automatic yet
-* wassapp - not automatic yet
 * windowsessentials - not automatic yet
-* windowsrepair - auto
 * winlockless - not automatic yet
 * xonotic - not automatic yet
+
+**auto
+
+* adobeshockwaveplayer - auto
+* advancedsystemcarefree - auto
+* advancedsystemtweaker - auto
+* aida64extreme - auto
+* ccleaner - auto
+* goodsync - auto
+* peazip - auto
+* startmenu8 - auto
+* startmenureviver - auto
+* sumo - auto
+* wassapp - auto
+* windowsrepair - auto
