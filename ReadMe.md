@@ -16,7 +16,6 @@ Porting...
 * avastfreeantivirus - not automatic yet
 * avgantivirusfree - not automatic yet
 * avirafreeantivirus - not automatic yet
-* bleachbit - not automatic yet
 * ccenhancer - not automatic yet
 * cpu-z - not automatic yet
 * crystaldiskinfo - not automatic yet
@@ -75,6 +74,7 @@ Porting...
 * advancedsystemcarefree - auto
 * advancedsystemtweaker - auto
 * aida64extreme - auto
+* bleachbit - auto
 * ccleaner - auto
 * goodsync - auto
 * peazip - auto
