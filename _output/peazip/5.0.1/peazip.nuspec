@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>{{PackageName}}</id>
+    <id>peazip</id>
     <title>PeaZip</title>
-    <version>{{PackageVersion}}</version>
+    <version>5.0.1</version>
     <authors>Giorgio Tani</authors>
     <owners>tonigellida</owners>
     <summary></summary>

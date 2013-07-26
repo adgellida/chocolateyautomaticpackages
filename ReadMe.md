@@ -52,7 +52,7 @@ mousecontroller
 mro
 mucommander
 orwelldevcpp
-peazip
+peazip - auto
 redeclipse
 rmprepusb
 rollbackrx

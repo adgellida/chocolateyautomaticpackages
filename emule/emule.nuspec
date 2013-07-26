@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>emule</id>
+    <id>{{PackageName}}</id>
     <title>eMule</title>
-    <version>0.50</version>
+    <version>{{PackageVersion}}</version>
     <authors>Merkur and eMule-Team</authors>
     <owners>tonigellida</owners>
     <summary></summary>
@@ -15,6 +15,6 @@ eMule is a free peer-to-peer file sharing application for Microsoft Windows. Con
     <copyright></copyright>
     <licenseUrl>https://gnu.org/licenses/gpl.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/nugetpackages/master/emule/emule.jpg</iconUrl>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/emule/emule.jpg</iconUrl>
   </metadata>
 </package>
