@@ -61,7 +61,6 @@ Porting...
 * trillian - not automatic yet
 * tuneuputilities - not automatic yet
 * ultraiso - not automatic yet
-* unitywebplayer - not automatic yet
 * viber - not automatic yet
 * windowsessentials - not automatic yet
 * winlockless - not automatic yet
@@ -81,5 +80,7 @@ Porting...
 * startmenu8 - auto
 * startmenureviver - auto
 * sumo - auto
+* unity - auto - may include download with wget on the next pull
+* unitywebplayer - auto
 * wassapp - auto
 * windowsrepair - auto
