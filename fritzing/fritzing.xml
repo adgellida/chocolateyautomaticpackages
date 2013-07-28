@@ -72,8 +72,8 @@
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
     <UserNotes />
-    <LastFileSize>30564178</LastFileSize>
-    <LastFileDate>2013-07-27T22:13:32.0701385</LastFileDate>
+    <LastFileSize>30569173</LastFileSize>
+    <LastFileDate>2013-07-27T23:27:31+02:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Avoid</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -92,33 +92,19 @@
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>StartEnd</VariableType>
+            <VariableType>Textual</VariableType>
             <Regex />
             <Url>http://fritzing.org/download/</Url>
-            <StartText>b/"&gt;</StartText>
-            <EndText>b&lt;/a&gt;</EndText>
-            <TextualContent />
+            <StartText>&lt;h3&gt;Latest release: &lt;a href="/download</StartText>
+            <EndText>/"&gt;</EndText>
+            <TextualContent>{real-version:replace:b:}</TextualContent>
             <Name>version</Name>
           </UrlVariable>
         </value>
       </item>
       <item>
         <key>
-          <string>url64</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <TextualContent>""</TextualContent>
-            <Name>url64</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>anchor1</string>
+          <string>real-version</string>
         </key>
         <value>
           <UrlVariable>
@@ -126,9 +112,23 @@
             <VariableType>StartEnd</VariableType>
             <Regex />
             <Url>http://fritzing.org/download/</Url>
-            <StartText>        &lt;strong&gt;&lt;a href="/download0.8.3b/windows/</StartText>
-            <EndText>.zip" </EndText>
-            <Name>anchor1</Name>
+            <StartText>&lt;h3&gt;Latest release: &lt;a href="/download</StartText>
+            <EndText>/"&gt;</EndText>
+            <Name>real-version</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url-part</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>/download{real-version}/windows/fritzing.[\d\.]+.pc.zip</Regex>
+            <Url>http://fritzing.org/download/</Url>
+            <Name>url-part</Name>
           </UrlVariable>
         </value>
       </item>
@@ -139,13 +139,13 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\Chocolatey\_work\fritzing.2013.07.26.pc.zip</PreviousLocation>
+    <PreviousLocation>C:\Chocolatey\_work\fritzing.2013.07.27.pc.zip</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2013-07-27T22:13:32.0701385</LastUpdated>
+    <LastUpdated>2013-07-28T22:13:46.9396959+02:00</LastUpdated>
     <TargetPath>C:\Chocolatey\_work\</TargetPath>
-    <FixedDownloadUrl>http://fritzing.org/download{version}b/windows/{anchor1}.zip</FixedDownloadUrl>
+    <FixedDownloadUrl>http://fritzing.org/{url-part}</FixedDownloadUrl>
     <Name>fritzing</Name>
   </ApplicationJob>
 </Jobs>
