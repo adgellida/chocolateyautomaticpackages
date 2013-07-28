@@ -64,7 +64,6 @@ Porting...
 * viber - not automatic yet
 * windowsessentials - not automatic yet
 * winlockless - not automatic yet
-* xonotic - not automatic yet
 
 **auto
 
@@ -84,3 +83,4 @@ Porting...
 * unitywebplayer - auto
 * wassapp - auto
 * windowsrepair - auto
+* xonotic - auto - may include download with wget on the next pull

@@ -1,7 +1,7 @@
 $packageName = 'fritzing'
 
 try {
-  Remove-Item "$Home\Desktop\fritzing.lnk"
+  Remove-Item "$Home\Desktop\fritzing.exe.lnk"
   # the following is all part of error handling
   Write-ChocolateySuccess "$packageName"
 } catch {
