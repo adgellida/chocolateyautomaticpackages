@@ -1,7 +1,7 @@
-﻿$packageName = '{{PackageName}}'
+﻿$packageName = 'unity'
 $installerType = 'EXE'
-#$url = 'http://webplayer.unity3d.com/download_webplayer-3.x/UnityWebPlayer.exe'
-$url = '{{DownloadUrl}}'
+#$url = 'http://download.unity3d.com/download_unity/UnitySetup-{version}.exe'
+$url = 'http://download.unity3d.com/download_unity/UnitySetup-4.2.0.exe'
 $silentArgs = '/S'
 $validExitCodes = @(0) #please insert other valid exit codes here, exit codes for ms http://msdn.microsoft.com/en-us/library/aa368542(VS.85).aspx
 

@@ -1,7 +1,7 @@
-﻿$packageName = '{{PackageName}}'
+﻿$packageName = 'midori-browser'
 $installerType = 'EXE'
-#$url = 'http://webplayer.unity3d.com/download_webplayer-3.x/UnityWebPlayer.exe'
-$url = '{{DownloadUrl}}'
+#$url = 'http://midori-browser.org/downloads/midori_{version}_32_.exe'
+$url = 'http://midori-browser.org/downloads/midori_0.5.4_32_.exe'
 $silentArgs = '/S'
 $validExitCodes = @(0) #please insert other valid exit codes here, exit codes for ms http://msdn.microsoft.com/en-us/library/aa368542(VS.85).aspx
 

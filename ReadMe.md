@@ -26,7 +26,7 @@ Porting...
 * dumeter - not automatic yet
 * easybcd - not automatic yet
 * emule - manual - 0.50"a" not accepted
-* fritzing - not automatic yet
+* fritzing - WORKING
 * geany - not automatic yet
 * genymotion - not automatic yet
 * hdtune - not automatic yet
@@ -42,7 +42,6 @@ Porting...
 * malwarebytes - not automatic yet
 * meld - not automatic yet
 * messengerreviver - not automatic yet
-* midori-browser - not automatic yet
 * mousecontroller - not automatic yet
 * mro - not automatic yet
 * mucommander - not automatic yet
@@ -77,6 +76,7 @@ Porting...
 * bleachbit - auto
 * ccleaner - auto
 * goodsync - auto
+* midori-browser - auto
 * peazip - auto
 * startmenu8 - auto
 * startmenureviver - auto
