@@ -42,7 +42,6 @@ Porting...
 * rollbackrx - not automatic yet
 * simplesystemtweaker - auto
 * songr - not automatic yet
-* speedfan - not automatic yet
 * spybot - not automatic yet
 * superantispyware - not automatic yet
 * systemninja - not automatic yet
@@ -83,6 +82,7 @@ Porting...
 * malwarebytes
 * midori-browser
 * peazip
+* speedfan
 * startisback
 * startmenu8
 * startmenureviver

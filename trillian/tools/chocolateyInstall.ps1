@@ -1,4 +1,4 @@
-﻿$packageName = 'trillian'
+﻿$packageName = '{{PackageName}}'
 $installerType = 'EXE'
 $url = 'http://cerulean.cachenetworks.com/trillian-{version}.exe'
 $url = '{{DownloadUrl}}'

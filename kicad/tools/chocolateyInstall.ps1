@@ -1,4 +1,4 @@
-﻿$packageName = 'kicad'
+﻿$packageName = '{{PackageName}}'
 $installerType = 'EXE'
 #$url = 'http://iut-tice.ujf-grenoble.fr/cao/{anchor1}.exe'
 $url = '{{DownloadUrl}}'
