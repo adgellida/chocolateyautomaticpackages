@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>xonotic</id>
+    <id>{{PackageName}}</id>
     <title>Xonotic</title>
-    <version>0.7.0</version>
+    <version>{{PackageVersion}}</version>
     <authors>Team Xonotic</authors>
     <owners>tonigellida</owners>
     <summary></summary>
@@ -20,9 +20,5 @@ Previous version is removed and all your user data remains.
     <licenseUrl>http://dev.xonotic.org/projects/3/wiki/Legal</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
 	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/xonotic/xonotic.png</iconUrl>
-	<dependencies>
-	<dependency id="7zip.commandline" />
-    <dependency id="Wget" />
-    </dependencies>	
   </metadata>
 </package>

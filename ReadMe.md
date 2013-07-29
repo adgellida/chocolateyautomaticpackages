@@ -10,7 +10,6 @@ Porting...
 
 * adblockplus - not automatic yet
 * arduinoide - not automatic yet
-* ares - not automatic yet
 * atubecatcher - not automatic yet
 * avastbrowsercleanup - not automatic yet
 * avastfreeantivirus - not automatic yet
@@ -25,8 +24,6 @@ Porting...
 * drivergenius - not automatic yet
 * dumeter - not automatic yet
 * easybcd - not automatic yet
-* emule - manual - 0.50"a" not accepted
-* fritzing - WORKING
 * geany - not automatic yet
 * genymotion - not automatic yet
 * hdtune - not automatic yet
@@ -36,7 +33,6 @@ Porting...
 * kcleaner - not automatic yet
 * kicad - not automatic yet
 * k-litecodecpackbasic - not automatic yet
-* line - not automatic yet
 * littleregistrycleaner - not automatic yet
 * llftool - not automatic yet
 * malwarebytes - not automatic yet
@@ -65,6 +61,18 @@ Porting...
 * windowsessentials - not automatic yet
 * winlockless - not automatic yet
 
+**manual by now - problems with not updated version on website showed
+
+* ares - manual by now - problems with not updated version on website showed
+
+**manual by now - not priority
+
+* emule - manual by now - not priority
+
+**manual by now
+
+* line - manual by now - update app inside
+
 **auto
 
 * adobeshockwaveplayer - auto
@@ -73,6 +81,7 @@ Porting...
 * aida64extreme - auto
 * bleachbit - auto
 * ccleaner - auto
+* fritzing - auto - thanks to purity
 * goodsync - auto
 * midori-browser - auto
 * peazip - auto
