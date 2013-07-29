@@ -26,7 +26,6 @@ Porting...
 * geany - not automatic yet
 * genymotion - not automatic yet
 * hdtune - not automatic yet
-
 * hpusbdisk - not automatic yet
 * kasperskyanti-virus - not automatic yet
 * kcleaner - not automatic yet
