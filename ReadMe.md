@@ -15,8 +15,6 @@ Porting...
 * avgantivirusfree - not automatic yet
 * avirafreeantivirus - not automatic yet
 * ccenhancer - not automatic yet
-* crystaldiskinfo - not automatic yet
-* daemontoolslite - not automatic yet
 * designsparkpcb - not automatic yet
 * drivergenius - not automatic yet
 * dumeter - not automatic yet
@@ -72,8 +70,10 @@ Porting...
 * aida64extreme
 * bleachbit
 * ccleaner
+* crystaldiskinfo
 * cpu-z
-* driverbooster - may not function
+* daemontoolslite
+* driverbooster - may not function - exclude Beta like fritzing on the next pull
 * fritzing - thanks to purity
 * goodsync
 * kicad - may include download with wget on the next pull

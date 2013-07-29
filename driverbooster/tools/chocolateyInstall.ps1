@@ -1,4 +1,4 @@
-﻿$packageName = 'driverbooster'
+﻿$packageName = '{{PackageName}}'
 $installerType = 'EXE'
 #$url = 'http://download.iobit.com/driver_booster_setup.exe'
 $url = '{{DownloadUrl}}'
