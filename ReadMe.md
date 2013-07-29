@@ -10,7 +10,6 @@ Porting...
 
 * adblockplus - not automatic yet
 * arduinoide - not automatic yet
-* atubecatcher - not automatic yet
 * avastbrowsercleanup - not automatic yet
 * avastfreeantivirus - not automatic yet
 * avgantivirusfree - not automatic yet
@@ -27,7 +26,7 @@ Porting...
 * geany - not automatic yet
 * genymotion - not automatic yet
 * hdtune - not automatic yet
-* heroesofnewerth - manual - 3.2.0 not downloadable but yes updatable on game
+
 * hpusbdisk - not automatic yet
 * kasperskyanti-virus - not automatic yet
 * kcleaner - not automatic yet
@@ -63,33 +62,35 @@ Porting...
 
 **manual by now - problems with not updated version on website showed
 
-* ares - manual by now - problems with not updated version on website showed
+* ares
+* atubecatcher
+* heroesofnewerth - 3.2.0 not downloadable but yes updatable on game
 
 **manual by now - not priority
 
-* emule - manual by now - not priority
+* emule
 
-**manual by now
+**manual by now - not version showed on website
 
-* line - manual by now - update app inside
+* line
 
 **auto
 
-* adobeshockwaveplayer - auto
-* advancedsystemcarefree - auto
-* advancedsystemtweaker - auto
-* aida64extreme - auto
-* bleachbit - auto
-* ccleaner - auto
-* fritzing - auto - thanks to purity
-* goodsync - auto
-* midori-browser - auto
-* peazip - auto
-* startmenu8 - auto
-* startmenureviver - auto
-* sumo - auto
-* unity - auto - may include download with wget on the next pull
-* unitywebplayer - auto
-* wassapp - auto
-* windowsrepair - auto
-* xonotic - auto - may include download with wget on the next pull
+* adobeshockwaveplaye
+* advancedsystemcarefree
+* advancedsystemtweaker
+* aida64extreme
+* bleachbit
+* ccleaner
+* fritzing - thanks to purity
+* goodsync
+* midori-browser
+* peazip
+* startmenu8
+* startmenureviver
+* sumo
+* unity - may include download with wget on the next pull
+* unitywebplayer
+* wassapp
+* windowsrepair
+* xonotic - may include download with wget on the next pull
