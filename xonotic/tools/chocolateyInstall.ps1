@@ -1,5 +1,5 @@
 ﻿try {
-    $packageName = 'xonotic'
+	$packageName = '{{PackageName}}'
     $url = '{{DownloadUrl}}'
     #$url = 'http://dl.xonotic.org/xonotic-{version}.zip' # For testing purposes
     $unzipLocation = $(Split-Path -parent $MyInvocation.MyCommand.Definition)

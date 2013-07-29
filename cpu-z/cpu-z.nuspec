@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>cpu-z</id>
+    <id>{{PackageName}}</id>
     <title>CPU-Z</title>
-    <version>1.65.0</version>
+    <version>{{PackageVersion}}</version>
     <authors>CPUID</authors>
     <owners>tonigellida</owners>
     <summary></summary>
@@ -16,6 +16,6 @@ CPU-Z is more in-depth in some areas than the features that Windows XP provides 
     <copyright></copyright>
     <licenseUrl>http://www.cpuid.com/softwares/hwmonitor-pro/eula.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/nugetpackages/master/cpu-z/cpu-z.jpg</iconUrl>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/cpu-z/cpu-z.jpg</iconUrl>
   </metadata>
 </package>

@@ -1,5 +1,5 @@
 ﻿try {
-    $packageName = 'fritzing'
+	$packageName = '{{PackageName}}'
     $url = '{{DownloadUrl}}'
     #$url = 'http://fritzing.org/download0.8.3b/windows/fritzing.2013.07.27.pc.zip' # For testing purposes
     $unzipLocation = $(Split-Path -parent $MyInvocation.MyCommand.Definition)

@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>trillian</id>
+    <id>{{PackageName}}</id>
     <title>Trillian</title>
-    <version>5.3.0.16</version>
+    <version>{{PackageVersion}}</version>
     <authors>Cerulean Studios</authors>
     <owners>tonigellida</owners>
     <summary></summary>
@@ -17,6 +17,6 @@ Trillian connects to multiple instant messaging services without the need of run
     <copyright></copyright>
     <licenseUrl>https://www.trillian.im/eula/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/nugetpackages/master/trillian/trillian.png</iconUrl>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/trillian/trillian.png</iconUrl>
   </metadata>
 </package>

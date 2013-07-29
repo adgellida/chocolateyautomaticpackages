@@ -6,7 +6,7 @@ Porting...
 
 *Packages - State
 
-**not automatic yet
+##not automatic yet##
 
 * adblockplus - not automatic yet
 * arduinoide - not automatic yet
@@ -15,7 +15,6 @@ Porting...
 * avgantivirusfree - not automatic yet
 * avirafreeantivirus - not automatic yet
 * ccenhancer - not automatic yet
-* cpu-z - not automatic yet
 * crystaldiskinfo - not automatic yet
 * daemontoolslite - not automatic yet
 * designsparkpcb - not automatic yet
@@ -29,11 +28,9 @@ Porting...
 * hpusbdisk - not automatic yet
 * kasperskyanti-virus - not automatic yet
 * kcleaner - not automatic yet
-* kicad - not automatic yet
 * k-litecodecpackbasic - not automatic yet
 * littleregistrycleaner - not automatic yet
 * llftool - not automatic yet
-* malwarebytes - not automatic yet
 * meld - not automatic yet
 * messengerreviver - not automatic yet
 * mousecontroller - not automatic yet
@@ -47,33 +44,31 @@ Porting...
 * songr - not automatic yet
 * speedfan - not automatic yet
 * spybot - not automatic yet
-* startisback - not automatic yet
 * superantispyware - not automatic yet
 * systemninja - not automatic yet
 * tiggit - not automatic yet
 * tinytask - not automatic yet
-* trillian - not automatic yet
 * tuneuputilities - not automatic yet
 * ultraiso - not automatic yet
 * viber - not automatic yet
 * windowsessentials - not automatic yet
 * winlockless - not automatic yet
 
-**manual by now - problems with not updated version on website showed
+##manual by now - problems with not updated version on website showed##
 
 * ares
 * atubecatcher
 * heroesofnewerth - 3.2.0 not downloadable but yes updatable on game
 
-**manual by now - not priority
+##manual by now - not priority##
 
 * emule
 
-**manual by now - not version showed on website
+##manual by now - not version showed on website##
 
 * line
 
-**auto
+##auto##
 
 * adobeshockwaveplaye
 * advancedsystemcarefree
@@ -81,13 +76,18 @@ Porting...
 * aida64extreme
 * bleachbit
 * ccleaner
+* cpu-z
 * fritzing - thanks to purity
 * goodsync
+* kicad - may include download with wget on the next pull
+* malwarebytes
 * midori-browser
 * peazip
+* startisback
 * startmenu8
 * startmenureviver
 * sumo
+* trillian - change filehippo version source with official on the next pull
 * unity - may include download with wget on the next pull
 * unitywebplayer
 * wassapp
