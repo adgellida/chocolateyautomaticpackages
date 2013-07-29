@@ -18,7 +18,6 @@ Porting...
 * crystaldiskinfo - not automatic yet
 * daemontoolslite - not automatic yet
 * designsparkpcb - not automatic yet
-* driverbooster - not automatic yet
 * drivergenius - not automatic yet
 * dumeter - not automatic yet
 * easybcd - not automatic yet
@@ -37,10 +36,8 @@ Porting...
 * mro - not automatic yet
 * mucommander - not automatic yet
 * orwelldevcpp - not automatic yet
-* redeclipse - not automatic yet
 * rmprepusb - not automatic yet
 * rollbackrx - not automatic yet
-* simplesystemtweaker - auto
 * songr - not automatic yet
 * spybot - not automatic yet
 * superantispyware - not automatic yet
@@ -76,12 +73,15 @@ Porting...
 * bleachbit
 * ccleaner
 * cpu-z
+* driverbooster - may not function
 * fritzing - thanks to purity
 * goodsync
 * kicad - may include download with wget on the next pull
 * malwarebytes
 * midori-browser
 * peazip
+* redeclipse - may include download with wget on the next pull
+* simplesystemtweaker
 * speedfan
 * startisback
 * startmenu8

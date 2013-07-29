@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>redeclipse</id>
+    <id>{{PackageName}}</id>
     <title>Red Eclipse</title>
-    <version>1.4</version>
+    <version>{{PackageVersion}}</version>
     <authors>Quinton Reeves, Lee Salzman</authors>
     <owners>tonigellida</owners>
     <summary></summary>
@@ -15,6 +15,6 @@ Red Eclipse is a Free and Open Source FPS game, built on Cube 2 Engine.
     <copyright></copyright>
     <licenseUrl>http://sourceforge.net/apps/trac/redeclipse/browser/doc/license.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/nugetpackages/master/redeclipse/redeclipse.png</iconUrl>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/redeclipse/redeclipse.png</iconUrl>
   </metadata>
 </package>
