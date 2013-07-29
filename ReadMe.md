@@ -37,7 +37,6 @@ Porting...
 * rmprepusb - not automatic yet
 * rollbackrx - not automatic yet
 * songr - not automatic yet
-* spybot - not automatic yet
 * superantispyware - not automatic yet
 * systemninja - not automatic yet
 * tiggit - not automatic yet
@@ -83,6 +82,7 @@ Porting...
 * redeclipse - may include download with wget on the next pull
 * simplesystemtweaker
 * speedfan
+* spybot
 * startisback
 * startmenu8
 * startmenureviver
