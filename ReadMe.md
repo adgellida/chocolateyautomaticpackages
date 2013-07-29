@@ -20,7 +20,6 @@ Porting...
 * dumeter - not automatic yet
 * easybcd - not automatic yet
 * geany - not automatic yet
-* genymotion - not automatic yet
 * hdtune - not automatic yet
 * hpusbdisk - not automatic yet
 * kasperskyanti-virus - not automatic yet
@@ -74,6 +73,7 @@ Porting...
 * daemontoolslite
 * driverbooster - may not function - exclude Beta like fritzing on the next pull
 * fritzing - thanks to purity
+* genymotion
 * goodsync
 * kicad - may include download with wget on the next pull
 * malwarebytes
