@@ -25,7 +25,6 @@ Porting...
 * kasperskyanti-virus - not automatic yet
 * kcleaner - not automatic yet
 * k-litecodecpackbasic - not automatic yet
-* littleregistrycleaner - not automatic yet
 * llftool - not automatic yet
 * meld - not automatic yet
 * messengerreviver - not automatic yet
@@ -36,7 +35,6 @@ Porting...
 * rmprepusb - not automatic yet
 * rollbackrx - not automatic yet
 * songr - not automatic yet
-* superantispyware - not automatic yet
 * systemninja - not automatic yet
 * tiggit - not automatic yet
 * tinytask - not automatic yet
@@ -76,6 +74,7 @@ Porting...
 * genymotion
 * goodsync
 * kicad - may include download with wget on the next pull
+* littleregistrycleaner
 * malwarebytes
 * midori-browser
 * peazip
@@ -87,6 +86,7 @@ Porting...
 * startmenu8
 * startmenureviver
 * sumo
+* superantispyware
 * trillian - change filehippo version source with official on the next pull
 * unity - may include download with wget on the next pull
 * unitywebplayer
