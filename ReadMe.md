@@ -11,7 +11,6 @@ Porting...
 * adblockplus - not automatic yet
 * arduinoide - not automatic yet
 * avastbrowsercleanup - not automatic yet
-* avgantivirusfree - not automatic yet
 * avirafreeantivirus - not automatic yet
 * ccenhancer - not automatic yet
 * designsparkpcb - not automatic yet
@@ -61,6 +60,7 @@ Porting...
 * advancedsystemcarefree
 * advancedsystemtweaker
 * avastfreeantivirus
+* avgantivirusfree
 * aida64extreme
 * bleachbit
 * ccleaner
