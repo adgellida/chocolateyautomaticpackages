@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>kcleaner</id>
+    <id>{{PackageName}}</id>
     <title>KCleaner</title>
-    <version>1.2.5.44</version>
+    <version>{{PackageVersion}}</version>
     <authors>KC Softwares</authors>
     <owners>tonigellida</owners>
     <summary></summary>
@@ -26,6 +26,6 @@ Features
     <copyright></copyright>
     <licenseUrl>https://softwareula.wordpress.com/tag/kc-softwares/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/nugetpackages/master/kcleaner/kcleaner.png</iconUrl>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/kcleaner/kcleaner.png</iconUrl>
   </metadata>
 </package>

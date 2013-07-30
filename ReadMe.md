@@ -11,7 +11,6 @@ Porting...
 * adblockplus - not automatic yet
 * arduinoide - not automatic yet
 * avastbrowsercleanup - not automatic yet
-* avastfreeantivirus - not automatic yet
 * avgantivirusfree - not automatic yet
 * avirafreeantivirus - not automatic yet
 * ccenhancer - not automatic yet
@@ -23,7 +22,6 @@ Porting...
 * hdtune - not automatic yet
 * hpusbdisk - not automatic yet
 * kasperskyanti-virus - not automatic yet
-* kcleaner - not automatic yet
 * k-litecodecpackbasic - not automatic yet
 * llftool - not automatic yet
 * meld - not automatic yet
@@ -63,6 +61,7 @@ Porting...
 * adobeshockwaveplaye
 * advancedsystemcarefree
 * advancedsystemtweaker
+* avastfreeantivirus
 * aida64extreme
 * bleachbit
 * ccleaner
@@ -73,6 +72,7 @@ Porting...
 * fritzing - thanks to purity
 * genymotion
 * goodsync
+* kcleaner
 * kicad - may include download with wget on the next pull
 * littleregistrycleaner
 * malwarebytes
