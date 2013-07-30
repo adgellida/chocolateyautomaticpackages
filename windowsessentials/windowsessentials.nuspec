@@ -16,6 +16,6 @@ It includes Windows Movie Maker, Photo Gallery, Messenger, Live Mesh, and more.
     <copyright></copyright>
     <licenseUrl>http://www.microsoftstore.com/store/msusa/en_US/DisplayHelpEULAPage/ThemeID.33363200/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/nugetpackages/master/windowsessentials/windowsessentials.png</iconUrl>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/windowsessentials/windowsessentials.png</iconUrl>
   </metadata>
 </package>

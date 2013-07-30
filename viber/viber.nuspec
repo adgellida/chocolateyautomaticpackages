@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>viber</id>
+    <id>{{PackageName}}</id>
     <title>Viber</title>
-    <version>3.1.0.887</version>
+    <version>{{PackageVersion}}</version>
     <authors>Viber Media Inc.</authors>
     <owners>tonigellida</owners>
     <summary></summary>
@@ -18,6 +18,6 @@ All Viber features are 100% FREE!
     <copyright></copyright>
     <licenseUrl>http://www.viber.com/eula</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/nugetpackages/master/viber/viber.png</iconUrl>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/viber/viber.png</iconUrl>
   </metadata>
 </package>

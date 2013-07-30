@@ -38,8 +38,6 @@ Porting...
 * tinytask - not automatic yet
 * tuneuputilities - not automatic yet
 * ultraiso - not automatic yet
-* viber - not automatic yet
-* windowsessentials - not automatic yet
 * winlockless - not automatic yet
 
 ##manual by now - problems with not updated version on website showed##
@@ -55,6 +53,7 @@ Porting...
 ##manual by now - not version showed on website##
 
 * line
+* windowsessentials
 
 ##auto##
 
@@ -87,9 +86,10 @@ Porting...
 * startmenureviver
 * sumo
 * superantispyware
-* trillian - change filehippo version source with official on the next pull
+* trillian - version from filehippo
 * unity - may include download with wget on the next pull
 * unitywebplayer
+* viber - version from softwareinformer
 * wassapp
 * windowsrepair
 * xonotic - may include download with wget on the next pull
