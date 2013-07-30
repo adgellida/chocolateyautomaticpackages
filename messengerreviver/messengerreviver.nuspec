@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>messengerreviver</id>
+    <id>{{PackageName}}</id>
     <title>Messenger Reviver</title>
-    <version>2.2.2.20130517</version>
+    <version>{{PackageVersion}}</version>
     <authors>Jonathan Kay</authors>
     <owners>tonigellida</owners>
     <summary></summary>
@@ -23,6 +23,6 @@ They still function the same as before. Thankfully Reviver is just a great and s
     <copyright></copyright>
     <licenseUrl>http://en.wikipedia.org/wiki/Freeware</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/nugetpackages/master/messengerreviver/messengerreviver.png</iconUrl>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/messengerreviver/messengerreviver.png</iconUrl>
   </metadata>
 </package>

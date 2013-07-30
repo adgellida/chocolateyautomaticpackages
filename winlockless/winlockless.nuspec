@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>winlockless</id>
+    <id>{{PackageName}}</id>
     <title>WinLockLess</title>
-    <version>0.3.20130516</version>
+    <version>{{PackageVersion}}</version>
     <authors>Hispasec</authors>
     <owners>tonigellida</owners>
     <summary></summary>
@@ -18,6 +18,6 @@ As a first layer of protection against viruses that are installed on Windows sta
     <copyright></copyright>
     <licenseUrl>http://en.wikipedia.org/wiki/Freeware</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/nugetpackages/master/winlockless/winlockless.png</iconUrl>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/winlockless/winlockless.png</iconUrl>
   </metadata>
 </package>

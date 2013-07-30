@@ -1,7 +1,7 @@
 $packageName = 'messengerreviver'
 
 try {
-  Remove-Item "$Home\Desktop\MessengerReviver-2-2-2.exe.lnk"
+  Remove-Item "$Home\Desktop\MessengerReviver.exe.lnk"
   # the following is all part of error handling
   Write-ChocolateySuccess "$packageName"
 } catch {

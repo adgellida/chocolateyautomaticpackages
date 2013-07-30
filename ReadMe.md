@@ -2,13 +2,10 @@ Chocolatey Automatic Packages
 =============================================  
 ### A collection of automatic packages pushed to chocolatey official feed
 
-Porting...
-
 *Packages - State
 
 ##not automatic yet##
 
-* adblockplus - not automatic yet
 * arduinoide - not automatic yet
 * avastbrowsercleanup - not automatic yet
 * avirafreeantivirus - not automatic yet
@@ -24,20 +21,15 @@ Porting...
 * k-litecodecpackbasic - not automatic yet
 * llftool - not automatic yet
 * meld - not automatic yet
-* messengerreviver - not automatic yet
 * mousecontroller - not automatic yet
 * mro - not automatic yet
-* mucommander - not automatic yet
 * orwelldevcpp - not automatic yet
 * rmprepusb - not automatic yet
 * rollbackrx - not automatic yet
-* songr - not automatic yet
 * systemninja - not automatic yet
-* tiggit - not automatic yet
 * tinytask - not automatic yet
 * tuneuputilities - not automatic yet
 * ultraiso - not automatic yet
-* winlockless - not automatic yet
 
 ##manual by now - problems with not updated version on website showed##
 
@@ -45,14 +37,18 @@ Porting...
 * atubecatcher
 * heroesofnewerth - 3.2.0 not downloadable but yes updatable on game
 
-##manual by now - not priority##
+##manual by now - not priority - difficulty adquiring##
 
+* adblockplus
 * emule
-
+* messengerreviver
 ##manual by now - not version showed on website##
 
 * line
+* songr
+* tiggit
 * windowsessentials
+
 
 ##auto##
 
@@ -60,7 +56,7 @@ Porting...
 * advancedsystemcarefree
 * advancedsystemtweaker
 * avastfreeantivirus
-* avgantivirusfree
+* avgantivirusfree - problem with previous name version changed
 * aida64extreme
 * bleachbit
 * ccleaner
@@ -76,6 +72,7 @@ Porting...
 * littleregistrycleaner
 * malwarebytes
 * midori-browser
+* mucommander
 * peazip
 * redeclipse - may include download with wget on the next pull
 * simplesystemtweaker
@@ -92,4 +89,5 @@ Porting...
 * viber - version from softwareinformer
 * wassapp
 * windowsrepair
+* winlockless
 * xonotic - may include download with wget on the next pull

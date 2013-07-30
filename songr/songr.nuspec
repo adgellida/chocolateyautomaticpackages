@@ -15,6 +15,6 @@ Songr is a cloud music player that streams and downloads music from multiple web
     <copyright></copyright>
     <licenseUrl>http://www.xamasoft.com/songr/license/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/nugetpackages/master/songr/songr.jpg</iconUrl>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/songr/songr.jpg</iconUrl>
   </metadata>
 </package>
