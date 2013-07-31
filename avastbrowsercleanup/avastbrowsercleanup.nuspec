@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>avastbrowsercleanup</id>
+    <id>{{PackageName}}</id>
     <title>avast! Browser Cleanup</title>
-    <version>8.0.1484.29</version>
+    <version>{{PackageVersion}}</version>
     <authors>ALWIL Software</authors>
     <owners>tonigellida</owners>
     <summary></summary>
@@ -17,6 +17,6 @@ Once you run the utility, you will see a list of toolbars and plug-ins and be ab
     <copyright></copyright>
     <licenseUrl>http://files.avast.com/files/legal/eula-avast-free.pdf</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/nugetpackages/master/avastbrowsercleanup/avastbrowsercleanup.png</iconUrl>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/avastbrowsercleanup/avastbrowsercleanup.png</iconUrl>
   </metadata>
 </package>

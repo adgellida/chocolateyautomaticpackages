@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>{{PackageName}}</id>
+    <id>avirafreeantivirus</id>
     <title>Avira Free Antivirus 2013</title>
-    <version>{{PackageVersion}}</version>
+    <version>13.0.0.3884</version>
     <authors>Avira</authors>
     <owners>tonigellida</owners>
     <summary></summary>

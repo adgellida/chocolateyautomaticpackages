@@ -4,11 +4,11 @@ Chocolatey Automatic Packages
 
 *Packages - State
 
+I'm porting all the manual packages to automatic. If there's an outdated version, contact me, or do a PR please, thanks. 
+
 ##not automatic yet##
 
 * arduinoide - not automatic yet
-* avastbrowsercleanup - not automatic yet
-* avirafreeantivirus - not automatic yet
 * ccenhancer - not automatic yet
 * designsparkpcb - not automatic yet
 * drivergenius - not automatic yet
@@ -55,7 +55,9 @@ Chocolatey Automatic Packages
 * adobeshockwaveplaye
 * advancedsystemcarefree
 * advancedsystemtweaker
+* avastbrowsercleanup
 * avastfreeantivirus
+* avirafreeantivirus
 * avgantivirusfree - problem with previous name version changed
 * aida64extreme
 * bleachbit
