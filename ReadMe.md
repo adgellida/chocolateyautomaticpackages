@@ -9,7 +9,7 @@ I'm porting all the manual packages to automatic. If there's an outdated version
 ##not automatic yet##
 
 * arduinoide - not automatic yet
-* ccenhancer - not automatic yet
+* ccenhancer - WORKING ON IT!
 * designsparkpcb - not automatic yet
 * drivergenius - not automatic yet
 * dumeter - not automatic yet
