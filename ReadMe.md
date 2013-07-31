@@ -42,6 +42,7 @@ I'm porting all the manual packages to automatic. If there's an outdated version
 * adblockplus
 * emule
 * messengerreviver
+
 ##manual by now - not version showed on website##
 
 * line
