@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>cnettechtracker</id>
+    <title>Software Informer</title>
+    <version>2.1.0.73</version>
+    <authors>CNET</authors>
+    <owners>tonigellida</owners>
+    <summary></summary>
+    <description>
+TechTracker tracking software from CNET helps keep all of the software on your computer up-to-date.
+This free software tracker monitors and highlights outdated applications on your computer, providing you the option to download and update each to the latest release.
+	</description>
+    <projectUrl>http://download.cnet.com/CNET-TechTracker/3000-18513_4-10912909.html</projectUrl>
+    <tags>software-updates update-notifier software-downloads</tags>
+    <copyright></copyright>
+    <licenseUrl>http://www.cnet.com/techtracker/app-eula/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/cnettechtracker/cnettechtracker.png</iconUrl>
+  </metadata>
+</package>
