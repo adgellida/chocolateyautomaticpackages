@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>systemninja</id>
+    <id>{{PackageName}}</id>
     <title>System Ninja</title>
-    <version>2.4.3</version>
+    <version>{{PackageVersion}}</version>
     <authors>SingularLabs</authors>
     <owners>tonigellida</owners>
     <summary></summary>
@@ -16,6 +16,6 @@ It’s designed to quickly remove junk files, improve system speed and help fix pr
     <copyright></copyright>
     <licenseUrl>http://en.wikipedia.org/wiki/Freeware</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/nugetpackages/master/systemninja/systemninja.png</iconUrl>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/systemninja/systemninja.png</iconUrl>
   </metadata>
 </package>

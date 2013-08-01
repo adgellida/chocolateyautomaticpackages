@@ -16,6 +16,6 @@ It includes Windows Movie Maker, Photo Gallery, Messenger, Live Mesh, and more.
     <copyright></copyright>
     <licenseUrl>http://www.tune-up.com/products/tuneup-utilities/eula/tuu17082012/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/nugetpackages/master/tuneuputilities/tuneuputilities.jpg</iconUrl>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/tuneuputilities/tuneuputilities.jpg</iconUrl>
   </metadata>
 </package>

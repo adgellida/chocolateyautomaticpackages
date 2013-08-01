@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>ccenhancer</id>
+    <id>{{PackageName}}</id>
     <title>CCEnhancer</title>
-    <version>3.7</version>
+    <version>{{PackageVersion}}</version>
     <authors>SingularLabs</authors>
     <owners>tonigellida</owners>
     <summary></summary>
@@ -17,6 +17,6 @@ The rules were sourced mainly from the Piriform Support Forum, with several sour
     <copyright></copyright>
     <licenseUrl>http://en.wikipedia.org/wiki/Freeware</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/nugetpackages/master/ccenhancer/ccenhancer.png</iconUrl>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/ccenhancer/ccenhancer.png</iconUrl>
   </metadata>
 </package>

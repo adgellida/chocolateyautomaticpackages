@@ -1,6 +1,7 @@
-﻿$packageName = 'ultraiso'
+﻿$packageName = '{{PackageName}}'
 $installerType = 'EXE'
-$url = 'http://www.ezbsystems.com/dl1.php?file=uiso9_pe.exe'
+#$url = 'http://dw.ezbsys.net/{anchor1}.exe'
+$url = '{{DownloadUrl}}'
 $silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
 $validExitCodes = @(0) #please insert other valid exit codes here, exit codes for ms http://msdn.microsoft.com/en-us/library/aa368542(VS.85).aspx
 

@@ -9,14 +9,12 @@ I'm porting all the manual packages to automatic. If there's an outdated version
 ##not automatic yet##
 
 * arduinoide - not automatic yet
-* ccenhancer - WORKING ON IT!
 * designsparkpcb - not automatic yet
 * drivergenius - not automatic yet
 * dumeter - not automatic yet
 * easybcd - not automatic yet
 * geany - not automatic yet
 * hdtune - not automatic yet
-* hpusbdisk - not automatic yet
 * kasperskyanti-virus - not automatic yet
 * k-litecodecpackbasic - not automatic yet
 * llftool - not automatic yet
@@ -26,10 +24,6 @@ I'm porting all the manual packages to automatic. If there's an outdated version
 * orwelldevcpp - not automatic yet
 * rmprepusb - not automatic yet
 * rollbackrx - not automatic yet
-* systemninja - not automatic yet
-* tinytask - not automatic yet
-* tuneuputilities - not automatic yet
-* ultraiso - not automatic yet
 
 ##manual by now - problems with not updated version on website showed##
 
@@ -41,6 +35,7 @@ I'm porting all the manual packages to automatic. If there's an outdated version
 
 * adblockplus
 * emule
+* hpusbdisk
 * messengerreviver
 
 ##manual by now - not version showed on website##
@@ -48,20 +43,22 @@ I'm porting all the manual packages to automatic. If there's an outdated version
 * line
 * songr
 * tiggit
+* tuneuputilities
 * windowsessentials
 
 
 ##auto##
 
-* adobeshockwaveplaye
+* adobeshockwaveplayer
 * advancedsystemcarefree
 * advancedsystemtweaker
 * avastbrowsercleanup
 * avastfreeantivirus
 * avirafreeantivirus
-* avgantivirusfree - problem with previous name version changed
+* avgantivirusfree
 * aida64extreme
 * bleachbit
+* ccenhancer
 * ccleaner
 * crystaldiskinfo
 * cpu-z
@@ -86,7 +83,10 @@ I'm porting all the manual packages to automatic. If there's an outdated version
 * startmenureviver
 * sumo
 * superantispyware
+* systemninja
 * trillian - version from filehippo
+* tinytask
+* ultraiso
 * unity - may include download with wget on the next pull
 * unitywebplayer
 * viber - version from softwareinformer

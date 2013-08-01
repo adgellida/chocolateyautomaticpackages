@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>ultraiso</id>
+    <id>{{PackageName}}</id>
     <title>UltraISO</title>
-    <version>9.5.3.2901</version>
+    <version>{{PackageVersion}}</version>
     <authors>EZB Systems, Inc.</authors>
     <owners>tonigellida</owners>
     <summary></summary>
@@ -16,6 +16,6 @@ If you need to know how to make a CD image or need to edit an ISO image file, Ul
     <copyright></copyright>
     <licenseUrl>http://www.software112.com/products/ultraiso-premium+eula.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/nugetpackages/master/ultraiso/ultraiso.png</iconUrl>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/ultraiso/ultraiso.png</iconUrl>
   </metadata>
 </package>

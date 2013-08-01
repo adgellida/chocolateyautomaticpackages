@@ -19,6 +19,6 @@ Downloaded from Sofpedia, due to redirection and download error, hosted on my pa
     <copyright></copyright>
     <licenseUrl>http://en.wikipedia.org/wiki/Freeware</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/nugetpackages/master/hpusbdisk/hpusbdisk.jpeg</iconUrl>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/hpusbdisk/hpusbdisk.jpeg</iconUrl>
   </metadata>
 </package>

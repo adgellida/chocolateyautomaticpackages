@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>tinytask</id>
+    <id>{{PackageName}}</id>
     <title>TinyTask</title>
-    <version>1.50</version>
+    <version>{{PackageVersion}}</version>
     <authors>vTask Studio</authors>
     <owners>tonigellida</owners>
     <summary></summary>
@@ -20,9 +20,6 @@ There's no installer, required files, or anything unnecessary; just a tiny progr
     <copyright></copyright>
     <licenseUrl>http://www.vtaskstudio.com/vista.pl?action=viewlicense</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/nugetpackages/master/tinytask/tinytask.png</iconUrl>
-	<dependencies>
-    <dependency id="Wget" />
-    </dependencies>	
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/tinytask/tinytask.png</iconUrl>
   </metadata>
 </package>

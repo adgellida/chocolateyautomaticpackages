@@ -1,33 +1,8 @@
-﻿$packageName = 'tinytask'
-$file = 'tinytask.exe'
-$url = "http://www.vtaskstudio.com/$file"
-#$previouspackageNameVersion = 'tinytask.1.50'
-$packageNameVersion = 'tinytask.1.50'
-$executable = 'tinytask.exe'
-$shorcutfolder = 'TinyTask.lnk'
+﻿$packageName = '{{PackageName}}'
+#$url = 'http://www.vtaskstudio.com/tinytask.exe' # For testing purposes
+$url = '{{DownloadUrl}}'
+$fileFullPath = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)\tinytask.exe"
 
-try {
+Get-ChocolateyWebFile $packageName $fileFullPath $url
 
-#Remove-Item "C:\Chocolatey\lib\$previouspackageNameVersion" -Recurse -Force
-wget -P "C:\Chocolatey\lib\$packageNameVersion\tools" -c -t 0 --timeout=30 --waitretry=30 "$url"
-#Remove-Item "$Home\Desktop\$shorcutfolder"
-
-#Create shortcut
-
-$linkPath        = Join-Path ([Environment]::GetFolderPath("Desktop")) $shorcutfolder
-
-$targetPath      = "C:\Chocolatey\lib\$packageNameVersion\tools\$executable"
-
-$link            = (New-Object -ComObject WScript.Shell).CreateShortcut($linkPath)
-$link.TargetPath = $targetPath
-$link.WorkingDirectory = "C:\Chocolatey\lib\$packageNameVersion\tools"
-
-# Call
-
-$link.Save()
-  
-  Write-ChocolateySuccess "$packageName"
-} catch {
-  Write-ChocolateyFailure "$packageName" $($_.Exception.Message)
-  throw
-}
+Install-ChocolateyDesktopLink $fileFullPath

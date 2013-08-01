@@ -1,8 +1,7 @@
 $packageName = 'tinytask'
-$shorcutfolder = 'TinyTask.lnk'
 
 try {
-  Remove-Item "$Home\Desktop\$shorcutfolder"
+  Remove-Item "$Home\Desktop\tinytask.exe.lnk"
   # the following is all part of error handling
   Write-ChocolateySuccess "$packageName"
 } catch {
