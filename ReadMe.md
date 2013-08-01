@@ -6,32 +6,24 @@ Chocolatey Automatic Packages
 
 I'm porting all the manual packages to automatic. If there's an outdated version, contact me, or do a PR please, thanks. 
 
-##not automatic yet##
-
-* arduinoide - not automatic yet
-* dumeter - not automatic yet
-* easybcd - not automatic yet
-* geany - not automatic yet
-* hdtune - not automatic yet
-* kasperskyanti-virus - not automatic yet
-* k-litecodecpackbasic - not automatic yet
-* llftool - not automatic yet
-* meld - not automatic yet
-* mro - not automatic yet
-* orwelldevcpp - not automatic yet
-* rmprepusb - not automatic yet
-
 ##manual by now - problems with not updated version on website showed##
 
 * ares
 * atubecatcher
 * heroesofnewerth - 3.2.0 not downloadable but yes updatable on game
+* meld
 
 ##manual by now - not priority - difficulty adquiring##
 
 * adblockplus
+* arduinoide
+* dumeter
+* easybcd
 * emule
+* hdtune
 * hpusbdisk
+* kasperskyanti-virus
+* k-litecodecpackbasic
 * messengerreviver
 * rollbackrx - NOT FIXED YET
 
@@ -64,17 +56,22 @@ I'm porting all the manual packages to automatic. If there's an outdated version
 * driverbooster - may not function - exclude Beta like fritzing on the next pull
 * drivergenius
 * fritzing - thanks to purity
+* geany
 * genymotion
 * goodsync
 * kcleaner
 * kicad - may include download with wget on the next pull
 * littleregistrycleaner
+* llftool
 * malwarebytes
 * midori-browser
 * mousecontroller
 * mucommander
+* mro
+* orwelldevcpp
 * peazip
 * redeclipse - may include download with wget on the next pull
+* rmprepusb
 * simplesystemtweaker
 * speedfan
 * spybot

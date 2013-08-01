@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>rmprepusb</id>
+    <id>{{PackageName}}</id>
     <title>RMPrepUSB</title>
-    <version>2.1.708</version>
+    <version>{{PackageVersion}}</version>
     <authors>RM Education</authors>
     <owners>tonigellida</owners>
     <summary></summary>
@@ -20,6 +20,6 @@ Beta version is more recommended than the stable, so here is considered as such.
     <copyright></copyright>
     <licenseUrl>http://www.rmprepusb.com/home/licensing</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/nugetpackages/master/rmprepusb/rmprepusb.png</iconUrl>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/rmprepusb/rmprepusb.png</iconUrl>
   </metadata>
 </package>

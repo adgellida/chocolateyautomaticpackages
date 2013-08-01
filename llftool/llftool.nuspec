@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>llftool</id>
+    <id>{{PackageName}}</id
     <title>HDD Low Level Format Tool</title>
-    <version>4.30</version>
+    <version>{{PackageVersion}}</version>
     <authors>HDDGURU</authors>
     <owners>tonigellida</owners>
     <summary></summary>
@@ -18,6 +18,6 @@ The data cannot be recovered after using this utility. The program utilizes Ultr
     <copyright></copyright>
     <licenseUrl>http://hddguru.com/software/HDD-LLF-Low-Level-Format-Tool/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/nugetpackages/master/llftool/llftool.png</iconUrl>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/llftool/llftool.png</iconUrl>
   </metadata>
 </package>

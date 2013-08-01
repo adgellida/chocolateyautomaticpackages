@@ -21,6 +21,6 @@ HD Tune may also work with other storage devices such as memory cards, USB stick
     <copyright></copyright>
     <licenseUrl>http://www.hdtune.com/buy.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/nugetpackages/master/hdtune/hdtune.png</iconUrl>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/hdtune/hdtune.png</iconUrl>
   </metadata>
 </package>

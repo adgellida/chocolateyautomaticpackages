@@ -10,7 +10,7 @@ $tempDir = Join-Path $chocTempDir "$packageName"
 $Rollbackv10Dir = Join-Path $tempDir "Rollbackv10"
 
 # Download and extract rollbackrx installer
-Install-ChocolateyZipPackage "$packageName" "$url" "$tempDir"
+Install-ChocolateyZipPackage "$packageName" "$url" $tempDir
 
 # Run the installer
 $installer = Join-Path $Rollbackv10Dir 'Setup.exe'

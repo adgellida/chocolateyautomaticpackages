@@ -17,6 +17,6 @@ It enables you to use your internet connection more efficiently by providing an 
     <copyright></copyright>
     <licenseUrl>http://www.hageltech.com/dumeter/license</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/nugetpackages/master/dumeter/dumeter.png</iconUrl>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/dumeter/dumeter.png</iconUrl>
   </metadata>
 </package>

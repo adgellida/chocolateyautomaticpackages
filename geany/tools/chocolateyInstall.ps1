@@ -1,6 +1,7 @@
-﻿$packageName = 'geany'
+﻿$packageName = '{{PackageName}}'
 $installerType = 'EXE'
-$url = 'http://download.geany.org/geany-1.23_setup.exe'
+#$url = 'http://download.geany.org/geany-{version}_setup.exe'
+$url = '{{DownloadUrl}}'
 $silentArgs = '/S'
 $validExitCodes = @(0) #please insert other valid exit codes here, exit codes for ms http://msdn.microsoft.com/en-us/library/aa368542(VS.85).aspx
 

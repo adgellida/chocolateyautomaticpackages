@@ -1,6 +1,7 @@
-﻿$packageName = 'rmprepusb'
+﻿$packageName = '{{PackageName}}'
 $installerType = 'EXE'
-$url = 'http://www.rmprepusb.com/documents/rmprepusb-beta-versions/Install_RMPrepUSB_Full_v2.1.708.zip'
+#$url = 'http://www.rmprepusb.com/documents/rmprepusb-beta-versions/Install_RMPrepUSB_Full_v{version}.zip'
+$url = '{{DownloadUrl}}'
 $silentArgs = '/S'
 $validExitCodes = @(0) #please insert other valid exit codes here, exit codes for ms http://msdn.microsoft.com/en-us/library/aa368542(VS.85).aspx
 

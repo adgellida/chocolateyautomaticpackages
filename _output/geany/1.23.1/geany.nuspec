@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>{{PackageName}}</id>
+    <id>geany</id>
     <title>Geany</title>
-    <version>{{PackageVersion}}</version>
+    <version>1.23.1</version>
     <authors>Enrico Tröger, Frank Lanitz, Nick Treleaven and Dominic Hopf</authors>
     <owners>tonigellida</owners>
     <summary></summary>

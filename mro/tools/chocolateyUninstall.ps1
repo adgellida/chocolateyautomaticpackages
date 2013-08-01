@@ -1,7 +1,7 @@
 $packageName = 'mro'
 
 try {
-  Remove-Item "$Home\Desktop\mro launcher.lnk"
+  Remove-Item "$Home\Desktop\mro_launcher.exe.lnk"
   # the following is all part of error handling
   Write-ChocolateySuccess "$packageName"
 } catch {
