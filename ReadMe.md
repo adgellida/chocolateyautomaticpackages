@@ -9,8 +9,6 @@ I'm porting all the manual packages to automatic. If there's an outdated version
 ##not automatic yet##
 
 * arduinoide - not automatic yet
-* designsparkpcb - not automatic yet
-* drivergenius - not automatic yet
 * dumeter - not automatic yet
 * easybcd - not automatic yet
 * geany - not automatic yet
@@ -19,11 +17,9 @@ I'm porting all the manual packages to automatic. If there's an outdated version
 * k-litecodecpackbasic - not automatic yet
 * llftool - not automatic yet
 * meld - not automatic yet
-* mousecontroller - not automatic yet
 * mro - not automatic yet
 * orwelldevcpp - not automatic yet
 * rmprepusb - not automatic yet
-* rollbackrx - not automatic yet
 
 ##manual by now - problems with not updated version on website showed##
 
@@ -37,9 +33,11 @@ I'm porting all the manual packages to automatic. If there's an outdated version
 * emule
 * hpusbdisk
 * messengerreviver
+* rollbackrx - NOT FIXED YET
 
 ##manual by now - not version showed on website##
 
+* designsparkpcb
 * line
 * songr
 * tiggit
@@ -64,6 +62,7 @@ I'm porting all the manual packages to automatic. If there's an outdated version
 * cpu-z
 * daemontoolslite
 * driverbooster - may not function - exclude Beta like fritzing on the next pull
+* drivergenius
 * fritzing - thanks to purity
 * genymotion
 * goodsync
@@ -72,6 +71,7 @@ I'm porting all the manual packages to automatic. If there's an outdated version
 * littleregistrycleaner
 * malwarebytes
 * midori-browser
+* mousecontroller
 * mucommander
 * peazip
 * redeclipse - may include download with wget on the next pull

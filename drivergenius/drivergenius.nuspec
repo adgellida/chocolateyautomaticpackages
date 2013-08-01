@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>drivergenius</id>
+    <id>{{PackageName}}</id
     <title>Driver Genius</title>
-    <version>12.0.0.1314</version>
+    <version>{{PackageVersion}}</version>
     <authors>Driver-Soft Inc.</authors>
     <owners>tonigellida</owners>
     <summary></summary>
@@ -16,6 +16,6 @@ Driver Genius Professional can backup, restore and update all your drivers in se
     <copyright></copyright>
     <licenseUrl>http://www.driver-soft.com/license.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/nugetpackages/master/drivergenius/drivergenius.jpg</iconUrl>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/drivergenius/drivergenius.jpg</iconUrl>
   </metadata>
 </package>
