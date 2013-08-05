@@ -6,6 +6,10 @@ Chocolatey Automatic Packages
 
 I'm porting all the manual packages to automatic. If there's an outdated version, contact me, or do a PR please, thanks. 
 
+##to do
+
+* FileHippo.com Update Checker
+
 ##manual by now - problems with not updated version on website showed##
 
 * ares
@@ -17,6 +21,7 @@ I'm porting all the manual packages to automatic. If there's an outdated version
 
 * adblockplus
 * arduinoide
+* cnettechtracker
 * dumeter
 * easybcd
 * emule
@@ -73,6 +78,7 @@ I'm porting all the manual packages to automatic. If there's an outdated version
 * redeclipse - may include download with wget on the next pull
 * rmprepusb
 * simplesystemtweaker
+* softwareinformer
 * speedfan
 * spybot
 * startisback

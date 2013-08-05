@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>cnettechtracker</id>
-    <title>Software Informer</title>
+    <title>CNET TechTracker</title>
     <version>2.1.0.73</version>
     <authors>CNET</authors>
     <owners>tonigellida</owners>
