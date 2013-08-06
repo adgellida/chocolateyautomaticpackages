@@ -72,8 +72,8 @@
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
     <UserNotes />
-    <LastFileSize>384846</LastFileSize>
-    <LastFileDate>2012-05-23T02:09:37.7748325</LastFileDate>
+    <LastFileSize>8456808</LastFileSize>
+    <LastFileDate>2013-05-19T14:36:28+02:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Avoid</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -126,11 +126,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation />
+    <PreviousLocation>C:\Chocolatey\_work\geany-1.23.1_setup.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2012-05-23T02:09:37.7748325</LastUpdated>
+    <LastUpdated>2013-08-02T01:10:11.6806151+02:00</LastUpdated>
     <TargetPath>C:\Chocolatey\_work\</TargetPath>
     <FixedDownloadUrl>http://download.geany.org/geany-{version}_setup.exe</FixedDownloadUrl>
     <Name>geany</Name>
