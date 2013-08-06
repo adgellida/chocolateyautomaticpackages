@@ -1,7 +1,7 @@
-﻿$packageName = '{{PackageName}}'
+﻿$packageName = 'wassapp'
 $installerType = 'EXE'
-#$url = 'http://cerulean.cachenetworks.com/trillian-v{version}.exe'
-$url = '{{DownloadUrl}}'
+#$url = 'http://lowlevel-studios.com/apps/wassapp/Wassapp_{version}.exe'
+$url = 'http://lowlevel-studios.com/apps/wassapp/Wassapp_1.1.1.exe'
 $silentArgs = ''
 $validExitCodes = @(0) #please insert other valid exit codes here, exit codes for ms http://msdn.microsoft.com/en-us/library/aa368542(VS.85).aspx
 

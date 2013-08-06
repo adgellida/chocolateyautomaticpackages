@@ -1,7 +1,7 @@
-﻿$packageName = '{{PackageName}}'
+﻿$packageName = 'startisback'
 $installerType = 'EXE'
-#$url = 'http://cerulean.cachenetworks.com/trillian-v{version}.exe'
-$url = '{{DownloadUrl}}'
+#$url = 'http://www.startisback.com/StartIsBack_setup.exe'
+$url = 'http://www.startisback.com/StartIsBack_setup.exe'
 $silentArgs = ''
 $validExitCodes = @(0) #please insert other valid exit codes here, exit codes for ms http://msdn.microsoft.com/en-us/library/aa368542(VS.85).aspx
 
