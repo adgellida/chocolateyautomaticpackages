@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>webpi</id>
+    <title>WebPI (Platform Installer)</title>
+    <version>4.6</version>
+    <authors>Microsoft</authors>
+    <owners>tonigellida</owners>
+    <summary></summary>
+    <description>
+The Microsoft Web Platform Installer (Web PI) is a free tool that makes getting the latest components of the Microsoft Web Platform, including Internet Information Services (IIS), SQL Server Express, .NET Framework and Visual Web Developer easy.
+The Web PI also makes it easy to install and run the most popular free web applications for blogging, content management and more with the built-in Windows Web Application Gallery.
+	</description>
+    <projectUrl>http://www.microsoft.com/web/downloads/platform.aspx</projectUrl>
+    <tags>notSilent notUninstallable webpi web pi platform installer microsoft tools wordpress asp.net drupal umbraco</tags>
+    <copyright></copyright>
+    <licenseUrl>http://www.microsoft.com/web/webpi/eula/webpi_45_en.htm</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/webpi/webpi.png</iconUrl>
+  </metadata>
+</package>
