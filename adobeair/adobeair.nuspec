@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>Adobe AIR Runtime</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Adobe</authors>
+    <owners>Ethan J Brown tonigellida</owners>
+    <summary></summary>
+    <description>
+Adobe AIR is a cross-platform runtime that enables you to use your existing Flash/ActionScript or HTML/JavaScript development skills and tools to build and deploy applications, games, and videos outside the browser and on mobile devices.
+	</description>
+    <projectUrl>http://get.adobe.com/air/</projectUrl>
+    <tags>web browser AIR</tags>
+    <copyright></copyright>
+    <licenseUrl>http://www.adobe.com/products/eulas</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/adobeair/AdobeAIR.jpg</iconUrl>
+  </metadata>
+</package>

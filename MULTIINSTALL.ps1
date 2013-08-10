@@ -2,37 +2,30 @@
 ####v.2013.08.07 alpha 00:00 GMT+1
 
 ####Advices
-#TECHSHARE ROOM FEED - sufix "_tsr" to differenciate it from feed oficial - Realized by tonigellida
+#TECHSHARE ROOM FEED - sufix "_tsr" to differenciate it from feed oficial - tonigellida apports his packages
 
 #Backup & Sync
 #'goodsync_tsr' | %{ cinst $_ -Source http://www.myget.org/F/techshareroom/api/v2 }
 
 #OS & Utilities
-#'OpenHardwareMonitor','microsoft.isobackuptool' | %{ cinst $_ }
-#'yumi','nmap','truecrypt','tor-browser','cyg-get' | %{ cinst $_ }
-#'sumo','softwareinformer','cnettechtracker' | %{ cinst $_ }
-#'ccleaner','kcleaner','littleregistrycleaner' | %{ cinst $_ }
-#'ccenhancer','speedfan' | %{ cinst $_ }
-#'crystaldiskinfo','easybcd','llftool' | %{ cinst $_ }
-#'classicshell','startmenureviver' | %{ cinst $_ }
+'ccleaner','classicshell' | %{ cinst $_ }
+#'ghostscript','winpcap','openhardwaremonitor','microsoft.isobackuptool','yumi','cyg-get','sumo','softwareinformer','cnettechtracker' | %{ cinst $_ }
+#'kcleaner','littleregistrycleaner','ccenhancer','speedfan','crystaldiskinfo','easybcd','llftool' | %{ cinst $_ }
+#'classicshell','startmenureviver','startmenu8' | %{ cinst $_ }
+#'startmenureviver','startmenu8' | %{ cinst $_ }
 #'hpusbdisk','systemninja','bleachbit','genymotion' | %{ cinst $_ }
 #'mousecontroller','tinytask','wassapp','advancedsystemcarefree','tuneuputilities' | %{ cinst $_ }
-#'driverbooster','startmenu8' | %{ cinst $_ }
+#'driverbooster' | %{ cinst $_ }
 #'windowsrepair','simplesystemtweaker','advancedsystemtweaker','rmprepusb' | %{ cinst $_ }
 #'silverlight','notepadplusplus.install','teamviewer' | %{ cinst $_ }
 #'flashplayerplugin','flashplayeractivex' | %{ cinst $_ }
-#'speccy','Secunia.PSI','greenshot', | %{ cinst $_ }
-#'cpu-z','virtualbox','openal' | %{ cinst $_ }
-#'unlocker_tsr' | %{ cinst $_ -Source http://www.myget.org/F/techshareroom/api/v2 }	  #In official feed unlisted
-#'dumeter_tsr','hdtunepro_tsr','aria2_tsr' | %{ cinst $_ -Source http://www.myget.org/F/techshareroom/api/v2 }
-#'partitionwizard_tsr' | %{ cinst $_ -Source http://www.myget.org/F/techshareroom/api/v2 }	#In official feed doesn't work
-#'rollbackrx_tsr','startisback_tsr' | %{ cinst $_ -Source http://www.myget.org/F/techshareroom/api/v2 }
-#'drivergenius_tsr' | %{ cinst $_ -Source http://www.myget.org/F/techshareroom/api/v2 }
-#'aida64extreme_tsr' | %{ cinst $_ -Source http://www.myget.org/F/techshareroom/api/v2 }
+#'cpu-z','virtualbox','openal','speccy','greenshot' | %{ cinst $_ }
+#'dumeter_tsr','hdtunepro_tsr','aria2_tsr','unlocker_tsr' | %{ cinst $_ -Source http://www.myget.org/F/techshareroom/api/v2 }
+#'rollbackrx_tsr','startisback_tsr','drivergenius_tsr','aida64extreme_tsr','partitionwizard_tsr' | %{ cinst $_ -Source http://www.myget.org/F/techshareroom/api/v2 }
 
 #Security & Privacy
-#'spybot','superantispyware','avastbrowsercleanup','winlockless' | %{ cinst $_ }
-#'malwarebytes' | %{ cinst $_ }
+#'spybot','superantispyware','avastbrowsercleanup','winlockless','malwarebytes','Secunia.PSI' | %{ cinst $_ }
+'nmap','truecrypt','tor-browser' | %{ cinst $_ }
 #'kasperskyanti-virus_tsr' | %{ cinst $_ -Source http://www.myget.org/F/techshareroom/api/v2 }
 
 #CD/DVD Tools
@@ -74,7 +67,6 @@
 #'trillian','line','skype' | %{ cinst $_ }
 
 #File Management
-#'winrar' | %{ cinst $_ }
 #'filezilla' | %{ cinst $_ }
 #'winrar_tsr' | %{ cinst $_ -Source http://www.myget.org/F/techshareroom/api/v2 }
 #'jdownloader_tsr' | %{ cinst $_ -Source http://www.myget.org/F/techshareroom/api/v2 }
@@ -102,13 +94,9 @@
 
 #Not recommended to install, it isn't full versions or there's better alternatives - tonigellida packages
 
-#'hdtune','drivergenius','rollbackrx' | %{ cinst $_ }
+#'hdtune','drivergenius','rollbackrx','winrar' | %{ cinst $_ }
 #'avastfreeantivirus','avgantivirusfree','avirafreeantivirus','kasperskyanti-virus' | %{ cinst $_ }
 #'ultraiso','goodsync','dumeter','aida64extreme' | %{ cinst $_ }
-
-##Coming soon on techshare room - not priority
-
-#'amddriverlegacy','amddriver','nvidiadriver','googlecontactsync','htcusbdriver','hpsolutioncenter','teknomw3','punkbuster','realtekdriver','samsungusbdriver' | %{ cinst $_ }
 
 #Base command
 

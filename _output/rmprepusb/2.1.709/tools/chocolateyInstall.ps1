@@ -1,7 +1,8 @@
-﻿$packageName = 'songr'
+﻿$packageName = 'rmprepusb'
 $installerType = 'EXE'
-#$url = 'http://www.xamasoft.com/downloads/Songr-2.zip'
-$silentArgs = '/S /NCRC'
+#$url = 'http://www.rmprepusb.com/documents/rmprepusb-beta-versions/Install_RMPrepUSB_Full_v{version}.zip'
+$url = 'http://www.rmprepusb.com/documents/rmprepusb-beta-versions/Install_RMPrepUSB_Full_v2.1.709.zip'
+$silentArgs = '/S'
 $validExitCodes = @(0) #please insert other valid exit codes here, exit codes for ms http://msdn.microsoft.com/en-us/library/aa368542(VS.85).aspx
 
 try {
@@ -12,7 +13,7 @@ try {
   Install-ChocolateyZipPackage "$packageName" "$url" $tempDir
   
   # Run the installer
-  $installer = Join-Path $tempDir 'Songr_2_0_2081_Setup.exe'
+  $installer = Join-Path $tempDir 'Install_RMPrepUSB_Full.exe'
   Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$installer" -validExitCodes $validExitCodes
   
   Write-ChocolateySuccess "$packageName"
@@ -20,12 +21,3 @@ try {
   Write-ChocolateyFailure "$packageName" $($_.Exception.Message)
   throw
 }
-
-$packageName = '{{PackageName}}'
-#$url = 'http://www.xamasoft.com/downloads/Songr-2.zip' # For testing purposes
-$url = '{{DownloadUrl}}'
-$fileFullPath = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)\*.exe"
-
-Get-ChocolateyWebFile $packageName $fileFullPath $url
-
-Install-ChocolateyDesktopLink $fileFullPath
