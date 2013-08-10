@@ -1,5 +1,5 @@
 ####multi-installer, select programs to install 
-####v.2013.08.07 alpha 00:00 GMT+1
+####v.2013.08.11 alpha 00:00 GMT+1
 
 ####Advices
 #TECHSHARE ROOM FEED - sufix "_tsr" to differenciate it from feed oficial - tonigellida apports his packages
@@ -9,23 +9,19 @@
 
 #OS & Utilities
 'ccleaner','classicshell' | %{ cinst $_ }
-#'ghostscript','winpcap','openhardwaremonitor','microsoft.isobackuptool','yumi','cyg-get','sumo','softwareinformer','cnettechtracker' | %{ cinst $_ }
+#'openhardwaremonitor','microsoft.isobackuptool','yumi','cyg-get','sumo','softwareinformer','cnettechtracker' | %{ cinst $_ }
 #'kcleaner','littleregistrycleaner','ccenhancer','speedfan','crystaldiskinfo','easybcd','llftool' | %{ cinst $_ }
-#'classicshell','startmenureviver','startmenu8' | %{ cinst $_ }
-#'startmenureviver','startmenu8' | %{ cinst $_ }
-#'hpusbdisk','systemninja','bleachbit','genymotion' | %{ cinst $_ }
-#'mousecontroller','tinytask','wassapp','advancedsystemcarefree','tuneuputilities' | %{ cinst $_ }
-#'driverbooster' | %{ cinst $_ }
-#'windowsrepair','simplesystemtweaker','advancedsystemtweaker','rmprepusb' | %{ cinst $_ }
-#'silverlight','notepadplusplus.install','teamviewer' | %{ cinst $_ }
-#'flashplayerplugin','flashplayeractivex' | %{ cinst $_ }
-#'cpu-z','virtualbox','openal','speccy','greenshot' | %{ cinst $_ }
+#'classicshell','startmenureviver','startmenu8','driverbooster' | %{ cinst $_ }
+#'hpusbdisk','systemninja','bleachbit','genymotion','mousecontroller','tinytask','wassapp','advancedsystemcarefree','tuneuputilities' | %{ cinst $_ }
+#'windowsrepair','simplesystemtweaker','advancedsystemtweaker','rmprepusb','silverlight','notepadplusplus.install','teamviewer' | %{ cinst $_ }
+#'flashplayerplugin','flashplayeractivex','cpu-z','virtualbox','speccy','greenshot' | %{ cinst $_ }
+#'openal','ghostscript','winpcap','webpi' | %{ cinst $_ }
 #'dumeter_tsr','hdtunepro_tsr','aria2_tsr','unlocker_tsr' | %{ cinst $_ -Source http://www.myget.org/F/techshareroom/api/v2 }
 #'rollbackrx_tsr','startisback_tsr','drivergenius_tsr','aida64extreme_tsr','partitionwizard_tsr' | %{ cinst $_ -Source http://www.myget.org/F/techshareroom/api/v2 }
 
 #Security & Privacy
 #'spybot','superantispyware','avastbrowsercleanup','winlockless','malwarebytes','Secunia.PSI' | %{ cinst $_ }
-'nmap','truecrypt','tor-browser' | %{ cinst $_ }
+#'nmap','truecrypt','tor-browser' | %{ cinst $_ }
 #'kasperskyanti-virus_tsr' | %{ cinst $_ -Source http://www.myget.org/F/techshareroom/api/v2 }
 
 #CD/DVD Tools
