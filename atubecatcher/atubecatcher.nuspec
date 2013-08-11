@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>atubecatcher</id>
+    <id>{{PackageName}}</id>
     <title>aTube Catcher</title>
-    <version>3.8.1496</version>
+    <version>{{PackageVersion}}</version>
     <authors>Diego Uscanga</authors>
     <owners>tonigellida</owners>
     <summary></summary>

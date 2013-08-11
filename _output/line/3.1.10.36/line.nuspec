@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>{{PackageName}}</id>
+    <id>line</id>
     <title>LINE</title>
-    <version>{{PackageVersion}}</version>
+    <version>3.1.10.36</version>
     <authors>LINE Corporation</authors>
     <owners>tonigellida</owners>
     <summary></summary>
