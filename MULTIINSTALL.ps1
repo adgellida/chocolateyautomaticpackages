@@ -11,7 +11,7 @@
 'ccleaner','classicshell' | %{ cinst $_ }
 #'openhardwaremonitor','microsoft.isobackuptool','yumi','cyg-get','sumo','softwareinformer','cnettechtracker' | %{ cinst $_ }
 #'kcleaner','littleregistrycleaner','ccenhancer','speedfan','crystaldiskinfo','easybcd','llftool' | %{ cinst $_ }
-#'classicshell','startmenureviver','startmenu8','driverbooster' | %{ cinst $_ }
+#'startmenureviver','startmenu8','driverbooster' | %{ cinst $_ }
 #'hpusbdisk','systemninja','bleachbit','genymotion','mousecontroller','tinytask','wassapp','advancedsystemcarefree','tuneuputilities' | %{ cinst $_ }
 #'windowsrepair','simplesystemtweaker','advancedsystemtweaker','rmprepusb','silverlight','notepadplusplus.install','teamviewer' | %{ cinst $_ }
 #'flashplayerplugin','flashplayeractivex','cpu-z','virtualbox','speccy','greenshot' | %{ cinst $_ }
@@ -20,29 +20,26 @@
 #'rollbackrx_tsr','startisback_tsr','drivergenius_tsr','aida64extreme_tsr','partitionwizard_tsr' | %{ cinst $_ -Source http://www.myget.org/F/techshareroom/api/v2 }
 
 #Security & Privacy
-#'spybot','superantispyware','avastbrowsercleanup','winlockless','malwarebytes','Secunia.PSI' | %{ cinst $_ }
-#'nmap','truecrypt','tor-browser' | %{ cinst $_ }
+#'spybot','superantispyware','avastbrowsercleanup','winlockless','malwarebytes','Secunia.PSI','nmap','truecrypt','tor-browser' | %{ cinst $_ }
 #'kasperskyanti-virus_tsr' | %{ cinst $_ -Source http://www.myget.org/F/techshareroom/api/v2 }
 
 #CD/DVD Tools
-#'imgburn' | %{ cinst $_ }
+#'imgburn','daemontoolslite' | %{ cinst $_ }
 #'ultraiso_tsr' | %{ cinst $_ -Source http://www.myget.org/F/techshareroom/api/v2 }
-#'daemontoolslite' | %{ cinst $_ }
 
 #Photos & Graphics
 #'designsparkpcb','kicad','fritzing' | %{ cinst $_ }
 #'adobephotoshop_tsr' | %{ cinst $_ -Source http://www.myget.org/F/techshareroom/api/v2 }
 
 #Audio & Music
-'songr','spotify' | %{ cinst $_ }
+#'songr','spotify' | %{ cinst $_ }
 
 #Videos & Movies
 'vlc' | %{ cinst $_ }
 
 #Audio & Music & Videos & Movies
 'adobeshockwaveplayer','adobeair','k-litecodecpackbasic','unitywebplayer' | %{ cinst $_ }
-#'windowsessentials' | %{ cinst $_ }
-#'atubecatcher' | %{ cinst $_ }
+#'windowsessentials','atubecatcher' | %{ cinst $_ }
 #'adobepremierepro_tsr' | %{ cinst $_ -Source http://www.myget.org/F/techshareroom/api/v2 }
 
 #Development
@@ -54,21 +51,16 @@
 
 #Web Browsers
 'googlechrome' | %{ cinst $_ }
-#'googlechrome.dev' | %{ cinst $_ }
-#'midori-browser','chromium' | %{ cinst $_ }
+#'googlechrome.dev','midori-browser','chromium' | %{ cinst $_ }
 #'adblockpluschrome','adblockplusie','adblockplusfirefox','adblockplusopera' | %{ cinst $_ }
 
 #Social
-#'messengerreviver','viber' | %{ cinst $_ }
-#'trillian','line','skype' | %{ cinst $_ }
+#'messengerreviver','viber'.'trillian','line','skype' | %{ cinst $_ }
 
 #File Management
-#'filezilla' | %{ cinst $_ }
+#'filezilla','peazip','windirstat','mucommander' | %{ cinst $_ }
 #'winrar_tsr' | %{ cinst $_ -Source http://www.myget.org/F/techshareroom/api/v2 }
 #'jdownloader_tsr' | %{ cinst $_ -Source http://www.myget.org/F/techshareroom/api/v2 }
-#'peazip' | %{ cinst $_ }
-#'windirstat' | %{ cinst $_ }
-#'mucommander' | %{ cinst $_ }
 
 #File Sharing
 #'ares','utorrent','emule' | %{ cinst $_ }
