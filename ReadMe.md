@@ -2,9 +2,13 @@ Chocolatey Automatic Packages
 =============================================  
 ### A collection of automatic packages pushed to chocolatey official feed
 
-If you don't know chocolatey read [this](http://ferventcoder.com/archive/2011/10/07/letrsquos-get-chocolatey-kind-of-like-apt-get-for-windows.aspx)
+If you don't know chocolatey read [this](http://ferventcoder.com/archive/2011/10/07/letrsquos-get-chocolatey-kind-of-like-apt-get-for-windows.aspx).
 
-If there's an outdated version, contact me, or do a PR please, thanks.
+If there's an outdated version or an error:
+
+* You can contact me.
+* Do a PR.
+* Send me the .xml corrected.
 
 Packages - State
 =====================
