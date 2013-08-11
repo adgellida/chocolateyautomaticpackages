@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>tiggit</id>
+    <id>{{PackageName}}</id>
     <title>Tiggit Indie Game Installer</title>
-    <version>0.91</version>
+    <version>{{PackageVersion}}</version>
     <authors>Nicolay Korslund</authors>
     <owners>tonigellida</owners>
     <summary></summary>
