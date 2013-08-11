@@ -2,7 +2,9 @@ Chocolatey Automatic Packages
 =============================================  
 ### A collection of automatic packages pushed to chocolatey official feed
 
-I'm porting all the manual packages to automatic. If there's an outdated version, contact me, or do a PR please, thanks. 
+If you don't know chocolatey read [this](http://ferventcoder.com/archive/2011/10/07/letrsquos-get-chocolatey-kind-of-like-apt-get-for-windows.aspx)
+
+If there's an outdated version, contact me, or do a PR please, thanks.
 
 Packages - State
 =====================
