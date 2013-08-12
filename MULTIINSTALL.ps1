@@ -15,8 +15,8 @@
 #'hpusbdisk','systemninja','bleachbit','genymotion','mousecontroller','tinytask','wassapp','advancedsystemcarefree','tuneuputilities' | %{ cinst $_ }
 #'windowsrepair','simplesystemtweaker','advancedsystemtweaker','rmprepusb','silverlight','notepadplusplus.install','teamviewer' | %{ cinst $_ }
 #'flashplayerplugin','flashplayeractivex','cpu-z','virtualbox','speccy','greenshot' | %{ cinst $_ }
-#'openal','ghostscript','winpcap','webpi' | %{ cinst $_ }
-#'dumeter_tsr','hdtunepro_tsr','aria2_tsr','unlocker_tsr' | %{ cinst $_ -Source http://www.myget.org/F/techshareroom/api/v2 }
+#'openal','ghostscript','winpcap','webpi','aria2' | %{ cinst $_ }
+#'dumeter_tsr','hdtunepro_tsr','unlocker_tsr' | %{ cinst $_ -Source http://www.myget.org/F/techshareroom/api/v2 }
 #'rollbackrx_tsr','startisback_tsr','drivergenius_tsr','aida64extreme_tsr','partitionwizard_tsr' | %{ cinst $_ -Source http://www.myget.org/F/techshareroom/api/v2 }
 
 #Security & Privacy
