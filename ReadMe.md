@@ -6,8 +6,8 @@ If you don't know chocolatey read [this](http://ferventcoder.com/archive/2011/10
 
 If there's an outdated version or an error:
 
+* Do a PR. Recommended!
 * You can contact me.
-* Do a PR.
 * Send me the .xml corrected.
 
 Packages - State
