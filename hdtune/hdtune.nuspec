@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>hdtune</id>
+    <id>{{PackageName}}</id>
     <title>HD Tune</title>
-    <version>2.55</version>
+    <version>{{PackageVersion}}</version>
     <authors>EFD Software</authors>
     <owners>tonigellida</owners>
     <summary></summary>

@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>ares</id>
+    <id>{{PackageName}}</id>
     <title>Ares Galaxy</title>
-    <version>2.2.5</version>
+    <version>{{PackageVersion}}</version>
     <authors>lap3k</authors>
     <owners>tonigellida</owners>
     <summary></summary>

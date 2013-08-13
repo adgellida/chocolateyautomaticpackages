@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>dumeter</id>
+    <id>{{PackageName}}</id>
     <title>DU Meter</title>
-    <version>6.20.4628.0</version>
+    <version>{{PackageVersion}}</version>
     <authors>Hagel Technologies Ltd.</authors>
     <owners>tonigellida</owners>
     <summary></summary>
