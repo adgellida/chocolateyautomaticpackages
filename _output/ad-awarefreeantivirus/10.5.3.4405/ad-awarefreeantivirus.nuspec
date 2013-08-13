@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>{{PackageName}}</id>
+    <id>ad-awarefreeantivirus</id>
     <title>Ad-Aware Free Antivirus+</title>
-    <version>{{PackageVersion}}</version>
+    <version>10.5.3.4405</version>
     <authors>Lavasoft</authors>
     <owners>tonigellida</owners>
     <summary></summary>
