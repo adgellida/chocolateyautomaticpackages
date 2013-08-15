@@ -1,8 +1,7 @@
-﻿$packageName = '{{PackageName}}'
+﻿$packageName = 'adblockplusie'
 $installerType = 'EXE'
-#$url = 'http://files01.techspot.com/temp/K-Lite_Codec_Pack_{version:replace:.:}_Basic.exe'
-$url = '{{DownloadUrl}}'
-$silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
+$url = 'https://downloads.adblockplus.org/adblockplusie-1.0.exe'
+$silentArgs = '/S'
 $validExitCodes = @(0) #please insert other valid exit codes here, exit codes for ms http://msdn.microsoft.com/en-us/library/aa368542(VS.85).aspx
-	
+
 Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url"  -validExitCodes $validExitCodes
