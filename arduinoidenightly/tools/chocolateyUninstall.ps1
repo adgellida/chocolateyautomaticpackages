@@ -1,4 +1,4 @@
-$packageName = 'arduinoide'
+$packageName = 'arduinoidenightly'
 
 try {
   Remove-Item "$Home\Desktop\arduino.exe.lnk"
