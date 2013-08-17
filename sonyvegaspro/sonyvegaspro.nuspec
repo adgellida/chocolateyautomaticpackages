@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>{{PackageName}}</id>
-    <title>Sony Vegas Pro 12</title>
-    <version>{{PackageVersion}}</version>
+    <id>sonyvegaspro</id>
+    <title>Sony Vegas Pro</title>
+    <version>12.0.670</version>
     <authors>Sony</authors>
     <owners>tonigellida</owners>
     <summary></summary>
@@ -12,7 +12,7 @@ The Vegas Pro collection combines Vegas Pro, DVD Architect Pro, and Dolby® Digit
 These tools let you edit and process DV, AVCHD, HDV, SD/HD-SDI, and all XDCAM™ formats in real time, fine-tune audio with precision, and author surround sound, dual-layer DVDs.
 	</description>
     <projectUrl>http://www.sonycreativesoftware.com/download/trials/vegaspro</projectUrl>
-    <tags>trial-version video-editing dvd-authoring</tags>
+    <tags>trial-version notUninstallable video-editing dvd-authoring</tags>
     <copyright></copyright>
     <licenseUrl>http://www.sonycreativesoftware.com/corporate/terms</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>OPSWAT Security Score</title>
+    <version>{{PackageVersion}}</version>
+    <authors>OPSWAT</authors>
+    <owners>tonigellida</owners>
+    <summary></summary>
+    <description>
+
+	</description>
+    <projectUrl>                                         </projectUrl>
+    <tags>security                           </tags>
+    <copyright></copyright>
+    <licenseUrl>                    </licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/opswatsecurityscore/opswatsecurityscore.png</iconUrl>
+  </metadata>
+</package>
