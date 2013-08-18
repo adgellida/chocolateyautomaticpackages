@@ -65,8 +65,7 @@
 #'winrar_tsr' | %{ cinst $_ -Source http://www.myget.org/F/techshareroom/api/v2 }
 
 #File Sharing
-#'ares','utorrent','emule' | %{ cinst $_ }
-#'wget_tsr' | %{ cinst $_ -Source http://www.myget.org/F/techshareroom/api/v2 }
+#'ares','utorrent','emule','wget' | %{ cinst $_ }
 
 #News & Books
 
