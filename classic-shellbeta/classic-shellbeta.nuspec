@@ -1,0 +1,24 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>Classic Shell BETA</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Ivo Beltchev</authors>
+    <owners>tonigellida</owners>
+    <summary></summary>
+    <description>
+Classic Shell is a collection of usability enhancements for Windows. The main features are:
+Highly customizable start menu with multiple styles and skins
+Start button for Windows 7 and Windows 8
+Toolbar and status bar for Windows Explorer
+Caption and status bar for Internet Explorer
+	</description>
+    <projectUrl>http://www.classicshell.net/</projectUrl>
+    <tags>beta-version classic shell start menu windows 8</tags>
+    <copyright></copyright>
+    <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/classic-shellbeta/classic-shellbeta.png</iconUrl>
+  </metadata>
+</package>

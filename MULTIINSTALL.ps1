@@ -54,7 +54,7 @@
 #Web Browsers
 'googlechrome.dev' | %{ cinst $_ }
 #'googlechrome','chromium','midori-browser' | %{ cinst $_ }
-#'adblockpluschrome','adblockplusie' | %{ cinst $_ }
+'adblockpluschrome','adblockplusie' | %{ cinst $_ }
 #'adblockplusfirefox','adblockplusopera' | %{ cinst $_ }
 
 #Social
