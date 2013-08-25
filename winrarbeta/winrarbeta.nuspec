@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>winrarbeta</id>
+    <title>WinRAR BETA 8</title>
+    <version>5.00.20130826</version>
+    <authors>RARLAB</authors>
+    <owners>tonigellida</owners>
+    <summary></summary>
+    <description>
+WinRAR is a powerful archive manager.
+It can backup your data and reduce the size of email attachments, decompress RAR, ZIP and other files downloaded from Internet and create new archives in RAR and ZIP file format.
+You can use the trial version of WinRAR indefinitely.
+However, after the trial period expires in 30 days, WinRAR will display a popup asking you to buy the full version every time you start the application.
+WinRAR 5.00 beta 8 is available in Arabic, Armenian, Bulgarian, Chinese Traditional, English, Finnish, French, Hungarian, Lithuanian, Persian, Portuguese Brazilian, Russian, Swedish.
+	</description>
+    <projectUrl>http://www.rarlab.com/</projectUrl>
+    <tags>beta-version trial-version zip rar archive archive-manager unpack unrar </tags>
+    <copyright></copyright>
+    <licenseUrl>http://www.rarlab.com/license.htm</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/winrarbeta/winrarbeta.jpg</iconUrl>
+  </metadata>
+</package>
