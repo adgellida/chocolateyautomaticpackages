@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>{{PackageName}}</id>
-    <title>Fritzing</title>
+    <title>Fritzing BETA</title>
     <version>{{PackageVersion}}</version>
     <authors>Fachhochschule Potsdam</authors>
     <owners>tonigellida</owners>
