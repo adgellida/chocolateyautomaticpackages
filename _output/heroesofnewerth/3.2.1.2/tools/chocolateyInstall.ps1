@@ -1,7 +1,7 @@
-﻿$packageName = '{{PackageName}}'
+﻿$packageName = 'heroesofnewerth'
 $installerType = 'EXE'
 #$url = 'http://dl.heroesofnewerth.com/HoNClient-{version}.exe'
-$url = '{{DownloadUrl}}'
+$url = 'http://dl.heroesofnewerth.com/HoNClient-3.2.1.2.exe'
 $silentArgs = '/S'
 $validExitCodes = @(0) #please insert other valid exit codes here, exit codes for ms http://msdn.microsoft.com/en-us/library/aa368542(VS.85).aspx
 

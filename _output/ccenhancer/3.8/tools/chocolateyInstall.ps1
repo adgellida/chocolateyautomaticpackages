@@ -1,6 +1,6 @@
-﻿$packageName = '{{PackageName}}'
+﻿$packageName = 'ccenhancer'
 #$url = 'http://download.thewebatom.net/{anchor1}.zip'
-$url = '{{DownloadUrl}}'
+$url = 'http://download.thewebatom.net/521ae8275bda5/CCEnhancer-3.8-multilanguage.zip'
 $unzipLocation = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
 
 Install-ChocolateyZipPackage $packageName $url $unzipLocation

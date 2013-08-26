@@ -3,7 +3,12 @@ $url = "https://adblockplus.org/en/chrome"
 
 try {
 
-& "${Env:LOCALAPPDATA}\Google\Chrome\Application\chrome.exe" "$url"
+if(Test-Path "${Env:LOCALAPPDATA}\Google\Chrome\Application\chrome.exe"){
+	& "${Env:LOCALAPPDATA}\Google\Chrome\Application\chrome.exe" "$url"
+}
+if(Test-Path "${Env:ProgramFiles(x86)}\Google\Chrome\Application\chrome.exe"){
+	& "${Env:ProgramFiles(x86)}\Google\Chrome\Application\chrome.exe" "$url"
+}
 
   # the following is all part of error handling
   Write-ChocolateySuccess "$packageName"
