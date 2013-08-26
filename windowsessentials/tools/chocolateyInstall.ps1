@@ -5,7 +5,6 @@ $silentArgs = ''
 $validExitCodes = @(0) #please insert other valid exit codes here, exit codes for ms http://msdn.microsoft.com/en-us/library/aa368542(VS.85).aspx
 
 ##Spanish
-
 if(($LCID -eq "3082") -or ($LCID -eq "1034")){
 $url = 'http://wl.dlservice.microsoft.com/download/4/B/6/4B6D002A-3616-4D97-9D3A-80BD9E2CCB27/es/wlsetup-web.exe'
 }
