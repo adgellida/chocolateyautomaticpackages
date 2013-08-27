@@ -4,11 +4,12 @@ If you don't know chocolatey read [this](http://ferventcoder.com/archive/2011/10
 
 If you want to check the packages state go to [here](https://docs.google.com/spreadsheet/ccc?key=0AvH3YF-FkmY2dGVZdVdDaDdIbHZkRkFPSEdIME53Vnc&usp=sharing).
 
+If you want to see example packages to create others download my repo kicking "Download .zip" or otherwise and execute "ketarin.exe" inside the "KETARIN-chocopkgup" folder. They aren't perfect, are improvable.
+
 If you want to know more, go to the wiki of this repo [here](https://github.com/tonigellida/chocolateyautomaticpackages/wiki).
 
 If there's an outdated version or an error:
 
-* Do a PR. Recommended!
+* Do a PR. And upload the .xml if correspond. Recommended!
 * You can contact me.
-* Send me the .xml corrected.
 
