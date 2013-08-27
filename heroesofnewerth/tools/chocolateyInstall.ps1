@@ -16,4 +16,3 @@ elseif(Test-Path "${Env:ProgramFiles}\Heroes of Newerth\hon.exe"){
 else{
 Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url"  -validExitCodes $validExitCodes
 }
-
