@@ -4071,8 +4071,8 @@
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
     <UserNotes />
-    <LastFileSize>384846</LastFileSize>
-    <LastFileDate>2012-05-23T02:09:37.7748325</LastFileDate>
+    <LastFileSize>642632</LastFileSize>
+    <LastFileDate>2008-02-12T23:22:08+01:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Avoid</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -4124,13 +4124,13 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation />
+    <PreviousLocation>C:\Chocolatey\_work\hdtune_255.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2012-05-23T02:09:37.7748325</LastUpdated>
+    <LastUpdated>2013-08-27T13:11:36.9070371+02:00</LastUpdated>
     <TargetPath>C:\Chocolatey\_work\</TargetPath>
-    <FixedDownloadUrl>http://nowhere.com/nothing{version}.zip</FixedDownloadUrl>
+    <FixedDownloadUrl>http://www.hdtune.com/files/{anchor1}.exe</FixedDownloadUrl>
     <Name>hdtune</Name>
   </ApplicationJob>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="a78ffac6-5edc-4faf-9c48-0a222d7198d1">
@@ -4210,7 +4210,7 @@
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Avoid</DownloadBeta>
     <DownloadDate xsi:nil="true" />
-    <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
+    <CheckForUpdatesOnly>true</CheckForUpdatesOnly>
     <VariableChangeIndicator />
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
