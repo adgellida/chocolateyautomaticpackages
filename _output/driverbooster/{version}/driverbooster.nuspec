@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>{{PackageName}}</id>
-    <title>Driver Booster BETA</title>
-    <version>{{PackageVersion}}</version>
+    <id>driverbooster</id>
+    <title>Driver Booster</title>
+    <version>{}.0.0.20130830</version>
     <authors>IObit</authors>
     <owners>tonigellida</owners>
     <summary></summary>
