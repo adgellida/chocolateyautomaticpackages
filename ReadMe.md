@@ -10,6 +10,6 @@ If you want to know more, go to the wiki of this repo [here](https://github.com/
 
 If there's an outdated version or an error:
 
-* Do a PR. And upload the .xml if correspond. Recommended!
+* Do a PR. Recommended!
 * You can contact me.
 
