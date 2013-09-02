@@ -1,4 +1,4 @@
-﻿$packageName = 'windowsessentials'
+﻿$packageName = '{{PackageName}}'
 $installerType = 'EXE'
 $LCID = (Get-Culture).LCID
 $silentArgs = ''

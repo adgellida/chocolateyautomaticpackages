@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>rollbackrx</id>
+    <id>{{PackageName}}</id>
     <title>Rollback Rx</title>
-    <version>10.01</version>
+    <version>{{PackageVersion}}</version>
     <authors>Horizon DataSys</authors>
     <owners>tonigellida</owners>
     <summary></summary>

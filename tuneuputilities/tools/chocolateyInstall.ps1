@@ -1,4 +1,4 @@
-﻿$packageName = 'tuneuputilities'
+﻿$packageName = '{{PackageName}}'
 $installerType = 'EXE'
 $LCID = (Get-Culture).LCID
 $urles = 'http://download.tune-up.com/TUU2013/1004476/TuneUpUtilities2013_es-ES.exe'

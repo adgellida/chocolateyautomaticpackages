@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>windowsessentials</id>
+    <id>{{PackageName}}</id>
     <title>Windows Essentials 2012</title>
-    <version>16.4.3508.0205</version>
+    <version>{{PackageVersion}}</version>
     <authors>Microsoft</authors>
     <owners>tonigellida</owners>
     <summary></summary>

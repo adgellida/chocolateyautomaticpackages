@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>adblockplusopera</id>
-    <title>Adblock Plus for Opera</title>
-    <version>0.0.0.1</version>
+    <id>{{PackageName}}</id>
+    <title>Adblock Plus for Firefox</title>
+    <version>{{PackageVersion}}</version>
     <authors>Wladimir Palant</authors>
     <owners>tonigellida</owners>
     <summary></summary>
@@ -16,6 +16,6 @@ It is supported by over forty filter subscriptions which automatically configure
     <copyright></copyright>
     <licenseUrl>https://gnu.org/licenses/gpl.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/adblockplus/adblockplusopera/adblockplusopera.png</iconUrl>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/adblockplusfirefox/adblockplusfirefox.png</iconUrl>
   </metadata>
 </package>

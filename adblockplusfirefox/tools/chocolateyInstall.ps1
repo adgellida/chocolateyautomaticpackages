@@ -1,5 +1,6 @@
-﻿$packageName = 'adblockplusfirefox'
-$url = 'https://adblockplus.org/en/firefox'
+﻿$packageName = '{{PackageName}}'
+#$url = 'https://adblockplus.org/en/firefox'
+$url = '{{DownloadUrl}}'
 
 try {
   $processor = Get-WmiObject Win32_Processor

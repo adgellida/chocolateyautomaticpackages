@@ -1,5 +1,6 @@
-﻿$packageName = 'hpusbdisk'
-$url = 'http://tonigellida.x10.mx/packages/hpusbdisk/HPUSBDisk.exe'
+﻿$packageName = '{{PackageName}}'
+#$url = 'http://tonigellida.x10.mx/packages/hpusbdisk/HPUSBDisk.exe'
+$url = '{{DownloadUrl}}'
 
 try {
   $scriptPath = $(Split-Path -parent $MyInvocation.MyCommand.Definition)

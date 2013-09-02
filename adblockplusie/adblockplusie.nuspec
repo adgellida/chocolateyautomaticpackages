@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>adblockplusie</id>
+    <id>{{PackageName}}</id>
     <title>Adblock Plus for Internet Explorer</title>
-    <version>1.0</version>
+    <version>{{PackageVersion}}</version>
     <authors>Wladimir Palant</authors>
     <owners>tonigellida</owners>
     <summary></summary>

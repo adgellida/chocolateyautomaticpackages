@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>sonyvegaspro</id>
+    <id>{{PackageName}}</id>
     <title>Sony Vegas Pro</title>
-    <version>12.0.670</version>
+    <version>{{PackageVersion}}</version>
     <authors>Sony</authors>
     <owners>tonigellida</owners>
     <summary></summary>

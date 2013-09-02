@@ -1,5 +1,6 @@
-﻿$packageName = 'adblockpluschrome'
-$url = "https://adblockplus.org/en/chrome"
+﻿$packageName = '{{PackageName}}'
+#$url = "https://adblockplus.org/en/chrome"
+$url = '{{DownloadUrl}}'
 
 try {
 

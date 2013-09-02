@@ -1,6 +1,7 @@
-﻿$packageName = 'easybcd'
+﻿$packageName = '{{PackageName}}'
 $installerType = 'EXE'
-$url = 'https://neosmart.net/downloads/software/EasyBCD/EasyBCD%202.2.exe'
+#$url = 'https://neosmart.net/downloads/software/EasyBCD/EasyBCD%202.2.exe'
+$url = '{{DownloadUrl}}'
 $silentArgs = '/S'
 $validExitCodes = @(0) #please insert other valid exit codes here, exit codes for ms http://msdn.microsoft.com/en-us/library/aa368542(VS.85).aspx
 

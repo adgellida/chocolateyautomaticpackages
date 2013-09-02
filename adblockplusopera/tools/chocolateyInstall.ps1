@@ -1,5 +1,6 @@
-﻿$packageName = 'adblockplusopera'
-$url = 'https://adblockplus.org/en/opera'
+﻿$packageName = '{{PackageName}}'
+#$url = 'https://adblockplus.org/en/opera'
+$url = '{{DownloadUrl}}'
 
 try {
  
