@@ -1,5 +1,5 @@
 ####multi-installer, select programs to install 
-####v.2013.08.18 alpha 12:20 GMT+1
+####v.2013.09.03 alpha 12:20 GMT+1
 
 #Backup & Sync
 #'goodsync' | %{ cinst $_ }
@@ -9,7 +9,7 @@
 #'sumo','softwareinformer' | %{ cinst $_ }
 'classic-shellbeta' | %{ cinst $_ }
 #classic-shell' | %{ cinst $_ }
-#'speccy','openhardwaremonitor','microsoft.isobackuptool','yumi','cyg-get','cnettechtracker' | %{ cinst $_ }
+#'speccy','openhardwaremonitor','wudt','yumi','cyg-get','cnettechtracker' | %{ cinst $_ }
 #'kcleaner','littleregistrycleaner','ccenhancer','speedfan','crystaldiskinfo','easybcd','llftool' | %{ cinst $_ }
 #'startmenureviver','startmenu8' | %{ cinst $_ }
 #'hpusbdisk','systemninja','bleachbit','genymotion','mousecontroller','tinytask','wassapp','advancedsystemcarefree','tuneuputilities' | %{ cinst $_ }
