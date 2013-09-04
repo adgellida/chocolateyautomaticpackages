@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>{{PackageName}}</id>
-    <title>PirateBrowser BETA</title>
+    <title>PirateBrowser</title>
     <version>{{PackageVersion}}</version>
     <authors>The Pirate Bay</authors>
     <owners>tonigellida</owners>

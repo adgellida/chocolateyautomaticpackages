@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>{{PackageName}}</id>
-    <title>RMPrepUSB BETA</title>
+    <title>RMPrepUSB</title>
     <version>{{PackageVersion}}</version>
     <authors>RM Education</authors>
     <owners>tonigellida</owners>
