@@ -35,6 +35,7 @@
 
 #Audio & Music & Videos & Movies
 'adobeshockwaveplayer','adobeair','k-litecodecpackbasic','unitywebplayer' | %{ cinst $_ }
+#'k-litecodecpackbasic' | %{ cinst $_ }
 #'windowsessentials','atubecatcher' | %{ cinst $_ }
 
 #Development

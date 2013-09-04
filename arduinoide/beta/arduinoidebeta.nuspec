@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>{{PackageName}}</id>
+    <id>arduinoide</id>
     <title>Arduino IDE</title>
-    <version>{{PackageVersion}}</version>
+    <version>1.5.3.20130905-beta</version>
     <authors>Arduino</authors>
     <owners>tonigellida</owners>
     <summary></summary>
@@ -12,10 +12,10 @@ Arduino is an open-source electronics prototyping platform based on flexible, ea
 It's intended for artists, designers, hobbyists, and anyone interested in creating interactive objects or environments.
 	</description>
     <projectUrl>http://arduino.cc/en/Main/Software</projectUrl>
-    <tags>ide electronics arduino processing</tags>
+    <tags>beta-version ide electronics arduino processing</tags>
     <copyright></copyright>
     <licenseUrl>http://www.gnu.org/licenses/gpl.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/arduinoide/arduinoide.png</iconUrl>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/arduinoide/beta/arduinoide.png</iconUrl>
   </metadata>
 </package>
