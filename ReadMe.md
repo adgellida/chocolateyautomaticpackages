@@ -13,3 +13,6 @@ If there's an outdated version or an error:
 * Do a PR. Recommended!
 * You can contact me.
 
+Package versions erased:
+
+* driverbooster. Stable versions erased. Changed to correct beta version.
