@@ -1,9 +1,8 @@
 ﻿$packageName = '{{PackageName}}'
 $installerType = 'EXE'
+$LCID = (Get-Culture).LCID
 $silentArgs = '/s'
 $validExitCodes = @(0) #please insert other valid exit codes here, exit codes for ms http://msdn.microsoft.com/en-us/library/aa368542(VS.85).aspx
-
-$LCID = (Get-Culture).LCID
 
 ##Spanish
 if(($LCID -eq "3082") -or ($LCID -eq "1034")){
@@ -16,12 +15,12 @@ $url = 'http://products.kaspersky-labs.com/products/french/homeuser/kav2013/kav1
 }
 
 ##German
-elseif(($LCID -eq "1031"){
+elseif($LCID -eq "1031"){
 $url = 'http://products.kaspersky-labs.com/products/german/homeuser/kav2013/kav13.0.1.4190de-de.exe'
 }
 
 ##Italian
-elseif(($LCID -eq "1040"){
+elseif($LCID -eq "1040"){
 $url = 'http://products.kaspersky-labs.com/products/italian/homeuser/kav2013/kav13.0.1.4190it-it.exe'
 }
 

@@ -15,12 +15,12 @@ $url = 'http://wl.dlservice.microsoft.com/download/E/5/D/E5D39079-7BF5-40E5-A321
 }
 
 ##German
-elseif(($LCID -eq "1031"){
+elseif($LCID -eq "1031"){
 $url = 'http://wl.dlservice.microsoft.com/download/4/6/9/469F489D-81BB-4881-968A-26181EFBC17A/de/wlsetup-web.exe'
 }
 
 ##Italian
-elseif(($LCID -eq "1040"){
+elseif($LCID -eq "1040"){
 $url = 'http://wl.dlservice.microsoft.com/download/8/0/C/80CC511B-5C9E-41D5-97BC-C7B29CB81953/it/wlsetup-web.exe'
 }
 

@@ -1,4 +1,4 @@
-﻿$packageName = '{{PackageName}}'
+﻿$packageName = 'tuneuputilities'
 $installerType = 'EXE'
 $LCID = (Get-Culture).LCID
 $silentArgs = ''
