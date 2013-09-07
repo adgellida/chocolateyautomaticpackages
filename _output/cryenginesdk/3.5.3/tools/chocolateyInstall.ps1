@@ -1,7 +1,7 @@
 ﻿try {
-	$packageName = '{{PackageName}}'
+	$packageName = 'cryenginesdk'
     #$url = 'http://www.crydev.net/dm_eds/download.php?id=4'
-    $url = '{{DownloadUrl}}'
+    $url = 'http://www.crydev.net/dm_eds/download.php?id=4'
 	$unzipLocation = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
 	$processor = Get-WmiObject Win32_Processor
 	$is64bit = $processor.AddressWidth -eq 64

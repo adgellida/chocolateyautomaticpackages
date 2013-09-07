@@ -12,7 +12,7 @@ CCleaner is the number-one tool for cleaning your Windows PC.
 It protects your privacy online and makes your computer faster and more secure.
 Note: This package installs CCleaner without additional adware.</description>
     <projectUrl>http://www.piriform.com/ccleaner</projectUrl>
-    <tags>ccleaner system cleanup registry chocolatey</tags>
+    <tags>ccleaner system cleanup registry</tags>
     <copyright></copyright>
     <licenseUrl>http://www.piriform.com/legal/software-license/ccleaner</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

@@ -12,7 +12,7 @@ Xonotic is a free (GPL), fast-paced first-person shooter that works on Windows, 
 The project is geared towards providing addictive arena shooter gameplay which is all spawned and driven by the community itself.
 Xonotic is a direct successor of the Nexuiz project with years of development between them, and it aims to become the best possible open-source FPS (first-person-shooter) of its kind.
 ======= Notes =======
-Previous version is removed and all your user data remains.
+Previous version isn't removed. All your user data remains if you remove it manually from /lib because is stored in others folders.
 	</description>
     <projectUrl>http://www.xonotic.org/</projectUrl>
     <tags>game first-person-shooter opengl quake</tags>

@@ -1,7 +1,7 @@
 ﻿try {
 	$packageName = '{{PackageName}}'
-    $url = '{{DownloadUrl}}'
     #$url = 'http://dl.xonotic.org/xonotic-{version}.zip' # For testing purposes
+	$url = '{{DownloadUrl}}' 
     $unzipLocation = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
 	$processor = Get-WmiObject Win32_Processor
 	$is64bit = $processor.AddressWidth -eq 64
