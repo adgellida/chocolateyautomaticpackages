@@ -9,16 +9,18 @@
     Install-ChocolateyZipPackage $packageName $url $unzipLocation
 	
 	if ($is64bit) {
-    $targetFilePath = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)\Bin64\DedicatedServerSDK.exe"
-    $targetFilePath = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)\Bin64\Editor.exe"
-    $targetFilePath = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)\Bin64\GameSDK.exe"
+    $targetFilePath1 = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)\Bin64\DedicatedServerSDK.exe"
+    $targetFilePath2 = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)\Bin64\Editor.exe"
+    $targetFilePath3 = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)\Bin64\GameSDK.exe"
 	} else {
-    $targetFilePath = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)\Bin32\DedicatedServerSDK.exe"
-    $targetFilePath = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)\Bin32\Editor.exe"
-    $targetFilePath = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)\Bin32\GameSDK.exe"
+    $targetFilePath1 = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)\Bin32\DedicatedServerSDK.exe"
+    $targetFilePath2 = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)\Bin32\Editor.exe"
+    $targetFilePath3 = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)\Bin32\GameSDK.exe"
 	}
     
-    Install-ChocolateyDesktopLink $targetFilePath
+    Install-ChocolateyDesktopLink $targetFilePath1
+    Install-ChocolateyDesktopLink $targetFilePath2
+    Install-ChocolateyDesktopLink $targetFilePath3
 
     Write-ChocolateySuccess $packageName
 }   catch {
