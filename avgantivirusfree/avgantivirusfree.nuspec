@@ -2,19 +2,19 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>{{PackageName}}</id>
-    <title>AVG Anti-Virus Free Edition 2013</title>
+    <title>AVG Anti-Virus Free Edition 2014</title>
     <version>{{PackageVersion}}</version>
     <authors>AVG Technologies</authors>
     <owners>tonigellida</owners>
     <summary></summary>
     <description>
-The most popular download on CNET, AVG Free provides basic antivirus and antispyware protection for home users.
+AVG Free provides basic antivirus and antispyware protection for home users.
 Virus database updated every day. Includes innovative LinkScanner for web-protection.
 	</description>
     <projectUrl>http://www.avg.com/us-en/free-antivirus-download</projectUrl>
     <tags>security antivirus vulnerability</tags>
     <copyright></copyright>
-    <licenseUrl>http://free.avg.com/us-en/avg-anti-virus-7-licence-agreement-eula</licenseUrl>
+    <licenseUrl>http://www.avg.com/eula</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
 	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/avgantivirusfree/avgantivirusfree.png</iconUrl>
   </metadata>

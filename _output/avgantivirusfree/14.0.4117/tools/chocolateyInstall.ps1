@@ -8,10 +8,10 @@ $validExitCodes = @(0) #please insert other valid exit codes here, exit codes fo
   $processor = Get-WmiObject Win32_Processor
   $is64bit = $processor.AddressWidth -eq 64
   if ($is64bit) {
-	$url = 'http://aa-download.avg.com/filedir/inst/avg_free_x64_all_2014_4116a6613.exe'
+	$url = 'http://aa-download.avg.com/filedir/inst/avg_free_x64_all_2014_4117a6638.exe'
 	#$url = 'http://aa-download.avg.com/filedir/inst/{anchor64}.exe'
   } else {
-	$url = 'http://aa-download.avg.com/filedir/inst/avg_free_x86_all_2014_4116a6613.exe'
+	$url = 'http://aa-download.avg.com/filedir/inst/avg_free_x86_all_2014_4117a6638.exe'
 	#$url = 'http://aa-download.avg.com/filedir/inst/{anchor32}.exe'
   }
   

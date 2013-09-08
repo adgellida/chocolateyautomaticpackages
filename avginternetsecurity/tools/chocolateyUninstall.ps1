@@ -1,4 +1,4 @@
-$packageName = 'avgantivirusfree'
+$packageName = 'avginternetsecurity'
 
 try {
   $processor = Get-WmiObject Win32_Processor
