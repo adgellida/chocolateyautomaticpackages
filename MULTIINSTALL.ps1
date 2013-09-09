@@ -7,8 +7,7 @@
 #OS & Utilities
 'ccleaner','teamviewer','notepadplusplus.install','silverlight','driverbooster' | %{ cinst $_ }
 #'sumo','softwareinformer' | %{ cinst $_ }
-'classic-shellbeta' | %{ cinst $_ }
-#classic-shell' | %{ cinst $_ }
+'classic-shell' | %{ cinst $_ }	#Needs beta
 #'speccy','openhardwaremonitor','wudt','yumi','cyg-get','cnettechtracker' | %{ cinst $_ }
 #'kcleaner','littleregistrycleaner','ccenhancer','speedfan','crystaldiskinfo','easybcd','llftool' | %{ cinst $_ }
 #'startmenureviver','startmenu8' | %{ cinst $_ }
@@ -34,8 +33,8 @@
 'vlc' | %{ cinst $_ }
 
 #Audio & Music & Videos & Movies
-'adobeshockwaveplayer','adobeair','k-litecodecpackbasic','unitywebplayer' | %{ cinst $_ }
-#'k-litecodecpackbasic' | %{ cinst $_ }
+'adobeshockwaveplayer','adobeair','unitywebplayer' | %{ cinst $_ }
+#'k-litecodecpackbasic','cccp' | %{ cinst $_ }
 #'windowsessentials','atubecatcher' | %{ cinst $_ }
 
 #Development
@@ -48,6 +47,7 @@
 #Web Browsers
 #'googlechrome.dev' | %{ cinst $_ }
 #'googlechrome','chromium','midori-browser' | %{ cinst $_ }
+'firefox' | %{ cinst $_ }
 'adblockplusfirefox','adblockplusie' | %{ cinst $_ }
 #'adblockpluschrome','adblockplusopera' | %{ cinst $_ }
 
@@ -55,7 +55,7 @@
 #'messengerreviver','viber','trillian','line','skype' | %{ cinst $_ }
 
 #File Management
-#'filezilla','jdownloaderbeta','jdownloader','peazip','windirstat','mucommander' | %{ cinst $_ }
+#'filezilla','jdownloader','peazip','windirstat','mucommander' | %{ cinst $_ }
 
 #File Sharing
 #'ares','utorrent','emule','wget' | %{ cinst $_ }
@@ -64,7 +64,7 @@
 
 
 #Office & Productivity
-#'adobereader' | %{ cinst $_ } #by now in english
+#'adobereader' | %{ cinst $_ }	#by now in english
 
 #Games
 #'mro','xonotic','redeclipse','tiggit','heroesofnewerth' | %{ cinst $_ }
