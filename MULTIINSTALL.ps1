@@ -5,7 +5,7 @@
 #'goodsync' | %{ cinst $_ }
 
 #OS & Utilities
-'ccleaner','teamviewer','notepadplusplus.install','silverlight','driverbooster' | %{ cinst $_ }
+'ccleaner','teamviewer','notepadplusplus.install','silverlight','driverbooster -Pre' | %{ cinst $_ }
 #'sumo','softwareinformer' | %{ cinst $_ }
 'classic-shell' | %{ cinst $_ }	#Needs beta
 #'speccy','openhardwaremonitor','wudt','yumi','cyg-get','cnettechtracker' | %{ cinst $_ }
