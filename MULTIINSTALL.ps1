@@ -41,7 +41,7 @@
 'javaruntime' | %{ cinst $_ }
 #'Dogtail.DotNet3.5SP1','DotNet4.5','DotNet4.0' | %{ cinst $_ }
 #'geany','meld','winmerge' | %{ cinst $_ }
-#'arduinoide','arduinoidebeta','arduinoidenightly' | %{ cinst $_ }
+#'arduinoide','arduinoide -Version 1.5.3.20130905-beta -Pre','arduinoide -Pre' | %{ cinst $_ }
 #'orwelldevcpp','smartgit','unity' | %{ cinst $_ }
 
 #Web Browsers
