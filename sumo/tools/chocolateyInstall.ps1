@@ -8,3 +8,4 @@ $validExitCodes = @(0) #please insert other valid exit codes here, exit codes fo
 Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url"  -validExitCodes $validExitCodes
 
 Remove-Item "$Home\Desktop\SUMo Home Page.URL"
+Remove-Item "$Home\Desktop\Clean computer - KCleaner.URL"

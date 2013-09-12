@@ -1,8 +1,8 @@
-﻿$packageName = '{{PackageName}}'
+﻿$packageName = 'k-litecodecpackbasic'
 $installerType = 'EXE'
 #$url = 'http://files01.techspot.com/temp/K-Lite_Codec_Pack_{version:replace:.:}_Basic.exe'
-$url = '{{DownloadUrl}}'
-#$urlupdate = '{{DownloadUrl}}'
+$url = 'http://files01.techspot.com/temp/K-Lite_Codec_Pack_1005_Basic.exe'
+#$urlupdate = 'http://files01.techspot.com/temp/K-Lite_Codec_Pack_1005_Basic.exe'
 #$urlcomplete = 'http://files01.techspot.com/temp/K-Lite_Codec_Pack_1000_Basic.exe'
 $silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
 $validExitCodes = @(0) #please insert other valid exit codes here, exit codes for ms http://msdn.microsoft.com/en-us/library/aa368542(VS.85).aspx
