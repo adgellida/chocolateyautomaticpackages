@@ -3,7 +3,7 @@
   <metadata>
     <id>songr</id>
     <title>Songr</title>
-    <version>2.0.2118</version>
+    <version>2.0.2150</version>
     <authors>Xamasoft</authors>
     <owners>tonigellida</owners>
     <summary></summary>
@@ -11,7 +11,7 @@
 Songr is a cloud music player that streams and downloads music from multiple web services, including Grooveshark, Prostopleer, MusicSearch, YouTube and many others (including the music already on your computer).
 	</description>
     <projectUrl>https://sites.google.com/site/getsongr/</projectUrl>
-    <tags>mp3 music player</tags>
+    <tags>notSilent mp3 music player</tags>
     <copyright></copyright>
     <licenseUrl>http://www.xamasoft.com/songr/license/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
