@@ -1,19 +1,19 @@
 ####multi-installer, select programs to install 
-####v.2013.09.03 alpha 12:20 GMT+1
+####v.2013.09.21-alpha
 
 #Backup & Sync
 #'goodsync' | %{ cinst $_ }
 
 #OS & Utilities
-'ccleaner','teamviewer','notepadplusplus.install','silverlight','driverbooster -Pre' | %{ cinst $_ }
-#'sumo','softwareinformer' | %{ cinst $_ }
-'classic-shell' | %{ cinst $_ }	#Needs beta
+'ccleaner','teamviewer','notepadplusplus.install','silverlight' | %{ cinst $_ }
+#'driverbooster -Pre','sumo','softwareinformer' | %{ cinst $_ }
+#'classic-shell' | %{ cinst $_ }	#Needs beta
 #'speccy','openhardwaremonitor','wudt','yumi','cyg-get','cnettechtracker' | %{ cinst $_ }
 #'kcleaner','littleregistrycleaner','ccenhancer','speedfan','crystaldiskinfo','easybcd','llftool' | %{ cinst $_ }
 #'startmenureviver','startmenu8' | %{ cinst $_ }
 #'hpusbdisk','systemninja','bleachbit','genymotion','mousecontroller','tinytask','wassapp','advancedsystemcarefree','tuneuputilities' | %{ cinst $_ }
 #'windowsrepair','simplesystemtweaker','advancedsystemtweaker','rmprepusb' | %{ cinst $_ }
-#'flashplayerplugin','flashplayeractivex','cpu-z','virtualbox','greenshot' | %{ cinst $_ }
+#'flashplayerplugin','flashplayeractivex','cpu-z','virtualbox','virtualbox.extensionpack','greenshot' | %{ cinst $_ }
 #'openal','ghostscript','winpcap','webpi','aria2' | %{ cinst $_ }
 
 #Security & Privacy
@@ -47,9 +47,9 @@
 #Web Browsers
 #'googlechrome.dev' | %{ cinst $_ }
 #'googlechrome','chromium','midori-browser' | %{ cinst $_ }
-'firefox' | %{ cinst $_ }
-'adblockplusfirefox','adblockplusie' | %{ cinst $_ }
-#'adblockpluschrome','adblockplusopera' | %{ cinst $_ }
+#'firefox' | %{ cinst $_ }
+#'adblockplusfirefox','adblockplusie','adblockplusopera' | %{ cinst $_ }
+'adblockpluschrome' | %{ cinst $_ }
 
 #Social
 #'messengerreviver','viber','trillian','line','skype' | %{ cinst $_ }
