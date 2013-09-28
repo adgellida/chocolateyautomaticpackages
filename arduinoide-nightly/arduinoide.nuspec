@@ -3,18 +3,16 @@
   <metadata>
     <id>arduinoide</id>
     <title>Arduino IDE</title>
-    <version>1.5.3.20130905-nightly</version>
+    <version>1.5.5-nightly</version>
     <authors>Arduino</authors>
     <owners>tonigellida</owners>
     <summary></summary>
     <description>
 Arduino is an open-source electronics prototyping platform based on flexible, easy-to-use hardware and software.
 It's intended for artists, designers, hobbyists, and anyone interested in creating interactive objects or environments.
-======= Notes =======
-To update nightly "cinst arduinoidenightly -force"
 	</description>
     <projectUrl>http://arduino.cc/en/Main/Software</projectUrl>
-    <tags>nightly-version ide electronics arduino processing</tags>
+    <tags>ide electronics arduino processing</tags>
     <copyright></copyright>
     <licenseUrl>http://www.gnu.org/licenses/gpl.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

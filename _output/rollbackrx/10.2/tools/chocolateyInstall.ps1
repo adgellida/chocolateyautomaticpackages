@@ -1,6 +1,6 @@
-﻿$packageName = '{{PackageName}}'
+﻿$packageName = 'rollbackrx'
 $installerType = 'EXE'
-$url = '{{DownloadUrl}}'
+$url = 'http://www.horizondatasys.com/Files/Rollback_Rx_v102/Rollbackv102.zip'
 $silentArgs = '/q'
 $validExitCodes = @(0) #please insert other valid exit codes here, exit codes for ms http://msdn.microsoft.com/en-us/library/aa368542(VS.85).aspx
 
