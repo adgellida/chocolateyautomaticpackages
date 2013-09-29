@@ -7,10 +7,8 @@ $processor = Get-WmiObject Win32_Processor
   $is64bit = $processor.AddressWidth -eq 64
   if ($is64bit) {
     $url = '{{DownloadUrlx64}}'
-    #$url = 'http://surfnet.dl.sourceforge.net/project/peazip/5.1.0/peazip-plain-5.1.0.WIN64.exe'
   } else {
     $url = '{{DownloadUrl}}'
-    #$url = 'http://surfnet.dl.sourceforge.net/project/peazip/5.1.0/peazip-plain-5.1.0.WINDOWS.exe'
   }
 
 Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url"  -validExitCodes $validExitCodes

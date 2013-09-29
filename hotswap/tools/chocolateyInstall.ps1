@@ -6,15 +6,13 @@
 	$is64bit = $processor.AddressWidth -eq 64
 	
     Install-ChocolateyZipPackage $packageName $url $unzipLocation
-	
-	if ($is64bit) {
-    $targetFilePath = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)\Xonotic\xonotic-x64.exe"
-	} else {
-    $targetFilePath = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)\Xonotic\xonotic.exe"
-	}
-    
-    Install-ChocolateyDesktopLink $targetFilePath
 
+	if ($is64bit) {
+    & "$(Split-Path -parent $MyInvocation.MyCommand.Definition)\64bit\HotSwap!.exe"
+	} else {
+    & "$(Split-Path -parent $MyInvocation.MyCommand.Definition)\32bit\HotSwap!.exe"
+	}
+	
     Write-ChocolateySuccess $packageName
 }   catch {
     Write-ChocolateyFailure $packageName $($_.Exception.Message)
