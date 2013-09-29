@@ -1,5 +1,4 @@
 ﻿$packageName = '{{PackageName}}'
-#$url = 'http://files.avast.com/files/tools/avast-browser-cleanup.exe'
 $url = '{{DownloadUrl}}'
 $fileFullPath = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)\avast-browser-cleanup.exe"
 

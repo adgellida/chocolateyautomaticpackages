@@ -1,11 +1,11 @@
 ﻿try {
-	$packageName = 'fritzing'
-    $url = 'http://fritzing.org/download/0.8.3b/windows/fritzing.2013.07.27.pc.zip'
+	$packageName = 'flare'
+    $url = 'http://garr.dl.sourceforge.net/project/flare-game/flare_win_v018.zip'
 			 
 	$unzipLocation = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
     Install-ChocolateyZipPackage $packageName $url $unzipLocation
 
-    $targetFilePath = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)\fritzing.2013.07.27.pc\fritzing.exe"
+    $targetFilePath = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)\flare_v018\flare.exe"
     Install-ChocolateyDesktopLink $targetFilePath
 
     Write-ChocolateySuccess $packageName

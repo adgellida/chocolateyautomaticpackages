@@ -1,5 +1,4 @@
 ﻿$packageName = '{{PackageName}}'
-#$url = 'http://mustang.trexion.com/{anchor1}.exe'
 $url = '{{DownloadUrl}}'
 $fileFullPath = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)\{anchor1}.exe"
 

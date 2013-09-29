@@ -1,5 +1,4 @@
 ﻿$packageName = '{{PackageName}}'
-#$url = 'https://adblockplus.org/en/firefox'
 $url = '{{DownloadUrl}}'
 
 try {

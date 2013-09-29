@@ -9,10 +9,8 @@ $validExitCodes = @(0) #please insert other valid exit codes here, exit codes fo
   $is64bit = $processor.AddressWidth -eq 64
   if ($is64bit) {
 	$url = '{{DownloadUrlx64}}'
-	#$url = 'http://aa-download.avg.com/filedir/inst/{anchor64}.exe'
   } else {
 	$url = '{{DownloadUrl}}'
-	#$url = 'http://aa-download.avg.com/filedir/inst/{anchor32}.exe'
   }
   
 Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url"  -validExitCodes $validExitCodes

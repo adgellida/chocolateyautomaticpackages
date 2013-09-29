@@ -1,7 +1,6 @@
 ﻿$packageName = '{{PackageName}}'
 $installDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $tempDir = "$env:TEMP\chocolatey\$packageName"
-#$url = 'http://piratebrowser.com/downloads/PirateBrowser_{anchor1}.exe.torrent'
 $url = '{{DownloadUrl}}'
 $anchor1 = '{anchor1}'
 try {

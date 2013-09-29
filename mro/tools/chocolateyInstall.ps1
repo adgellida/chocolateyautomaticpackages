@@ -1,5 +1,4 @@
 ﻿$packageName = '{{PackageName}}'
-#$url = 'http://www.miniracingonline.com/descargas/utilidades/launcher/mro_launcher.zip'
 $url = '{{DownloadUrl}}'
 $unzipLocation = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
 

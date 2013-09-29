@@ -1,5 +1,4 @@
 ﻿$packageName = '{{PackageName}}'
-#$url = 'http://download.thewebatom.net/{anchor1}.zip'
 $url = '{{DownloadUrl}}'
 $unzipLocation = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
 

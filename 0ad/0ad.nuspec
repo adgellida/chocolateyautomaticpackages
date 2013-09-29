@@ -13,7 +13,7 @@ In short, it is a historically-based war/economy game that allows players to rel
 The project is highly ambitious, involving state-of-the-art 3D graphics, detailed artwork, sound, and a flexible and powerful custom-built game engine.
 	</description>
     <projectUrl>http://play0ad.com/</projectUrl>
-    <tags>alpha-version real-time-strategy historical-game</tags>
+    <tags>real-time-strategy historical-game</tags>
     <copyright></copyright>
     <licenseUrl>http://www.gnu.org/licenses/gpl.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

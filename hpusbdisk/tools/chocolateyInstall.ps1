@@ -1,5 +1,4 @@
 ﻿$packageName = '{{PackageName}}'
-#$url = 'http://tonigellida.x10.mx/packages/hpusbdisk/HPUSBDisk.exe'
 $url = '{{DownloadUrl}}'
 
 try {

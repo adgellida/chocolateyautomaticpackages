@@ -1,6 +1,5 @@
 ﻿try {
 	$packageName = '{{PackageName}}'
-    #$url = 'http://www.crydev.net/dm_eds/download.php?id=4'
     $url = '{{DownloadUrl}}'
 	$unzipLocation = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
 	$processor = Get-WmiObject Win32_Processor
