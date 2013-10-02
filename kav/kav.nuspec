@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>{{PackageName}}</id>
-    <title>Kaspersky Anti-Virus 2014</title>
+    <title>Kaspersky Anti-Virus</title>
     <version>{{PackageVersion}}</version>
     <authors>Kaspersky Lab</authors>
     <owners>tonigellida</owners>
