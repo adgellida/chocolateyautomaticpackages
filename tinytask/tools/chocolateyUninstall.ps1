@@ -1,4 +1,4 @@
-$packageName = 'tinytask'
+$packageName = '{{PackageName}}'
 
 try {
   Remove-Item "$Home\Desktop\tinytask.exe.lnk"

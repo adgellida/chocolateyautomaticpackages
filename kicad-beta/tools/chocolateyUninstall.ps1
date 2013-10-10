@@ -1,4 +1,4 @@
-$packageName = 'kicad'
+$packageName = '{{PackageName}}'
 
 try {
   Remove-Item "$Home\Desktop\kicad.exe.lnk"

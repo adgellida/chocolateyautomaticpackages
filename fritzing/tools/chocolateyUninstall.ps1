@@ -1,4 +1,4 @@
-$packageName = 'fritzing'
+$packageName = '{{PackageName}}'
 
 try {
   Remove-Item "$Home\Desktop\fritzing.exe.lnk"

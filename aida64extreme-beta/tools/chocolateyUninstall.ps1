@@ -1,4 +1,4 @@
-$packageName = 'aida64extreme'
+$packageName = '{{PackageName}}'
 
 try {
   Remove-Item "$Home\Desktop\aida64.exe.lnk"

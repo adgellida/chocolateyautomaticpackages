@@ -1,4 +1,4 @@
-$packageName = 'mousecontroller'
+$packageName = '{{PackageName}}'
 
 try {
   Remove-Item "$Home\Desktop\MouseController.exe.lnk"

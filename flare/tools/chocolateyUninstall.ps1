@@ -1,4 +1,4 @@
-$packageName = 'flare'
+$packageName = '{{PackageName}}'
 
 try {
   Remove-Item "$Home\Desktop\flare.exe.lnk"

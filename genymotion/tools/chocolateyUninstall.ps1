@@ -1,8 +1,8 @@
-$packageName = 'genymotion'
+$packageName = '{{PackageName}}'
 $installerType = 'EXE'
 $silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
 $validExitCodes = @(0) #please insert other valid exit codes here, exit codes for ms http://msdn.microsoft.com/en-us/library/aa368542(VS.85).aspx
-$unpath = "${Env:ProgramFiles}\Genymobile\Genymotion\unins000.exe"
+$unpath = "$Env:ProgramFiles\Genymobile\Genymotion\unins000.exe"
 
 try {
 

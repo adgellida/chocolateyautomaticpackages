@@ -1,4 +1,4 @@
-$packageName = 'messengerreviver'
+$packageName = '{{PackageName}}'
 
 try {
   Remove-Item "$Home\Desktop\MessengerReviver.exe.lnk"

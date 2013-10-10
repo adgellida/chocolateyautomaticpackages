@@ -1,4 +1,4 @@
-$packageName = 'rmprepusb'
+$packageName = '{{PackageName}}'
 $installerType = 'EXE'
 $silentArgs = '/S'
 $validExitCodes = @(0) #please insert other valid exit codes here, exit codes for ms http://msdn.microsoft.com/en-us/library/aa368542(VS.85).aspx
@@ -9,7 +9,7 @@ try {
   if ($is64bit) {
     $unpath = "${Env:ProgramFiles(x86)}\RMPrepUSB\uninstall.exe"
   } else {
-    $unpath = "${Env:ProgramFiles}\RMPrepUSB\uninstall.exe"
+    $unpath = "$Env:ProgramFiles\RMPrepUSB\uninstall.exe"
   }
   Uninstall-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$unpath" -validExitCodes $validExitCodes
   

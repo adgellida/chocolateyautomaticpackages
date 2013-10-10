@@ -1,4 +1,4 @@
-$packageName = 'avastbrowsercleanup'
+$packageName = '{{PackageName}}'
 
 try {
   Remove-Item "$Home\Desktop\avast-browser-cleanup.exe.lnk"

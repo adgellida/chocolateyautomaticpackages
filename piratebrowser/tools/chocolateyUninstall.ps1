@@ -1,4 +1,4 @@
-$packageName = 'piratebrowser'
+$packageName = '{{PackageName}}'
 
 try {
   Remove-Item "$Home\Desktop\Start PirateBrowser.exe.lnk"

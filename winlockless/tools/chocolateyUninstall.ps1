@@ -1,4 +1,4 @@
-$packageName = 'winlockless'
+$packageName = '{{PackageName}}'
 
 try {
   Remove-Item "$Home\Desktop\winlockless.exe.lnk"

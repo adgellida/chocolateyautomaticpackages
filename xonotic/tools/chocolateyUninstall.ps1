@@ -1,4 +1,4 @@
-$packageName = 'xonotic'
+$packageName = '{{PackageName}}'
 
 try {
   Remove-Item "$Home\Desktop\xonotic.exe.lnk"

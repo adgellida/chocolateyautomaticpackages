@@ -3,6 +3,6 @@
   if ($is64bit) {
     & "${Env:ProgramFiles(x86)}\Trillian\trillian.exe" /uninstall
   } else {
-    & "${Env:ProgramFiles}\Trillian\trillian.exe" /uninstall
+    & "$Env:ProgramFiles\Trillian\trillian.exe" /uninstall
   }
  

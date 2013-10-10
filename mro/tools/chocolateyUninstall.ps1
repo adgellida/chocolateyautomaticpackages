@@ -1,4 +1,4 @@
-$packageName = 'mro'
+$packageName = '{{PackageName}}'
 
 try {
   Remove-Item "$Home\Desktop\mro_launcher.exe.lnk"

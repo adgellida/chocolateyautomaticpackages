@@ -1,4 +1,4 @@
-$packageName = 'cryenginesdk'
+$packageName = '{{PackageName}}'
 
 try {
   Remove-Item "$Home\Desktop\DedicatedServerSDK.exe.lnk"

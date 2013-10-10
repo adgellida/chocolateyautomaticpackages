@@ -1,4 +1,4 @@
-$packageName = 'hpusbdisk'
+$packageName = '{{PackageName}}'
 
 try {
   Remove-Item "$Home\Desktop\HPUSBDisk.exe.lnk"
