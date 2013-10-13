@@ -15,7 +15,7 @@ Easy to install and does not slow down your computer.
 F-Secure Anti-Virus will protect you.
 	</description>
     <projectUrl>http://www.f-secure.com/en/web/home_global/anti-virus</projectUrl>
-    <tags>trial-version antivirus anti-spyware malware-remover</tags>
+    <tags>trial-version notSilent antivirus anti-spyware malware-remover</tags>
     <copyright></copyright>
     <licenseUrl>http://www.f-secure.com/en/web/home_global/license-terms</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

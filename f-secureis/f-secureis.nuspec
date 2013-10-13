@@ -17,7 +17,7 @@ Easy to install and does not slow down your computer.
 F-Secure Internet Security will protect you.
 	</description>
     <projectUrl>http://www.f-secure.com/en/web/home_global/internet-security</projectUrl>
-    <tags>trial-version antivirus firewall anti-spyware</tags>
+    <tags>trial-version notSilent antivirus firewall anti-spyware</tags>
     <copyright></copyright>
     <licenseUrl>http://www.f-secure.com/en/web/home_global/license-terms</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
