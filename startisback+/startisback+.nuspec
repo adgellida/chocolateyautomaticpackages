@@ -2,18 +2,16 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>{{PackageName}}</id>
-    <title>StartIsBack</title>
+    <title>StartIsBack+</title>
     <version>{{PackageVersion}}</version>
     <authors>D.I. Management Services Pty Limited</authors>
     <owners>tonigellida</owners>
     <summary></summary>
     <description>
-StartIsBack returns Windows 8 a real fully featured start menu and start button, behaving exactly like the ones in Windows 7.
-StartIsBack radically improves desktop usability and makes new Start screen clutter-free.
-StartIsBack is fully native lightweight zero-privileges program, cheap and fair, fast, stable and secure.
+StartIsBack+ is the all-new version of StartIsBack for Windows 8.1. It's a FREE upgrade for all StartIsBack users.
 	</description>
     <projectUrl>http://startisback.com/</projectUrl>
-    <tags>notSilent notUninstallable trial-version start-menu windows-8</tags>
+    <tags>notSilent notUninstallable trial-version start-menu windows-8.1</tags>
     <copyright></copyright>
     <licenseUrl>http://www.startisback.com/license.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
