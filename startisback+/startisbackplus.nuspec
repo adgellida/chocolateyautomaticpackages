@@ -15,6 +15,6 @@ StartIsBack+ is the all-new version of StartIsBack for Windows 8.1. It's a FREE 
     <copyright></copyright>
     <licenseUrl>http://www.startisback.com/license.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/startisback/startisback.png</iconUrl>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/startisbackplus/startisbackplus.png</iconUrl>
   </metadata>
 </package>
