@@ -13,6 +13,13 @@ If there's an outdated version or an error:
 * Do a PR. Recommended!
 * You can contact me.
 
+Causes of errors:
+
+* My mistake, I'm human, not perfect.
+* I don't have a system 100% autonomous for all packages, so I've to update manually a few packages, specially prerelease versions.
+* Author doesn't update the version number on his web or on the web where I found the version isn't updated.
+* Place where are version and installer is changed, so the package doesn't works.
+
 Package versions erased:
 
 * driverbooster. Stable versions erased. Changed to correct beta version.
