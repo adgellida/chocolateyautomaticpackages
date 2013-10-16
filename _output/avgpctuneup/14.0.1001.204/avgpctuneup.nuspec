@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>avgpctuneup</id>
+    <title>AVG PC Tuneup</title>
+    <version>14.0.1001.204</version>
+    <authors>AVG</authors>
+    <owners>tonigellida</owners>
+    <summary></summary>
+    <description>
+Remember how your PC ran when you first got it?
+New AVG PC TuneUp 2014 keeps your computer at peak performance.
+Get more speed, less crashing, longer battery life and more disk space, whether you choose automatic maintenance or want to take a more hands on approach.
+	</description>
+    <projectUrl>http://www.avg.com/us-en/avg-pctuneup</projectUrl>
+    <tags>notSilent notUninstallable trial-version cleaner startup-manager memory-optimization customization increase-performance process-manager fix-error pc-optimization</tags>
+    <copyright></copyright>
+    <licenseUrl>http://www.avg.com/us-en/eula-avg-2014-all-1-0</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/avgpctuneup/avgpctuneup.png</iconUrl>
+  </metadata>
+</package>
