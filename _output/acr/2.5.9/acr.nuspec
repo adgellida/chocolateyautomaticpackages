@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>{{PackageName}}</id>
+    <id>acr</id>
     <title>AssaultCube Reloaded</title>
-    <version>{{PackageVersion}}</version>
+    <version>2.5.9</version>
     <authors>Victor Zheng</authors>
     <owners>tonigellida</owners>
     <summary></summary>

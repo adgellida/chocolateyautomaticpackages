@@ -1,7 +1,7 @@
-$packageName = '{{PackageName}}'
+$packageName = 'acr'
 
 try {
-  Remove-Item "$Home\Desktop\mro_launcher.exe.lnk"
+  Remove-Item "$Home\Desktop\AssaultCube Reloaded.lnk"
   # the following is all part of error handling
   Write-ChocolateySuccess "$packageName"
 } catch {
