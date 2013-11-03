@@ -1,6 +1,6 @@
 ﻿try {
 	$packageName = 'kicad'
-    $url = 'http://kicad.tuturutu.cz/windows/kicad-20130914-r4316-windows.zip'
+    $url = 'http://kicad.tuturutu.cz/windows/kicad-20130929-r4356-windows.zip'
 			 
 	$unzipLocation = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
     Install-ChocolateyZipPackage $packageName $url $unzipLocation
