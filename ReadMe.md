@@ -20,6 +20,6 @@ Causes of errors:
 * Author doesn't update the version number on his web or on the web where I found the version isn't updated.
 * Place where are version and installer is changed, so the package doesn't works.
 
-Package versions erased:
+Package with error
 
-* driverbooster. Stable versions erased. Changed to correct beta version.
+* driver genius. Server not responding.
