@@ -23,3 +23,7 @@ Causes of errors:
 Package with error
 
 * driver genius. Server not responding.
+
+Advices
+
+* 05/11/13 - By now this repo has only stable versions, prerelease versions will be on the next chocolateyautomaticpackagesbeta repo.
