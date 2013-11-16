@@ -1,4 +1,4 @@
-$packageName = 'startmenu8'
+$packageName = 'k-litecodecpackbasic'
 $installerType = 'EXE'
 $silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
 $validExitCodes = @(0) #please insert other valid exit codes here, exit codes for ms http://msdn.microsoft.com/en-us/library/aa368542(VS.85).aspx
@@ -7,9 +7,9 @@ try {
   $processor = Get-WmiObject Win32_Processor
   $is64bit = $processor.AddressWidth -eq 64
   if ($is64bit) {
-    $unpath = "${Env:ProgramFiles(x86)}\IObit\Start Menu 8\unins000.exe"
+    $unpath = "${Env:ProgramFiles(x86)}\K-Lite Codec Pack\unins000.exe"
   } else {
-    $unpath = "${Env:ProgramFiles}\IObit\Start Menu 8\unins000.exe"
+    $unpath = "$Env:ProgramFiles\K-Lite Codec Pack\unins000.exe"
   }
   Uninstall-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$unpath" -validExitCodes $validExitCodes
   

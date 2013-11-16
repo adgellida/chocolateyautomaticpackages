@@ -1,0 +1,2 @@
+REM C:\Windows\System32\cmd.exe /c "C:\Chocolatey\lib\ChocolateyPackageUpdater.0.5.6.0\tools\chocopkgup\ketarinupdate.cmd"
+C:\Windows\System32\cmd.exe /c C:\tools\ChocolateyPackageUpdater\ketarinupdate.cmd

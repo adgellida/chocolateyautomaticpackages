@@ -1,8 +1,7 @@
-﻿$packageName = '{{PackageName}'
+﻿$packageName = 'startisbackplus'
 $installerType = 'EXE'
-#$url = 'http://download.iobit.com/startmenu-setup.exe'
-$url = 'http://download.iobit.com/startmenu-setup.exe'
-$silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
+$url = 'http://www.startisback.com/StartIsBackPlus_setup.exe'
+$silentArgs = ''
 $validExitCodes = @(0) #please insert other valid exit codes here, exit codes for ms http://msdn.microsoft.com/en-us/library/aa368542(VS.85).aspx
 
 Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url"  -validExitCodes $validExitCodes
