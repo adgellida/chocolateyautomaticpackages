@@ -1,6 +1,6 @@
-﻿$packageName = '{{PackageName}}'
+﻿$packageName = 'avastfreeantivirus'
 $installerType = 'EXE'
-$url = '{{DownloadUrl}}'
+$url = 'http://files.avast.com/iavs9x/avast_free_antivirus_setup.exe'
 $silentArgs = ''
 $validExitCodes = @(0) #please insert other valid exit codes here, exit codes for ms http://msdn.microsoft.com/en-us/library/aa368542(VS.85).aspx
 
