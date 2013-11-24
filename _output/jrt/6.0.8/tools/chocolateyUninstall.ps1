@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+$packageName = 'jrt'
 
 try {
   Remove-Item "$Home\Desktop\JRT.exe.lnk"
