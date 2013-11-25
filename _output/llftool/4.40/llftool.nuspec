@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>llftool</id
+    <id>llftool</id>
     <title>HDD Low Level Format Tool</title>
     <version>4.40</version>
     <authors>HDDGURU</authors>
