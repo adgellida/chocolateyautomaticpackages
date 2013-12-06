@@ -18,12 +18,12 @@ Causes of errors:
 * My mistake, I'm human, not perfect.
 * I don't have a system 100% autonomous for all packages, so I've to update manually a few packages, specially prerelease versions.
 * Author doesn't update the version number on his web or on the web where I found the version isn't updated.
-* Place where are version and installer is changed, so the package doesn't works.
+* Place where are version and installer is changed, so the package doesn't works or choco not push an updated version.
 
-Package with error
+Packages with errors
 
 * driver genius. Server not responding.
 
 Advices
 
-* 05/11/13 - By now this repo has only stable versions, prerelease versions will be on the next chocolateyautomaticpackagesbeta repo.
+* 05/11/13 - By now this repo has only stable versions, prerelease versions will be on the next chocolateyautomaticpackagesbeta repo when I've time.
