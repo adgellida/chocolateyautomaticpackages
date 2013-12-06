@@ -26,4 +26,5 @@ Packages with errors
 
 Advices
 
+* 06/12/13 - All versions works on windows vista, 7, 8, 8.1 etc. on xp wasn't tested.
 * 05/11/13 - By now this repo has only stable versions, prerelease versions will be on the next chocolateyautomaticpackagesbeta repo when I've time.
