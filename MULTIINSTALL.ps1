@@ -1,23 +1,23 @@
 ####multi-installer, select programs to install 
-####v.2013.09.21-alpha
+####v.2013.12.16-alpha
 
 #Backup & Sync
 #'goodsync' | %{ cinst $_ }
 
 #OS & Utilities
 'ccleaner','teamviewer','notepadplusplus.install','silverlight' | %{ cinst $_ }
-#'driverbooster -Pre','sumo','softwareinformer' | %{ cinst $_ }
-#'classic-shell' | %{ cinst $_ }	#Needs beta
+#'driverbooster','sumo','softwareinformer' | %{ cinst $_ }
+#'clover','classic-shell' | %{ cinst $_ }	#Needs beta
 #'speccy','openhardwaremonitor','wudt','yumi','cyg-get','cnettechtracker' | %{ cinst $_ }
 #'kcleaner','littleregistrycleaner','ccenhancer','speedfan','crystaldiskinfo','easybcd','llftool' | %{ cinst $_ }
 #'startmenureviver','startmenu8' | %{ cinst $_ }
 #'hpusbdisk','systemninja','bleachbit','genymotion','mousecontroller','tinytask','wassapp','advancedsystemcarefree','tuneuputilities' | %{ cinst $_ }
 #'windowsrepair','simplesystemtweaker','advancedsystemtweaker','rmprepusb' | %{ cinst $_ }
 #'flashplayerplugin','flashplayeractivex','cpu-z','virtualbox','virtualbox.extensionpack','greenshot' | %{ cinst $_ }
-#'openal','ghostscript','winpcap','webpi','aria2' | %{ cinst $_ }
+#'openal','ghostscript','winpcap','webpi','aria2','wuinstall' | %{ cinst $_ }
 
 #Security & Privacy
-#'spybot','superantispyware','avastbrowsercleanup','winlockless','malwarebytes','Secunia.PSI','nmap','truecrypt','tor-browser','piratebrowser' | %{ cinst $_ }
+#'spybot','superantispyware','avastbrowsercleanup','winlockless','malwarebytes','Secunia.PSI','nmap','truecrypt','tor-browser','piratebrowser -Pre','adwcleaner','jrt','bitdefenderavfree' | %{ cinst $_ }
 
 #CD/DVD Tools
 'imgburn' | %{ cinst $_ }
@@ -27,7 +27,7 @@
 #'designsparkpcb','kicad','fritzing' | %{ cinst $_ }
 
 #Audio & Music
-#'songr','spotify' | %{ cinst $_ }
+#'songr','spotify','openshark' | %{ cinst $_ }
 
 #Videos & Movies
 'vlc' | %{ cinst $_ }
