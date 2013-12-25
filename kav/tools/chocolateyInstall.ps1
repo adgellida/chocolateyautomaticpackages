@@ -1,7 +1,7 @@
 ﻿$packageName = '{{PackageName}}'
 $installerType = 'EXE'
 $LCID = (Get-Culture).LCID
-$silentArgs = '/s'
+$silentArgs = ''
 $validExitCodes = @(0) #please insert other valid exit codes here, exit codes for ms http://msdn.microsoft.com/en-us/library/aa368542(VS.85).aspx
 
 ##Spanish - Spain (Modern Sort) - Spain (Traditional Sort) (es-es)
