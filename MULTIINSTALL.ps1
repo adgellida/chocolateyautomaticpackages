@@ -1,14 +1,13 @@
 ####multi-installer, select programs to install 
-####v.2013.12.16-alpha
+####v.2013.12.28-alpha
 
 #Backup & Sync
 #'goodsync' | %{ cinst $_ }
 
 #OS & Utilities
-'ccleaner','teamviewer','notepadplusplus.install','silverlight' | %{ cinst $_ }
+'ccleaner','teamviewer','notepadplusplus.install','silverlight','classic-shell' | %{ cinst $_ }
 #'driverbooster','sumo','softwareinformer' | %{ cinst $_ }
-#'clover','classic-shell' | %{ cinst $_ }	#Needs beta
-#'speccy','openhardwaremonitor','wudt','yumi','cyg-get','cnettechtracker' | %{ cinst $_ }
+#'clover','speccy','openhardwaremonitor','wudt','yumi','cyg-get','cnettechtracker' | %{ cinst $_ }
 #'kcleaner','littleregistrycleaner','ccenhancer','speedfan','crystaldiskinfo','easybcd','llftool' | %{ cinst $_ }
 #'startmenureviver','startmenu8' | %{ cinst $_ }
 #'hpusbdisk','systemninja','bleachbit','genymotion','mousecontroller','tinytask','wassapp','advancedsystemcarefree','tuneuputilities' | %{ cinst $_ }
@@ -38,18 +37,18 @@
 #'windowsessentials','atubecatcher' | %{ cinst $_ }
 
 #Development
-'javaruntime' | %{ cinst $_ }
+#'javaruntime' | %{ cinst $_ }
 #'Dogtail.DotNet3.5SP1','DotNet4.5','DotNet4.0' | %{ cinst $_ }
 #'geany','meld','winmerge' | %{ cinst $_ }
-#'arduinoide','arduinoide -Version 1.5.3.20130905-beta -Pre','arduinoide -Pre' | %{ cinst $_ }
+#'arduinoide','arduinoide -Version 1.5.5-beta -Pre' | %{ cinst $_ }
 #'orwelldevcpp','smartgit','unity' | %{ cinst $_ }
 
 #Web Browsers
 #'googlechrome.dev' | %{ cinst $_ }
 #'googlechrome','chromium','midori-browser' | %{ cinst $_ }
-#'firefox' | %{ cinst $_ }
+#'firefox','aurora' | %{ cinst $_ }
 #'adblockplusfirefox','adblockplusie','adblockplusopera' | %{ cinst $_ }
-'adblockpluschrome' | %{ cinst $_ }
+#'adblockpluschrome' | %{ cinst $_ }
 
 #Social
 #'messengerreviver','viber','trillian','line','skype' | %{ cinst $_ }
