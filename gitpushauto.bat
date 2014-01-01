@@ -1,2 +1,6 @@
-C:\Windows\System32\cmd.exe /c "C:\Program Files (x86)\Git\bin\sh.exe" --login -i -c gitpushauto
-exit
+set PATH=%PATH%;"C:\Program Files (x86)\Git\bin\"
+cd "C:\Users\Tonin\PERSONAL\PROYECTOS\github\chocolateyautomaticpackages"
+git add .
+git add -u
+git commit -m 'Updating'
+git push -u origin master
