@@ -20,11 +20,8 @@ Causes of errors:
 * Author doesn't update the version number on his web or on the web where I found the version isn't updated.
 * Place where are version and installer is changed, so the package doesn't works or choco not push an updated version.
 
-Packages with errors
-
-* driver genius. Server not responding.
-
 Advices
 
+* 04/01/14 - Updated daily (only auto packages)
 * 06/12/13 - All versions works on windows vista, 7, 8, 8.1 etc. on xp wasn't tested.
 * 05/11/13 - By now this repo has only stable versions, prerelease versions will be on the next chocolateyautomaticpackagesbeta repo when I've time.
