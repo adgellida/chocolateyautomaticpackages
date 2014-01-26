@@ -1,12 +1,12 @@
 ####multi-installer, select programs to install 
-####v.2014.01.21-alpha
+####v.2014.01.26-alpha
 
 #Backup & Sync
 #'goodsync' | %{ cinst $_ }
 
 #OS & Utilities
 'ccleaner','teamviewer','notepadplusplus.install','silverlight','classic-shell' | %{ cinst $_ }
-#'displayfusion','driverbooster','sumo','softwareinformer' | %{ cinst $_ }
+#'ChocoPM.install -Pre','displayfusion','driverbooster','sumo','softwareinformer' | %{ cinst $_ }
 #'clover','speccy','openhardwaremonitor','wudt','yumi','cyg-get','cnettechtracker' | %{ cinst $_ }
 #'kcleaner','littleregistrycleaner','ccenhancer','speedfan','crystaldiskinfo','easybcd','llftool' | %{ cinst $_ }
 #'startmenureviver','startmenu8' | %{ cinst $_ }
