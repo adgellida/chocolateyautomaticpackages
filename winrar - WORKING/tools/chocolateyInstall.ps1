@@ -1,0 +1,1 @@
+﻿Install-ChocolateyPackage 'winrar' 'exe' '/s' 'http://www.rarlabs.com/rar/wrar500.exe' 'http://www.rarlabs.com/rar/winrar-x64-500.exe'
