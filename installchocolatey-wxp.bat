@@ -1,7 +1,7 @@
 @echo off
 
-rem ####install chocolatey
-rem ####v.2013.05.30 alpha 16:05 GMT+1
+rem ####install chocolatey wxp
+rem ####v.2014.01.28 alpha 23:22 GMT+1
 
 @powershell Write-Host "Installing Chocolatey, ChocolateyGUI and Nuget Package Explorer... Please wait"
 @powershell Start-Sleep -s 3 
