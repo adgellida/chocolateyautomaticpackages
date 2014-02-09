@@ -6,7 +6,9 @@
     <version>{{PackageVersion}}</version>
     <authors>SUPERAntiSpyware</authors>
     <owners>tonigellida</owners>
-    <summary></summary>
+    <summary>
+SUPERAntiSpyware is a software application which can detect and remove spyware, adware, malware, trojans, rogue software, worms, rootkits, parasites and other potentially harmful software applications, as well as restore modified system settings.
+	</summary>
     <description>
 SUPERAntiSpyware is a software application which can detect and remove spyware, adware, malware, trojans, rogue software, worms, rootkits, parasites and other potentially harmful software applications, as well as restore modified system settings.
 It can detect malware, however it is not designed to replace an antivirus software.

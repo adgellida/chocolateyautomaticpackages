@@ -6,7 +6,9 @@
     <version>{{PackageVersion}}</version>
     <authors>Alfredo Milani Comparetti</authors>
     <owners>tonigellida</owners>
-    <summary></summary>
+    <summary>
+SpeedFan is a program that monitors voltages, fan speeds and temperatures in computers with hardware monitor chips.
+	</summary>
     <description>
 SpeedFan is a program that monitors voltages, fan speeds and temperatures in computers with hardware monitor chips.
 SpeedFan can even access S.M.A.R.T. info and show hard disk temperatures. SpeedFan supports SCSI disks too.

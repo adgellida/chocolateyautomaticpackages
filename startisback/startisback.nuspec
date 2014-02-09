@@ -6,7 +6,9 @@
     <version>{{PackageVersion}}</version>
     <authors>D.I. Management Services Pty Limited</authors>
     <owners>tonigellida</owners>
-    <summary></summary>
+    <summary>
+StartIsBack returns Windows 8 a real fully featured start menu and start button, behaving exactly like the ones in Windows 7.
+	</summary>
     <description>
 StartIsBack returns Windows 8 a real fully featured start menu and start button, behaving exactly like the ones in Windows 7.
 StartIsBack radically improves desktop usability and makes new Start screen clutter-free.

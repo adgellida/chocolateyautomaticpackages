@@ -6,7 +6,9 @@
     <version>{{PackageVersion}}</version>
     <authors>vTask Studio</authors>
     <owners>tonigellida</owners>
-    <summary></summary>
+    <summary>
+TinyTask provides quick and easy automation by recording-playback.
+	</summary>
     <description>
 TinyTask provides quick and easy automation by recording-playback.
 It is a case study in minimalist programming: the entire program is only 32k -- and over 14k are graphics, which means the executable portion is very small and efficient.

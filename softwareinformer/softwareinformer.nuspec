@@ -6,7 +6,9 @@
     <version>{{PackageVersion}}</version>
     <authors>Informer Technologies, Inc.</authors>
     <owners>tonigellida</owners>
-    <summary></summary>
+    <summary>
+Software Informer is a programme, whose primary aim is to give you the up-to-date information about the software you actually use.
+	</summary>
     <description>
 Software Informer is a programme, whose primary aim is to give you the up-to-date information about the software you actually use.
 Whenever a more recent version of any programme becomes available, Software Informer notifies you and offers a link for downloading the update.

@@ -6,7 +6,9 @@
     <version>{{PackageVersion}}</version>
     <authors>Tweaking.com</authors>
     <owners>tonigellida</owners>
-    <summary></summary>
+    <summary>
+Simple System Tweaker is designed to bring only the safest tweaks to your system to increase speed and stability.
+	</summary>
     <description>
 Simple System Tweaker is designed to bring only the safest tweaks to your system to increase speed and stability.
 Windows is setup in a default configuration.

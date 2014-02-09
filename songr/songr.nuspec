@@ -6,7 +6,9 @@
     <version>{{PackageVersion}}</version>
     <authors>Xamasoft</authors>
     <owners>tonigellida</owners>
-    <summary></summary>
+    <summary>
+Songr is a cloud music player that streams and downloads music from multiple web services, including Grooveshark, Prostopleer, MusicSearch, YouTube and many others (including the music already on your computer).
+	</summary>
     <description>
 Songr is a cloud music player that streams and downloads music from multiple web services, including Grooveshark, Prostopleer, MusicSearch, YouTube and many others (including the music already on your computer).
 	</description>

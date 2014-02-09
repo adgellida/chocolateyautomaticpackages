@@ -6,7 +6,9 @@
     <version>{{PackageVersion}}</version>
     <authors>KC Softwares</authors>
     <owners>tonigellida</owners>
-    <summary></summary>
+    <summary>
+Thanks to SUMo youll be able to keep your PC up-to-date by using the most recent version of your favorite software!
+	</summary>
     <description>
 SUMo, which stands for Software Update Monitor. Thanks to SUMo youll be able to keep your PC up-to-date by using the most recent version of your favorite software!
 Unlike build-in auto update features, SUMo tells you if updates are available before you need to use your software.

@@ -6,7 +6,9 @@
     <version>{{PackageVersion}}</version>
     <authors>beischer don_lucas mattpyne</authors>
     <owners>tonigellida</owners>
-    <summary></summary>
+    <summary>
+TinyCAD is an open source schematic capture program for MS Windows.
+	</summary>
     <description>
 TinyCAD is an open source schematic capture program for MS Windows.
 Use TinyCAD to produce professional circuit diagrams and export net list information to PCB applications.

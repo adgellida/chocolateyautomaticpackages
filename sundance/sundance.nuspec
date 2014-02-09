@@ -6,7 +6,9 @@
     <version>{{PackageVersion}}</version>
     <authors>Digola</authors>
     <owners>tonigellida</owners>
-    <summary></summary>
+    <summary>
+Sundance is a browser without a conservative interface.
+	</summary>
     <description>
 Sundance is a browser without a conservative interface.
 Its features include One-Click WebPage Translation, very clean user interface, without address bar, floating navigation bar, redirect, scrolling RSS, transparent forms, quick web search, quick menu, wysiwyg page designer, changeable user agent string...

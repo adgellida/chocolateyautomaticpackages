@@ -6,7 +6,9 @@
     <version>{{PackageVersion}}</version>
     <authors>Safer Networking Ltd</authors>
     <owners>tonigellida</owners>
-    <summary></summary>
+    <summary>
+Spybot - Search and Destroy detects and removes spyware, a relatively new kind of threat not yet covered by common anti-virus applications.
+	</summary>
     <description>
 Spybot - Search and Destroy detects and removes spyware, a relatively new kind of threat not yet covered by common anti-virus applications.
 Companies and institutions need to buy licenses for the commercial versions of our software.

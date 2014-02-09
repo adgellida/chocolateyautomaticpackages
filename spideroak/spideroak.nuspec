@@ -6,7 +6,9 @@
     <version>{{PackageVersion}}</version>
     <authors>SpiderOak</authors>
     <owners>tonigellida</owners>
-    <summary></summary>
+    <summary>
+SpiderOak provides an easy, secure and consolidated free online backup, storage, access, sharing and sync tool for Windows, Mac OS X, and Linux.
+	</summary>
     <description>
 SpiderOak provides an easy, secure and consolidated free online backup, storage, access, sharing and sync tool for Windows, Mac OS X, and Linux (Ubuntu, Debian and Fedora).
 SpiderOak offers a different approach to online backup, synchronization, and sharing.

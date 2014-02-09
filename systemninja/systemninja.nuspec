@@ -6,7 +6,9 @@
     <version>{{PackageVersion}}</version>
     <authors>SingularLabs</authors>
     <owners>tonigellida</owners>
-    <summary></summary>
+    <summary>
+System Ninja is a fast, powerful and effective system optimization solution for Windows XP, Windows Vista and Windows 7.
+	</summary>
     <description>
 System Ninja is a fast, powerful and effective system optimization solution for Windows XP, Windows Vista and Windows 7.
 It’s designed to quickly remove junk files, improve system speed and help fix problems.
