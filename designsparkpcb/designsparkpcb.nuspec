@@ -6,7 +6,9 @@
     <version>{{PackageVersion}}</version>
     <authors>RS Components Ltd</authors>
     <owners>tonigellida</owners>
-    <summary></summary>
+    <summary>
+The World’s Most Powerful Free Schematic and PCB Layout.
+	</summary>
     <description>
 The World’s Most Powerful Free Schematic and PCB Layout.
 ======= Notes =======

@@ -6,7 +6,9 @@
     <version>{{PackageVersion}}</version>
     <authors>LINE Corporation</authors>
     <owners>tonigellida</owners>
-    <summary></summary>
+    <summary>
+Free SMS, Free Voice call messenger application.
+	</summary>
     <description>
 Free SMS, Free Voice call messenger application.
 	</description>

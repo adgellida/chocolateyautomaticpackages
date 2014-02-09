@@ -6,7 +6,9 @@
     <version>{{PackageVersion}}</version>
     <authors>Avira</authors>
     <owners>tonigellida</owners>
-    <summary></summary>
+    <summary>
+Avira Free Antivirus offers basic protection for your computer against dangerous viruses, worms, spy-ware, trojans and costly dialers.
+	</summary>
     <description>
 Avira Free Antivirus offers basic protection for your computer against dangerous viruses, worms, spy-ware, trojans and costly dialers.
 	</description>

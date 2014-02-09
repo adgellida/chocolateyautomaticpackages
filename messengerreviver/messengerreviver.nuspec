@@ -6,7 +6,9 @@
     <version>{{PackageVersion}}</version>
     <authors>Jonathan Kay</authors>
     <owners>tonigellida</owners>
-    <summary></summary>
+    <summary>
+Messenger Reviver is a messenger repair tool that allows use of Windows Live Messenger even after the migration to Skype.
+	</summary>
     <description>
 Messenger Reviver is a messenger repair tool that allows use of Windows Live Messenger even after the migration to Skype.
 This simple app can install working versions of Messenger 2012 or Messenger 2009 and also “Revive” (repair and modify) versions of Messenger 2012, 2011, and 2009 that are already installed.

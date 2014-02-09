@@ -6,7 +6,9 @@
     <version>{{PackageVersion}}</version>
     <authors>S2 Games</authors>
     <owners>tonigellida</owners>
-    <summary></summary>
+    <summary>
+A game imitating the look of DOTA, now with a dedicated server and ratings saved in your history to make matches equally fighting for both parts.
+	</summary>
     <description>
 A game imitating the look of DOTA, now with a dedicated server and ratings saved in your history to make matches equally fighting for both parts.
 	</description>

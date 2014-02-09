@@ -6,7 +6,9 @@
     <version>{{PackageVersion}}</version>
     <authors>ExtendOffice</authors>
     <owners>tonigellida</owners>
-    <summary>Adding Tabbed Interface for Office</summary>
+    <summary>
+Adding Tabbed Interface for Office
+	</summary>
     <description>
 It enables tabbed browsing, editing, and managing of Microsoft Office applications.
 You can open multiple documents / files in a single tabbed window, such as using the browser IE 8/9/10, Firefox, and Google Chrome, and also save and close all Office documents with just one click.

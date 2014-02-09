@@ -6,7 +6,9 @@
     <version>{{PackageVersion}}</version>
     <authors>Giorgio Tani</authors>
     <owners>tonigellida</owners>
-    <summary></summary>
+    <summary>
+PeaZip is a cross-platform file archiver and file manager utility.
+	</summary>
     <description>
 PeaZip is a cross-platform file archiver and file manager utility.
 The program supports over 150 archive formats including 7Z, ACE, ARC, ARJ, BZ2, CAB, DMG, GZ, ISO, LHA, PAQ, PEA, RAR, TAR, UDF, WIM, ZIP, ZIPX...

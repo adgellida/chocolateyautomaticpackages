@@ -6,7 +6,9 @@
     <version>{{PackageVersion}}</version>
     <authors>F-Secure</authors>
     <owners>tonigellida</owners>
-    <summary></summary>
+    <summary>
+F-Secure Anti-Virus provides real-time protection against viruses, spyware, infected e-mail attachments and other malware.
+	</summary>
     <description>
 F-Secure Anti-Virus provides real-time protection against viruses, spyware, infected e-mail attachments and other malware.
 Automatic updates and advanced real-time response guarantee the fastest protection against all new threats, while DeepGuard 5 Exploit Protection elevates your protection to a new level.

@@ -6,7 +6,9 @@
     <version>{{PackageVersion}}</version>
     <authors>DT Soft Ltd</authors>
     <owners>tonigellida</owners>
-    <summary></summary>
+    <summary>
+DAEMON Tools Lite is an advanced application for Microsoft Windows which provides one of the best optical media emulation in the industry.
+	</summary>
     <description>
 DAEMON Tools Lite is an advanced application for Microsoft Windows which provides one of the best optical media emulation in the industry.
 You can mount *.mdx, *.mds/*.mdf, *.iso, *.b5t, *.b6t, *.bwt, *.ccd, *.cdi, *.cue, *.nrg, *.pdi, *.isz disc images to a virtual drive.

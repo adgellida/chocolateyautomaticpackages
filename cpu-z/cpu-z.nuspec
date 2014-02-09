@@ -6,7 +6,9 @@
     <version>{{PackageVersion}}</version>
     <authors>CPUID</authors>
     <owners>tonigellida</owners>
-    <summary></summary>
+    <summary>
+CPU-Z is a freeware system profiler (system monitor) application for Microsoft Windows (for all versions from 95 on) that detects the central processing unit, RAM, motherboard chipset, and other hardware features of a modern personal computer, and presents the information in one window.
+	</summary>
     <description>
 CPU-Z is a freeware system profiler (system monitor) application for Microsoft Windows (for all versions from 95 on) that detects the central processing unit, RAM, motherboard chipset, and other hardware features of a modern personal computer, and presents the information in one window.
 CPU-Z is more in-depth in some areas than the features that Windows XP provides to identify various hardware components, and is thus needed to identify certain components without opening the case, especially the core revision and RAM clock rate.

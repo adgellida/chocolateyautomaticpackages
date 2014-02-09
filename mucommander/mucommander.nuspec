@@ -6,7 +6,9 @@
     <version>{{PackageVersion}}</version>
     <authors>Maxence Bernard</authors>
     <owners>tonigellida</owners>
-    <summary></summary>
+    <summary>
+muCommander is a cross-platform file manager that will run on any operating system which supports Java.
+	</summary>
     <description>
 muCommander is a cross-platform file manager that will run on any operating system which supports Java.
 It features a Norton Commander style interface to allow easy manipulation of files with many keyboard shortcuts.

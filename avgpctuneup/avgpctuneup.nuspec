@@ -6,10 +6,12 @@
     <version>{{PackageVersion}}</version>
     <authors>AVG</authors>
     <owners>tonigellida</owners>
-    <summary></summary>
+    <summary>
+Get more speed, less crashing, longer battery life and more disk space, whether you choose automatic maintenance or want to take a more hands on approach.
+	</summary>
     <description>
 Remember how your PC ran when you first got it?
-New AVG PC TuneUp 2014 keeps your computer at peak performance.
+New AVG PC TuneUp keeps your computer at peak performance.
 Get more speed, less crashing, longer battery life and more disk space, whether you choose automatic maintenance or want to take a more hands on approach.
 	</description>
     <projectUrl>http://www.avg.com/us-en/avg-pctuneup</projectUrl>

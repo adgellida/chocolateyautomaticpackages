@@ -6,7 +6,9 @@
     <version>{{PackageVersion}}</version>
     <authors>FinalWire</authors>
     <owners>tonigellida</owners>
-    <summary></summary>
+    <summary>
+AIDA64 Extreme Edition is a streamlined Windows diagnostic and benchmarking software for home users.
+	</summary>
     <description>
 AIDA64 Extreme Edition is a streamlined Windows diagnostic and benchmarking software for home users.
 AIDA64 Extreme Edition provides a wide range of features to assist in overclocking, hardware error diagnosis, stress testing, and sensor monitoring.

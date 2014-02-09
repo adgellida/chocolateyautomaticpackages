@@ -6,7 +6,9 @@
     <version>{{PackageVersion}}</version>
     <authors>ALWIL Software</authors>
     <owners>tonigellida</owners>
-    <summary></summary>
+    <summary>
+This new tool serves to delete pesky and unwanted toolbars and plug-ins from your browser(s).
+	</summary>
     <description>
 This new tool serves to delete pesky and unwanted toolbars and plug-ins from your browser(s).
 Simply download and run the Browser Cleanup utility without the need to install anything.

@@ -6,7 +6,9 @@
     <version>{{PackageVersion}}</version>
     <authors>IObit Razer</authors>
     <owners>tonigellida</owners>
-    <summary></summary>
+    <summary>
+Designed to help optimize your PC for smoother, more responsive game play in the latest PC games.
+	</summary>
     <description>
 Designed to help optimize your PC for smoother, more responsive game play in the latest PC games.
 Game Booster helps achieve the performance edge previously only available to highly technical enthusiasts.

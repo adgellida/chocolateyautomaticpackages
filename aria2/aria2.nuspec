@@ -6,7 +6,9 @@
     <version>{{PackageVersion}}</version>
     <authors>Tatsuhiro Tsujikawa</authors>
     <owners>tonigellida</owners>
-    <summary></summary>
+    <summary>
+aria2 is a multi-protocol and multi-source, cross platform download utility. The supported protocols are HTTP(S), FTP, BitTorrent (DHT, PEX, MSE/PE), and Metalink.
+	</summary>
     <description>
 aria2 is a multi-protocol and multi-source, cross platform download utility. The supported protocols are HTTP(S), FTP, BitTorrent (DHT, PEX, MSE/PE), and Metalink.
 aria2 can download a file from multiple sources/protocols and tries to utilize your maximum download bandwidth.

@@ -6,7 +6,9 @@
     <version>{{PackageVersion}}</version>
     <authors>Horizon DataSys</authors>
     <owners>tonigellida</owners>
-    <summary></summary>
+    <summary>
+RollBack Rx client is a robust system restore utility that enables home users and IT professionals to easily restore a PC to a time before certain events occurred.
+	</summary>
     <description>
 RollBack Rx client is a robust system restore utility that enables home users and IT professionals to easily restore a PC to a time before certain events occurred.
 RollBack Rx makes it easy for users of all skill levels to quickly and easily repair PC issues - saving time, money and PC trouble.

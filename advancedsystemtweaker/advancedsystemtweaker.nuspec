@@ -6,7 +6,9 @@
     <version>{{PackageVersion}}</version>
     <authors>Tweaking.com</authors>
     <owners>tonigellida</owners>
-    <summary></summary>
+    <summary>
+Advanced System Tweaker is a central hub for any kind of tweak or anything else that can be done via registry files, commands and vbscript files.
+	</summary>
     <description>
 Advanced System Tweaker is a central hub for any kind of tweak or anything else that can be done via registry files, commands and vbscript files.
 The add-ons in the program allow it to grow and handle just about anything.

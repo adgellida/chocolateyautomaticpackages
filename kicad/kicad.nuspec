@@ -6,7 +6,9 @@
     <version>{{PackageVersion}}</version>
     <authors>Jean-Pierre Charras</authors>
     <owners>tonigellida</owners>
-    <summary></summary>
+    <summary>
+KiCad is an open source software suite for electronic design automation (EDA) - designing schematics of electronic circuits and printed circuit boards (PCB).
+	</summary>
     <description>
 KiCad is an open source software suite for electronic design automation (EDA) - designing schematics of electronic circuits and printed circuit boards (PCB).
 And features an integrated environment between schematic capture, bill of materials list, and PCB layout.

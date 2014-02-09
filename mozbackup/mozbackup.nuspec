@@ -6,7 +6,9 @@
     <version>{{PackageVersion}}</version>
     <authors>Pavel Cvrcek</authors>
     <owners>tonigellida</owners>
-    <summary></summary>
+    <summary>
+MozBackup is a simple utility for creating backups of Mozilla Firefox, Mozilla Thunderbird, Mozilla Sunbird, Flock, SeaMonkey, Mozilla Suite, Spicebird, Songbird and Netscape profiles.
+	</summary>
     <description>
 MozBackup is a simple utility for creating backups of Mozilla Firefox, Mozilla Thunderbird, Mozilla Sunbird, Flock, SeaMonkey, Mozilla Suite, Spicebird, Songbird and Netscape profiles.
 	</description>

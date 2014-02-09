@@ -6,7 +6,9 @@
     <version>{{PackageVersion}}</version>
     <authors>lap3k</authors>
     <owners>tonigellida</owners>
-    <summary></summary>
+    <summary>
+Ares is a free open source file sharing program that enables users to share any digital file including images, audio, video, software, documents, etc.
+	</summary>
     <description>
 Ares is a free open source file sharing program that enables users to share any digital file including images, audio, video, software, documents, etc.
 You may now easily publish your files through the Ares peer to peer network.

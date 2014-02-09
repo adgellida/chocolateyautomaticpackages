@@ -6,7 +6,9 @@
     <version>{{PackageVersion}}</version>
     <authors>EFD Software</authors>
     <owners>tonigellida</owners>
-    <summary></summary>
+    <summary>
+HD Tune is a Hard Disk utility.
+	</summary>
     <description>
 HD Tune is a Hard Disk utility which has the following functions:
 -Benchmark: measures the performance,

@@ -6,7 +6,9 @@
     <version>{{PackageVersion}}</version>
     <authors>Diego Uscanga</authors>
     <owners>tonigellida</owners>
-    <summary></summary>
+    <summary>
+Download videos from web sites like Youtube, Dailymotion, Google, Yahoo!, Metacafe, Spike, Megarotic, Yahoo!, CBS, Comedycentral, MyPlay, Globo, RTVE, etc.
+	</summary>
     <description>
 Download videos from web sites like Youtube, Dailymotion, Google, Yahoo!, Metacafe, Spike, Megarotic, Yahoo!, CBS, Comedycentral, MyPlay, Globo, RTVE, etc;
 now has support for more than 100+ video sharing sites.

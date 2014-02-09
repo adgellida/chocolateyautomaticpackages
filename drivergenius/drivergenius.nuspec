@@ -6,7 +6,9 @@
     <version>{{PackageVersion}}</version>
     <authors>Driver-Soft Inc.</authors>
     <owners>tonigellida</owners>
-    <summary></summary>
+    <summary>
+Driver Genius Professional is a professional driver management tool that features both driver management and hardware diagnostics.
+	</summary>
     <description>
 Driver Genius Professional is a professional driver management tool that features both driver management and hardware diagnostics.
 Driver Genius Professional can backup, restore and update all your drivers in several mouse clicks.

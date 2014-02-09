@@ -6,7 +6,9 @@
     <version>{{PackageVersion}}</version>
     <authors>Andrew Ziem</authors>
     <owners>tonigellida</owners>
-    <summary></summary>
+    <summary>
+BleachBit deletes unnecessary files to free valuable disk space, maintain privacy, and remove junk.
+	</summary>
     <description>
 BleachBit deletes unnecessary files to free valuable disk space, maintain privacy, and remove junk.
 Rid your system of old clutter including cache, cookies, Internet history, localizations, logs, temporary files, and broken shortcuts.

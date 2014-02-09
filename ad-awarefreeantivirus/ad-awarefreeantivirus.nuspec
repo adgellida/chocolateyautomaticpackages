@@ -6,7 +6,9 @@
     <version>{{PackageVersion}}</version>
     <authors>Lavasoft</authors>
     <owners>tonigellida</owners>
-    <summary></summary>
+    <summary>
+Ad-Aware Free Antivirus+ combines the legendary Anti-spyware engine with a super fast, free Antivirus.
+	</summary>
     <description>
 Ad-Aware Free Antivirus+ combines the legendary Anti-spyware engine with a super fast, free Antivirus.
 It now features download protection (blocks malicious files before being written to disk), sandboxing (keeps unknown apps running in a virtual environment) and advanced detection.

@@ -6,7 +6,9 @@
     <version>{{PackageVersion}}</version>
     <authors>Thisisu</authors>
     <owners>tonigellida</owners>
-    <summary></summary>
+    <summary>
+Junkware Removal Tool is a security utility that searches for and removes common adware, toolbars, and potentially unwanted programs (PUPs) from your computer.
+	</summary>
     <description>
 Junkware Removal Tool is a security utility that searches for and removes common adware, toolbars, and potentially unwanted programs (PUPs) from your computer.
 A common tactics among freeware publishers is to offer their products for free, but bundle them with PUPs in order to earn revenue.

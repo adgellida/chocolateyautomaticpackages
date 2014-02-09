@@ -6,7 +6,9 @@
     <version>{{PackageVersion}}</version>
     <authors>Siber Systems Inc.</authors>
     <owners>tonigellida</owners>
-    <summary></summary>
+    <summary>
+GoodSync synchronizes and backs up files such as photos, financial documents, MP3s, e-mails between desktops, laptops, servers, and external drives.
+	</summary>
     <description>
 GoodSync synchronizes and backs up files such as photos, financial documents, MP3s, e-mails between desktops, laptops, servers, and external drives.
 GoodSync is the latest software in a series of highly reliable, easy-to-use products from Siber Systems, the makers of RoboForm.

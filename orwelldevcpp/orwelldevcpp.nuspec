@@ -6,7 +6,9 @@
     <version>{{PackageVersion}}</version>
     <authors>Orwell</authors>
     <owners>tonigellida</owners>
-    <summary></summary>
+    <summary>
+Orwell Dev-C++ is a Portable (IDE) Integrated Development Environment and Compiler for the C++ programming language.
+	</summary>
     <description>
 Orwell Dev-C++ is a Portable (IDE) Integrated Development Environment and Compiler for the C++ programming language. 
 It's a maintained version of Dev-C++ which features an updated MinGW compiler and updated code.

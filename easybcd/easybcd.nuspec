@@ -6,7 +6,9 @@
     <version>{{PackageVersion}}</version>
     <authors>NeoSmart Technologies</authors>
     <owners>tonigellida</owners>
-    <summary></summary>
+    <summary>
+EasyBCD is the answer to tweaking the Windows bootloader. With EasyBCD, almost anything is possible, e.g. to boot a Win7-VHD-image.
+	</summary>
     <description>
 EasyBCD is the answer to tweaking the Windows bootloader. With EasyBCD, almost anything is possible, e.g. to boot a Win7-VHD-image.
 Setting up and configuring Windows boot entries is simple, and there is no easier way to quickly boot right into Linux, Mac OS X, or BSD straight from the Windows bootloader - on the fly, no expert knowledge needed!

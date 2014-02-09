@@ -6,7 +6,9 @@
     <version>{{PackageVersion}}</version>
     <authors>hiyohiyo</authors>
     <owners>tonigellida</owners>
-    <summary></summary>
+    <summary>
+CrystalDiskInfo is a HDD/SSD utility software which shows the health status much more clearly than similar tools.
+	</summary>
     <description>
 CrystalDiskInfo is a HDD/SSD utility software which shows the health status much more clearly than similar tools.
 The "Function / Graph" is especially interesting for the "Reallocated Sectors Count".

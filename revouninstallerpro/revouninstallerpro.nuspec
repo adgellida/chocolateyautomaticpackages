@@ -6,7 +6,9 @@
     <version>{{PackageVersion}}</version>
     <authors>VS Revo Group</authors>
     <owners>tonigellida</owners>
-    <summary></summary>
+    <summary>
+Revo Uninstaller Pro helps you to uninstall software and remove unwanted programs installed on your computer easily! Even if you have problems uninstalling and cannot uninstall them from "Windows Programs and Features (Add or Remove Programs)" control panel applet.
+	</summary>
     <description>
 Revo Uninstaller Pro helps you to uninstall software and remove unwanted programs installed on your computer easily! Even if you have problems uninstalling and cannot uninstall them from "Windows Programs and Features (Add or Remove Programs)" control panel applet.
 Revo Uninstaller is a much faster and more powerful alternative to "Windows Programs and Features (Add or Remove Programs)" applet!

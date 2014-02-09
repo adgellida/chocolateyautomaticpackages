@@ -6,7 +6,9 @@
     <version>{{PackageVersion}}</version>
     <authors>CadSoft</authors>
     <owners>tonigellida</owners>
-    <summary></summary>
+    <summary>
+The EAGLE Layout Editor is an easy to use, yet powerful tool for designing printed circuit boards (PCBs).
+	</summary>
     <description>
 The EAGLE Layout Editor is an easy to use, yet powerful tool for designing printed circuit boards (PCBs).
 The program consists of three main modules: Layout Editor, Schematic Editor, and Autorouter.

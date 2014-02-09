@@ -6,7 +6,9 @@
     <version>{{PackageVersion}}</version>
     <authors>Kaspersky Lab</authors>
     <owners>tonigellida</owners>
-    <summary></summary>
+    <summary>
+Kaspersky Anti-Virus offers protection from a range of IT threats and provides the basic tools needed to keep your PC secure.
+	</summary>
     <description>
 Kaspersky Anti-Virus offers protection from a range of IT threats and provides the basic tools needed to keep your PC secure.
 Kaspersky lets you surf the web safely and keeps your PC free of viruses, Internet and email worms, and Trojans.

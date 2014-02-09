@@ -6,7 +6,9 @@
     <version>{{PackageVersion}}</version>
     <authors>SingularLabs</authors>
     <owners>tonigellida</owners>
-    <summary></summary>
+    <summary>
+CCEnhancer is a small tool which adds support for over 900 new programs into the popular program CCleaner.
+	</summary>
     <description>
 CCEnhancer is a small tool which adds support for over 900 new programs into the popular program CCleaner.
 The tool uses the winapp2.ini system built into CCleaner to easily add new rules and definitions for programs.

@@ -6,7 +6,9 @@
     <version>{{PackageVersion}}</version>
     <authors>Bitdefender</authors>
     <owners>tonigellida</owners>
-    <summary></summary>
+    <summary>
+Bitdefender Antivirus Free Edition offers baseline protection against viruses and all other types of malware.
+	</summary>
     <description>
 Bitdefender Antivirus Free Edition offers baseline protection against viruses and all other types of malware.
 Using #1 ranked antivirus technology, it will detect and clean e-threats without causing slowdown or requiring configurations.

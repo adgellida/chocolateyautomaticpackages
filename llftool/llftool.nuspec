@@ -6,7 +6,9 @@
     <version>{{PackageVersion}}</version>
     <authors>HDDGURU</authors>
     <owners>tonigellida</owners>
-    <summary></summary>
+    <summary>
+This freeware Low Level Format utility will erase, Low-Level Format and re-certify a SATA, IDE or SCSI hard disk drive with any size of up to 281 474 976 710 655 bytes.
+	</summary>
     <description>
 This freeware Low Level Format utility will erase, Low-Level Format and re-certify a SATA, IDE or SCSI hard disk drive with any size of up to 281 474 976 710 655 bytes.
 Will work with USB and FIREWIRE external drive enclosures.

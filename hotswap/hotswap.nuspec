@@ -6,9 +6,12 @@
     <version>{{PackageVersion}}</version>
     <authors>Kazuyuki Nakayama</authors>
     <owners>tonigellida</owners>
-    <summary></summary>
+    <summary>
+It does the same thing as you can remove device from Device Manager but it provides much friendly user interface as you remove the removable device from the "Safely Remove Hardware" icon in the notification area.
+	</summary>
     <description>
-It does the same thing as you can remove device from Device Manager but it provides much friendly user interface as you remove the removable device from the "Safely Remove Hardware" icon in the notification area. It also ensures that all data are written and flushed to the disk before the device to be hot-swapped, so you can use SATA/eSATA drive as a removable device much alike USB/IEEE1394 drive.
+It does the same thing as you can remove device from Device Manager but it provides much friendly user interface as you remove the removable device from the "Safely Remove Hardware" icon in the notification area.
+It also ensures that all data are written and flushed to the disk before the device to be hot-swapped, so you can use SATA/eSATA drive as a removable device much alike USB/IEEE1394 drive.
 ======= Notes =======
 You've to have a compatible hardware and OS to do this program work:
 -Windows Vista / 7 / Server 2008 / 8 (32-bit and 64-bit)

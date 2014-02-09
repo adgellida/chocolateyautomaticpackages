@@ -6,7 +6,9 @@
     <version>{{PackageVersion}}</version>
     <authors>Kaspersky Lab</authors>
     <owners>tonigellida</owners>
-    <summary></summary>
+    <summary>
+Kaspersky Internet Security combines antivirus protection with a personal firewall and an anti-spam filter.
+	</summary>
     <description>
 Kaspersky Internet Security combines antivirus protection with a personal firewall and an anti-spam filter.
 Also keeps your PC free from malicious code, adware, spyware, hacker attacks, dialers, spam and network fraud.

@@ -6,7 +6,9 @@
     <version>{{PackageVersion}}</version>
     <authors>ClamWin</authors>
     <owners>tonigellida</owners>
-    <summary></summary>
+    <summary>
+ClamWin Free Antivirus comes with an easy installer and open source code. 
+	</summary>
     <description>
 [Please note that ClamWin Free Antivirus does not include an on-access real-time scanner. You need to manually scan a file in order to detect a virus or spyware.]
 ClamWin Free Antivirus comes with an easy installer and open source code. 

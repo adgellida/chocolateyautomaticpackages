@@ -6,7 +6,9 @@
     <version>{{PackageVersion}}</version>
     <authors>Allmyapps</authors>
     <owners>tonigellida</owners>
-    <summary></summary>
+    <summary>
+Allmyapps is the next generation Application Store, providing you with a unique 1 click application installation technology to install all your favorite applications
+	</summary>
     <description>
 Allmyapps is the next generation Application Store, providing you with a unique 1 click application installation technology to install all your favorite applications on both Windows and Linux ( http://ubuntu.allmyapps.com/ ) operating systems, in English or French.
 	</description>

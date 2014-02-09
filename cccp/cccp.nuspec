@@ -6,7 +6,9 @@
     <version>{{PackageVersion}}</version>
     <authors>CCCP Team</authors>
     <owners>tonigellida</owners>
-    <summary></summary>
+    <summary>
+The CCCP was created to replace the video playback packs provided in favor of a single reliable pack capable of decoding practically anything.
+	</summary>
     <description>
 The CCCP was created to replace the video playback packs provided in favor of a single reliable pack capable of decoding practically anything.
 	</description>

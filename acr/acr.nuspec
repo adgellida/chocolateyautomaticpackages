@@ -6,7 +6,9 @@
     <version>{{PackageVersion}}</version>
     <authors>Victor Zheng</authors>
     <owners>tonigellida</owners>
-    <summary></summary>
+    <summary>
+A free-and-open-source first-person-shooter aimed at improving the classic game, AssaultCube!
+	</summary>
     <description>
 A free-and-open-source first-person-shooter aimed at improving the classic game, AssaultCube!
 	</description>

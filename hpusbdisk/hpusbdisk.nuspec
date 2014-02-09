@@ -6,7 +6,9 @@
     <version>{{PackageVersion}}</version>
     <authors>Hewlett-Packard</authors>
     <owners>tonigellida</owners>
-    <summary></summary>
+    <summary>
+HP USB Disk Storage Format Tool utility will format any USB flash drive, with your choice of FAT, FAT32, or NTFS partition types.
+	</summary>
     <description>
 HP USB Disk Storage Format Tool utility will format any USB flash drive, with your choice of FAT, FAT32, or NTFS partition types.
 You can also make the disk bootable by specifying a file location.HP USB Disk Storage Format Tool utility will format any USB flash drive, with your choice of FAT, FAT32, or NTFS partition types.

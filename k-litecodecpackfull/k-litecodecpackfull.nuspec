@@ -6,7 +6,9 @@
     <version>{{PackageVersion}}</version>
     <authors>Codec Guide</authors>
     <owners>tonigellida</owners>
-    <summary></summary>
+    <summary>
+The K-Lite Codec Pack is a collection of DirectShow filters, VFW/ACM codecs, and tools
+	</summary>
     <description>
 The K-Lite Codec Pack is a collection of DirectShow filters, VFW/ACM codecs, and tools.
 Codecs and DirectShow filters are needed for encoding and decoding audio and video formats.

@@ -6,7 +6,9 @@
     <version>{{PackageVersion}}</version>
     <authors>hiyohiyo</authors>
     <owners>tonigellida</owners>
-    <summary></summary>
+    <summary>
+CrystalDiskMark is a small HDD benchmark utility for your hard drive that enable you to rapidly measure sequential and random read/write speeds. 
+	</summary>
     <description>
 CrystalDiskMark is a small HDD benchmark utility for your hard drive that enable you to rapidly measure sequential and random read/write speeds. 
 	</description>

@@ -6,7 +6,9 @@
     <version>{{PackageVersion}}</version>
     <authors>MT Solution Ltd.</authors>
     <owners>Redsandro tonigellida</owners>
-    <summary>Home users can perform complicated partition operations by using this powerful yet free partition manager to manage their hard disk.</summary>
+    <summary>
+Home users can perform complicated partition operations by using this powerful yet free partition manager to manage their hard disk.
+	</summary>
     <description>
 MiniTool Partition Wizard Home Edition is a free partition manager software designed by MT Solution Ltd.
 Home users can perform complicated partition operations by using this powerful yet free partition manager to manage their hard disk.

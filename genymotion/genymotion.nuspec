@@ -6,7 +6,9 @@
     <version>{{PackageVersion}}</version>
     <authors>Genymobile</authors>
     <owners>tonigellida</owners>
-    <summary></summary>
+    <summary>
+The fastest Android emulator for app testing and presentation.
+	</summary>
     <description>
 The fastest Android emulator for app testing and presentation.
 Genymotion is the evolution of AndroVM open source project, already trusted by 300 000 developers!

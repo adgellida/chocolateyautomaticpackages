@@ -6,7 +6,9 @@
     <version>{{PackageVersion}}</version>
     <authors>Mipony</authors>
     <owners>tonigellida</owners>
-    <summary></summary>
+    <summary>
+Mipony is a free download manager specially designed to optimize and automate the downloads.
+	</summary>
     <description>
 Mipony is a free download manager specially designed to optimize and automate the downloads.
 	</description>

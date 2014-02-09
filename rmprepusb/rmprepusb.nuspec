@@ -6,7 +6,9 @@
     <version>{{PackageVersion}}</version>
     <authors>RM Education</authors>
     <owners>tonigellida</owners>
-    <summary></summary>
+    <summary>
+RMPrepUSB allows the Windows user to easily and quickly 'roll their own' multiboot USB drive.
+	</summary>
     <description>
 RMPrepUSB allows the Windows user to easily and quickly 'roll their own' multiboot USB drive.
 It allows the user to quickly test, partition, format, install a boot manager, extract or copy files and then test a multiboot (aka multipass) USB bootable drive.

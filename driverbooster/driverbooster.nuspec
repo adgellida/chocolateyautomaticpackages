@@ -6,9 +6,10 @@
     <version>{{PackageVersion}}</version>
     <authors>IObit</authors>
     <owners>tonigellida</owners>
-    <summary></summary>
+    <summary>
+Driver Booster scans and identifies outdated drivers automatically, and downloads and installs the right update for you with just ONE click, saving you loads of time.
+	</summary>
     <description>
-Outdated drivers may heavily affect your PC performance and lead to system crashes.
 Driver Booster scans and identifies outdated drivers automatically, and downloads and installs the right update for you with just ONE click, saving you loads of time.
 Moreover, it's specially designed to tweak drivers for best gaming performance.
 It's the right tool to protect your PC from hardware failures, conflicts, and system crashes.

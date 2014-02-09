@@ -6,7 +6,9 @@
     <version>{{PackageVersion}}</version>
     <authors>dev-fire</authors>
     <owners>tonigellida</owners>
-    <summary></summary>
+    <summary>
+Game Downloader is a portable and open source download client, which interacts with a server side library for downloading numerous games.
+	</summary>
     <description>
 Game Downloader is a portable and open source download client, which interacts with a server side library for downloading numerous games.
 With the help of this utility, you can download more than 200 games, by simply selecting a game category then selecting any game from the available list.

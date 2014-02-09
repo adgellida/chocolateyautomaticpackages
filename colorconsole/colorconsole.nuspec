@@ -6,7 +6,9 @@
     <version>{{PackageVersion}}</version>
     <authors>Nenad Hrg</authors>
     <owners>tonigellida</owners>
-    <summary></summary>
+    <summary>
+ColorConsole brings a little color to your black and white world of Windows console.
+	</summary>
     <description>
 ColorConsole brings a little color to your black and white world of Windows console.
 One can save many hand moves and also time!
