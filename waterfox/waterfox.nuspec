@@ -6,7 +6,9 @@
     <version>{{PackageVersion}}</version>
     <authors>Alex</authors>
     <owners>tonigellida</owners>
-    <summary></summary>
+    <summary>
+Waterfox is basically a 64-bit version of Firefox.
+	</summary>
     <description>
 Waterfox is basically a 64-bit version of Firefox.
 The Firefox source code is taken and compiled to run specifically for 64-bit Windows computers.

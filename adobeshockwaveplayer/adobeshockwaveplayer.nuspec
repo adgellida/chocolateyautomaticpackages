@@ -6,10 +6,10 @@
     <version>{{PackageVersion}}</version>
     <authors>Adobe</authors>
     <owners>tonigellida</owners>
-    <summary></summary>
+    <summary>
+Shockwave Player displays Web content that has been created by Adobe Director.
+	</summary>
     <description>
-Over 450 million Internet-enabled desktops have installed Adobe Shockwave Player.
-These people now have access to some of the best the Web has to offer - including dazzling 3D games and entertainment, interactive product demonstrations, and online learning applications.
 Shockwave Player displays Web content that has been created by Adobe Director.
 	</description>
     <projectUrl>http://get.adobe.com/es/shockwave/</projectUrl>

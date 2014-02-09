@@ -6,7 +6,9 @@
     <version>{{PackageVersion}}</version>
     <authors>Viber Media Inc.</authors>
     <owners>tonigellida</owners>
-    <summary></summary>
+    <summary>
+Viber is a mobile application that lets you make free phone calls and send text messages to anyone who also has the application installed.
+	</summary>
     <description>
 Viber is a mobile application that lets you make free phone calls and send text messages to anyone who also has the application installed.
 You can call or text any Viber user, anywhere in the world, for free.

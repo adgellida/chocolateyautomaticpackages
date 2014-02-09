@@ -6,9 +6,11 @@
     <version>{{PackageVersion}}</version>
     <authors>Team Xonotic</authors>
     <owners>tonigellida</owners>
-    <summary></summary>
+    <summary>
+Xonotic is a free (GPL), fast-paced first-person shooter.
+	</summary>
     <description>
-Xonotic is a free (GPL), fast-paced first-person shooter that works on Windows, OS X and Linux.
+Xonotic is a free (GPL), fast-paced first-person shooter.
 The project is geared towards providing addictive arena shooter gameplay which is all spawned and driven by the community itself.
 Xonotic is a direct successor of the Nexuiz project with years of development between them, and it aims to become the best possible open-source FPS (first-person-shooter) of its kind.
 ======= Notes =======

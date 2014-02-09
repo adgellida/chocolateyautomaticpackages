@@ -6,7 +6,9 @@
     <version>{{PackageVersion}}</version>
     <authors>Xplode</authors>
     <owners>tonigellida</owners>
-    <summary></summary>
+    <summary>
+AdwCleaner is a free removal tool for : Adware (ads softwares) PUP/LPI (Potentially Undesirable Program) Toolbars Hijacker (Hijack of the browser's homepage).
+	</summary>
     <description>
 AdwCleaner is a free removal tool for : Adware (ads softwares) PUP/LPI (Potentially Undesirable Program) Toolbars Hijacker (Hijack of the browser's homepage).
 It works with a Search and Delete mode.

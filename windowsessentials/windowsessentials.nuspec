@@ -6,7 +6,9 @@
     <version>{{PackageVersion}}</version>
     <authors>Microsoft</authors>
     <owners>tonigellida</owners>
-    <summary></summary>
+    <summary>
+Windows Essentials is a suite of free software by Microsoft, that helps you do more with photos, movies, instant messaging, email, blogging, and family safety.
+	</summary>
     <description>
 Windows Essentials is a suite of free software by Microsoft, that helps you do more with photos, movies, instant messaging, email, blogging, and family safety.
 It includes Windows Movie Maker, Photo Gallery, Messenger, Live Mesh, and more.

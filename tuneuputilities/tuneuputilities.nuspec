@@ -6,7 +6,9 @@
     <version>{{PackageVersion}}</version>
     <authors>AVG</authors>
     <owners>tonigellida</owners>
-    <summary></summary>
+    <summary>
+TuneUp Utilities is a computer optimization suite.
+	</summary>
     <description>
 TuneUp Utilities is a computer optimization suite. 
 Increase performance, maintain your system, customize Windows, fix problems and speeds up your computer in real time.
