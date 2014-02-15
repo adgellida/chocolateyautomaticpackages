@@ -1,4 +1,4 @@
-﻿$packageName = '{{PackageName}}'
+﻿$packageName = 'winrar'
 $installerType = 'EXE'
 $LCID = (Get-Culture).LCID
 $silentArgs = '/S'
