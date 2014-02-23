@@ -17,4 +17,7 @@ if(Test-Path "${Env:ProgramFiles(x86)}\Google\Chrome\Application\chrome.exe"){
   throw 
 }
 
+
+C:\Users\Tonin\AppData\Local\Google\Chrome\User Data\Default\Extensions\cfhdojbkjhnklbpkdaibdccddilifddb
+
   
