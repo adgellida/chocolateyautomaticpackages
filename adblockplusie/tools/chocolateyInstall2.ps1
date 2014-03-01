@@ -10,13 +10,11 @@ $versioninstalled=Get-ItemProperty $versioninstalledpath | Select -expand Displa
 
 if ($versioninstalled -eq $version) {
        Write-Host "Adblock Plus for Internet Explorer $version is already installed."
-
-	} elseif ($versioninstalled -eq $null) {
-	   Write-Host "Adblock Plus for Internet Explorer isn't installed yet."
 	
 	} elseif ($versioninstalled -lt $version) {
        Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url"  -validExitCodes $validExitCodes
 	   Write-Host "Adblock Plus for Internet Explorer $version has been installed."
+	   
 	} elseif ($versioninstalled -gt $version) {
        Write-Host "Wait for package update on the choco feed."
     }
