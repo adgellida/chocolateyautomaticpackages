@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>{{PackageName}}</id>
+    <id>designsparkpcb</id>
     <title>DesignSpark PCB</title>
-    <version>{{PackageVersion}}</version>
+    <version>6.0</version>
     <authors>RS Components Ltd</authors>
     <owners>tonigellida</owners>
     <summary>
