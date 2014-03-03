@@ -18,7 +18,8 @@ Causes of errors:
 * My mistake, I'm human, not perfect.
 * I don't have a system 100% autonomous for all packages, so I've to update manually a few packages, specially prerelease versions.
 * Author doesn't update the version number on his web or on the web where I found the version isn't updated.
-* Place where are version and installer is changed, so the package doesn't works or choco not push an updated version.
+* Place where are version and installer is changed, so the package doesn't work or choco not push an updated version.
+* Ketarin doesn't detect a change on the installer, but version changes, so I've to delete the installer located on my pc to obtain a change on ketarin and then the update works. I've this packages in a relativity attention.
 
 Advices
 
