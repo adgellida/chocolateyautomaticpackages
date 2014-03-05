@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>usbit</id>
+    <title>USB Image Tool</title>
+    <version>1.64</version>
+    <authors>Alexander Beug</authors>
+    <owners>tonigellida</owners>
+    <summary>
+USB Image Tool can create images of USB flash drives and MP3 players, that are mounted as USB drives.
+	</summary>
+    <description>
+USB Image Tool can create images of USB flash drives and MP3 players, that are mounted as USB drives.
+It allows you switch between images with different music styles on your MP3 Player or to make an exact backup image of your USB Stick.
+	</description>
+    <projectUrl>http://www.alexpage.de/usb-image-tool/</projectUrl>
+    <tags>usb disk-cloning copier imager</tags>
+    <copyright></copyright>
+    <licenseUrl>http://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/usbit/usbit.jpg</iconUrl>
+  </metadata>
+</package>
