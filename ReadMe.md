@@ -1,4 +1,4 @@
-#### A collection of automatic packages pushed to chocolatey official feed
+#### A collection of automatic packages pushed to chocolatey official feed [![Dependency Status](https://david-dm.org/popcorn-team/popcorn-app.svg?theme=shields.io)](https://david-dm.org/popcorn-team/popcorn-app)
 
 If you don't know chocolatey read [this](http://ferventcoder.com/archive/2011/10/07/letrsquos-get-chocolatey-kind-of-like-apt-get-for-windows.aspx).
 
