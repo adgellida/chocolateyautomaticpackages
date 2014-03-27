@@ -7,10 +7,10 @@
     <authors>KC Softwares</authors>
     <owners>tonigellida</owners>
     <summary>
-Thanks to SUMo youll be able to keep your PC up-to-date by using the most recent version of your favorite software!
+Thanks to SUMo you'll be able to keep your PC up-to-date by using the most recent version of your favorite software!
 	</summary>
     <description>
-SUMo, which stands for Software Update Monitor. Thanks to SUMo youll be able to keep your PC up-to-date by using the most recent version of your favorite software!
+SUMo, which stands for Software Update Monitor. Thanks to SUMo you'll be able to keep your PC up-to-date by using the most recent version of your favorite software!
 Unlike build-in auto update features, SUMo tells you if updates are available before you need to use your software.
 
 Features
@@ -23,7 +23,7 @@ Ignore list : only tracks software YOU want to track
     <projectUrl>http://www.kcsoftwares.com/?sumo</projectUrl>
     <tags>update-notifier</tags>
     <copyright></copyright>
-    <licenseUrl>https://softwareula.wordpress.com/category/update-checker/</licenseUrl>
+    <licenseUrl>http://www.kcsoftwares.com/legal/ToU.pdf</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
 	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/sumo/sumo.png</iconUrl>
   </metadata>
