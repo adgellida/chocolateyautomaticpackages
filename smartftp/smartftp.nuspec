@@ -17,6 +17,6 @@ SmartFTP is an FTP (File Transfer Protocol), FTPS, SFTP, WebDAV, S3, SSH, Termin
     <copyright></copyright>
     <licenseUrl>http://www.smartftp.com/static/Products/Client/License.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/aida64extreme/smartftp128.png</iconUrl>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/smartftp/smartftp128.png</iconUrl>
   </metadata>
 </package>
