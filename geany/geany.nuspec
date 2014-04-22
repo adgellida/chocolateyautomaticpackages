@@ -4,7 +4,7 @@
     <id>{{PackageName}}</id>
     <title>Geany</title>
     <version>{{PackageVersion}}</version>
-    <authors>Enrico Tröger, Frank Lanitz, Nick Treleaven and Dominic Hopf</authors>
+    <authors>Enrico TrÃ¶ger, Frank Lanitz, Nick Treleaven and Dominic Hopf</authors>
     <owners>tonigellida</owners>
     <summary>
 Geany is a small and lightweight Integrated Development Environment.
