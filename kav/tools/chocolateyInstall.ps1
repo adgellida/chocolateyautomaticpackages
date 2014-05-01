@@ -56,7 +56,7 @@ $url = 'http://products.kaspersky-labs.com/english/homeuser/kav2014/kav14.0.0.46
 
 ##English
 else{
-$url = 'http://products.kaspersky-labs.com/english/homeuser/kav2014/kav14.0.0.4651aEN_4876.exe'
+$url = 'http://products.kaspersky-labs.com/english/homeuser/kav2014/kis14.0.0.4651abcdEN_5763.exe'
 }
 
 Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url"  -validExitCodes $validExitCodes
