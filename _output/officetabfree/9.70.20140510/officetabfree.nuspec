@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>officetabfree</id>
+    <title>Office Tab Free Edition</title>
+    <version>9.70.20140510</version>
+    <authors>ExtendOffice</authors>
+    <owners>tonigellida</owners>
+    <summary>
+Adding Tabbed Interface for Office
+	</summary>
+    <description>
+It enables tabbed browsing, editing, and managing of Microsoft Office applications.
+You can open multiple documents / files in a single tabbed window, such as using the browser IE 8/9/10, Firefox, and Google Chrome, and also save and close all Office documents with just one click.
+It's compatible with Office 2010, 2007 or 2003!
+	</description>
+    <projectUrl>http://www.extendoffice.com/download/office-tab-free-edition.html</projectUrl>
+    <tags>free-version notSilent office-addon tabs</tags>
+    <copyright></copyright>
+    <licenseUrl>http://www.extendoffice.com/support/end-user-license-agreement.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/officetabfree/officetabfree.jpg</iconUrl>
+  </metadata>
+</package>
