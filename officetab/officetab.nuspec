@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>{{PackageName}}</id>
-    <title>Office Tab Enterprise</title>
+    <title>Office Tab</title>
     <version>{{PackageVersion}}</version>
     <authors>ExtendOffice</authors>
     <owners>tonigellida</owners>
@@ -12,10 +12,10 @@ Adding Tabbed Interface for Office
     <description>
 It enables tabbed browsing, editing, and managing of Microsoft Office applications.
 You can open multiple documents / files in a single tabbed window, such as using the browser IE 8/9/10, Firefox, and Google Chrome, and also save and close all Office documents with just one click.
-It's compatible with Office 2013, 2010, 2007, 2003 or Office 365!
+It's compatible with Office 2010, 2007 or 2003!
 	</description>
     <projectUrl>http://www.extendoffice.com/</projectUrl>
-    <tags>trial-version notSilent office-addon tabs</tags>
+    <tags>free-version notSilent office-addon tabs</tags>
     <copyright></copyright>
     <licenseUrl>http://www.extendoffice.com/support/end-user-license-agreement.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
