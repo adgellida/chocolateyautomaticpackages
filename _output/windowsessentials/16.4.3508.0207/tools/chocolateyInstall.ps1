@@ -1,4 +1,4 @@
-﻿$packageName = '{{PackageName}}'
+﻿$packageName = 'windowsessentials'
 $installerType = 'EXE'
 $LCID = (Get-Culture).LCID
 $silentArgs = ''
@@ -6,57 +6,57 @@ $validExitCodes = @(0) #please insert other valid exit codes here, exit codes fo
 
 ##Spanish
 if(($LCID -eq "3082") -or ($LCID -eq "1034")){
-$url = 'http://g.live.com/1rewlive5-web/es/wlsetup-web.exe'
+$url = '{{url_es}}'
 }
 
 ##French
 elseif($LCID -eq "1036"){
-$url = 'http://g.live.com/1rewlive5-web/fr/wlsetup-web.exe'
+$url = '{{url_fr}}'
 }
 
 ##German
 elseif($LCID -eq "1031"){
-$url = 'http://g.live.com/1rewlive5-web/de/wlsetup-web.exe'
+$url = '{{url_de}}'
 }
 
 ##Italian
 elseif($LCID -eq "1040"){
-$url = 'http://g.live.com/1rewlive5-web/it/wlsetup-web.exe'
+$url = '{{url_it}}'
 }
 
 ##Portuguese
 elseif($LCID -eq "2070"){
-$url = 'http://g.live.com/1rewlive5-web/pt-pt/wlsetup-web.exe'
+$url = '{{url_pt-pt}}'
 }
 
 ##Portuguese Brazilian
 elseif($LCID -eq "1046"){
-$url = 'http://g.live.com/1rewlive5-web/pt-br/wlsetup-web.exe'
+$url = '{{url_pt-br}}'
 }
 
 ##Catalan
 elseif($LCID -eq "1027"){
-$url = 'http://g.live.com/1rewlive5-web/ca/wlsetup-web.exe'
+$url = '{{url_ca}}'
 }
 
 ##Dutch
 elseif($LCID -eq "1043"){
-$url = 'http://g.live.com/1rewlive5-web/nl/wlsetup-web.exe'
+$url = '{{url_nl}}'
 }
 
 ##Danish
 elseif($LCID -eq "1030"){
-$url = 'http://g.live.com/1rewlive5-web/da/wlsetup-web.exe'
+$url = '{{url_da}}'
 }
 
 ##Britain English
 elseif($LCID -eq "2057"){
-$url = 'http://g.live.com/1rewlive5-web/en-gb/wlsetup-web.exe'
+$url = '{{url_en-gb}}'
 }
 
 ##United States English
 else{
-$url = 'http://g.live.com/1rewlive5-web/en/wlsetup-web.exe'
+$url = '{{url_en}}'
 }
 
 Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url"  -validExitCodes $validExitCodes
