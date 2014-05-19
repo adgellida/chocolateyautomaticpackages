@@ -23,6 +23,7 @@ Causes of errors:
 
 Advices
 
+* 19/05/14 - Go to "1.SCRIPTS" folder and execute what you want.
 * 04/01/14 - Updated daily (only auto packages)
 * 06/12/13 - All versions works on windows vista, 7, 8, 8.1 etc. On xp wasn't tested 100% but works very very often. There're packages that don't do all the instructions (remove innecesary shortcuts), but the program is fully functional afterwards.
 * 05/11/13 - By now this repo has only stable versions, prerelease versions will be on the next chocolateyautomaticpackagesbeta repo when I've time.
