@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>{{PackageName}}</id>
-    <title>Privacy Badger</title>
+    <title>Privacy Badger for Firefox</title>
     <version>{{PackageVersion}}</version>
     <authors>Electronic Frontier Foundation</authors>
     <owners>tonigellida</owners>
@@ -22,7 +22,7 @@ Nothing can stop the Privacy Badger from eating cookies when it's hungry!
 Privacy Badger is a project of the Electronic Frontier Foundation.
 	</description>
     <projectUrl>https://www.eff.org/privacybadger</projectUrl>
-    <tags>notSilent notUninstallable autoUpdatable privacy-protection script-block Chrome Firefox extension add-on</tags>
+    <tags>notSilent notUninstallable autoUpdatable privacy-protection script-block Firefox extension add-on</tags>
     <copyright></copyright>
     <licenseUrl>https://gnu.org/licenses/gpl.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
