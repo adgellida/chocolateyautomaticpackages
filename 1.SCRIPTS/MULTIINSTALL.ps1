@@ -1,17 +1,17 @@
 ####multi-installer, select programs to install 
-####v.2014.05.19-alpha
+####v.2014.05.24-alpha
 
 #Backup & Sync
 #'goodsync' | %{ cinst $_ }
 
 #OS & Utilities
-'ccleaner','teamviewer','notepadplusplus.install','silverlight','classic-shell','unchecky' | %{ cinst $_ }
-#'ChocolateyGUI','driverbooster','sumo','softwareinformer' | %{ cinst $_ }
-#'clover','speccy','openhardwaremonitor','yumi','crystaldiskinfo' | %{ cinst $_ }
-#'flashplayerplugin','flashplayeractivex','virtualbox','virtualbox.extensionpack','greenshot' | %{ cinst $_ }
+'ccleaner','teamviewer','notepadplusplus.install','silverlight','unchecky' | %{ cinst $_ }
+#'classic-shell','ChocolateyGUI','driverbooster','sumo','softwareinformer' | %{ cinst $_ }
+#'flashplayerplugin','flashplayeractivex','clover','speccy','openhardwaremonitor','yumi','crystaldiskinfo' | %{ cinst $_ }
+#'virtualbox','virtualbox.extensionpack' | %{ cinst $_ }
 
 #Security & Privacy
-#'spybot','superantispyware','malwarebytes','adwcleaner','jrt' | %{ cinst $_ }
+#'malwarebytes','adwcleaner','jrt','spybot','superantispyware' | %{ cinst $_ }
 
 #CD/DVD Tools
 'imgburn' | %{ cinst $_ }
@@ -36,8 +36,8 @@
 #'geany','meld','winmerge' | %{ cinst $_ }
 
 #Web Browsers
-#'googlechrome' | %{ cinst $_ }
-#'adblockpluschrome' | %{ cinst $_ }
+'googlechrome' | %{ cinst $_ }
+'adblockpluschrome' | %{ cinst $_ }
 
 #Social
 #'skype' | %{ cinst $_ }
