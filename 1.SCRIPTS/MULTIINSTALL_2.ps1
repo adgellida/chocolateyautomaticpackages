@@ -1,5 +1,5 @@
 ####multi-installer, select programs to install 
-####v.2014.01.26-alpha
+####v.2014.05.24-alpha
 
 #Backup & Sync
 
