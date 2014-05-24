@@ -6,34 +6,27 @@
 
 #OS & Utilities
 'ccleaner','teamviewer','notepadplusplus.install','silverlight','unchecky' | %{ cinst $_ }
-#'classic-shell','ChocolateyGUI','driverbooster','sumo','softwareinformer' | %{ cinst $_ }
-#'flashplayerplugin','flashplayeractivex','clover','speccy','openhardwaremonitor','yumi','crystaldiskinfo' | %{ cinst $_ }
-#'virtualbox','virtualbox.extensionpack' | %{ cinst $_ }
 
 #Security & Privacy
 #'malwarebytes','adwcleaner','jrt','spybot','superantispyware' | %{ cinst $_ }
 
 #CD/DVD Tools
 'imgburn' | %{ cinst $_ }
-#'daemontoolslite' | %{ cinst $_ }
 
 #Photos & Graphics
 
 
 #Audio & Music
-#'songr','spotify','openshark' | %{ cinst $_ }
+
 
 #Videos & Movies
 'vlc' | %{ cinst $_ }
 
 #Audio & Music & Videos & Movies
 'adobeshockwaveplayer','adobeair','unitywebplayer' | %{ cinst $_ }
-#'k-litecodecpackbasic' | %{ cinst $_ }
-#'windowsessentials','atubecatcher' | %{ cinst $_ }
 
 #Development
-#'javaruntime' | %{ cinst $_ }
-#'geany','meld','winmerge' | %{ cinst $_ }
+
 
 #Web Browsers
 'googlechrome' | %{ cinst $_ }
@@ -43,16 +36,16 @@
 #'skype' | %{ cinst $_ }
 
 #File Management
-#'filezilla','jdownloader','windirstat' | %{ cinst $_ }
+
 
 #File Sharing
-#'utorrent' | %{ cinst $_ }
+
 
 #News & Books
 
 
 #Office & Productivity
-#'adobereader' | %{ cinst $_ }	#by now in english
+
 
 #Games
 

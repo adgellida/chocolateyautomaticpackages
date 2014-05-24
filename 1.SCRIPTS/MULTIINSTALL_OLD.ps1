@@ -2,24 +2,21 @@
 ####v.2014.01.26-alpha
 
 #Backup & Sync
-#'goodsync' | %{ cinst $_ }
+
 
 #OS & Utilities
-'ccleaner','teamviewer','notepadplusplus.install','silverlight','classic-shell' | %{ cinst $_ }
-#'ChocoPM.install -Pre','displayfusion','driverbooster','sumo','softwareinformer' | %{ cinst $_ }
-#'clover','speccy','openhardwaremonitor','wudt','yumi','cyg-get','cnettechtracker' | %{ cinst $_ }
-#'kcleaner','littleregistrycleaner','ccenhancer','speedfan','crystaldiskinfo','easybcd','llftool' | %{ cinst $_ }
-#'startmenureviver','startmenu8' | %{ cinst $_ }
+#'classic-shell','ChocolateyGUI','clover','ChocoPM.install -Pre','displayfusion','driverbooster','sumo','softwareinformer' | %{ cinst $_ }
+#'flashplayerplugin','flashplayeractivex','kcleaner','littleregistrycleaner','ccenhancer','speedfan','crystaldiskinfo','easybcd','llftool' | %{ cinst $_ }
+#'speccy','openhardwaremonitor','wudt','yumi','cyg-get','cnettechtracker','startmenureviver','startmenu8' | %{ cinst $_ }
 #'hpusbdisk','systemninja','bleachbit','genymotion','mousecontroller','tinytask','wassapp','advancedsystemcarefree','tuneuputilities' | %{ cinst $_ }
-#'windowsrepair','simplesystemtweaker','advancedsystemtweaker','rmprepusb' | %{ cinst $_ }
-#'flashplayerplugin','flashplayeractivex','cpu-z','virtualbox','virtualbox.extensionpack','greenshot' | %{ cinst $_ }
+#'cpu-z','virtualbox','virtualbox.extensionpack','greenshot' | %{ cinst $_ }
 #'openal','ghostscript','winpcap','webpi','aria2','wuinstall' | %{ cinst $_ }
+#'windowsrepair','simplesystemtweaker','advancedsystemtweaker','rmprepusb' | %{ cinst $_ }
 
 #Security & Privacy
-#'spybot','superantispyware','avastbrowsercleanup','winlockless','malwarebytes','Secunia.PSI','nmap','truecrypt','tor-browser','piratebrowser -Pre','adwcleaner','jrt','bitdefenderavfree' | %{ cinst $_ }
+#'avastbrowsercleanup','winlockless','Secunia.PSI','nmap','truecrypt','tor-browser','piratebrowser -Pre','bitdefenderavfree' | %{ cinst $_ }
 
 #CD/DVD Tools
-'imgburn' | %{ cinst $_ }
 #'daemontoolslite' | %{ cinst $_ }
 
 #Photos & Graphics
@@ -29,35 +26,34 @@
 #'songr','spotify','openshark' | %{ cinst $_ }
 
 #Videos & Movies
-'vlc' | %{ cinst $_ }
+
 
 #Audio & Music & Videos & Movies
-'adobeshockwaveplayer','adobeair','unitywebplayer' | %{ cinst $_ }
 #'k-litecodecpackbasic','cccp' | %{ cinst $_ }
 #'windowsessentials','atubecatcher' | %{ cinst $_ }
 
 #Development
 #'javaruntime' | %{ cinst $_ }
-#'Dogtail.DotNet3.5SP1','DotNet4.5','DotNet4.0' | %{ cinst $_ }
 #'geany','meld','winmerge' | %{ cinst $_ }
+#'Dogtail.DotNet3.5SP1','DotNet4.5','DotNet4.0' | %{ cinst $_ }
 #'arduinoide','arduinoide -Version 1.5.5-beta -Pre' | %{ cinst $_ }
 #'orwelldevcpp','smartgit','unity' | %{ cinst $_ }
 
 #Web Browsers
 #'googlechrome.dev' | %{ cinst $_ }
-#'googlechrome','chromium','midori-browser' | %{ cinst $_ }
+#'chromium','midori-browser' | %{ cinst $_ }
 #'firefox','aurora' | %{ cinst $_ }
 #'adblockplusfirefox','adblockplusie','adblockplusopera' | %{ cinst $_ }
 #'adblockpluschrome' | %{ cinst $_ }
 
 #Social
-#'messengerreviver','viber','trillian','line','skype' | %{ cinst $_ }
+#'messengerreviver','viber','trillian','line' | %{ cinst $_ }
 
 #File Management
 #'filezilla','jdownloader','peazip','windirstat','mucommander' | %{ cinst $_ }
 
 #File Sharing
-#'ares','utorrent','emule','wget' | %{ cinst $_ }
+#'utorrent','ares','emule','wget' | %{ cinst $_ }
 
 #News & Books
 
