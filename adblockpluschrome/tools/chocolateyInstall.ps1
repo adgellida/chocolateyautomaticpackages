@@ -18,6 +18,6 @@ if(Test-Path "${Env:ProgramFiles(x86)}\Google\Chrome\Application\chrome.exe"){
 }
 
 
-C:\Users\Tonin\AppData\Local\Google\Chrome\User Data\Default\Extensions\cfhdojbkjhnklbpkdaibdccddilifddb
+#C:\Users\Tonin\AppData\Local\Google\Chrome\User Data\Default\Extensions\cfhdojbkjhnklbpkdaibdccddilifddb
 
   

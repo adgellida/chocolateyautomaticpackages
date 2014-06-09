@@ -14,3 +14,6 @@ $validExitCodes = @(0) #please insert other valid exit codes here, exit codes fo
   }
   
 Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url"  -validExitCodes $validExitCodes
+
+#HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\AVG
+#DisplayVersion 2014.0.4592
