@@ -3,8 +3,8 @@ $installerType = 'EXE'
 $LCID = (Get-Culture).LCID
 $silentArgs = '/S'
 $validExitCodes = @(0) #please insert other valid exit codes here, exit codes for ms http://msdn.microsoft.com/en-us/library/aa368542(VS.85).aspx
-#$url_version_dot= '5.10.20140617'
-$url_version_dot= "5.10"
+#$url_version_dot= '5.10.20140618'
+$url_version_dot= '5.10'
 $url_version = (Split-Path $url_version_dot -leaf).ToString().Replace(".", "")
 
 $processor = Get-WmiObject Win32_Processor
@@ -31,20 +31,20 @@ $processor = Get-WmiObject Win32_Processor
 ##Arabic - U.A.E.	14337
 ##Arabic - Yemen	9217
 if(($LCID -eq "1025") -or ($LCID -eq "5121") -or ($LCID -eq "15361") -or ($LCID -eq "3073") -or ($LCID -eq "2049") -or ($LCID -eq "11265") -or ($LCID -eq "13313") -or ($LCID -eq "12289") -or ($LCID -eq "4097") -or ($LCID -eq "6145") -or ($LCID -eq "8193") -or ($LCID -eq "16385") -or ($LCID -eq "10241") -or ($LCID -eq "7169") -or ($LCID -eq "14337") -or ($LCID -eq "9271")){
-$url = 'http://www.rarlab.com/rar/winrar-x64-$url_versionar.exe'
+$url = 'http://www.rarlab.com/rar/winrar-x64-'+$url_versionar+'.exe'
 }
 
 ##Armenian
 ##Armenian   1067
 elseif($LCID -eq "1067"){
-$url = 'http://www.rarlab.com/rar/winrar-x64-$url_versionam.exe'
+$url = 'http://www.rarlab.com/rar/winrar-x64-'+$url_versionar+'am.exe'
 }
 
 ##Azerbaijani
 ##AAzeri (Cyrillic)   2092
 ##AAzeri (Latin)      1068
 elseif(($LCID -eq "2092") -or ($LCID -eq "1068")){
-$url = 'http://www.rarlab.com/rar/winrar-x64-$url_versionaz.exe'
+$url = 'http://www.rarlab.com/rar/winrar-x64-'+$url_versionar+'az.exe'
 }
 
 ##Belarusian
@@ -56,13 +56,13 @@ $url = 'http://www.rarlab.com/rar/winrar-x64-$url_versionaz.exe'
 ##Bulgarian
 ##Bulgarian   1026
 elseif($LCID -eq "1026"){
-$url = 'http://www.rarlab.com/rar/winrar-x64-$url_versionbg.exe'
+$url = 'http://www.rarlab.com/rar/winrar-x64-'+$url_versionar+'bg.exe'
 }
 
 ##Catalan
 ##Catalan   1027
 elseif($LCID -eq "1027"){
-$url = 'http://www.rarlab.com/rar/winrar-x64-$url_versionby.exe'
+$url = 'http://www.rarlab.com/rar/winrar-x64-'+$url_versionar+'by.exe'
 }
 
 ##Chinese Simplified
@@ -71,20 +71,20 @@ $url = 'http://www.rarlab.com/rar/winrar-x64-$url_versionby.exe'
 ##Chinese - Hong Kong SAR	             3076
 ##Chinese - Macao SAR					 5124
 elseif(($LCID -eq "2052") -or ($LCID -eq "4100") -or ($LCID -eq "3076") -or ($LCID -eq "5124")){
-$url = 'http://www.rarlab.com/rar/winrar-x64-$url_versionsc.exe'
+$url = 'http://www.rarlab.com/rar/winrar-x64-'+$url_versionar+'sc.exe'
 }
 
 ##Chinese Traditional
 ##Chinese - Taiwan					1028
 elseif($LCID -eq "1028"){
-$url = 'http://www.rarlab.com/rar/winrar-x64-$url_versiontc.exe'
+$url = 'http://www.rarlab.com/rar/winrar-x64-'+$url_versionar+'tc.exe'
 }
 
 ##Croatian
 ##Croatian				          1050
 ##Croatian (Bosnia/Herzegovina)   4122
 elseif(($LCID -eq "1050") -or ($LCID -eq "4122")){
-$url = 'http://www.rarlab.com/rar/winrar-x64-$url_versioncro.exe'
+$url = 'http://www.rarlab.com/rar/winrar-x64-'+$url_versionar+'cro.exe'
 }
 
 ##Czech
@@ -96,38 +96,38 @@ $url = 'http://www.rarlab.com/rar/winrar-x64-$url_versioncro.exe'
 ##Danish
 ##Danish   1030
 elseif($LCID -eq "1030"){
-$url = 'http://www.rarlab.com/rar/winrar-x64-$url_versiondk.exe'
+$url = 'http://www.rarlab.com/rar/winrar-x64-'+$url_versionar+'dk.exe'
 }
 
 ##Dutch
 ##Dutch - Netherlands		1043
 ##Dutch - Belgium			2067
 elseif(($LCID -eq "1043") -or ($LCID -eq "2067")){
-$url = 'http://www.rarlab.com/rar/winrar-x64-$url_versionnl.exe'
+$url = 'http://www.rarlab.com/rar/winrar-x64-'+$url_versionar+'nl.exe'
 }
 
 ##Estonian
 ##Estonian			1061
 elseif($LCID -eq "1061"){
-$url = 'http://www.rarlab.com/rar/winrar-x64-$url_versionest.exe'
+$url = 'http://www.rarlab.com/rar/winrar-x64-'+$url_versionar+'est.exe'
 }
 
 ##Finnish
 ##Finnish			1035
 elseif($LCID -eq "1035"){
-$url = 'http://www.rarlab.com/rar/winrar-x64-$url_versionfi.exe'
+$url = 'http://www.rarlab.com/rar/winrar-x64-'+$url_versionar+'fi.exe'
 }
 
 ##French
 ##French			1036
 elseif($LCID -eq "1036"){
-$url = 'http://www.rarlab.com/rar/winrar-x64-$url_versionfr.exe'
+$url = 'http://www.rarlab.com/rar/winrar-x64-'+$url_versionar+'fr.exe'
 }
 
 ##Galician
 ##Galician			1110
 elseif($LCID -eq "1110"){
-$url = 'http://www.rarlab.com/rar/winrar-x64-$url_versiongl.exe'
+$url = 'http://www.rarlab.com/rar/winrar-x64-'+$url_versionar+'gl.exe'
 }
 
 ##Georgian
@@ -139,7 +139,7 @@ $url = 'http://www.rarlab.com/rar/winrar-x64-$url_versiongl.exe'
 ##German
 ##German			1031
 elseif($LCID -eq "1031"){
-$url = 'http://www.rarlab.com/rar/winrar-x64-$url_versiond.exe'
+$url = 'http://www.rarlab.com/rar/winrar-x64-'+$url_versionar+'d.exe'
 }
 
 ##Greek
@@ -151,19 +151,19 @@ $url = 'http://www.rarlab.com/rar/winrar-x64-$url_versiond.exe'
 ##Hebrew
 ##Hebrew			1037
 elseif($LCID -eq "1037"){
-$url = 'http://www.rarlab.com/rar/winrar-x64-$url_versionhe.exe'
+$url = 'http://www.rarlab.com/rar/winrar-x64-'+$url_versionar+'he.exe'
 }
 
 ##Hungarian
 ##Hungarian			1038
 elseif($LCID -eq "1038"){
-$url = 'http://www.rarlab.com/rar/winrar-x64-$url_versionhu.exe'
+$url = 'http://www.rarlab.com/rar/winrar-x64-'+$url_versionar+'hu.exe'
 }
 
 ##Indonesian
 ##Indonesian		1057
 elseif($LCID -eq "1057"){
-$url = 'http://www.rarlab.com/rar/winrar-x64-$url_versionid.exe'
+$url = 'http://www.rarlab.com/rar/winrar-x64-'+$url_versionar+'id.exe'
 }
 
 ##Italian
@@ -188,14 +188,14 @@ $url = 'http://www.rarlab.com/rar/winrar-x64-$url_versionid.exe'
 ##Lithuanian
 ##Lithuanian	1063
 elseif($LCID -eq "1063"){
-$url = 'http://www.rarlab.com/rar/winrar-x64-$url_versionlt.exe'
+$url = 'http://www.rarlab.com/rar/winrar-x64-'+$url_versionar+'lt.exe'
 }
 
 ##Macedonian
 ##Macedonian											0047
 ##Macedonian (Former Yugoslav Republic of Macedonia)	1071
 elseif(($LCID -eq "0047") -or ($LCID -eq "1071")){
-$url = 'http://www.rarlab.com/rar/winrar-x64-$url_versionmk.exe'
+$url = 'http://www.rarlab.com/rar/winrar-x64-'+$url_versionar+'mk.exe'
 }
 
 ##Norwegian
@@ -215,7 +215,7 @@ $url = 'http://www.rarlab.com/rar/winrar-x64-$url_versionmk.exe'
 ##Polish
 ##Polish		1045
 elseif($LCID -eq "1045"){
-$url = 'http://www.rarlab.com/rar/winrar-x64-$url_versionpl.exe'
+$url = 'http://www.rarlab.com/rar/winrar-x64-'+$url_versionar+'pl.exe'
 }
 
 ##Portuguese - Portugal
@@ -227,33 +227,33 @@ $url = 'http://www.rarlab.com/rar/winrar-x64-$url_versionpl.exe'
 ##Portuguese - Brazil
 ##Portuguese - Brazil  1046   (pt-br)
 elseif($LCID -eq "1046"){
-$url = 'http://www.rarlab.com/rar/winrar-x64-$url_versionbr.exe'
+$url = 'http://www.rarlab.com/rar/winrar-x64-'+$url_versionar+'br.exe'
 }
 
 ##Romanian
 ##Romanian			1048
 ##Romanian Moldava  2072
 elseif(($LCID -eq "1048") -or ($LCID -eq "2072")){
-$url = 'http://www.rarlab.com/rar/winrar-x64-$url_versionro.exe'
+$url = 'http://www.rarlab.com/rar/winrar-x64-'+$url_versionar+'ro.exe'
 }
 
 ##Russian
 ##Russian (ru-ru)			1049    
 ##Russian-Moldava (ru-mo)	2073
 elseif(($LCID -eq "1049") -or ($LCID -eq "2073")){
-$url = 'http://www.rarlab.com/rar/winrar-x64-$url_versionru.exe'
+$url = 'http://www.rarlab.com/rar/winrar-x64-'+$url_versionar+'ru.exe'
 }
 
 ##Serbian Cyrillic
 ##Serbian Cyrillic	3098
 elseif($LCID -eq "3098"){
-$url = 'http://www.rarlab.com/rar/winrar-x64-$url_versionsrbcyr.exe'
+$url = 'http://www.rarlab.com/rar/winrar-x64-'+$url_versionar+'srbcyr.exe'
 }
 
 ##Serbian Latin
 ##Serbian Latin		2074
 elseif($LCID -eq "2074"){
-$url = 'http://www.rarlab.com/rar/winrar-x64-$url_versionsrblat.exe'
+$url = 'http://www.rarlab.com/rar/winrar-x64-'+$url_versionar+'srblat.exe'
 }
 
 ##Sinhala
@@ -265,13 +265,13 @@ $url = 'http://www.rarlab.com/rar/winrar-x64-$url_versionsrblat.exe'
 ##Slovak
 ##Slovak			1051
 elseif($LCID -eq "1051"){
-$url = 'http://www.rarlab.com/rar/winrar-x64-$url_versionsk.exe'
+$url = 'http://www.rarlab.com/rar/winrar-x64-'+$url_versionar+'sk.exe'
 }
 
 ##Slovenian		
 ##Slovenian			1060
 elseif($LCID -eq "1060"){
-$url = 'http://www.rarlab.com/rar/winrar-x64-$url_versionslv.exe'
+$url = 'http://www.rarlab.com/rar/winrar-x64-'+$url_versionar+'slv.exe'
 }
 
 ##Spanish
@@ -298,20 +298,20 @@ $url = 'http://www.rarlab.com/rar/winrar-x64-$url_versionslv.exe'
 ##Spanish - Uruguay 			  		14346
 ##Spanish - Venezuela  			 		8202
 elseif(($LCID -eq "3082") -or ($LCID -eq "1034") -or ($LCID -eq "11274") -or ($LCID -eq "16394") -or ($LCID -eq "13322") -or ($LCID -eq "9226") -or ($LCID -eq "5130") -or ($LCID -eq "7178") -or ($LCID -eq "12298") -or ($LCID -eq "17418") -or ($LCID -eq "4106") -or ($LCID -eq "18442") -or ($LCID -eq "22538") -or ($LCID -eq "2058") -or ($LCID -eq "19466") -or ($LCID -eq "6154") -or ($LCID -eq "15370") -or ($LCID -eq "10250") -or ($LCID -eq "20490") -or ($LCID -eq "21514") -or ($LCID -eq "14346") -or ($LCID -eq "8202")){
-$url = 'http://www.rarlab.com/rar/winrar-x64-$url_versiones.exe'
+$url = 'http://www.rarlab.com/rar/winrar-x64-'+$url_versionar+'es.exe'
 }
 
 ##Swedish
 ##Swedish					1053
 ##Swedish - Finland			2077
 elseif(($LCID -eq "1053") -or ($LCID -eq "2077")){
-$url = 'http://www.rarlab.com/rar/winrar-x64-$url_versionsw.exe'
+$url = 'http://www.rarlab.com/rar/winrar-x64-'+$url_versionar+'sw.exe'
 }
 
 ##Thai
 ##Thai						1054
 elseif($LCID -eq "1054"){
-$url = 'http://www.rarlab.com/rar/winrar-x64-$url_versionth.exe'
+$url = 'http://www.rarlab.com/rar/winrar-x64-'+$url_versionar+'th.exe'
 }
 
 ##Turkish
@@ -329,32 +329,32 @@ $url = 'http://www.rarlab.com/rar/winrar-x64-$url_versionth.exe'
 ##Ukrainian
 ##Ukrainian					1058
 elseif($LCID -eq "1058"){
-$url = 'http://www.rarlab.com/rar/winrar-x64-$url_versionukr.exe'
+$url = 'http://www.rarlab.com/rar/winrar-x64-'+$url_versionar+'ukr.exe'
 }
 
 ##Uzbek
 ##Uzbek (Cyrillic)			2115
 ##Uzbek (Latin)				1091
 elseif(($LCID -eq "2115") -or ($LCID -eq "1091")){
-$url = 'http://www.rarlab.com/rar/winrar-x64-$url_versionuz.exe'
+$url = 'http://www.rarlab.com/rar/winrar-x64-'+$url_versionar+'uz.exe'
 }
 
 #Valencian
 #Valencian			2051
 elseif($LCID -eq "2051"){
-$url = 'http://www.rarlab.com/rar/winrar-x64-$url_versionva.exe'
+$url = 'http://www.rarlab.com/rar/winrar-x64-'+$url_versionar+'va.exe'
 }
 
 ##Vietnamese
 ##Vietnamese		1066
 elseif($LCID -eq "1066"){
-$url = 'http://www.rarlab.com/rar/winrar-x64-$url_versionvn.exe'
+$url = 'http://www.rarlab.com/rar/winrar-x64-'+$url_versionar+'vn.exe'
 }
 
 ##English
 ##English --- all
 else{
-$url = 'http://www.rarlab.com/rar/winrar-x64-$url_version.exe'
+$url = 'http://www.rarlab.com/rar/winrar-x64-'+$url_versionar+'.exe'
 }  
  
 } else {
@@ -379,20 +379,20 @@ $url = 'http://www.rarlab.com/rar/winrar-x64-$url_version.exe'
 ##Arabic - U.A.E.	14337
 ##Arabic - Yemen	9217
 if(($LCID -eq "1025") -or ($LCID -eq "5121") -or ($LCID -eq "15361") -or ($LCID -eq "3073") -or ($LCID -eq "2049") -or ($LCID -eq "11265") -or ($LCID -eq "13313") -or ($LCID -eq "12289") -or ($LCID -eq "4097") -or ($LCID -eq "6145") -or ($LCID -eq "8193") -or ($LCID -eq "16385") -or ($LCID -eq "10241") -or ($LCID -eq "7169") -or ($LCID -eq "14337") -or ($LCID -eq "9271")){
-$url = 'http://www.rarlab.com/rar/wrar$url_versionar.exe'
+$url = 'http://www.rarlab.com/rar/wrar'+$url_versionar+'ar.exe'
 }
 
 ##Armenian
 ##Armenian   1067
 elseif($LCID -eq "1067"){
-$url = 'http://www.rarlab.com/rar/wrar$url_versionam.exe'
+$url = 'http://www.rarlab.com/rar/wrar'+$url_versionar+'am.exe'
 }
 
 ##Azerbaijani
 ##AAzeri (Cyrillic)   2092
 ##AAzeri (Latin)      1068
 elseif(($LCID -eq "2092") -or ($LCID -eq "1068")){
-$url = 'http://www.rarlab.com/rar/wrar$url_versionaz.exe'
+$url = 'http://www.rarlab.com/rar/wrar'+$url_versionar+'az.exe'
 }
 
 ##Belarusian
@@ -404,13 +404,13 @@ $url = 'http://www.rarlab.com/rar/wrar$url_versionaz.exe'
 ##Bulgarian
 ##Bulgarian   1026
 elseif($LCID -eq "1026"){
-$url = 'http://www.rarlab.com/rar/wrar$url_versionbg.exe'
+$url = 'http://www.rarlab.com/rar/wrar'+$url_versionar+'bg.exe'
 }
 
 ##Catalan
 ##Catalan   1027
 elseif($LCID -eq "1027"){
-$url = 'http://www.rarlab.com/rar/wrar$url_versionby.exe'
+$url = 'http://www.rarlab.com/rar/wrar'+$url_versionar+'by.exe'
 }
 
 ##Chinese Simplified
@@ -419,20 +419,20 @@ $url = 'http://www.rarlab.com/rar/wrar$url_versionby.exe'
 ##Chinese - Hong Kong SAR	             3076
 ##Chinese - Macao SAR					 5124
 elseif(($LCID -eq "2052") -or ($LCID -eq "4100") -or ($LCID -eq "3076") -or ($LCID -eq "5124")){
-$url = 'http://www.rarlab.com/rar/wrar$url_versionsc.exe'
+$url = 'http://www.rarlab.com/rar/wrar'+$url_versionar+'sc.exe'
 }
 
 ##Chinese Traditional
 ##Chinese - Taiwan					1028
 elseif($LCID -eq "1028"){
-$url = 'http://www.rarlab.com/rar/wrar$url_versiontc.exe'
+$url = 'http://www.rarlab.com/rar/wrar'+$url_versionar+'tc.exe'
 }
 
 ##Croatian
 ##Croatian				          1050
 ##Croatian (Bosnia/Herzegovina)   4122
 elseif(($LCID -eq "1050") -or ($LCID -eq "4122")){
-$url = 'http://www.rarlab.com/rar/wrar$url_versioncro.exe'
+$url = 'http://www.rarlab.com/rar/wrar'+$url_versionar+'cro.exe'
 }
 
 ##Czech
@@ -444,38 +444,38 @@ $url = 'http://www.rarlab.com/rar/wrar$url_versioncro.exe'
 ##Danish
 ##Danish   1030
 elseif($LCID -eq "1030"){
-$url = 'http://www.rarlab.com/rar/wrar$url_versiondk.exe'
+$url = 'http://www.rarlab.com/rar/wrar'+$url_versionar+'dk.exe'
 }
 
 ##Dutch
 ##Dutch - Netherlands		1043
 ##Dutch - Belgium			2067
 elseif(($LCID -eq "1043") -or ($LCID -eq "2067")){
-$url = 'http://www.rarlab.com/rar/wrar$url_versionnl.exe'
+$url = 'http://www.rarlab.com/rar/wrar'+$url_versionar+'nl.exe'
 }
 
 ##Estonian
 ##Estonian			1061
 elseif($LCID -eq "1061"){
-$url = 'http://www.rarlab.com/rar/wrar$url_versionest.exe'
+$url = 'http://www.rarlab.com/rar/wrar'+$url_versionar+'est.exe'
 }
 
 ##Finnish
 ##Finnish			1035
 elseif($LCID -eq "1035"){
-$url = 'http://www.rarlab.com/rar/wrar$url_versionfi.exe'
+$url = 'http://www.rarlab.com/rar/wrar'+$url_versionar+'fi.exe'
 }
 
 ##French
 ##French			1036
 elseif($LCID -eq "1036"){
-$url = 'http://www.rarlab.com/rar/wrar$url_versionfr.exe'
+$url = 'http://www.rarlab.com/rar/wrar'+$url_versionar+'fr.exe'
 }
 
 ##Galician
 ##Galician			1110
 elseif($LCID -eq "1110"){
-$url = 'http://www.rarlab.com/rar/wrar$url_versiongl.exe'
+$url = 'http://www.rarlab.com/rar/wrar'+$url_versionar+'gl.exe'
 }
 
 ##Georgian
@@ -487,7 +487,7 @@ $url = 'http://www.rarlab.com/rar/wrar$url_versiongl.exe'
 ##German
 ##German			1031
 elseif($LCID -eq "1031"){
-$url = 'http://www.rarlab.com/rar/wrar$url_versiond.exe'
+$url = 'http://www.rarlab.com/rar/wrar'+$url_versionar+'d.exe'
 }
 
 ##Greek
@@ -499,19 +499,19 @@ $url = 'http://www.rarlab.com/rar/wrar$url_versiond.exe'
 ##Hebrew
 ##Hebrew			1037
 elseif($LCID -eq "1037"){
-$url = 'http://www.rarlab.com/rar/wrar$url_versionhe.exe'
+$url = 'http://www.rarlab.com/rar/wrar'+$url_versionar+'he.exe'
 }
 
 ##Hungarian
 ##Hungarian			1038
 elseif($LCID -eq "1038"){
-$url = 'http://www.rarlab.com/rar/wrar$url_versionhu.exe'
+$url = 'http://www.rarlab.com/rar/wrar'+$url_versionar+'hu.exe'
 }
 
 ##Indonesian
 ##Indonesian		1057
 elseif($LCID -eq "1057"){
-$url = 'http://www.rarlab.com/rar/wrar$url_versionid.exe'
+$url = 'http://www.rarlab.com/rar/wrar'+$url_versionar+'id.exe'
 }
 
 ##Italian
@@ -536,14 +536,14 @@ $url = 'http://www.rarlab.com/rar/wrar$url_versionid.exe'
 ##Lithuanian
 ##Lithuanian	1063
 elseif($LCID -eq "1063"){
-$url = 'http://www.rarlab.com/rar/wrar$url_versionlt.exe'
+$url = 'http://www.rarlab.com/rar/wrar'+$url_versionar+'lt.exe'
 }
 
 ##Macedonian
 ##Macedonian											0047
 ##Macedonian (Former Yugoslav Republic of Macedonia)	1071
 elseif(($LCID -eq "0047") -or ($LCID -eq "1071")){
-$url = 'http://www.rarlab.com/rar/wrar$url_versionmk.exe'
+$url = 'http://www.rarlab.com/rar/wrar'+$url_versionar+'mk.exe'
 }
 
 ##Norwegian
@@ -563,7 +563,7 @@ $url = 'http://www.rarlab.com/rar/wrar$url_versionmk.exe'
 ##Polish
 ##Polish		1045
 elseif($LCID -eq "1045"){
-$url = 'http://www.rarlab.com/rar/wrar$url_versionpl.exe'
+$url = 'http://www.rarlab.com/rar/wrar'+$url_versionar+'pl.exe'
 }
 
 ##Portuguese - Portugal
@@ -575,33 +575,33 @@ $url = 'http://www.rarlab.com/rar/wrar$url_versionpl.exe'
 ##Portuguese - Brazil
 ##Portuguese - Brazil  1046   (pt-br)
 elseif($LCID -eq "1046"){
-$url = 'http://www.rarlab.com/rar/wrar$url_versionbr.exe'
+$url = 'http://www.rarlab.com/rar/wrar'+$url_versionar+'br.exe'
 }
 
 ##Romanian
 ##Romanian			1048
 ##Romanian Moldava  2072
 elseif(($LCID -eq "1048") -or ($LCID -eq "2072")){
-$url = 'http://www.rarlab.com/rar/wrar$url_versionro.exe'
+$url = 'http://www.rarlab.com/rar/wrar'+$url_versionar+'ro.exe'
 }
 
 ##Russian
 ##Russian (ru-ru)			1049    
 ##Russian-Moldava (ru-mo)	2073
 elseif(($LCID -eq "1049") -or ($LCID -eq "2073")){
-$url = 'http://www.rarlab.com/rar/wrar$url_versionru.exe'
+$url = 'http://www.rarlab.com/rar/wrar'+$url_versionar+'ru.exe'
 }
 
 ##Serbian Cyrillic
 ##Serbian Cyrillic	3098
 elseif($LCID -eq "3098"){
-$url = 'http://www.rarlab.com/rar/wrar$url_versionsrbcyr.exe'
+$url = 'http://www.rarlab.com/rar/wrar'+$url_versionar+'srbcyr.exe'
 }
 
 ##Serbian Latin
 ##Serbian Latin		2074
 elseif($LCID -eq "2074"){
-$url = 'http://www.rarlab.com/rar/wrar$url_versionsrblat.exe'
+$url = 'http://www.rarlab.com/rar/wrar'+$url_versionar+'srblat.exe'
 }
 
 ##Sinhala
@@ -619,7 +619,7 @@ $url = 'http://www.rarlab.com/rar/wrar$url_versionsrblat.exe'
 ##Slovenian		
 ##Slovenian			1060
 elseif($LCID -eq "1060"){
-$url = 'http://www.rarlab.com/rar/wrar$url_versionslv.exe'
+$url = 'http://www.rarlab.com/rar/wrar'+$url_versionar+'slv.exe'
 }
 
 ##Spanish
@@ -646,20 +646,20 @@ $url = 'http://www.rarlab.com/rar/wrar$url_versionslv.exe'
 ##Spanish - Uruguay 			  		14346
 ##Spanish - Venezuela  			 		8202
 elseif(($LCID -eq "3082") -or ($LCID -eq "1034") -or ($LCID -eq "11274") -or ($LCID -eq "16394") -or ($LCID -eq "13322") -or ($LCID -eq "9226") -or ($LCID -eq "5130") -or ($LCID -eq "7178") -or ($LCID -eq "12298") -or ($LCID -eq "17418") -or ($LCID -eq "4106") -or ($LCID -eq "18442") -or ($LCID -eq "22538") -or ($LCID -eq "2058") -or ($LCID -eq "19466") -or ($LCID -eq "6154") -or ($LCID -eq "15370") -or ($LCID -eq "10250") -or ($LCID -eq "20490") -or ($LCID -eq "21514") -or ($LCID -eq "14346") -or ($LCID -eq "8202")){
-$url = 'http://www.rarlab.com/rar/wrar$url_versiones.exe'
+$url = 'http://www.rarlab.com/rar/wrar'+$url_versionar+'es.exe'
 }
 
 ##Swedish
 ##Swedish					1053
 ##Swedish - Finland			2077
 elseif(($LCID -eq "1053") -or ($LCID -eq "2077")){
-$url = 'http://www.rarlab.com/rar/wrar$url_versionsw.exe'
+$url = 'http://www.rarlab.com/rar/wrar'+$url_versionar+'sw.exe'
 }
 
 ##Thai
 ##Thai						1054
 elseif($LCID -eq "1054"){
-$url = 'http://www.rarlab.com/rar/wrar$url_versionth.exe'
+$url = 'http://www.rarlab.com/rar/wrar'+$url_versionar+'th.exe'
 }
 
 ##Turkish
@@ -677,32 +677,32 @@ $url = 'http://www.rarlab.com/rar/wrar$url_versionth.exe'
 ##Ukrainian
 ##Ukrainian					1058
 elseif($LCID -eq "1058"){
-$url = 'http://www.rarlab.com/rar/wrar$url_versionukr.exe'
+$url = 'http://www.rarlab.com/rar/wrar'+$url_versionar+'ukr.exe'
 }
 
 ##Uzbek
 ##Uzbek (Cyrillic)			2115
 ##Uzbek (Latin)				1091
 elseif(($LCID -eq "2115") -or ($LCID -eq "1091")){
-$url = 'http://www.rarlab.com/rar/wrar$url_versionuz.exe'
+$url = 'http://www.rarlab.com/rar/wrar'+$url_versionar+'uz.exe'
 }
 
 #Valencian
 #Valencian			2051
 elseif($LCID -eq "2051"){
-$url = 'http://www.rarlab.com/rar/wrar$url_versionva.exe'
+$url = 'http://www.rarlab.com/rar/wrar'+$url_versionar+'va.exe'
 }
 
 ##Vietnamese
 ##Vietnamese		1066
 elseif($LCID -eq "1066"){
-$url = 'http://www.rarlab.com/rar/wrar$url_versionvn.exe'
+$url = 'http://www.rarlab.com/rar/wrar'+$url_versionar+'vn.exe'
 }
 
 ##English
 ##English --- all
 else{
-$url = 'http://www.rarlab.com/rar/wrar$url_version.exe'
+$url = 'http://www.rarlab.com/rar/wrar'+$url_versionar+'.exe'
 } 
 }
 
