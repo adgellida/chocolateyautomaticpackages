@@ -1,10 +1,10 @@
-﻿$packageName = '{{PackageName}}'
+﻿$packageName = 'winrar'
 $installerType = 'EXE'
 $LCID = (Get-Culture).LCID
 $silentArgs = '/S'
 $validExitCodes = @(0) #please insert other valid exit codes here, exit codes for ms http://msdn.microsoft.com/en-us/library/aa368542(VS.85).aspx
-$url_version_dot= '{{PackageVersion}}'
-#$url_version_dot= '5.10'
+#$url_version_dot= '5.10.20140619'
+$url_version_dot= '5.10'
 $url_version = (Split-Path $url_version_dot -leaf).ToString().Replace(".", "")
 
 $processor = Get-WmiObject Win32_Processor
