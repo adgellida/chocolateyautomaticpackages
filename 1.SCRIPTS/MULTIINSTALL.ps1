@@ -6,6 +6,7 @@
 
 #OS & Utilities
 'ccleaner','teamviewer','notepadplusplus.install','silverlight','unchecky' | %{ cinst $_ }
+'classic-shell' | %{ cinst $_ }
 
 #Security & Privacy
 #'malwarebytes','adwcleaner','jrt','spybot','superantispyware' | %{ cinst $_ }
@@ -23,7 +24,7 @@
 'vlc' | %{ cinst $_ }
 
 #Audio & Music & Videos & Movies
-'adobeshockwaveplayer','adobeair','unitywebplayer' | %{ cinst $_ }
+#'adobeshockwaveplayer','adobeair','unitywebplayer' | %{ cinst $_ }
 
 #Development
 
@@ -45,7 +46,7 @@
 
 
 #Office & Productivity
-
+'sumatrapdf.install' | %{ cinst $_ }
 
 #Games
 
