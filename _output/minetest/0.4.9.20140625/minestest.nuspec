@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>minetest</id>
+    <title>Minetest</title>
+    <version>0.4.9.20140625</version>
+    <authors>c55.me/blog</authors>
+    <owners>tonigellida</owners>
+    <summary>
+Minetest is an infinite-world block sandbox game and a game engine, inspired by InfiniMiner, Minecraft and the like.
+	</summary>
+    <description>
+Minetest is an infinite-world block sandbox game and a game engine, inspired by InfiniMiner, Minecraft and the like.	
+Minetest is designed to be simple, stable and portable. It is lightweight enough to run on fairly old hardware.
+It currently runs playably on a laptop with Intel 945GM graphics. Though, as for the CPU, dualcore is recommended.
+
+Features:
+
+-Walk around, dig and build in an infinite voxel world, and craft stuff from raw materials to help you along the way.
+-Simplistic Modding API that supports many kinds of additions and modifications to the game.
+-Multiplayer support for tens of players, via servers hosted by users.
+-Voxel based lighting with gameplay consequences (light caves and buildings with torches)
+-Almost infinite world and a beautiful map generator.
+-Runs natively on Windows, Linux, OS X and FreeBSD.
+-Supports multiple languages, translated by the community.	
+	</description>
+    <projectUrl>http://minetest.net/</projectUrl>
+    <tags>game minecraft mmorpg crafting survival</tags>
+    <copyright></copyright>
+    <licenseUrl>http://www.gnu.org/licenses/lgpl-2.1.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/minetest/minetest.png</iconUrl>
+  </metadata>
+</package>
