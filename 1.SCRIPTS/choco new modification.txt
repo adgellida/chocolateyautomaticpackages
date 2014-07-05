@@ -1,0 +1,15 @@
+https://github.com/chocolatey/chocolatey/issues/452
+
+-Move the content
+C:\Chocolatey
+C:\ProgramData\chocolatey
+
+-Change the environment variables
+
+ChocolateyInstall
+C:\Chocolatey
+C:\ProgramData\chocolatey
+
+Path
+C:\Chocolatey\bin;C:\Program Files (x86)\Git\cmd;C:\tools\ChocolateyPackageUpdater;C:\PROGRA~2\Oracle\VirtualBox;C:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;C:\Users\Tonin\AppData\Roaming\Boxstarter
+C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Git\cmd;C:\tools\ChocolateyPackageUpdater;C:\PROGRA~2\Oracle\VirtualBox;C:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;C:\Users\Tonin\AppData\Roaming\Boxstarter

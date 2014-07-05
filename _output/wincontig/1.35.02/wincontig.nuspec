@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>wincontig</id>
+    <title>WinContig</title>
+    <version>1.35.02</version>
+    <authors>Marco D'Amato</authors>
+    <owners>tonigellida</owners>
+    <summary>
+WinContig is an easy-to-use stand-alone defragmentation tool that doesn't create any installation directories or Registry entries on your computer.
+	</summary>
+    <description>
+WinContig is an easy-to-use stand-alone defragmentation tool that doesn't create any installation directories or Registry entries on your computer.
+Its purpose is to quick defrag files without the need to defrag the whole disk.
+In addition, WinContig allows you to group files into profiles, and also it accepts a number of optional command-line switches that you can use to control how the program operates.
+	</description>
+    <projectUrl>http://wincontig.mdtzone.it/en/index.htm</projectUrl>
+    <tags>defragmentation defrag usb</tags>
+    <copyright></copyright>
+    <licenseUrl>http://en.wikipedia.org/wiki/Freeware</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/wincontig/wincontig.png</iconUrl>
+  </metadata>
+</package>
