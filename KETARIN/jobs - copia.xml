@@ -64,7 +64,7 @@
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2012-05-23T02:09:37.7748325</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>C:\Chocolatey\_work\</TargetPath>
     <FixedDownloadUrl><placeholder name="Download Url - Optional" value="http://fpdownload.macromedia.com/get/shockwave/default/english/win95nt/latest/Shockwave_Installer_Slim.exe" /></FixedDownloadUrl>
     <Name><placeholder name="Name" value="adobeshockwaveplayer" /></Name>
   </ApplicationJob>
@@ -123,12 +123,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\Shockwave_Installer_Slim.exe</PreviousLocation>
+    <PreviousLocation>C:\Chocolatey\_work\Shockwave_Installer_Slim.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2013-07-24T14:58:09.2217752</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>C:\Chocolatey\_work\</TargetPath>
     <FixedDownloadUrl>http://fpdownload.macromedia.com/get/shockwave/default/english/win95nt/latest/Shockwave_Installer_Slim.exe</FixedDownloadUrl>
     <Name>adobeshockwaveplayer</Name>
   </ApplicationJob>
@@ -196,7 +196,7 @@
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2012-05-23T02:09:37.7748325</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>C:\Chocolatey\_work\</TargetPath>
     <FixedDownloadUrl><placeholder name="Download Url - Optional" value="http://download.iobit.com/asc-setup.exe" /></FixedDownloadUrl>
     <Name><placeholder name="Name" value="advancedsystemcarefree" /></Name>
   </ApplicationJob>
@@ -256,12 +256,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\asc-setup.exe</PreviousLocation>
+    <PreviousLocation>C:\Chocolatey\_work\asc-setup.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2013-07-24T13:38:23.3846315</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>C:\Chocolatey\_work\</TargetPath>
     <FixedDownloadUrl>http://download.iobit.com/asc-setup.exe</FixedDownloadUrl>
     <Name>advancedsystemcarefree</Name>
   </ApplicationJob>
@@ -329,7 +329,7 @@
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2012-05-23T02:09:37.7748325</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>C:\Chocolatey\_work\</TargetPath>
     <FixedDownloadUrl><placeholder name="Download Url - Optional" value="http://www.tweaking.com/files/setups/tweaking.com_advanced_system_tweaker_setup.exe" /></FixedDownloadUrl>
     <Name><placeholder name="Name" value="advancedsystemtweaker" /></Name>
   </ApplicationJob>
@@ -388,12 +388,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\tweaking.com_advanced_system_tweaker_setup.exe</PreviousLocation>
+    <PreviousLocation>C:\Chocolatey\_work\tweaking.com_advanced_system_tweaker_setup.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2013-07-24T15:26:39.8895562</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>C:\Chocolatey\_work\</TargetPath>
     <FixedDownloadUrl>http://www.tweaking.com/files/setups/tweaking.com_advanced_system_tweaker_setup.exe</FixedDownloadUrl>
     <Name>advancedsystemtweaker</Name>
   </ApplicationJob>
@@ -460,7 +460,7 @@
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2012-05-23T02:09:37.7748325</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>C:\Chocolatey\_work\</TargetPath>
     <FixedDownloadUrl><placeholder name="Download Url - Optional" value="http://download.aida64.com/aida64extreme{version}.exe" /></FixedDownloadUrl>
     <Name><placeholder name="Name" value="aida64extreme" /></Name>
   </ApplicationJob>
@@ -518,12 +518,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\aida64extreme300.exe</PreviousLocation>
+    <PreviousLocation>C:\Chocolatey\_work\aida64extreme300.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2013-07-24T20:19:56.6594218</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>C:\Chocolatey\_work\</TargetPath>
     <FixedDownloadUrl>http://download.aida64.com/{anchor1}.exe</FixedDownloadUrl>
     <Name>aida64extreme</Name>
   </ApplicationJob>
@@ -590,7 +590,7 @@
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2012-05-23T02:09:37.7748325</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>C:\Chocolatey\_work\</TargetPath>
     <FixedDownloadUrl><placeholder name="Download Url - Optional" value="http://katana.oooninja.com/bleachbit/{version}final/download.php" /></FixedDownloadUrl>
     <Name><placeholder name="Name" value="bleachbit" /></Name>
   </ApplicationJob>
@@ -649,12 +649,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\BleachBit-0.9.6-cs-setup.exe</PreviousLocation>
+    <PreviousLocation>C:\Chocolatey\_work\BleachBit-0.9.6-cs-setup.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2013-07-27T00:35:55.3018871</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>C:\Chocolatey\_work\</TargetPath>
     <FixedDownloadUrl>http://katana.oooninja.com/bleachbit/{version}final/download.php</FixedDownloadUrl>
     <Name>bleachbit</Name>
   </ApplicationJob>
@@ -722,7 +722,7 @@
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2012-05-23T02:09:37.7748325</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>C:\Chocolatey\_work\</TargetPath>
     <FixedDownloadUrl><placeholder name="Download Url - Optional" value="http://download.piriform.com/{anchor1}.exe" /></FixedDownloadUrl>
     <Name><placeholder name="Name" value="ccleaner" /></Name>
   </ApplicationJob>
@@ -787,12 +787,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\ccsetup404.exe</PreviousLocation>
+    <PreviousLocation>C:\Chocolatey\_work\ccsetup404.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2013-07-26T16:30:24.7675263</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>C:\Chocolatey\_work\</TargetPath>
     <FixedDownloadUrl>http://download.piriform.com/{anchor1}.exe</FixedDownloadUrl>
     <Name>ccleaner</Name>
   </ApplicationJob>
@@ -860,7 +860,7 @@
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2012-05-23T02:09:37.7748325</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>C:\Chocolatey\_work\</TargetPath>
     <FixedDownloadUrl><placeholder name="Download Url - Optional" value="http://www.goodsync.com/download/GoodSync-Setup.exe" /></FixedDownloadUrl>
     <Name><placeholder name="Name" value="goodsync" /></Name>
   </ApplicationJob>
@@ -919,12 +919,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\GoodSync-Setup.exe</PreviousLocation>
+    <PreviousLocation>C:\Chocolatey\_work\GoodSync-Setup.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2013-07-24T13:17:59.155587</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>C:\Chocolatey\_work\</TargetPath>
     <FixedDownloadUrl>http://www.goodsync.com/download/GoodSync-Setup.exe</FixedDownloadUrl>
     <Name>goodsync</Name>
   </ApplicationJob>
@@ -992,7 +992,7 @@
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2012-05-23T02:09:37.7748325</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>C:\Chocolatey\_work\</TargetPath>
     <FixedDownloadUrl><placeholder name="Download Url - Optional" value="" /></FixedDownloadUrl>
     <Name><placeholder name="Name" value="peazip" /></Name>
   </ApplicationJob>
@@ -1056,12 +1056,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\peazip-5.0.1.WINDOWS.exe</PreviousLocation>
+    <PreviousLocation>C:\Chocolatey\_work\peazip-5.0.1.WINDOWS.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2013-07-26T02:30:47.0467564</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>C:\Chocolatey\_work\</TargetPath>
     <FixedDownloadUrl>http://surfnet.dl.sourceforge.net/project/peazip/{version}/peazip-{version}.WINDOWS.exe</FixedDownloadUrl>
     <Name>peazip</Name>
   </ApplicationJob>
@@ -1129,7 +1129,7 @@
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2012-05-23T02:09:37.7748325</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>C:\Chocolatey\_work\</TargetPath>
     <FixedDownloadUrl><placeholder name="Download Url - Optional" value="http://www.tweaking.com/files/setups/tweaking.com_simple_system_tweaker_setup.exe" /></FixedDownloadUrl>
     <Name><placeholder name="Name" value="simplesystemtweaker" /></Name>
   </ApplicationJob>
@@ -1188,12 +1188,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\tweaking.com_simple_system_tweaker_setup.exe</PreviousLocation>
+    <PreviousLocation>C:\Chocolatey\_work\tweaking.com_simple_system_tweaker_setup.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2013-07-26T23:28:09.2676654</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>C:\Chocolatey\_work\</TargetPath>
     <FixedDownloadUrl>http://www.tweaking.com/files/setups/tweaking.com_simple_system_tweaker_setup.exe</FixedDownloadUrl>
     <Name>simplesystemtweaker</Name>
   </ApplicationJob>
@@ -1261,7 +1261,7 @@
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2012-05-23T02:09:37.7748325</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>C:\Chocolatey\_work\</TargetPath>
     <FixedDownloadUrl><placeholder name="Download Url - Optional" value="http://download.iobit.com/startmenu-setup.exe" /></FixedDownloadUrl>
     <Name><placeholder name="Name" value="startmenu8" /></Name>
   </ApplicationJob>
@@ -1321,12 +1321,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\startmenu-setup.exe</PreviousLocation>
+    <PreviousLocation>C:\Chocolatey\_work\startmenu-setup.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2013-07-24T12:54:59.4271998</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>C:\Chocolatey\_work\</TargetPath>
     <FixedDownloadUrl>http://download.iobit.com/startmenu-setup.exe</FixedDownloadUrl>
     <Name>startmenu8</Name>
   </ApplicationJob>
@@ -1394,7 +1394,7 @@
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2012-05-23T02:09:37.7748325</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>C:\Chocolatey\_work\</TargetPath>
     <FixedDownloadUrl><placeholder name="Download Url - Optional" value="http://www.reviversoft.com/downloads/StartMenuReviverSetup.exe" /></FixedDownloadUrl>
     <Name><placeholder name="Name" value="startmenureviver" /></Name>
   </ApplicationJob>
@@ -1454,12 +1454,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\StartMenuReviverSetup.exe</PreviousLocation>
+    <PreviousLocation>C:\Chocolatey\_work\StartMenuReviverSetup.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2013-07-24T01:24:36.6176768</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>C:\Chocolatey\_work\</TargetPath>
     <FixedDownloadUrl>http://www.reviversoft.com/downloads/StartMenuReviverSetup.exe</FixedDownloadUrl>
     <Name>startmenureviver</Name>
   </ApplicationJob>
@@ -1527,7 +1527,7 @@
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2012-05-23T02:09:37.7748325</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>C:\Chocolatey\_work\</TargetPath>
     <FixedDownloadUrl><placeholder name="Download Url - Optional" value="http://www.kcsoftwares.com/files/sumo_lite.exe" /></FixedDownloadUrl>
     <Name><placeholder name="Name" value="sumo" /></Name>
   </ApplicationJob>
@@ -1587,12 +1587,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\sumo_lite.exe</PreviousLocation>
+    <PreviousLocation>C:\Chocolatey\_work\sumo_lite.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2013-07-26T16:30:23.8424476</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>C:\Chocolatey\_work\</TargetPath>
     <FixedDownloadUrl>http://www.kcsoftwares.com/files/sumo_lite.exe</FixedDownloadUrl>
     <Name>sumo</Name>
   </ApplicationJob>
@@ -1660,7 +1660,7 @@
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2012-05-23T02:09:37.7748325</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>C:\Chocolatey\_work\</TargetPath>
     <FixedDownloadUrl><placeholder name="Download Url - Optional" value="http://lowlevel-studios.com/apps/wassapp/Wassapp_{version}.exe" /></FixedDownloadUrl>
     <Name><placeholder name="Name" value="wassapp" /></Name>
   </ApplicationJob>
@@ -1719,12 +1719,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\Wassapp_1.1.1.exe</PreviousLocation>
+    <PreviousLocation>C:\Chocolatey\_work\Wassapp_1.1.1.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2013-07-26T23:18:55.4341429</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>C:\Chocolatey\_work\</TargetPath>
     <FixedDownloadUrl>http://lowlevel-studios.com/apps/wassapp/Wassapp_{version}.exe</FixedDownloadUrl>
     <Name>wassapp</Name>
   </ApplicationJob>
@@ -1792,7 +1792,7 @@
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2012-05-23T02:09:37.7748325</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>C:\Chocolatey\_work\</TargetPath>
     <FixedDownloadUrl><placeholder name="Download Url - Optional" value="http://www.tweaking.com/files/setups/tweaking.com_windows_repair_aio_setup.exe" /></FixedDownloadUrl>
     <Name><placeholder name="Name" value="windowsrepair" /></Name>
   </ApplicationJob>
@@ -1851,12 +1851,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\tweaking.com_windows_repair_aio_setup.exe</PreviousLocation>
+    <PreviousLocation>C:\Chocolatey\_work\tweaking.com_windows_repair_aio_setup.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2013-07-26T23:08:37.0050793</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>C:\Chocolatey\_work\</TargetPath>
     <FixedDownloadUrl>http://www.tweaking.com/files/setups/tweaking.com_windows_repair_aio_setup.exe</FixedDownloadUrl>
     <Name>windowsrepair</Name>
   </ApplicationJob>
