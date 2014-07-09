@@ -1,4 +1,4 @@
-﻿$packageName = '{{PackageName}}'
+﻿$packageName = 'kis'
 $installerType = 'EXE'
 $LCID = (Get-Culture).LCID
 $silentArgs = ''

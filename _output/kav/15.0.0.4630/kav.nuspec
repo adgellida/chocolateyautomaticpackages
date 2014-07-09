@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>{{PackageName}}</id>
+    <id>kav</id>
     <title>Kaspersky Anti-Virus</title>
-    <version>{{PackageVersion}}</version>
+    <version>15.0.0.4630</version>
     <authors>Kaspersky Lab</authors>
     <owners>tonigellida</owners>
     <summary>
