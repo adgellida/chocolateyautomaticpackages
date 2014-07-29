@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>{{PackageName}}</id>
+    <id>kvrt</id>
     <title>Kaspersky Virus Removal Tool 11.0.3.7</title>
-    <version>{{PackageVersion}}</version>
+    <version>2014.07.30</version>
     <authors>Kaspersky Lab</authors>
     <owners>tonigellida</owners>
     <summary>
