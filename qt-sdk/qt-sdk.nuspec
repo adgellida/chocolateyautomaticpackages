@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>{{PackageName}}</id>
-    <title>Qt SDK</title>
+    <title>Qt SDK (Online Installer)</title>
     <version>{{PackageVersion}}</version>
     <authors>Digia Plc</authors>
     <owners>tonigellida</owners>

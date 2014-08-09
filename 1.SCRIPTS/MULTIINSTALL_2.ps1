@@ -53,7 +53,7 @@
 #'filezilla','jdownloader','peazip','windirstat','mucommander' | %{ cinst $_ }
 
 #File Sharing
-#'utorrent','ares','emule','wget' | %{ cinst $_ }
+#'transmission-qt','utorrent','ares','emule','wget' | %{ cinst $_ }
 
 #News & Books
 
