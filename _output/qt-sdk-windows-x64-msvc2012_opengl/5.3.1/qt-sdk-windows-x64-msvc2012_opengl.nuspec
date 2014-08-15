@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>qt-sdk-windows-x64-msvc2012_opengl</id>
+    <title>Qt for Windows 64-bit (VS 2012, OpenGL)</title>
+    <version>5.3.1</version>
+    <authors>Digia Plc</authors>
+    <owners>tonigellida</owners>
+    <summary>
+Qt is cross-platform application and UI framework which allows you to develop applications and user interfaces once, and deploy them across Windows, Mac, Linux/X11, embedded Linux, Windows CE, Symbian, Maemo, MeeGo, iOS and Android without rewriting the source code.
+	</summary>
+    <description>
+Qt is cross-platform application and UI framework which allows you to develop applications and user interfaces once, and deploy them across Windows, Mac, Linux/X11, embedded Linux, Windows CE, Symbian, Maemo, MeeGo, iOS and Android without rewriting the source code.
+	</description>
+    <projectUrl>http://qt-project.org/</projectUrl>
+    <tags>notSilent notUninstallable sdk framework qt qtcreator ide dev development msvs2012 opengl x64</tags>
+    <copyright></copyright>
+    <licenseUrl>http://www.gnu.org/copyleft/gpl.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/qt-sdk-windows-x64-msvc2012_opengl/qt-sdk-windows-x64-msvc2012_opengl.png</iconUrl>
+  </metadata>
+</package>
