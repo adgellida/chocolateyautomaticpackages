@@ -1,0 +1,14 @@
+os: Windows Server 2012
+install:
+ - cmd: choco pack tiled.nuspec
+build: off
+test: off
+artifacts:
+ # pushing all *.nupkg files in directory
+ - path: /.*\.nupkg/
+deploy:
+ provider: NuGet
+ server: http://chocolatey.org/api/v2/
+ api_key:
+   secure: ZQyhH/wCLJ4J+4Of15PiTKYuwXihZpKH++XbCNx+VnrDtp4R5LzeTNO4QoIIQM1X
+ artifact: /.*\.nupkg/

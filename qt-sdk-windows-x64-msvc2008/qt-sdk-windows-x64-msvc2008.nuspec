@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>{{PackageName}}</id>
-    <title>Qt for Windows 64-bit (VS 2013, OpenGL)</title>
+    <title>Qt for Windows 64-bit (VS 2008)</title>
     <version>{{PackageVersion}}</version>
     <authors>Digia Plc</authors>
     <owners>tonigellida</owners>
@@ -13,7 +13,7 @@ Qt is cross-platform application and UI framework which allows you to develop ap
 Qt is cross-platform application and UI framework which allows you to develop applications and user interfaces once, and deploy them across Windows, Mac, Linux/X11, embedded Linux, Windows CE, Symbian, Maemo, MeeGo, iOS and Android without rewriting the source code.
 	</description>
     <projectUrl>http://qt-project.org/</projectUrl>
-    <tags>notSilent notUninstallable sdk framework qt qtcreator ide dev development msvs2013 opengl x64</tags>
+    <tags>notSilent notUninstallable sdk framework qt qtcreator ide dev development msvs2008 x64</tags>
     <copyright></copyright>
     <licenseUrl>http://www.gnu.org/copyleft/gpl.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
