@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+$packageName = 'ccenhancer'
 
 try {
   Remove-Item "$Home\Desktop\CCEnhancer-{version}.exe.lnk"
