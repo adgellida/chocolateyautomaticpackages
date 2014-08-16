@@ -28,4 +28,7 @@ Advices
 * 24/05/14 - Go to "1.SCRIPTS" folder and execute what you want. Packages are on "MULTIINSTALL.ps1" and on "MULTIINSTALL_2.ps1" there are extra packages.
 * 04/01/14 - Updated daily (only auto packages)
 * 06/12/13 - All versions works on windows vista, 7, 8, 8.1 etc. On xp wasn't tested 100% but works very very often. There're packages that don't do all the instructions (remove innecesary shortcuts), but the program is fully functional afterwards.
-* 05/11/13 - By now this repo has only stable versions, prerelease versions will be on the next chocolateyautomaticpackagesbeta repo when I've time.
+
+TO DO
+
+* Do all packages checkables if they are installed on system and not to install them if they exist.
