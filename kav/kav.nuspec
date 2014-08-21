@@ -12,11 +12,12 @@ Kaspersky Anti-Virus offers protection from a range of IT threats and provides t
     <description>
 Kaspersky Anti-Virus offers protection from a range of IT threats and provides the basic tools needed to keep your PC secure.
 Kaspersky lets you surf the web safely and keeps your PC free of viruses, Internet and email worms, and Trojans.
-======= Notes =======
+	</description>
+	<releaseNotes>
 If you want to change to english language on the fly in other language version press Shift+F12 with the program opened. To return Shift+F5.
 You cannot change language in the interface of Japanese, Vietnamese, Chinese, and English versions.
 Only en-us, es-mx, pt-br languages supported. Similar languages like es-es, pt-pt, en-gb use them.
-	</description>
+	</releaseNotes>
     <projectUrl>http://www.kaspersky.com/sp/anti-virus-trial</projectUrl>
     <tags>notSilent trial-version security antivirus vulnerability</tags>
     <copyright></copyright>

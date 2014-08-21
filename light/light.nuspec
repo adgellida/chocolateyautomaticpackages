@@ -12,9 +12,10 @@ A light Firefox edition.
     <description>
 A light Firefox edition. Many components are slimmed down. So it can start faster and use less memory.
 By default, Light can run along with official firefox. Both x86 and x64 builds are available.
-======= Notes =======
-VC Sync version.
 	</description>
+	<releaseNotes>
+VC Sync version.
+	</releaseNotes>
     <projectUrl>http://sourceforge.net/projects/lightfirefox/</projectUrl>
     <tags>browser mozilla firefox</tags>
     <copyright></copyright>

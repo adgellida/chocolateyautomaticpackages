@@ -11,9 +11,10 @@ The Most Powerful Free Schematic and PCB Layout in the World.
 	</summary>
     <description>
 The Most Powerful Free Schematic and PCB Layout in the World.
-======= Notes =======
-Not uninstallable silently.
 	</description>
+	<releaseNotes>
+Not uninstallable silently.
+	</releaseNotes>
     <projectUrl>http://www.designspark.com/page/designspark-pcb-home-page</projectUrl>
     <tags>notSilent electronics pcb-layout</tags>
     <copyright></copyright>

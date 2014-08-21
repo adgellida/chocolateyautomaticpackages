@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>{{PackageName}}</id>
+    <id>mro</id>
     <title>MiniRacingOnline</title>
-    <version>{{PackageVersion}}</version>
+    <version>1.12.20140821</version>
     <authors>Kotai</authors>
     <owners>tonigellida</owners>
     <summary>
@@ -22,6 +22,6 @@ This package also integrates mro-launcher.
     <copyright></copyright>
     <licenseUrl>http://en.wikipedia.org/wiki/Freeware</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/{{PackageName}}/{{PackageName}}.gif</iconUrl>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/mro/mro.gif</iconUrl>
   </metadata>
 </package>

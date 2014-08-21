@@ -14,10 +14,11 @@ It can backup your data and reduce the size of email attachments, compress &amp;
 WinRAR is a powerful archive manager.
 It can backup your data and reduce the size of email attachments, decompress RAR, ZIP and other files downloaded from Internet and create new archives in RAR and ZIP file format.
 You can try WinRAR before buy, its trial version is available.
-======= Notes =======
+	</description>
+	<releaseNotes>
 Now supports a lot of languages. Some of them aren't supported by having an old version in its traduction.
 Not supported: Belarusian, Czech, Georgian, Greek, Italian, Japanese, Korean, Norwegian, Persian, Portuguese, Sinhala, Slovak, Turkish, Turkmen.
-	</description>
+	</releaseNotes>
     <projectUrl>http://www.rarlab.com</projectUrl>
     <tags>trial-version winrar rar system compression zip</tags>
     <copyright></copyright>
