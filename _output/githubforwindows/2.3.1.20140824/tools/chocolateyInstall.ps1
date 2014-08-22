@@ -1,9 +1,9 @@
-$packageName = '{{PackageName}}'
-#$version = '{{PackageVersion}}'
+$packageName = 'githubforwindows'
+#$version = '2.3.1.20140824'
 $version = '2.3.1.1'
 $uninstallRegistryPath = 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\5f7eb300e2ea4ebf'
 $installerType = 'EXE'
-$url = '{{DownloadUrl}}'
+$url = 'https://github-windows.s3.amazonaws.com/GitHubSetup.exe'
 $silentArgs = ''
 $validExitCodes = @(0) #please insert other valid exit codes here, exit codes for ms http://msdn.microsoft.com/en-us/library/aa368542(VS.85).aspx
 $mantainer = 'tonigellida'
