@@ -13,6 +13,9 @@ HipHop is an application that lets you listen instantly to more than 45 million 
 This package is deprecated. Use atraci instead.
 HipHop is an application that lets you listen instantly to more than 45 million songs (way more than iTunes's 26 million). It requires no sign up, displays no ads and is 100% safe. 
 	</description>
+	<releaseNotes>
+This package is deprecated. Use atraci instead.
+	</releaseNotes>
     <projectUrl>http://gethiphop.net/</projectUrl>
     <tags>deprecated mp3 music player popcorntime</tags>
     <copyright></copyright>

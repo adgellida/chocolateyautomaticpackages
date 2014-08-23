@@ -13,6 +13,9 @@ SkyDrive is a file hosting service that allows users to upload and sync files to
 This package is deprecated. Use onedrive instead.
 SkyDrive is a file hosting service that allows users to upload and sync files to a cloud storage and then access them from a Web browser or their local device.
 	</description>
+	<releaseNotes>
+This package is deprecated. Use onedrive instead.
+	</releaseNotes>
     <projectUrl>http://windows.microsoft.com/en-HK/skydrive/home</projectUrl>
     <tags>deprecated backup webdav online-backup selective-sync</tags>
     <copyright></copyright>
