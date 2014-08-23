@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>{{PackageName}}</id>
+    <id>aida64-extreme</id>
     <title>AIDA64 Extreme Edition</title>
-    <version>{{PackageVersion}}</version>
+    <version>4.60.3001</version>
     <authors>FinalWire</authors>
     <owners>tonigellida</owners>
     <summary>
@@ -28,6 +28,6 @@ During benchmarks, AIDA64 Extreme Edition obviously puts a strain on CPU and RAM
     <copyright></copyright>
     <licenseUrl>http://www.aida64.com/licensing-aida64</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/{{PackageName}}/{{PackageName}}.png</iconUrl>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/aida64-extreme/aida64-extreme.png</iconUrl>
   </metadata>
 </package>

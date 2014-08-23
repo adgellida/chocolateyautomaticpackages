@@ -42,7 +42,7 @@ try {
 	    $installArgs = "/c autoit3 `"$installerFile`" `"$file`""
 	    Start-ChocolateyProcessAsAdmin "$installArgs" 'cmd.exe'
 	    sleep(15)
-	}
+		}
 	
 	Write-ChocolateySuccess $packageName
 	
