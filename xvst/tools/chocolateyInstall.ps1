@@ -1,7 +1,7 @@
 ﻿$packageName = '{{PackageName}}'
 $version = '{{PackageVersion}}'
-$uninstallRegistryPath_x86 = 'HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\{64A2A800-1992-4933-87A0-EB05F95A67E0}'
-$uninstallRegistryPath_x64 = 'HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\{64A2A800-1992-4933-87A0-EB05F95A67E0}'
+$uninstallRegistryPath_x86 = "HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\{64A2A800-1992-4933-87A0-EB05F95A67E0}"
+$uninstallRegistryPath_x64 = "HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{64A2A800-1992-4933-87A0-EB05F95A67E0}"
 $installerType = 'msi'
 $url = '{{DownloadUrl}}'
 $silentArgs = '/qb'

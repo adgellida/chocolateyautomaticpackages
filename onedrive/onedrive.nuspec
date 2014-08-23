@@ -16,7 +16,7 @@ OneDrive space starts at 7Gb (and for a short period it is able to extend this s
 It also has the cheapest online storage services. So you have full access to your documents on all your computers, wherever you are.
 	</description>
     <projectUrl>https://onedrive.live.com/about/</projectUrl>
-    <tags>notSilent notUninstallable backup webdav online-backup selective-sync</tags>
+    <tags>checksIfIsInstalled notSilent notUninstallable backup webdav online-backup selective-sync</tags>
     <copyright></copyright>
     <licenseUrl>http://windows.microsoft.com/en-US/windows-live/microsoft-service-agreement</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

@@ -1,7 +1,7 @@
 $packageName = '{{PackageName}}'
 #$version = '{{PackageVersion}}'
 $version = '2.3.1.1'
-$uninstallRegistryPath = 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\5f7eb300e2ea4ebf'
+$uninstallRegistryPath = "HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\5f7eb300e2ea4ebf"
 $installerType = 'EXE'
 $url = '{{DownloadUrl}}'
 $silentArgs = ''

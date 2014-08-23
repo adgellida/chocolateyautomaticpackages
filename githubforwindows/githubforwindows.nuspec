@@ -14,7 +14,7 @@ GitHub for Windows is a git client for windows and GitHub.
 GitHub for Windows is a 100% native application that will run on all Windows version. Included in the application is a complete installation of msysGit making this the single best way to start using Git on Windows.
 	</description>
     <projectUrl>https://windows.github.com</projectUrl>
-    <tags>notUninstallable git client github distributed version control</tags>
+    <tags>checksIfIsInstalled notUninstallable git client github distributed version control</tags>
     <copyright></copyright>
     <licenseUrl>http://www.aida64.com/licensing-aida64</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

@@ -24,7 +24,7 @@ As far as AIDA64 Extreme Edition configuration is concerned, it is possible to s
 During benchmarks, AIDA64 Extreme Edition obviously puts a strain on CPU and RAM. However, it uses low resources otherwise. It has a good response time and worked well throughout our evaluation, without triggering the OS to hang, crash or pop up error messages. Those interested in extra features may look into AIDA64 Engineer, AIDA64 Business Edition and AIDA64 Network Audit.
 	</description>
     <projectUrl>http://www.aida64.com/</projectUrl>
-    <tags>trial-version benchmark</tags>
+    <tags>checksIfIsInstalled trial-version benchmark</tags>
     <copyright></copyright>
     <licenseUrl>http://www.aida64.com/licensing-aida64</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

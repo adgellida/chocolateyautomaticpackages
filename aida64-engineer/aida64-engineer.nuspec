@@ -21,7 +21,7 @@ AIDA64 Engineer's functionality does not stop here. It is possible to use a comp
 The power user-oriented application requires low-to-moderate memory to work properly, while remaining light on the CPU. It is very responsive to commands and includes help documentation. We haven't come across any issues in our testing, since AIDA64 Engineer did not hang, crash or pop up error dialogs. All in all, it comes in handy whenever you want to analyze your computer's hardware.
 	</description>
     <projectUrl>http://www.aida64.com/</projectUrl>
-    <tags>trial-version benchmark</tags>
+    <tags>checksIfIsInstalled trial-version benchmark</tags>
     <copyright></copyright>
     <licenseUrl>http://www.aida64.com/licensing-aida64</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
