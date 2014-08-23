@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+$packageName = 'aida64-business'
 $shortcut_to_remove = "$Home\Desktop\AIDA64 Business.lnk"
 
 try {

@@ -25,10 +25,19 @@ Causes of errors:
 
 Advices
 
+* 23/08/14 - There're a lot of manual packages, for testing causes or for impossibility to do it auto.
 * 24/05/14 - Go to "1.SCRIPTS" folder and execute what you want. Packages are on "MULTIINSTALL.ps1" and on "MULTIINSTALL_2.ps1" there are extra packages.
 * 04/01/14 - Updated daily (only auto packages)
 * 06/12/13 - All versions works on windows vista, 7, 8, 8.1 etc. On xp wasn't tested 100% but works very very often. There're packages that don't do all the instructions (remove innecesary shortcuts), but the program is fully functional afterwards.
 
-TO DO
+TO DO & DOING IT
 
 * Do all packages checkables if they are installed on system and not to install them if they exist.
+* Change name on shortcuts in packages that are not installables (portables).
+
+ON FUTURE
+
+* Do a package (or that choco core integrates the ability) that checks all installed programs and install all the packages of them. If a new version is detected on choco installs them.
+  If not a message is showed to contact to mantainer to update it.
+* Integrate packages on chocolatey-coreteampackages
+* Do a choco policy to do all the packages the same way. Each type, each form, not substantial differences like now.

@@ -1,8 +1,7 @@
-$packageName = '{{PackageName}}'
-$shortcut_to_remove = "$Home\Desktop\AIDA64 Business.lnk"
+$packageName = 'aida64-business'
 
 try {
-  Remove-Item $shortcut_to_remove
+  Remove-Item "$Home\Desktop\AIDA64 Business.lnk"
   # the following is all part of error handling
   Write-ChocolateySuccess "$packageName"
 } catch {

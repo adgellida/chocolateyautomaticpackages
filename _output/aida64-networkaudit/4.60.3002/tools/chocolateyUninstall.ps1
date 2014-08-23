@@ -1,5 +1,5 @@
-$packageName = '{{PackageName}}'
-$shortcut_to_remove = "$Home\Desktop\AIDA64 Business.lnk"
+$packageName = 'aida64-networkaudit'
+$shortcut_to_remove = "$Home\Desktop\AIDA64 Network Audit.lnk"
 
 try {
   Remove-Item $shortcut_to_remove
