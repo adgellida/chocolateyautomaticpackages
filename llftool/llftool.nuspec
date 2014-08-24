@@ -16,7 +16,7 @@ Low-level formatting of Flash Cards is supported too. Low Level Format Tool will
 The data cannot be recovered after using this utility. The program utilizes Ultra-DMA transfers when possible.
 	</description>
     <projectUrl>http://hddguru.com/software/HDD-LLF-Low-Level-Format-Tool/</projectUrl>
-    <tags>hdd format hard-disk low-level</tags>
+    <tags>checksIfIsInstalled hdd format hard-disk low-level</tags>
     <copyright></copyright>
     <licenseUrl>http://hddguru.com/software/HDD-LLF-Low-Level-Format-Tool/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
