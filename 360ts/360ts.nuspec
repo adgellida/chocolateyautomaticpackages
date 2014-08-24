@@ -13,7 +13,7 @@ A feature-packed software solution that provides users with a powerful antivirus
 A feature-packed software solution that provides users with a powerful antivirus, a junk cleaner and a system booster within the same interface
 	</description>
     <projectUrl>http://360safe.com/</projectUrl>
-    <tags>antivirus security privacy-protection internet-security anti-keylogger anti-phishing webcam-protection</tags>
+    <tags>checksIfIsInstalled antivirus security privacy-protection internet-security anti-keylogger anti-phishing webcam-protection</tags>
     <copyright></copyright>
     <licenseUrl>http://360safe.com/cleandroid/EULA.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

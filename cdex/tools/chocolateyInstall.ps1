@@ -1,6 +1,5 @@
 ﻿$packageName = '{{PackageName}}'
-#$version = '{{PackageVersion}}'
-$version = '1.70.5.2014'
+$version = '{{PackageVersion}}'
 $uninstallRegistryPath_x86 = "HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\CDex"
 $uninstallRegistryPath_x64 = "HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\CDex"
 $installerType = 'EXE'

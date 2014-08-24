@@ -1,6 +1,6 @@
 ﻿$packageName = '{{PackageName}}'
-#$version = '{{PackageVersion}}'
-$version = '3.0'
+$versionToConvert = '{{PackageVersion}}'
+$version = $versionToConvert.Substring(0,$versionToConvert.Length-6)
 $uninstallRegistryPath_x86 = "HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\Clover"
 $uninstallRegistryPath_x64 = "HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Clover"
 $installerType = 'EXE'

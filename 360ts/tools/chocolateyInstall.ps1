@@ -1,7 +1,7 @@
 ﻿$packageName = '{{PackageName}}'
 $version = '{{PackageVersion}}'
 $uninstallRegistryPath_x86 = 'HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\360TotalSecurity'
-$uninstallRegistryPath_x64 = 'HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\360TotalSecurity'
+$uninstallRegistryPath_x64 = 'HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\360TotalSecurity'
 $installerType = 'EXE'
 $url = '{{DownloadUrl}}'
 $silentArgs = '/S'
