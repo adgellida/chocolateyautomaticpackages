@@ -1,10 +1,10 @@
-﻿$packageName = '{{PackageName}}'
-#$version = '{{PackageVersion}}'
+﻿$packageName = 'cdex'
+#$version = '1.70.20140824'
 $version = '1.70.5.2014'
 $uninstallRegistryPath_x86 = "HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\CDex"
 $uninstallRegistryPath_x64 = "HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\CDex"
 $installerType = 'EXE'
-$url = '{{DownloadUrl}}'
+$url = 'http://softlayer-ams.dl.sourceforge.net/project/cdexos/cdexos/CDex 1.70/CDex-1.70-win32.exe'
 $silentArgs = '/S'
 $validExitCodes = @(0) #please insert other valid exit codes here, exit codes for ms http://msdn.microsoft.com/en-us/library/aa368542(VS.85).aspx
 $mantainer = 'tonigellida'
