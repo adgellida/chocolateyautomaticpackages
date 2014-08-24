@@ -13,7 +13,7 @@ SopCast is a simple, free way to broadcast video and audio or watch the video an
 SopCast is a simple, free way to broadcast video and audio or watch the video and listen to radio on the Internet.
 	</description>
     <projectUrl>http://www.sopcast.com/</projectUrl>
-    <tags>streaming p2p live-broadcasting live-streaming</tags>
+    <tags>checksIfIsInstalled streaming p2p live-broadcasting live-streaming</tags>
     <copyright></copyright>
     <licenseUrl>http://www.sopcast.com/info/eula.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

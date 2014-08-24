@@ -1,12 +1,16 @@
 ﻿$packageName = '{{PackageName}}'
-$version = '{{PackageVersion}}'
-$uninstallRegistryPath_x86 = "HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\Meld"
-$uninstallRegistryPath_x64 = "HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Meld"
+#$version = '{{PackageVersion}}'
+$version = '1.70.5.2014'
+$uninstallRegistryPath_x86 = "HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\CDex"
+$uninstallRegistryPath_x64 = "HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\CDex"
 $installerType = 'EXE'
 $url = '{{DownloadUrl}}'
 $silentArgs = '/S'
 $validExitCodes = @(0) #please insert other valid exit codes here, exit codes for ms http://msdn.microsoft.com/en-us/library/aa368542(VS.85).aspx
 $mantainer = 'tonigellida'
+$executable = "CDex.exe"
+$shortcut_to_modify = "$Home\Desktop\CDex.exe.lnk"
+$shortcut_modified = "$Home\Desktop\CDex.lnk" 
 
 try {
 
@@ -41,6 +45,20 @@ try {
         # Download and install the program
 
 		Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url"  -validExitCodes $validExitCodes
+
+		  $processor = Get-WmiObject Win32_Processor
+		  $is64bit = $processor.AddressWidth -eq 64
+		  if ($is64bit) {
+			$exeLocation = "${Env:ProgramFiles(x86)}\CDex\CDex.exe"
+		  } else {
+			$exeLocation = "$Env:ProgramFiles\CDex\CDex.exe"
+		  }
+ 
+		$targetFilePath = "$exeLocation\$executable"
+
+		Install-ChocolateyDesktopLink $targetFilePath
+
+		Rename-Item $shortcut_to_modify $shortcut_modified
 		
 		}
 	

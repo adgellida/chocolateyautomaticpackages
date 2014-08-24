@@ -21,7 +21,7 @@ Filter / authorize Beta versions (user setting)
 Ignore list : only tracks software YOU want to track
 	</description>
     <projectUrl>http://www.kcsoftwares.com/?sumo</projectUrl>
-    <tags>update-notifier</tags>
+    <tags>checksIfIsInstalled update-notifier</tags>
     <copyright></copyright>
     <licenseUrl>http://www.kcsoftwares.com/legal/ToU.pdf</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
