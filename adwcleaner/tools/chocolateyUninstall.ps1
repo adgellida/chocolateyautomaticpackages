@@ -1,7 +1,8 @@
 $packageName = '{{PackageName}}'
+$shortcut_to_remove = "$Home\Desktop\AdwCleaner.lnk"
 
 try {
-  Remove-Item "$Home\Desktop\adwcleaner.exe.lnk"
+  Remove-Item $shortcut_to_remove
   # the following is all part of error handling
   Write-ChocolateySuccess "$packageName"
 } catch {
