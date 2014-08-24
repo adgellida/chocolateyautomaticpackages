@@ -1,8 +1,7 @@
-$packageName = '{{PackageName}}'
-$shortcut_to_remove = "$Home\Desktop\ComboFix.lnk"
+$packageName = 'combofix'
 
 try {
-  Remove-Item $shortcut_to_remove
+  Remove-Item "$Home\Desktop\ComboFix.exe.lnk"
   # the following is all part of error handling
   Write-ChocolateySuccess "$packageName"
 } catch {

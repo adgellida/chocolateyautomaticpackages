@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>{{PackageName}}</id>
-    <title>ComboFix</title>
-    <version>{{PackageVersion}}</version>
+    <id>combofix</id>
+    <title>Combofix</title>
+    <version>14.8.24.1</version>
     <authors>sUBs</authors>
     <owners>tonigellida</owners>
     <summary>

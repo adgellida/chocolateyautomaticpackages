@@ -15,7 +15,7 @@ It works with a Search and Delete mode.
 It can be easily uninstalled using the mode "Uninstall".
 	</description>
     <projectUrl>http://general-changelog-team.fr/en/</projectUrl>
-    <tags>checksIfIsInstalled malware-scanner malware-remover toolbar-remover</tags>
+    <tags>malware-scanner malware-remover toolbar-remover</tags>
     <copyright></copyright>
     <licenseUrl>http://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
