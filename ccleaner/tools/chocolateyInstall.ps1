@@ -21,9 +21,8 @@ try {
 		Write-Host "Your $packageName $installedVersion is higher than the $version proporcionated by chocolatey repo."
 		Write-Host "Please wait or contact the mantainer $mantainer to update this package."
 		Write-Host "When the package is updated try another time. Thanks."
-	}
-	
-	if ($installedVersion -eq $version) {
+		
+	}elseif ($installedVersion -eq $version) {
 		Write-Host "$packageName $version is already installed."
 		
 	} else {

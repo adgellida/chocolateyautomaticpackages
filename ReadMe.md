@@ -4,6 +4,7 @@
 
 TO DO & DOING IT
 
+* Bugfixing all the detected packages with problems.
 * Do all packages "checksIfIsInstalled" - checkables if they are installed on system and not to install them if they exist. For example "cdex" package.
 * Change name on shortcuts in packages that are not installables (portables). For example "AdwCleaner" package.
 

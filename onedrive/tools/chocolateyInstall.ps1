@@ -1,5 +1,5 @@
 ﻿$packageName = '{{PackageName}}'
-$version = '{{PackageVersion}}-next'
+$version = '{{PackageVersion}}'
 $uninstallRegistryPath = "HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\OneDriveSetup.exe"
 $installerType = 'EXE'
 $url = '{{DownloadUrl}}'
@@ -8,17 +8,16 @@ $validExitCodes = @(0) #please insert other valid exit codes here, exit codes fo
 $mantainer = 'tonigellida'
 
 try {
- 		if (Test-Path $uninstallRegistryPath) {
-			$installedVersion = (Get-ItemProperty $uninstallRegistryPath).DisplayVersion
-		}
+ 	if (Test-Path $uninstallRegistryPath) {
+		$installedVersion = (Get-ItemProperty $uninstallRegistryPath).DisplayVersion
+	}
 	
 	if ($installedVersion -gt $version) {
 		Write-Host "Your $packageName $installedVersion is higher than the $version proporcionated by chocolatey repo."
 		Write-Host "Please wait or contact the mantainer $mantainer to update this package."
 		Write-Host "When the package is updated try another time. Thanks."
-	}
 	
-	if ($installedVersion -eq $version) {
+	} elseif ($installedVersion -eq $version) {
 		Write-Host "$packageName $version is already installed."
 		
 	} else {

@@ -1,16 +1,47 @@
 ﻿$packageName = '{{PackageName}}'
+$version_x64 = "WinRAR {{PackageVersion}} (64-bit)"
+$version_x86 = "WinRAR {{PackageVersion}} (32-bit)"
+$uninstallRegistryPath = "HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\WinRAR archiver"
 $installerType = 'EXE'
-$LCID = (Get-Culture).LCID
+$url = '{{DownloadUrl}}'
 $silentArgs = '/S'
 $validExitCodes = @(0) #please insert other valid exit codes here, exit codes for ms http://msdn.microsoft.com/en-us/library/aa368542(VS.85).aspx
+$LCID = (Get-Culture).LCID
 $url_version_dot= '{{PackageVersion}}'
-#$url_version_dot= '5.10'
 $url_version = (Split-Path $url_version_dot -leaf).ToString().Replace(".", "")
+$mantainer = 'tonigellida'
 
-$processor = Get-WmiObject Win32_Processor
-  $is64bit = $processor.AddressWidth -eq 64
+try {
+ 	if (Test-Path $uninstallRegistryPath) {
+		$installedVersion = (Get-ItemProperty $uninstallRegistryPath).DisplayName
+			
+	}
+	
+	if (($installedVersion -gt $version_x64) -Or ($installedVersion -gt $version_x86)) {
+		Write-Host "Your $packageName $installedVersion is higher than the $version proporcionated by chocolatey repo."
+		Write-Host "Please wait or contact the mantainer $mantainer to update this package."
+		Write-Host "When the package is updated try another time. Thanks."
+	
+	} elseif (($installedVersion -eq $version_x64) -Or ($installedVersion -eq $version_x86)){
+		Write-Host "$packageName $version is already installed."
+		
+	} else {
+
+		# Download and install the program
+	    $processor = Get-WmiObject Win32_Processor
+	    $is64bit = $processor.AddressWidth -eq 64
+  
   if ($is64bit) {
+  
+		# If you' ve a 64-bit platform and 32-bit winrar version installed, now your 32-bit version is removed and 64-bit version is installed
+	    $unpath_x86_not = "${Env:ProgramFiles(x86)}\WinRAR\Uninstall.exe"	
+		
+		if (Test-Path $unpath_x86_not) {
+			Uninstall-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$unpath" -validExitCodes $validExitCodes
+		}
+  
 
+  
 ###################################################### 64 bits downloads #################################################################  
 
 ##Arabic
@@ -714,3 +745,13 @@ Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url"  
 
 #downloads location
 #http://www.rarlab.com/download.htm
+		
+		}
+	
+	Write-ChocolateySuccess $packageName
+	
+} catch {
+
+		Write-ChocolateyFailure $packageName "$($_.Exception.Message)"
+		throw 
+}
