@@ -1,10 +1,10 @@
 ﻿$packageName = '{{PackageName}}'
 $version = '{{PackageVersion}}'
-$exeToVersioning_x86 = "$Env:ProgramFiles\KC Softwares\KCleaner\KCleaner.exe"
-$exeToVersioning_x64 = "${Env:ProgramFiles(x86)}\KC Softwares\KCleaner\KCleaner.exe"
+$uninstallRegistryPath_x86 = "HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\QupZilla"
+$uninstallRegistryPath_x64 = "HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\QupZilla"
 $installerType = 'EXE'
 $url = '{{DownloadUrl}}'
-$silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
+$silentArgs = ''
 $validExitCodes = @(0) #please insert other valid exit codes here, exit codes for ms http://msdn.microsoft.com/en-us/library/aa368542(VS.85).aspx
 $mantainer = 'tonigellida'
 
@@ -15,14 +15,14 @@ try {
 	
 	if ($is64bit) {
 	
- 		if (Test-Path $exeToVersioning_x64) {
-			$installedVersion = (Get-Command $exeToVersioning_x64).FileVersionInfo.FileVersion
+ 		if (Test-Path $uninstallRegistryPath_x64) {
+			$installedVersion = (Get-ItemProperty $uninstallRegistryPath_x64).DisplayVersion
 		}
 
 	} else {
   
-		if (Test-Path $exeToVersioning_x86) {
-			$installedVersion = (Get-Command $exeToVersioning_x86).FileVersionInfo.FileVersion
+		if (Test-Path $uninstallRegistryPath_x86) {
+			$installedVersion = (Get-ItemProperty $uninstallRegistryPath_x86).DisplayVersion
 		}	
 		
 	}

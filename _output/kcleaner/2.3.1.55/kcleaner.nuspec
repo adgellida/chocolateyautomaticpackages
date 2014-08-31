@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>{{PackageName}}</id>
+    <id>kcleaner</id>
     <title>KCleaner</title>
-    <version>{{PackageVersion}}</version>
+    <version>2.3.1.55</version>
     <authors>KC Softwares</authors>
     <owners>tonigellida</owners>
     <summary>
@@ -24,7 +24,7 @@ Features
 -Internationalization support
 	</description>
     <projectUrl>http://www.kcsoftwares.com/?kcleaner</projectUrl>
-    <tags>checksIfIsInstalled ccleaner system cleanup registry</tags>
+    <tags>ccleaner system cleanup registry</tags>
     <copyright></copyright>
     <licenseUrl>https://softwareula.wordpress.com/tag/kc-softwares/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

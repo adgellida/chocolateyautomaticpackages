@@ -15,7 +15,7 @@ Rid your system of old clutter including cache, cookies, Internet history, local
 Designed for Linux and Windows systems, it wipes clean Adobe Reader, APT, Bash, Beagle, Chromium, Epiphany, Firefox, Flash, GIMP, Google Chrome, Google Earth, Internet Explorer, Java, KDE, OpenOffice.org, Opera, RealPlayer, Safari, Second Life viewer, Skype, VIM, XChat, Yum, and more.
 	</description>
     <projectUrl>http://bleachbit.sourceforge.net/</projectUrl>
-    <tags>privacy cleaner disk-space cache temporary-files junk-finder browser-cache</tags>
+    <tags>checksIfIsInstalled privacy cleaner disk-space cache temporary-files junk-finder browser-cache</tags>
     <copyright></copyright>
     <licenseUrl>https://gnu.org/licenses/gpl.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
