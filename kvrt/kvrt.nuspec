@@ -23,12 +23,10 @@ Features:
 -Automatic and manual removal of virus, Trojans and worms.
 -Automatic and manual removal of Spyware and Adware modules.
 -Automatic and manual removal of all types of rootkits.
-
-======= Notes =======
-
-You've to uninstall it and update it through choco to use it another day.
-
 	</description>
+	<releaseNotes>
+You've to uninstall it and update it through choco to use it another day.
+	</releaseNotes>
     <projectUrl>http://www.kaspersky.com/antivirus-removal-tool?form=1</projectUrl>
     <tags>notSilent notUninstallable free-version fix-infections no-real-time-protection security antivirus vulnerability</tags>
     <copyright></copyright>

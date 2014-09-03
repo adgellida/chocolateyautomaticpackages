@@ -1,13 +1,13 @@
-﻿$packageName = '{{PackageName}}'
-$version_x64 = "WinRAR {{PackageVersion}} (64-bit)"
-$version_x86 = "WinRAR {{PackageVersion}} (32-bit)"
+﻿$packageName = 'winrar'
+$version_x64 = "WinRAR 5.11 (64-bit)"
+$version_x86 = "WinRAR 5.11 (32-bit)"
 $uninstallRegistryPath = "HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\WinRAR archiver"
 $installerType = 'EXE'
-$url = '{{DownloadUrl}}'
+$url = 'http://www.rarlab.com/rar/winrar-x64-511.exe'
 $silentArgs = '/S'
 $validExitCodes = @(0) #please insert other valid exit codes here, exit codes for ms http://msdn.microsoft.com/en-us/library/aa368542(VS.85).aspx
 $LCID = (Get-Culture).LCID
-$url_version_dot= '{{PackageVersion}}'
+$url_version_dot= '5.11'
 $url_version = (Split-Path $url_version_dot -leaf).ToString().Replace(".", "")
 $mantainer = 'tonigellida'
 

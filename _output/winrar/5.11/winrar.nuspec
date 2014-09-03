@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>{{PackageName}}</id>
+    <id>winrar</id>
     <title>WinRAR</title>
-    <version>{{PackageVersion}}</version>
+    <version>5.11</version>
     <authors>Rarlab</authors>
     <owners>maartenba tonigellida</owners>
     <summary>
@@ -23,6 +23,6 @@ Now supports a lot of languages. Some of them aren't supported by having an old 
     <copyright></copyright>
     <licenseUrl>http://www.win-rar.com/winrarlicense.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/{{PackageName}}/{{PackageName}}.png</iconUrl>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/winrar/winrar.png</iconUrl>
   </metadata>
 </package>
