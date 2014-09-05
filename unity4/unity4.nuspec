@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>{{PackageName}}</id>
-    <title>Unity</title>
+    <title>Unity 4</title>
     <version>{{PackageVersion}}</version>
     <authors>Unity Technologies</authors>
     <owners>tonigellida</owners>
