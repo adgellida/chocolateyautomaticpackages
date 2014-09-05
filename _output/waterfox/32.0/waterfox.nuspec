@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>waterfox</id>
+    <title>Waterfox</title>
+    <version>32.0</version>
+    <authors>Alex</authors>
+    <owners>tonigellida</owners>
+    <summary>
+Waterfox is basically a 64-bit version of Firefox.
+	</summary>
+    <description>
+Waterfox is basically a 64-bit version of Firefox.
+The Firefox source code is taken and compiled to run specifically for 64-bit Windows computers.
+To make Waterfox stand out a bit more, it is compiled with optimizations so that it will run more efficiently and faster than just compiling Firefox as a 64-bit program.
+In benchmarks, the 64-bit variant of Firefox out-performs the 32-bit variant.
+Also because this variant is being built specifically for Windows, there might be further performance increases.
+	</description>
+	<releaseNotes>
+To install your language:
+1-Go to here to download your language https://www.waterfoxproject.org/
+Click from browser or drag and drop to install it.
+On ancient versions (on new I don't know) the steps are well:
+2-Install https://addons.mozilla.org/es/firefox/addon/locale-switcher/
+3-Push "alt" key, go to tools on the top and select your installed language.
+	</releaseNotes>
+    <projectUrl>http://www.waterfoxproject.org/</projectUrl>
+    <tags>notSilent web-browser firefox 64-bit</tags>
+    <copyright></copyright>
+    <licenseUrl>http://www.gnu.org/copyleft/gpl.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/waterfox/waterfox.png</iconUrl>
+  </metadata>
+</package>
