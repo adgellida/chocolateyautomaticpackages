@@ -9,14 +9,3 @@ $targetFilePath = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)\USB 
 Install-ChocolateyDesktopLink $targetFilePath
 
 
-
-
-
-
-
-
-
-
-
-
-
