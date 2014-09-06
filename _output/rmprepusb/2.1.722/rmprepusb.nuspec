@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>rmprepusb</id>
+    <title>RMPrepUSB</title>
+    <version>2.1.722</version>
+    <authors>RM Education</authors>
+    <owners>tonigellida</owners>
+    <summary>
+RMPrepUSB allows the Windows user to easily and quickly 'roll their own' multiboot USB drive.
+	</summary>
+    <description>
+RMPrepUSB allows the Windows user to easily and quickly 'roll their own' multiboot USB drive.
+It allows the user to quickly test, partition, format, install a boot manager, extract or copy files and then test a multiboot (aka multipass) USB bootable drive.
+It can also make or restore an image and much more. Multiboot 'point-and-shoot' utilities like YUMI or XBOOT are excellent, however they don't support every different ISO or image.
+You will learn too enjoy making your own personal multiboot drive using RMPrepUSB!
+	</description>
+    <projectUrl>http://www.rmprepusb.com/documents/release-2-0</projectUrl>
+    <tags>usb flash drive multiboot linux iso</tags>
+    <copyright></copyright>
+    <licenseUrl>http://www.rmprepusb.com/home/licensing</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/rmprepusb/rmprepusb.png</iconUrl>
+  </metadata>
+</package>

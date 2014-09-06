@@ -1,5 +1,5 @@
 ####multi-installer, select programs to install 
-####v.2014.05.24-alpha
+####v.2014.09.06-alpha
 
 #Backup & Sync
 #'goodsync' | %{ cinst $_ }
@@ -32,6 +32,7 @@
 #Web Browsers
 'googlechrome' | %{ cinst $_ }
 'adblockpluschrome' | %{ cinst $_ }
+#'google-chrome-x64' | %{ cinst $_ }
 
 #Social
 #'skype' | %{ cinst $_ }

@@ -15,6 +15,13 @@ elseif($LCID -eq "2058"){
 $url = 'ftp://198.65.112.62/consumer-products/Current_Versions/KIS_Win_2015/KIS15.0.0.463es-MX_TR20140428.exe'
 }
 
+##Dutch
+##Dutch - Netherlands		1043
+##Dutch - Belgium			2067
+elseif(($LCID -eq "1043") -or ($LCID -eq "2067")){
+$url = 'http://trial.kaspersky-labs.com/trial/registered/avqcq0314efika174l3a/kis15.0.0.463nl-nl_fr-be.exe'
+}
+
 ##French
 #elseif($LCID -eq "1036"){
 #$url = 'http://products.kaspersky-labs.com/french/homeuser/kis2014/kis14.0.0.4651fr-fr.exe'
