@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>light</id>
+    <title>Light</title>
+    <version>32.0</version>
+    <authors>cstkingkey</authors>
+    <owners>tonigellida</owners>
+    <summary>
+A light Firefox edition.
+	</summary>
+    <description>
+A light Firefox edition. Many components are slimmed down. So it can start faster and use less memory.
+By default, Light can run along with official firefox. Both x86 and x64 builds are available.
+	</description>
+	<releaseNotes>
+VC Sync version.
+	</releaseNotes>
+    <projectUrl>http://sourceforge.net/projects/lightfirefox/</projectUrl>
+    <tags>browser mozilla firefox</tags>
+    <copyright></copyright>
+    <licenseUrl>http://www.mozilla.org/MPL/2.0/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/light/light.png</iconUrl>
+  </metadata>
+</package>
