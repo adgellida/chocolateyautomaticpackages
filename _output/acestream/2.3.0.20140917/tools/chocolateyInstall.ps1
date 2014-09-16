@@ -1,8 +1,9 @@
-﻿$packageName = '{{PackageName}}'
-$version = '{{PackageVersion}}-next'
+﻿$packageName = 'acestream'
+#$version = '2.3.0.20140917-next'
+$version = '2.3.0-next'
 $uninstallRegistryPath = "HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\AceStream"
 $installerType = 'EXE'
-$url = '{{DownloadUrl}}'
+$url = 'http://dl.acestream.org/Ace_Stream_Media_2.3.0-next.exe'
 $silentArgs = '/S'
 $validExitCodes = @(0) #please insert other valid exit codes here, exit codes for ms http://msdn.microsoft.com/en-us/library/aa368542(VS.85).aspx
 $mantainer = 'tonigellida'

@@ -1,7 +1,7 @@
 $packageName = '{{PackageName}}'
 
 try {
-  Remove-Item "$Home\Desktop\CCEnhancer-{version}.exe.lnk"
+  Remove-Item "$Home\Desktop\CCEnhancer-{{PackageVersion}}.exe.lnk"
   # the following is all part of error handling
   Write-ChocolateySuccess "$packageName"
 } catch {
