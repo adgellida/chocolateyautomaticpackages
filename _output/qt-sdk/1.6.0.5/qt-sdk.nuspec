@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>qt-sdk</id>
+    <title>Qt SDK (Online Installer)</title>
+    <version>1.6.0.5</version>
+    <authors>Digia Plc</authors>
+    <owners>tonigellida</owners>
+    <summary>
+Qt is cross-platform application and UI framework which allows you to develop applications and user interfaces once, and deploy them across Windows, Mac, Linux/X11, embedded Linux, Windows CE, Symbian, Maemo, MeeGo, iOS and Android without rewriting the source code.
+	</summary>
+    <description>
+Qt is cross-platform application and UI framework which allows you to develop applications and user interfaces once, and deploy them across Windows, Mac, Linux/X11, embedded Linux, Windows CE, Symbian, Maemo, MeeGo, iOS and Android without rewriting the source code.
+Qt SDK includes libraries and QT Creator.
+	</description>
+    <projectUrl>http://qt-project.org/</projectUrl>
+    <tags>notSilent notUninstallable sdk framework qt qt-creator ide dev development</tags>
+    <copyright></copyright>
+    <licenseUrl>http://www.gnu.org/copyleft/gpl.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/qt-sdk/qt-sdk.png</iconUrl>
+  </metadata>
+</package>

@@ -18,8 +18,13 @@ Ace Stream platform provides excellent audio-visual quality for Internet online 
 Note: Ace Stream users watch online video with audio-visual quality level ten times greater than quality of video on YouTube (provided in 1080p format) and many times greater than broadcasts/shows of all other existing services of VoD and Live Stream provided by OTT (Over The Top) service operators, which do not use P2P technology.
 No existing Live Stream service or standard CDN operator using unicast can provide live broadcast with the same high level quality, for the same number of viewers, that can be provided by the average Ace Stream user from his personal computer using home Internet-channel!
 	</description>
+    <releaseNotes>
+By now the instructions are:
+First uninstall manually your current version and then runs package installation.
+Later the package will be improved for silent update.	
+	</releaseNotes>
     <projectUrl>http://www.acestream.org/</projectUrl>
-    <tags>checksIfIsInstalled multimedia media player p2p live-broadcasting live-streaming vlc</tags>
+    <tags>notUninstallable multimedia media player p2p live-broadcasting live-streaming vlc</tags>
     <copyright></copyright>
     <licenseUrl>http://www.acestream.org/license</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

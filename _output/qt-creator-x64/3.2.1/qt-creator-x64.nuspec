@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>qt-creator-x64</id>
+    <title>Qt Creator x64</title>
+    <version>3.2.1</version>
+    <authors>qt-x64</authors>
+    <owners>tonigellida</owners>
+    <summary>
+Qt Creator is a cross-platform utility that works through an integrated development environment (IDE) for helping developers create applications for desktop and mobile device platforms. 
+	</summary>
+    <description>
+Qt Creator is a cross-platform utility that works through an integrated development environment (IDE) for helping developers create applications for desktop and mobile device platforms. 
+	</description>
+    <projectUrl>http://tver-soft.org/qt64</projectUrl>
+    <tags>notUninstallable sdk framework qt qt-creator ide dev development x64</tags>
+    <copyright></copyright>
+    <licenseUrl>http://www.gnu.org/copyleft/gpl.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/qt-creator-x64/qt-creator-x64.png</iconUrl>
+  </metadata>
+</package>
