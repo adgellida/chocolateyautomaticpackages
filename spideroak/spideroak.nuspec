@@ -17,7 +17,7 @@ A Sync may exist between any two or more folders including two folders that exis
 Any items placed inside Hive will automatically upload and then sync to all your other devices (thus effectively replicating the Dropbox folder).
 	</description>
     <projectUrl>https://spideroak.com/opendownload/</projectUrl>
-    <tags>notUninstallable backup online-storage online-backup folder-sync selective-sync</tags>
+    <tags>notSilent notUninstallable backup online-storage online-backup folder-sync selective-sync</tags>
     <copyright></copyright>
     <licenseUrl>https://spideroak.com/terms_of_use</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
