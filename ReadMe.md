@@ -17,6 +17,7 @@ ON FUTURE
 
 Advices
 
+* 21/09/14 - Updated checks on ketarin.
 * 23/08/14 - There're a lot of manual packages, for testing causes or for impossibility to do it auto.
 * 24/05/14 - Go to "1.SCRIPTS" folder and execute what you want. Packages are on "MULTIINSTALL.ps1" and on "MULTIINSTALL_2.ps1" there are extra packages.
 * 04/01/14 - Updated daily (only auto packages) or asap.
