@@ -1,7 +1,7 @@
-﻿$packageName = '{{PackageName}}'
+﻿$packageName = 'spideroak'
 $installerType = 'EXE'
-$url = '{{DownloadUrl}}'
-$url64 = '{{DownloadUrlx64}}'
+$url = 'https://spideroak.com/getbuild?platform=win'
+$url64 = 'https://spideroak.com/getbuild?platform=win'
 $silentArgs = ''
 $validExitCodes = @(0) #please insert other valid exit codes here, exit codes for ms http://msdn.microsoft.com/en-us/library/aa368542(VS.85).aspx
 
