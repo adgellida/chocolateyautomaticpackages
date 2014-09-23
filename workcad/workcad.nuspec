@@ -4,7 +4,7 @@
     <id>{{PackageName}}</id>
     <title>WorkCAD Designer</title>
     <version>{{PackageVersion}}</version>
-    <authors>WORK</authors>
+    <authors>Equipson S.A.</authors>
     <owners>tonigellida</owners>
     <summary>
 WorkCAD Designer is the sofware of WORK® designed to manage audio through TCP/IP and USB. It is suitable for many devices like the Digiline series and allows the independent control of each unit.
