@@ -1,19 +1,10 @@
 $packageName = '{{PackageName}}'
-$installerType = 'EXE'
-$silentArgs = '/S'
-$validExitCodes = @(0) #please insert other valid exit codes here, exit codes for ms http://msdn.microsoft.com/en-us/library/aa368542(VS.85).aspx
+$packageSearch = $packageName + "*"
+$packageVersion = '{{PackageVersion}}'
 
 try {
-  $processor = Get-WmiObject Win32_Processor
-  $is64bit = $processor.AddressWidth -eq 64
-  if ($is64bit) {
-    $unpath = "${Env:ProgramFiles(x86)}\Meld\uninstall.exe"
-  } else {
-    $unpath = "$Env:ProgramFiles\Meld\uninstall.exe"
-  }
-  Uninstall-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$unpath" -validExitCodes $validExitCodes
-  
-  # the following is all part of error handling
+	$uninstallPackage = Get-WmiObject -Class Win32_Product | Where-Object { $_.Name -like $packageSearch -and ($_.Version -eq $packageVersion) }
+  $uninstallResults = $uninstallPackage.Uninstall()
   Write-ChocolateySuccess "$packageName"
 } catch {
   Write-ChocolateyFailure "$packageName" "$($_.Exception.Message)"
