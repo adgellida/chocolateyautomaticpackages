@@ -9,6 +9,9 @@ Install-ChocolateyZipPackage $packageName $url $unzipLocation
 
 $targetFilePath = "$unzipLocation\$executable"
 
+if (Test-Path $shortcut_modified)
+	Remove-Item $shortcut_modified
+
 Install-ChocolateyDesktopLink $targetFilePath
 
 Rename-Item $shortcut_to_modify $shortcut_modified

@@ -6,6 +6,9 @@ $shortcut_modified = "$Home\Desktop\AdwCleaner.lnk"
 
 Get-ChocolateyWebFile $packageName $fileFullPath $url
 
+if (Test-Path $shortcut_modified)
+	Remove-Item $shortcut_modified
+
 Install-ChocolateyDesktopLink $fileFullPath
 
 Rename-Item $shortcut_to_modify $shortcut_modified

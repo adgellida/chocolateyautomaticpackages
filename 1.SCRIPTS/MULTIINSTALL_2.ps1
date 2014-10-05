@@ -1,11 +1,11 @@
 ####multi-installer, select programs to install 
-####v.2014.05.24-alpha
+####v.2014.10.05-alpha
 
 #Backup & Sync
 
 
 #OS & Utilities
-#'OuiGuiChocolatey','ChocolateyGUI','clover','ChocoPM.install -Pre','displayfusion','driverbooster','sumo','softwareinformer' | %{ cinst $_ }
+#'classic-shell','unchecky','OuiGuiChocolatey','ChocolateyGUI','ChocoPM.install -Pre','displayfusion','driverbooster','sumo','softwareinformer' | %{ cinst $_ }
 #'flashplayerplugin','flashplayeractivex','kcleaner','littleregistrycleaner','ccenhancer','speedfan','crystaldiskinfo','easybcd','llftool' | %{ cinst $_ }
 #'speccy','openhardwaremonitor','wudt','yumi','cyg-get','cnettechtracker','startmenureviver','startmenu8' | %{ cinst $_ }
 #'hpusbdisk','systemninja','bleachbit','genymotion','mousecontroller','tinytask','wassapp','advancedsystemcarefree','tuneuputilities' | %{ cinst $_ }
@@ -15,6 +15,7 @@
 
 #Security & Privacy
 #'avastbrowsercleanup','winlockless','Secunia.PSI','nmap','truecrypt','tor-browser','piratebrowser -Pre','bitdefenderavfree' | %{ cinst $_ }
+#'jrt','spybot','superantispyware' | %{ cinst $_ }
 
 #CD/DVD Tools
 #'daemontoolslite' | %{ cinst $_ }
@@ -53,7 +54,7 @@
 #'filezilla','jdownloader','peazip','windirstat','mucommander' | %{ cinst $_ }
 
 #File Sharing
-#'transmission-qt','utorrent','ares','emule','wget' | %{ cinst $_ }
+#'utorrent','ares','emule','wget' | %{ cinst $_ }
 
 #News & Books
 
