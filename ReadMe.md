@@ -8,6 +8,10 @@ TO DO & DOING IT
 * Do all packages "checksIfIsInstalled" - checkables if they are installed on system and not to install them if they exist. For example "cdex" package.
 * Change name on shortcuts in packages that are not installables (portables). For example "AdwCleaner" package.
 
+PACKAGES WITH SERIOUS PROBLEMS
+
+* Xonotic - Repair it to installs on the correct location.
+
 ON FUTURE
 
 * Do a package (or that choco core integrates the ability) that checks all installed programs and install all the packages of them. If a new version is detected on choco installs them.
