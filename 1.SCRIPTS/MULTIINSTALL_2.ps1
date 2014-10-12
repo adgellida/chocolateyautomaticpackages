@@ -5,7 +5,7 @@
 
 
 #OS & Utilities
-#'classic-shell','unchecky','OuiGuiChocolatey','ChocolateyGUI','ChocoPM.install -Pre','displayfusion','driverbooster','sumo','softwareinformer' | %{ cinst $_ }
+#'ultradefrag -pre','classic-shell','unchecky','OuiGuiChocolatey','ChocolateyGUI','ChocoPM.install -Pre','displayfusion','driverbooster','sumo','softwareinformer' | %{ cinst $_ }
 #'flashplayerplugin','flashplayeractivex','kcleaner','littleregistrycleaner','ccenhancer','speedfan','crystaldiskinfo','easybcd','llftool' | %{ cinst $_ }
 #'speccy','openhardwaremonitor','wudt','yumi','cyg-get','cnettechtracker','startmenureviver','startmenu8' | %{ cinst $_ }
 #'hpusbdisk','systemninja','bleachbit','genymotion','mousecontroller','tinytask','wassapp','advancedsystemcarefree','tuneuputilities' | %{ cinst $_ }
