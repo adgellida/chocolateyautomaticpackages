@@ -1,5 +1,5 @@
-﻿$packageName = '{{PackageName}}'
-$url = '{{DownloadUrl}}'
+﻿$packageName = 'adwcleaner'
+$url = 'http://dl2.comss.ru/download/AdwCleaner.exe'
 $fileFullPath = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)\adwcleaner.exe"
 $shortcut_to_modify = "$Home\Desktop\adwcleaner.exe.lnk"
 $shortcut_modified = "$Home\Desktop\AdwCleaner.lnk"

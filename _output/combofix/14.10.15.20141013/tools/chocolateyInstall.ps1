@@ -1,5 +1,5 @@
-﻿$packageName = '{{PackageName}}'
-$url = '{{DownloadUrl}}'
+﻿$packageName = 'combofix'
+$url = 'http://download.bleepingcomputer.com/sUBs/ComboFix.exe'
 $fileFullPath = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)\ComboFix.exe"
 $shortcut_to_modify = "$Home\Desktop\ComboFix.exe.lnk"
 $shortcut_modified = "$Home\Desktop\ComboFix.lnk" 
