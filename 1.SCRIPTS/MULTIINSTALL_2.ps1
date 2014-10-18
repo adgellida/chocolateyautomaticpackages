@@ -14,7 +14,7 @@
 #'windowsrepair','simplesystemtweaker','advancedsystemtweaker','rmprepusb' | %{ cinst $_ }
 
 #Security & Privacy
-#'avastbrowsercleanup','winlockless','Secunia.PSI','nmap','truecrypt','tor-browser','piratebrowser -Pre','bitdefenderavfree' | %{ cinst $_ }
+#'malwarebytes','adwcleaner','avastbrowsercleanup','winlockless','Secunia.PSI','nmap','truecrypt','tor-browser','piratebrowser -Pre','bitdefenderavfree' | %{ cinst $_ }
 #'jrt','spybot','superantispyware' | %{ cinst $_ }
 
 #CD/DVD Tools
@@ -23,8 +23,8 @@
 #Photos & Graphics
 #'designsparkpcb','kicad','fritzing' | %{ cinst $_ }
 
-#Audio & Music
-#'songr','spotify','openshark' | %{ cinst $_ }
+#Audio & Music & Videos & Movies
+#'adobeshockwaveplayer','adobeair','unitywebplayer','songr','spotify','openshark' | %{ cinst $_ }
 
 #Videos & Movies
 

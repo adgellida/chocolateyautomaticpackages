@@ -8,7 +8,7 @@
 'ccleaner','teamviewer','notepadplusplus.install','silverlight','clover','winrar' | %{ cinst $_ }
 
 #Security & Privacy
-'360ts','malwarebytes','adwcleaner' | %{ cinst $_ }
+'360ts' | %{ cinst $_ }
 
 #CD/DVD Tools
 #'imgburn' | %{ cinst $_ }
@@ -23,7 +23,7 @@
 'vlc' | %{ cinst $_ }
 
 #Audio & Music & Videos & Movies
-#'adobeshockwaveplayer','adobeair','unitywebplayer' | %{ cinst $_ }
+
 
 #Development
 
