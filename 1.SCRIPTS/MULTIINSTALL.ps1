@@ -2,7 +2,7 @@
 ####v.2014.10.05-alpha
 
 #Backup & Sync
-'goodsync' | %{ cinst $_ }
+#'goodsync' | %{ cinst $_ }
 
 #OS & Utilities
 'ccleaner','teamviewer','notepadplusplus.install','silverlight','clover','winrar' | %{ cinst $_ }
@@ -47,7 +47,7 @@
 
 #Office & Productivity
 'sumatrapdf.install' | %{ cinst $_ }
-#'libreoffice' | %{ cinst $_ }
+'libreoffice' | %{ cinst $_ }
 
 #Games
 
