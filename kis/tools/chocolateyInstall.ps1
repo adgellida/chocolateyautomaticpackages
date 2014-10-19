@@ -3,29 +3,28 @@ $installerType = 'EXE'
 $LCID = (Get-Culture).LCID
 $silentArgs = ''
 $validExitCodes = @(0) #please insert other valid exit codes here, exit codes for ms http://msdn.microsoft.com/en-us/library/aa368542(VS.85).aspx
-
+#OK
 ##Spanish - Spain (Modern Sort) - Spain (Traditional Sort) (es-es)
-##For now Spanish - Mexico (es-mx) is used
 if(($LCID -eq "3082") -or ($LCID -eq "1034")){
-$url = 'ftp://198.65.112.62/consumer-products/Current_Versions/KIS_Win_2015/KIS15.0.0.463es-MX_TR20140428.exe'
+$url = 'http://products.kaspersky-labs.com/spanish/homeuser/kis2015/kis15.0.1.415es-es.exe'
 }
-
+#OK
 ##Spanish - Mexico (es-mx)
 elseif($LCID -eq "2058"){
-$url = 'ftp://198.65.112.62/consumer-products/Current_Versions/KIS_Win_2015/KIS15.0.0.463es-MX_TR20140428.exe'
+$url = 'http://downloads-am.kasperskyamericas.com/files/trial/la/kis15.0.0.463ES_6314.exe'
 }
-
+#OK
 ##Dutch
 ##Dutch - Netherlands		1043
 ##Dutch - Belgium			2067
 elseif(($LCID -eq "1043") -or ($LCID -eq "2067")){
 $url = 'http://trial.kaspersky-labs.com/trial/registered/avqcq0314efika174l3a/kis15.0.0.463nl-nl_fr-be.exe'
 }
-
+#OK
 ##French
-#elseif($LCID -eq "1036"){
-#$url = 'http://products.kaspersky-labs.com/french/homeuser/kis2014/kis14.0.0.4651fr-fr.exe'
-#}
+elseif($LCID -eq "1036"){
+$url = 'http://trial.kaspersky-labs.com/trial/registered/a5lpaik5ky5bd83fhfaz/kis15.0.1.415fr_6816.exe'
+}
 
 ##German
 #elseif($LCID -eq "1031"){
@@ -54,9 +53,9 @@ $url = 'ftp://198.65.112.62/consumer-products/Current_Versions/KIS_Win_2015/kis1
 #}
 
 ##Russian - Russian (ru-ru) - Russian-Moldava (ru-mo)
-#elseif(($LCID -eq "1049") -or ($LCID -eq "2073")){
-#$url = 'http://products.kaspersky-labs.com/russian/homeuser/kis2014/kis14.0.0.4651ru-ru.exe'
-#}
+elseif(($LCID -eq "1049") -or ($LCID -eq "2073")){
+$url = 'http://products.kaspersky-labs.com/russian/homeuser/kis2015/kis15.0.1.415ru-ru.exe'
+}
 
 ##English - United Kingdom (en-gb)
 ##For now English - US (en-us) is used

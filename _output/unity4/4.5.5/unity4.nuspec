@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>{{PackageName}}</id>
+    <id>unity4</id>
     <title>Unity 4.x</title>
-    <version>{{PackageVersion}}</version>
+    <version>4.5.5</version>
     <authors>Unity Technologies</authors>
     <owners>tonigellida</owners>
     <summary>
@@ -18,6 +18,6 @@ A fully integrated professional application, Unity just happens to contain the m
     <copyright></copyright>
     <licenseUrl>http://unity3d.com/company/legal/eula</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/{{PackageName}}/{{PackageName}}.jpg</iconUrl>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/unity4/unity4.jpg</iconUrl>
   </metadata>
 </package>
