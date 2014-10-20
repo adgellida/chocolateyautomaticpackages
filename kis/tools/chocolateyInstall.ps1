@@ -11,7 +11,7 @@ $url = 'http://products.kaspersky-labs.com/spanish/homeuser/kis2015/kis15.0.1.41
 #OK
 ##Spanish - Mexico (es-mx)
 elseif($LCID -eq "2058"){
-$url = 'http://downloads-am.kasperskyamericas.com/files/trial/la/kis15.0.0.463ES_6314.exe'
+$url = 'http://products.kaspersky-labs.com/spanish/homeuser/kis2015/kis15.0.0.463es-mx_6315.exe'
 }
 #OK
 ##Dutch
@@ -23,49 +23,49 @@ $url = 'http://trial.kaspersky-labs.com/trial/registered/avqcq0314efika174l3a/ki
 #OK
 ##French
 elseif($LCID -eq "1036"){
-$url = 'http://trial.kaspersky-labs.com/trial/registered/a5lpaik5ky5bd83fhfaz/kis15.0.1.415fr_6816.exe'
+$url = 'http://products.kaspersky-labs.com/french/homeuser/kis2015/kis15.0.1.415fr_6873.exe'
 }
-
+#OK
 ##German
-#elseif($LCID -eq "1031"){
-#$url = 'http://products.kaspersky-labs.com/german/homeuser/kis2014/kis14.0.0.4651de-de.exe'
-#}
-
+elseif($LCID -eq "1031"){
+$url = 'http://products.kaspersky-labs.com/german/homeuser/kis2015/kis15.0.1.415de-de.exe'
+}
+#OK
 ##Italian
-#elseif($LCID -eq "1040"){
-#$url = 'http://products.kaspersky-labs.com/italian/homeuser/kis2014/kis14.0.0.4651it-it.exe'
-#}
-
+elseif($LCID -eq "1040"){
+$url = 'http://products.kaspersky-labs.com/italian/homeuser/kis2015/kis15.0.1.415it-it.exe'
+}
+#OK
 ##Portuguese - Brazil (pt-br)
 elseif($LCID -eq "1046"){
-$url = 'ftp://198.65.112.62/consumer-products/Current_Versions/KIS_Win_2015/kis15.0.0.463pt-br_TR20140527.exe'
+$url = 'http://products.kaspersky-labs.com/portuguese/homeuser/kis2015/kis15.0.0.463pt-br_6308.exe'
 }
-
+#OK
 ##Portuguese - Portugal (pt-pt)
 ##For now Portuguese - Brazil (pt-br) is used
 elseif($LCID -eq "2070"){
-$url = 'ftp://198.65.112.62/consumer-products/Current_Versions/KIS_Win_2015/kis15.0.0.463pt-br_TR20140527.exe'
+$url = 'http://products.kaspersky-labs.com/portuguese/homeuser/kis2015/kis15.0.1.415pt-pt.exe'
 }
 
 ##Portuguese - South Africa (pt-za) ?
 #elseif($LCID -eq "XXXX"){
 #$url = 'http://products.kaspersky-labs.com/portuguese/homeuser/kis2014/kis14.0.0.4651pt-za.exe'
 #}
-
+#OK
 ##Russian - Russian (ru-ru) - Russian-Moldava (ru-mo)
 elseif(($LCID -eq "1049") -or ($LCID -eq "2073")){
 $url = 'http://products.kaspersky-labs.com/russian/homeuser/kis2015/kis15.0.1.415ru-ru.exe'
 }
-
+#OK
 ##English - United Kingdom (en-gb)
 ##For now English - US (en-us) is used
 elseif($LCID -eq "2057"){
-$url = 'ftp://198.65.112.62/consumer-products/Current_Versions/KIS_Win_2015/KIS15.0.0.463en-US_TR20140428.exe'
+$url = 'http://products.kaspersky-labs.com/english/homeuser/kis2015/kis15.0.1.415en-gb.exe'
 }
-
+#OK
 ##English - US (en-us)
 else{
-$url = 'ftp://198.65.112.62/consumer-products/Current_Versions/KIS_Win_2015/KIS15.0.0.463en-US_TR20140428.exe'
+$url = 'http://products.kaspersky-labs.com/english/homeuser/kis2015/kis15.0.1.415en_6872.exe'
 }
 
 Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url"  -validExitCodes $validExitCodes

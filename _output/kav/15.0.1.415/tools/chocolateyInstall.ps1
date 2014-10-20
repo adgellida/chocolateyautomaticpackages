@@ -1,4 +1,4 @@
-﻿$packageName = '{{PackageName}}'
+﻿$packageName = 'kav'
 $installerType = 'EXE'
 $LCID = (Get-Culture).LCID
 $silentArgs = ''
