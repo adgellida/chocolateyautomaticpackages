@@ -3,7 +3,7 @@
   <metadata>
     <id>andy</id>
     <title>Andy</title>
-    <version>0.41.1010.19442</version>
+    <version>0.41.1010.19440</version>
     <authors>Andy Inc</authors>
     <owners>tonigellida</owners>
     <summary>
@@ -15,7 +15,7 @@ It also provides users with unlimited storage capacity, PC and Mac compatibility
 With phone as a joystick, you will never have to sacrifice the multi-touch or gyro elements of gaming, and thanks to seamless connection between desktop and mobile, you can receive a SnapChat phone picture on the street and see it on your desktop at home.
 	</description>
     <releaseNotes>
-Fixed package, now a little bit silent. Real version 0.41.1010.1944.
+Bonjour dependency is installed silently (not chocolatey package).
 	</releaseNotes>
     <projectUrl>http://www.andyroid.net/</projectUrl>
     <tags>testing software-testing android-emulator virtualbox virtualization VM</tags>

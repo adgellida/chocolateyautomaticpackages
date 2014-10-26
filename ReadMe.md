@@ -5,7 +5,7 @@
 TO DO & DOING IT
 
 * Bugfixing all the detected packages with problems.
-* Do all packages "checksIfIsInstalled" - checkables if they are installed on system and not to install them if they exist. For example "cdex" package.
+* Do all packages "checksIfIsInstalled" - checkables if they are installed on system and not to install them if they exist. For example "cdex" package. With registry keys or executable version (prioritary, more quick).
 * Change name on shortcuts in packages that are not installables (portables). For example "AdwCleaner" package.
 
 PACKAGES WITH SERIOUS PROBLEMS
@@ -41,7 +41,7 @@ If you don't know chocolatey read [this](http://ferventcoder.com/archive/2011/10
 
 If you want to check the packages state go to [here](https://docs.google.com/spreadsheet/ccc?key=0AvH3YF-FkmY2dGVZdVdDaDdIbHZkRkFPSEdIME53Vnc&usp=sharing).
 
-If you want to see example packages to create others download my repo kicking "Download .zip" or otherwise and execute "ketarin.exe" inside the "KETARIN-chocopkgup" folder. They aren't perfect, are improvable.
+If you want to see example packages to create others download my repo kicking "Download .zip" or otherwise and execute "ketarin.exe" inside the "KETARIN" folder. They aren't perfect, are improvable.
 
 If you want to know more, go to the wiki of this repo [here](https://github.com/tonigellida/chocolateyautomaticpackages/wiki).
 
