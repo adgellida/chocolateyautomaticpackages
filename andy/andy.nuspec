@@ -18,7 +18,7 @@ With phone as a joystick, you will never have to sacrifice the multi-touch or gy
 Bonjour dependency is installed silently (not chocolatey package).
 	</releaseNotes>
     <projectUrl>http://www.andyroid.net/</projectUrl>
-    <tags>testing software-testing android-emulator virtualbox virtualization VM</tags>
+    <tags>notSilent testing software-testing android-emulator virtualbox virtualization VM</tags>
     <copyright></copyright>
     <licenseUrl>http://www.andyroid.net/terms-conditions</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
