@@ -1,0 +1,21 @@
+$packageName = 'cpu-z'
+$installerType = 'EXE'
+$silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
+$validExitCodes = @(0) #please insert other valid exit codes here, exit codes for ms http://msdn.microsoft.com/en-us/library/aa368542(VS.85).aspx
+ 
+try {
+# Program is installed to the native Program Files directory on both x86 and x64
+$programFiles = "${Env:ProgramFiles}"
+if (Test-Path Env:\ProgramW6432) {
+$programFiles = "${Env:ProgramW6432}"
+}
+ 
+$unpath = [IO.Path]::Combine($programFiles, "CPUID\CPU-Z\unins000.exe")
+Uninstall-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$unpath" -validExitCodes $validExitCodes
+ 
+# the following is all part of error handling
+Write-ChocolateySuccess "$packageName"
+} catch {
+Write-ChocolateyFailure "$packageName" "$($_.Exception.Message)"
+throw
+}
