@@ -1,0 +1,3 @@
+Install http://www.microsoft.com/es-es/download/details.aspx?id=16818
+
+Then run choco install, to install framework 4.0...
