@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>{{PackageName}}</id>
+    <id>adobeshockwaveplayer</id>
     <title>Adobe Shockwave Player</title>
-    <version>{{PackageVersion}}</version>
+    <version>12.1.4.1540</version>
     <authors>Adobe</authors>
     <owners>tonigellida</owners>
     <summary>
@@ -17,6 +17,6 @@ Shockwave Player displays Web content that has been created by Adobe Director.
     <copyright></copyright>
     <licenseUrl>http://www.adobe.com/products/players/shockwave-player-licensing-distribution.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/{{PackageName}}/{{PackageName}}.jpg</iconUrl>
+	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/adobeshockwaveplayer/adobeshockwaveplayer.jpg</iconUrl>
   </metadata>
 </package>
