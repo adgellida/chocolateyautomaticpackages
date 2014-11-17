@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>{{PackageName}}</id>
+    <id>360ts</id>
     <title>360 Total Security</title>
-    <version>{{PackageVersion}}</version>
+    <version>5.2.0.1072</version>
     <authors>Qihu 360 Software</authors>
     <owners>tonigellida</owners>
     <summary>
@@ -17,6 +17,6 @@ A feature-packed software solution that provides users with a powerful antivirus
     <copyright></copyright>
     <licenseUrl>http://360safe.com/cleandroid/EULA.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/images/{{PackageName}}.png</iconUrl>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/360ts/360ts.png</iconUrl>
   </metadata>
 </package>
