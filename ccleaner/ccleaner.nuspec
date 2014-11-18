@@ -18,6 +18,6 @@ Note: This package installs CCleaner without additional adware.</description>
     <copyright></copyright>
     <licenseUrl>http://www.piriform.com/legal/software-license/ccleaner</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/ccleaner/ccleaner.png</iconUrl>	
+	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/images/{{PackageName}}.png</iconUrl>
   </metadata>
 </package>

@@ -20,6 +20,6 @@ As a first layer of protection against viruses that are installed on Windows sta
     <copyright></copyright>
     <licenseUrl>http://en.wikipedia.org/wiki/Freeware</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/winlockless/winlockless.png</iconUrl>
+	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/images/{{PackageName}}.png</iconUrl>
   </metadata>
 </package>

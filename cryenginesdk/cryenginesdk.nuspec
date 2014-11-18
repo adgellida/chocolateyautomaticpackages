@@ -19,6 +19,6 @@ Try out the fastest toolset for creating game worlds and use the power of CryENG
     <copyright></copyright>
     <licenseUrl>http://mycryengine.com/?conid=3</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/cryenginesdk/cryenginesdk.png</iconUrl>
+	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/images/{{PackageName}}.png</iconUrl>
   </metadata>
 </package>

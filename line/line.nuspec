@@ -17,6 +17,6 @@ Free SMS, Free Voice call messenger application.
     <copyright></copyright>
     <licenseUrl>http://line.naver.jp/terms_pc/en/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/line/line.png</iconUrl>
+	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/images/{{PackageName}}.png</iconUrl>
   </metadata>
 </package>

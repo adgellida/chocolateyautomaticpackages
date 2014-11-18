@@ -22,7 +22,7 @@ Bonjour dependency is installed silently (not chocolatey package).
     <copyright></copyright>
     <licenseUrl>http://www.andyroid.net/terms-conditions</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/{{PackageName}}/{{PackageName}}.png</iconUrl>
+	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/images/{{PackageName}}.png</iconUrl>
 	<dependencies>
 		<dependency id="virtualbox" />
     </dependencies>

@@ -28,6 +28,6 @@ Launch both traditional desktop programs and new Windows 8 modern applications d
     <copyright></copyright>
     <licenseUrl>http://www.reviversoft.com/company/legalnotice/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/startmenureviver/startmenureviver.png</iconUrl>
+	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/images/{{PackageName}}.png</iconUrl>
   </metadata>
 </package>

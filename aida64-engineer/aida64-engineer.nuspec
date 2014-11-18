@@ -25,6 +25,6 @@ The power user-oriented application requires low-to-moderate memory to work prop
     <copyright></copyright>
     <licenseUrl>http://www.aida64.com/licensing-aida64</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/{{PackageName}}/{{PackageName}}.png</iconUrl>
+	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/images/{{PackageName}}.png</iconUrl>
   </metadata>
 </package>

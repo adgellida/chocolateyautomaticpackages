@@ -18,6 +18,6 @@ It removes obsolete or unwanted items that build up in the registry over time in
     <copyright></copyright>
     <licenseUrl>http://www.gnu.org/copyleft/gpl.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/littleregistrycleaner/littleregistrycleaner.jpg</iconUrl>
+	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/images/{{PackageName}}.png</iconUrl>
   </metadata>
 </package>

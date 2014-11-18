@@ -24,6 +24,6 @@ Internationalization support
     <copyright></copyright>
     <licenseUrl>http://www.kcsoftwares.com/legal/ToU.pdf</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/dumo/dumo.png</iconUrl>
+	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/images/{{PackageName}}.png</iconUrl>
   </metadata>
 </package>

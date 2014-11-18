@@ -18,7 +18,7 @@ GitHub for Windows is a 100% native application that will run on all Windows ver
     <copyright></copyright>
     <licenseUrl>http://www.aida64.com/licensing-aida64</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/{{PackageName}}/{{PackageName}}.png</iconUrl>
+	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/images/{{PackageName}}.png</iconUrl>
     <dependencies>
     <dependency id="autoit.commandline" />
     </dependencies>

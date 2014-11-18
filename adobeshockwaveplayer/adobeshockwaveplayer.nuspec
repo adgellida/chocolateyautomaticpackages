@@ -17,6 +17,6 @@ Shockwave Player displays Web content that has been created by Adobe Director.
     <copyright></copyright>
     <licenseUrl>http://www.adobe.com/products/players/shockwave-player-licensing-distribution.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/{{PackageName}}/{{PackageName}}.jpg</iconUrl>
+	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/images/{{PackageName}}.png</iconUrl>
   </metadata>
 </package>

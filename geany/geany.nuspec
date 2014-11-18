@@ -32,6 +32,6 @@ Some basic features of Geany:
     <copyright></copyright>
     <licenseUrl>http://www.geany.org/manual/#gnu-general-public-license</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/geany/geany.png</iconUrl>
+	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/images/{{PackageName}}.png</iconUrl>
   </metadata>
 </package>

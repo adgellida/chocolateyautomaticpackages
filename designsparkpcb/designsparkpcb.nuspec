@@ -20,6 +20,6 @@ Not uninstallable silently.
     <copyright></copyright>
     <licenseUrl>http://www.designspark.com/knowledge-item/design-science-license-</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/designsparkpcb/designsparkpcb.jpg</iconUrl>
+	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/images/{{PackageName}}.png</iconUrl>
   </metadata>
 </package>

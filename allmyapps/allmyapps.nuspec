@@ -17,6 +17,6 @@ Allmyapps is the next generation Application Store, providing you with a unique 
     <copyright></copyright>
     <licenseUrl>http://allmyapps.com/about/terms-of-service</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/allmyapps/allmyapps.png</iconUrl>
+	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/images/{{PackageName}}.png</iconUrl>
   </metadata>
 </package>

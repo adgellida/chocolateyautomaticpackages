@@ -18,6 +18,6 @@ The Web PI also makes it easy to install and run the most popular free web appli
     <copyright></copyright>
     <licenseUrl>http://www.microsoft.com/web/webpi/eula/webpi_45_en.htm</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/webpi/webpi.png</iconUrl>
+	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/images/{{PackageName}}.png</iconUrl>
   </metadata>
 </package>

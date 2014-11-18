@@ -20,6 +20,6 @@ If you see new toolbars in your Internet Explorer that you havent intentionally 
     <copyright></copyright>
     <licenseUrl>http://www.safer-networking.org/eula-for-private-users/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/spybot/spybot.jpg</iconUrl>
+	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/images/{{PackageName}}.png</iconUrl>
   </metadata>
 </package>

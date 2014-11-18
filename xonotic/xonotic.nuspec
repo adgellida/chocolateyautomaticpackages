@@ -21,6 +21,6 @@ Previous version isn't removed. All your user data remains if you remove it manu
     <copyright></copyright>
     <licenseUrl>http://dev.xonotic.org/projects/3/wiki/Legal</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/xonotic/xonotic.png</iconUrl>
+	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/images/{{PackageName}}.png</iconUrl>
   </metadata>
 </package>

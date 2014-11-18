@@ -18,6 +18,6 @@ These tools let you edit and process DV, AVCHD, HDV, SD/HD-SDI, and all XDCAM™
     <copyright></copyright>
     <licenseUrl>http://www.sonycreativesoftware.com/corporate/terms</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/sonyvegaspro/sonyvegaspro.png</iconUrl>
+	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/images/{{PackageName}}.png</iconUrl>
   </metadata>
 </package>

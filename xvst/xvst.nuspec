@@ -19,6 +19,6 @@ xVideoServiceThief also provide you the ability to convert each video in most po
     <copyright></copyright>
     <licenseUrl>http://www.gnu.org/copyleft/gpl.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/{{PackageName}}/{{PackageName}}.jpeg</iconUrl>
+	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/images/{{PackageName}}.png</iconUrl>
   </metadata>
 </package>

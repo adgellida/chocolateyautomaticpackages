@@ -18,6 +18,6 @@ It is supported by over forty filter subscriptions which automatically configure
     <copyright></copyright>
     <licenseUrl>https://gnu.org/licenses/gpl.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/adblockplusie/adblockplusie.png</iconUrl>
+	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/images/{{PackageName}}.png</iconUrl>
   </metadata>
 </package>

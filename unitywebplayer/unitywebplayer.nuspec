@@ -19,6 +19,6 @@ Then you can deliver the games to the web or as standalone players.
     <copyright></copyright>
     <licenseUrl>http://unity3d.com/company/legal/webplayer-eula</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/unitywebplayer/unitywebplayer.jpg</iconUrl>
+	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/images/{{PackageName}}.png</iconUrl>
   </metadata>
 </package>

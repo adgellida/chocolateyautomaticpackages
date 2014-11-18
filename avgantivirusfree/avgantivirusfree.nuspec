@@ -18,6 +18,6 @@ Virus database updated every day. Includes innovative LinkScanner for web-protec
     <copyright></copyright>
     <licenseUrl>http://www.avg.com/eula</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/avgantivirusfree/avgantivirusfree.png</iconUrl>
+	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/images/{{PackageName}}.png</iconUrl>
   </metadata>
 </package>

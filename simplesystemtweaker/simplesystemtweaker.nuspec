@@ -22,6 +22,6 @@ But they all add up, so the more tweaks you do the more performance you get.
     <copyright></copyright>
     <licenseUrl>http://www.tweaking.com/core/termsofuse/index.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/simplesystemtweaker/simplesystemtweaker.jpg</iconUrl>
+	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/images/{{PackageName}}.png</iconUrl>
   </metadata>
 </package>

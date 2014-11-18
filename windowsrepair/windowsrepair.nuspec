@@ -19,6 +19,6 @@ With Windows Repair you can restore Windows original settings.
     <copyright></copyright>
     <licenseUrl>http://www.tweaking.com/core/termsofuse/index.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/windowsrepair/windowsrepair.jpg</iconUrl>
+	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/images/{{PackageName}}.png</iconUrl>
   </metadata>
 </package>

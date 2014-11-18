@@ -28,6 +28,6 @@ Features
     <copyright></copyright>
     <licenseUrl>https://softwareula.wordpress.com/tag/kc-softwares/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/kcleaner/kcleaner.png</iconUrl>
+	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/images/{{PackageName}}.png</iconUrl>
   </metadata>
 </package>

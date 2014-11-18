@@ -18,6 +18,6 @@ The program consists of three main modules: Layout Editor, Schematic Editor, and
     <copyright></copyright>
     <licenseUrl>http://www.cadsoftusa.com/shop/eagle-hobbyist-and-education/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/eagle/eagle.png</iconUrl>
+	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/images/{{PackageName}}.png</iconUrl>
   </metadata>
 </package>

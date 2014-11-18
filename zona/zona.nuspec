@@ -17,7 +17,7 @@ Zona is a torrent streaming program in the vain of Popcorn Time.
     <copyright></copyright>
 	<licenseUrl>http://en.wikipedia.org/wiki/Freeware</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/{{PackageName}}/{{PackageName}}.png</iconUrl>
+	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/images/{{PackageName}}.png</iconUrl>
 	<dependencies>
 		<dependency id="javaruntime" />
     </dependencies>

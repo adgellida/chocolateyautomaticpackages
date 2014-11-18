@@ -20,6 +20,6 @@ The data cannot be recovered after using this utility. The program utilizes Ultr
     <copyright></copyright>
     <licenseUrl>http://hddguru.com/software/HDD-LLF-Low-Level-Format-Tool/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/llftool/llftool.png</iconUrl>
+	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/images/{{PackageName}}.png</iconUrl>
   </metadata>
 </package>

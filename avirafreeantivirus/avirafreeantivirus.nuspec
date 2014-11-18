@@ -17,6 +17,6 @@ Avira Free Antivirus offers basic protection for your computer against dangerous
     <copyright></copyright>
     <licenseUrl>http://www.avira.com/en/license-agreement</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/avirafreeantivirus/avirafreeantivirus.png</iconUrl>
+	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/images/{{PackageName}}.png</iconUrl>
   </metadata>
 </package>

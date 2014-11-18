@@ -23,6 +23,6 @@ Features:
     <copyright></copyright>
     <licenseUrl>http://www.softwareok.com/?seite=Freeware/ColorConsole/Eula</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/colorconsole/colorconsole.png</iconUrl>
+	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/images/{{PackageName}}.png</iconUrl>
   </metadata>
 </package>

@@ -21,6 +21,6 @@ Any items placed inside Hive will automatically upload and then sync to all your
     <copyright></copyright>
     <licenseUrl>https://spideroak.com/terms_of_use</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/spideroak/spideroak.png</iconUrl>
+	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/images/{{PackageName}}.png</iconUrl>
   </metadata>
 </package>

@@ -19,6 +19,6 @@ Once you run the utility, you will see a list of toolbars and plug-ins and be ab
     <copyright></copyright>
     <licenseUrl>http://files.avast.com/files/legal/eula-avast-free.pdf</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/avastbrowsercleanup/avastbrowsercleanup.png</iconUrl>
+	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/images/{{PackageName}}.png</iconUrl>
   </metadata>
 </package>
