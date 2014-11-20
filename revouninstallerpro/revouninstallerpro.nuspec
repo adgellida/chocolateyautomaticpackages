@@ -19,6 +19,6 @@ It has very powerful features to uninstall and remove programs.
     <copyright></copyright>
     <licenseUrl>http://www.revouninstaller.com/revo_uninstaller_free_download.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/images/{{PackageName}}.png</iconUrl>
+	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/icons/{{PackageName}}.png</iconUrl>
   </metadata>
 </package>

@@ -18,6 +18,6 @@ It now features download protection (blocks malicious files before being written
     <copyright></copyright>
     <licenseUrl>http://www.lavasoft.com/terms_of_use/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/images/{{PackageName}}.png</iconUrl>
+	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/icons/{{PackageName}}.png</iconUrl>
   </metadata>
 </package>

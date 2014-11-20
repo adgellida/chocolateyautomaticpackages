@@ -19,6 +19,6 @@ EasyBCD is geared for users of all kinds. Whether you just want to add an entry 
     <copyright></copyright>
     <licenseUrl>https://neosmart.net/EasyBCD/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/images/{{PackageName}}.png</iconUrl>
+	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/icons/{{PackageName}}.png</iconUrl>
   </metadata>
 </package>

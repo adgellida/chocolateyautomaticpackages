@@ -24,6 +24,6 @@ To conclude, SecPod Saner is an efficient and useful program that can successful
     <copyright></copyright>
     <licenseUrl>http://saner.secpod.com/faq.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/images/{{PackageName}}.png</iconUrl>
+	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/icons/{{PackageName}}.png</iconUrl>
   </metadata>
 </package>

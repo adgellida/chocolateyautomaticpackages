@@ -19,6 +19,6 @@ Get more speed, less crashing, longer battery life and more disk space, whether 
     <copyright></copyright>
     <licenseUrl>http://www.avg.com/us-en/eula-avg-2014-all-1-0</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/images/{{PackageName}}.png</iconUrl>
+	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/icons/{{PackageName}}.png</iconUrl>
   </metadata>
 </package>

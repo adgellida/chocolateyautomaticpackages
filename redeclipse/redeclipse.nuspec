@@ -17,6 +17,6 @@ Red Eclipse is a Free and Open Source FPS game, built on Cube 2 Engine.
     <copyright></copyright>
     <licenseUrl>http://sourceforge.net/apps/trac/redeclipse/browser/doc/license.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/images/{{PackageName}}.png</iconUrl>
+	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/icons/{{PackageName}}.png</iconUrl>
   </metadata>
 </package>

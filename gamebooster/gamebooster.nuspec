@@ -20,6 +20,6 @@ That means you can keep all the features of Microsoft Windows Vista and XP ready
     <copyright></copyright>
     <licenseUrl>http://www.razerzone.com/terms-conditions</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/images/{{PackageName}}.png</iconUrl>
+	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/icons/{{PackageName}}.png</iconUrl>
   </metadata>
 </package>

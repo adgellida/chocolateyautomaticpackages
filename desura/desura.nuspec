@@ -17,6 +17,6 @@ Desura is a digital distribution service for gamers, putting the best games, mod
     <copyright></copyright>
     <licenseUrl>http://lindenlab.com/tos</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/images/{{PackageName}}.png</iconUrl>
+	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/icons/{{PackageName}}.png</iconUrl>
   </metadata>
 </package>

@@ -18,6 +18,6 @@ now has support for more than 100+ video sharing sites.
     <copyright></copyright>
     <licenseUrl>http://atube-catcher.dsnetwb.com/video/node/41?q=node/41</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/images/{{PackageName}}.png</iconUrl>
+	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/icons/{{PackageName}}.png</iconUrl>
   </metadata>
 </package>

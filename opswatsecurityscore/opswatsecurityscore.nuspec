@@ -17,6 +17,6 @@ OPSWAT Security Score is a free tool that scans your computer for the status of 
     <copyright></copyright>
     <licenseUrl>http://www.opswat.com/legal</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/images/{{PackageName}}.png</iconUrl>
+	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/icons/{{PackageName}}.png</iconUrl>
   </metadata>
 </package>

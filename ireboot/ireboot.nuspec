@@ -19,6 +19,6 @@ You can also use iReboot to set up complicated recovery scenarios where the boot
     <copyright></copyright>
     <licenseUrl>https://neosmart.net/iReboot/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/images/{{PackageName}}.png</iconUrl>
+	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/icons/{{PackageName}}.png</iconUrl>
   </metadata>
 </package>

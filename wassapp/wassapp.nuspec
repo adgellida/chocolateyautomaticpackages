@@ -18,6 +18,6 @@ Login with your phone number, import your contacts and chat with them instantly 
     <copyright></copyright>
     <licenseUrl>http://en.wikipedia.org/wiki/Free_software_license</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/images/{{PackageName}}.png</iconUrl>
+	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/icons/{{PackageName}}.png</iconUrl>
   </metadata>
 </package>

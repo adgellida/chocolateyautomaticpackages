@@ -17,6 +17,6 @@ A game imitating the look of DOTA, now with a dedicated server and ratings saved
     <copyright></copyright>
     <licenseUrl>http://www.heroesofnewerth.com/documents/tos/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/images/{{PackageName}}.png</iconUrl>
+	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/icons/{{PackageName}}.png</iconUrl>
   </metadata>
 </package>

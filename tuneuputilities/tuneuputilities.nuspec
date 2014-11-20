@@ -18,6 +18,6 @@ Increase performance, maintain your system, customize Windows, fix problems and 
     <copyright></copyright>
     <licenseUrl>http://www.tune-up.com/products/tuneup-utilities/eula/tuu17082012/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/images/{{PackageName}}.png</iconUrl>
+	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/icons/{{PackageName}}.png</iconUrl>
   </metadata>
 </package>

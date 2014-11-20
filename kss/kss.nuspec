@@ -20,6 +20,6 @@ Kaspersky Security Scan also checks for security issues, such as the presence of
     <copyright></copyright>
     <licenseUrl>http://www.kaspersky.com/other/eulawin8-en?cid=acq_pad</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/images/{{PackageName}}.png</iconUrl>
+	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/icons/{{PackageName}}.png</iconUrl>
   </metadata>
 </package>

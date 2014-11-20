@@ -18,6 +18,6 @@ Why waste money on expensive "registry cleaners" to fix your PC when Advanced Sy
     <copyright></copyright>
     <licenseUrl>http://www.iobit.com/legal.php</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/images/{{PackageName}}.png</iconUrl>
+	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/icons/{{PackageName}}.png</iconUrl>
   </metadata>
 </package>

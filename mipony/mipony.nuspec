@@ -17,6 +17,6 @@ Mipony is a free download manager specially designed to optimize and automate th
     <copyright></copyright>
     <licenseUrl>http://en.wikipedia.org/wiki/Free_license</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/mipony/mipony.png</iconUrl>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/icons/mipony.png</iconUrl>
   </metadata>
 </package>

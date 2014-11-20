@@ -16,8 +16,8 @@ It requires no sign up, displays no ads and is 100% safe.
     <projectUrl>http://getatraci.net/</projectUrl>
     <tags>mp3 music player popcorntime hiphop</tags>
     <copyright></copyright>
-    <licenseUrl>http://www.gnu.org/copyleft/gpl.html</licenseUrl>
+    <licenseUrl>https://github.com/Atraci/Atraci/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/images/{{PackageName}}.png</iconUrl>
+	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/icons/{{PackageName}}.png</iconUrl>
   </metadata>
 </package>
