@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+$packageName = 'acr'
 $shortcut_to_remove = "$Home\Desktop\AssaultCube Reloaded.lnk"
 
 try {
