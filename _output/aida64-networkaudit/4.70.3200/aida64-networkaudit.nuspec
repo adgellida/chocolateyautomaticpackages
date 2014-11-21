@@ -3,7 +3,7 @@
   <metadata>
     <id>aida64-networkaudit</id>
     <title>AIDA64 Network Audit</title>
-    <version>{}.0.0.20141007</version>
+    <version>4.70.3200</version>
     <authors>FinalWire</authors>
     <owners>tonigellida</owners>
     <summary>
@@ -26,6 +26,6 @@ With AIDA64 Network Audit, it’s easier and more comfortable to manage an entir
     <copyright></copyright>
     <licenseUrl>http://www.aida64.com/licensing-aida64</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/aida64-networkaudit/aida64-networkaudit.png</iconUrl>
+	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/icons/aida64-networkaudit.png</iconUrl>
   </metadata>
 </package>

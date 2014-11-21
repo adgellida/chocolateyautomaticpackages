@@ -1,5 +1,5 @@
 ﻿$packageName = 'aida64-engineer'
-$versionToConvert = '{}.0.0.20141007'
+$versionToConvert = '4.70.3200'
 $version = $versionToConvert.Substring(0,$versionToConvert.Length-5)
 $uninstallRegistryPath_x86 = 'HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\AIDA64 Engineer_is1'
 $uninstallRegistryPath_x64 = 'HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\AIDA64 Engineer_is1'

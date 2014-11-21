@@ -2,15 +2,21 @@
 
 ![](http://i.imgur.com/Tl52ASY.png)
 
-TO DO & DOING IT (RIGHT NOW!)
+RELEASE NOTES
 
-* Bugfixing all the detected packages with problems.
+* 21/11/14 - Bugfixing all the detected packages with problems.
+* 20/11/14 - Moved all the icons to "icons" folder.
+* 18/11/14 - Moved all the images to "images" folder.
+* 21/09/14 - Updated checks on ketarin.
+* 23/08/14 - There're a lot of manual packages, for testing causes or for impossibility to do it auto.
+* 24/05/14 - Go to "1.SCRIPTS" folder and execute what you want. Packages are on "MULTIINSTALL.ps1" and on "MULTIINSTALL_2.ps1" there are extra packages.
+* 04/01/14 - Updated daily (only auto packages) or asap.
+* 06/12/13 - All versions works on windows vista, 7, 8, 8.1 etc. On xp wasn't tested 100% but works very very often. There're packages that don't do all the instructions (remove innecesary shortcuts), but the program is fully functional afterwards.
+
+TO DO & DOING IT
+
 * Do all packages "checksIfIsInstalled" - checkables if they are installed on system and not to install them if they exist. For example "cdex" package. With registry keys or executable version (prioritary, more quick).
 * Change name on shortcuts in packages that are not installables (portables). For example "AdwCleaner" package. By now F5 to refresh desktop is required or re-enter on the session.
-
-PACKAGES WITH SERIOUS PROBLEMS
-
-* Xonotic - Repair it to installs on the correct location.
 
 ON FUTURE
 
@@ -18,15 +24,6 @@ ON FUTURE
   If not a message is showed to contact to mantainer to update it.
 * Integrate packages on chocolatey-coreteampackages.
 * Do a choco policy to do all the packages the same way. Each type, each form, not substantial differences like now.
-
-Advices
-
-* 18/1/14 - Moved all the images to "images" folder.
-* 21/09/14 - Updated checks on ketarin.
-* 23/08/14 - There're a lot of manual packages, for testing causes or for impossibility to do it auto.
-* 24/05/14 - Go to "1.SCRIPTS" folder and execute what you want. Packages are on "MULTIINSTALL.ps1" and on "MULTIINSTALL_2.ps1" there are extra packages.
-* 04/01/14 - Updated daily (only auto packages) or asap.
-* 06/12/13 - All versions works on windows vista, 7, 8, 8.1 etc. On xp wasn't tested 100% but works very very often. There're packages that don't do all the instructions (remove innecesary shortcuts), but the program is fully functional afterwards.
 
 Causes of errors:
 

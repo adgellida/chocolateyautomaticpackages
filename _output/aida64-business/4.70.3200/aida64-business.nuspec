@@ -3,7 +3,7 @@
   <metadata>
     <id>aida64-business</id>
     <title>AIDA64 Business Edition</title>
-    <version>{}.0.0.20141007</version>
+    <version>4.70.3200</version>
     <authors>FinalWire</authors>
     <owners>tonigellida</owners>
     <summary>
@@ -27,6 +27,6 @@ We have not come across any issues throughout our tests, since AIDA64 Business d
     <copyright></copyright>
     <licenseUrl>http://www.aida64.com/licensing-aida64</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/aida64-business/aida64-business.png</iconUrl>
+	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/icons/aida64-business.png</iconUrl>
   </metadata>
 </package>
