@@ -2,11 +2,11 @@
 
 ![](http://i.imgur.com/Tl52ASY.png)
 
-TO DO & DOING IT
+TO DO & DOING IT (RIGHT NOW!)
 
 * Bugfixing all the detected packages with problems.
 * Do all packages "checksIfIsInstalled" - checkables if they are installed on system and not to install them if they exist. For example "cdex" package. With registry keys or executable version (prioritary, more quick).
-* Change name on shortcuts in packages that are not installables (portables). For example "AdwCleaner" package.
+* Change name on shortcuts in packages that are not installables (portables). For example "AdwCleaner" package. By now F5 to refresh desktop is required or re-enter on the session.
 
 PACKAGES WITH SERIOUS PROBLEMS
 
