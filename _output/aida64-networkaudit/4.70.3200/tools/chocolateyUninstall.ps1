@@ -1,6 +1,6 @@
 $packageName = 'aida64-networkaudit'
 $desktop = $([System.Environment]::GetFolderPath([System.Environment+SpecialFolder]::DesktopDirectory))
-$shortcut_to_remove = "$desktop\aida64.exe.lnk"
+$shortcut_to_remove = "aida64.exe.lnk"
 
 try {
 

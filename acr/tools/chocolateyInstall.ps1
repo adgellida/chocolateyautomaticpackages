@@ -18,3 +18,15 @@ $targetFilePath.TargetPath = "$targetFilePath"
 $targetFilePath.IconLocation = "$unzipLocation\bin_win32\ac_client.exe"
 $targetFilePath.WorkingDirectory = "$unzipLocation"
 $targetFilePath.Save()
+
+
+
+$packageName = '{{PackageName}}'
+$url = '{{DownloadUrl}}'
+$unzipLocation = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
+$executable = "aida64.exe"
+$targetFilePath = "$unzipLocation\$executable"
+
+Install-ChocolateyZipPackage $packageName $url $unzipLocation
+
+Install-ChocolateyDesktopLink $targetFilePath

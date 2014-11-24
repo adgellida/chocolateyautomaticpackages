@@ -1,8 +1,12 @@
 $packageName = '{{PackageName}}'
-$shortcut_to_remove = "$Home\Desktop\AdwCleaner.lnk"
+$version = '{{PackageVersion}}'
+$desktop = $([System.Environment]::GetFolderPath([System.Environment+SpecialFolder]::DesktopDirectory))
+$shortcut_to_remove = "adwcleaner_$version.exe.lnk"
 
 try {
-  Remove-Item $shortcut_to_remove
+
+  Remove-Item "$desktop\$shortcut_to_remove"
+  
   # the following is all part of error handling
   Write-ChocolateySuccess "$packageName"
 } catch {

@@ -1,8 +1,10 @@
 $packageName = '{{PackageName}}'
-$shortcut_to_remove = "$Home\Desktop\Client.bat.lnk"
+$desktop = $([System.Environment]::GetFolderPath([System.Environment+SpecialFolder]::DesktopDirectory))
+$shortcut_to_remove = "$desktop\Client.bat.lnk"
 
 try {
-  Remove-Item $shortcut_to_remove
+
+  Remove-Item "$desktop\$shortcut_to_remove"
   # the following is all part of error handling
   Write-ChocolateySuccess "$packageName"
 } catch {
