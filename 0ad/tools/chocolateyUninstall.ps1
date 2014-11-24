@@ -2,14 +2,15 @@ $packageName = '{{PackageName}}'
 $installerType = 'EXE'
 $silentArgs = '/S'
 $validExitCodes = @(0) #please insert other valid exit codes here, exit codes for ms http://msdn.microsoft.com/en-us/library/aa368542(VS.85).aspx
-$shortcut_to_remove = "$Home\Desktop\pyrogenesis.exe.lnk"
+$desktop = $([System.Environment]::GetFolderPath([System.Environment+SpecialFolder]::DesktopDirectory))
+$shortcut_to_remove = "$desktop\pyrogenesis.exe.lnk"
+$unpath = "$Env:userprofile\AppData\Local\0 A.D. alpha\Uninstall.exe"
 
 try {
-  $unpath = "$Env:userprofile\AppData\Local\0 A.D. alpha\Uninstall.exe"
-
+  
   Uninstall-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$unpath" -validExitCodes $validExitCodes
 
-  Remove-Item $shortcut_to_remove
+  Remove-Item "$desktop\$shortcut_to_remove"
   
   # the following is all part of error handling
   Write-ChocolateySuccess "$packageName"

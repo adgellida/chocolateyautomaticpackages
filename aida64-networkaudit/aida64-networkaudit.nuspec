@@ -22,7 +22,7 @@ Another important feature is the network alerting, which is able to notify admin
 With AIDA64 Network Audit, it’s easier and more comfortable to manage an entire network of computers. You can trust it with a variety of tasks, including hardware and software distribution, as well as the security of the entire network.
 	</description>
     <projectUrl>http://www.aida64.com/</projectUrl>
-    <tags>trial-version benchmark</tags>
+    <tags>NoChecksIfInstalled trial-version benchmark</tags>
     <copyright></copyright>
     <licenseUrl>http://www.aida64.com/licensing-aida64</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

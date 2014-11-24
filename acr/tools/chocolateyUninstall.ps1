@@ -1,5 +1,5 @@
 $packageName = '{{PackageName}}'
-$shortcut_to_remove = "$Home\Desktop\AssaultCube Reloaded.lnk"
+$shortcut_to_remove = "$Home\Desktop\Client.bat.lnk"
 
 try {
   Remove-Item $shortcut_to_remove
