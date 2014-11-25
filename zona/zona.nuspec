@@ -13,7 +13,7 @@ Zona is a torrent streaming program in the vain of Popcorn Time.
 Zona is a torrent streaming program in the vain of Popcorn Time.
 	</description>
     <projectUrl>http://zona.ru/</projectUrl>
-    <tags>notSilent notUninstallable popcorn-time movies video-streaming torrent-download video-on-demand tv-streaming watch-video peer-to-peer movie-catalog torrent-movies popcorntime</tags>
+    <tags>notSilent popcorn-time movies video-streaming torrent-download video-on-demand tv-streaming watch-video peer-to-peer movie-catalog torrent-movies popcorntime</tags>
     <copyright></copyright>
 	<licenseUrl>http://en.wikipedia.org/wiki/Freeware</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
