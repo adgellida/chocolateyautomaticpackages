@@ -23,7 +23,7 @@ AIDA64 Business lets users customize a wide array of settings pertaining to each
 We have not come across any issues throughout our tests, since AIDA64 Business did not hang, crash or pop up error messages. If users are willing to spend time exploring the app, they will likely find out the resourceful features that AIDA64 Business has to offer. Clearly, it is designed for professionals and it is definitely worth taking a look at.
 	</description>
     <projectUrl>http://www.aida64.com/</projectUrl>
-    <tags>NoChecksIfInstalled trial-version benchmark</tags>
+    <tags>trial-version benchmark</tags>
     <copyright></copyright>
     <licenseUrl>http://www.aida64.com/licensing-aida64</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
