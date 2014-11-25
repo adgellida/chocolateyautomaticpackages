@@ -1,5 +1,5 @@
 ﻿$packageName = '{{PackageName}}'
-$version = '{{PackageVersion}}'
+$version = '5.0.0.0'
 $exeToVersioning_x86 = "$Env:ProgramFiles\Popcorn Time\PopcornTimeDesktop.exe"
 $exeToVersioning_x64 = "${Env:ProgramFiles(x86)}\Popcorn Time\PopcornTimeDesktop.exe"
 $installerType = 'EXE'
