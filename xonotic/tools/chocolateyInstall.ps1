@@ -9,16 +9,16 @@ try {
 	Install-ChocolateyZipPackage $packageName $url $unzipLocation
 	
 	if ($is64bit) {
-    $targetFilePath = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)\Xonotic\xonotic-x64.exe"
+		$targetFilePath = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)\Xonotic\xonotic-x64.exe"
 	} else {
-    $targetFilePath = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)\Xonotic\xonotic.exe"
+		$targetFilePath = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)\Xonotic\xonotic.exe"
 	}
     
     Install-ChocolateyDesktopLink $targetFilePath
 	
-	# the following is all part of error handling
-    Write-ChocolateySuccess $packageName
-}   catch {
-    Write-ChocolateyFailure $packageName $($_.Exception.Message)
-    throw
+	Write-ChocolateySuccess $packageName
+	
+} catch {
+	Write-ChocolateyFailure $packageName $($_.Exception.Message)
+	throw 
 }

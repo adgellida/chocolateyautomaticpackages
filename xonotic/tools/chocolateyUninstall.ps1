@@ -6,9 +6,9 @@ $is64bit = $processor.AddressWidth -eq 64
 try {
 
 	if ($is64bit) {
-    $shortcut_to_remove = "xonotic-x64.exe.lnk"
+		$shortcut_to_remove = "xonotic-x64.exe.lnk"
 	} else {
-    $shortcut_to_remove = "xonotic.exe.lnk"
+		$shortcut_to_remove = "xonotic.exe.lnk"
 	}
 
 	Remove-Item "$desktop\$shortcut_to_remove"

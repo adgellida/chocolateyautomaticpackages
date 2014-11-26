@@ -7,11 +7,10 @@ $url = '{{DownloadUrl}}'
 $silentArgs = '/qb'
 $validExitCodes = @(0) #please insert other valid exit codes here, exit codes for ms http://msdn.microsoft.com/en-us/library/aa368542(VS.85).aspx
 $mantainer = 'tonigellida'
+$processor = Get-WmiObject Win32_Processor
+$is64bit = $processor.AddressWidth -eq 64
 
 try {
-
-	$processor = Get-WmiObject Win32_Processor
-	$is64bit = $processor.AddressWidth -eq 64
 	
 	if ($is64bit) {
 	
@@ -46,7 +45,6 @@ try {
 	Write-ChocolateySuccess $packageName
 	
 } catch {
-
-		Write-ChocolateyFailure $packageName "$($_.Exception.Message)"
-		throw 
+	Write-ChocolateyFailure $packageName $($_.Exception.Message)
+	throw 
 }
