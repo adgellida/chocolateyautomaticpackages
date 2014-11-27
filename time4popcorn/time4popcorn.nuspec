@@ -7,23 +7,23 @@
     <authors>YTS</authors>
     <owners>tonigellida</owners>
     <summary>
-YTS Release. Watch movies free on your desktop, with a big movie catalog.
+	YTS Release. Watch movies free on your desktop, with a big movie catalog.
 	</summary>
     <description>
-YTS Release. Watch movies free on your desktop, with a big movie catalog.
-This p2p client offers a whole new way to watch movies. Just select the movie to watch and press play.
-Popcorn Time! is the result of many developers and designers putting a bunch of APIs together to make the experience of watching torrent movies as simple as possible.
--Great movies
-We're constantly searching all over the web for the best torrents from the most important sites.
--No restrictions
-Watch any movie as many times as you want. All you need to get started is a proper internet connection.
--Awesome catalogue
-If the movie is out there, Popcorn Time will find the best version possible and start streaming it right away.
--The best quality
-Watch your movie instantly in HD and with subtitles. And then keep watching.
+	YTS Release. Watch movies free on your desktop, with a big movie catalog.
+	This p2p client offers a whole new way to watch movies. Just select the movie to watch and press play.
+	Popcorn Time! is the result of many developers and designers putting a bunch of APIs together to make the experience of watching torrent movies as simple as possible.
+	-Great movies
+	We're constantly searching all over the web for the best torrents from the most important sites.
+	-No restrictions
+	Watch any movie as many times as you want. All you need to get started is a proper internet connection.
+	-Awesome catalogue
+	If the movie is out there, Popcorn Time will find the best version possible and start streaming it right away.
+	-The best quality
+	Watch your movie instantly in HD and with subtitles. And then keep watching.
 	</description>
 	<releaseNotes>
-Probably beta release (automatic push). Package version less than v1, treat as stable.
+	Probably beta release (automatic push). Package version less than v1, treat as stable.
 	</releaseNotes>
     <projectUrl>http://popcorn-time.se/</projectUrl>
 	<tags>peer-to-peer movie-catalog torrent-movies YTS popcorntime</tags>

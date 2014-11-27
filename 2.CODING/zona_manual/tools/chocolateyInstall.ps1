@@ -1,4 +1,4 @@
-﻿$packageName = '{{PackageName}}'
+﻿$packageName = 'zona'
 #$version = '1.0.5.3'
 $version = '1.0.4.7'
 $exeToVersioning_x86 = "$Env:ProgramFiles\Zona\Zona.exe"
@@ -9,7 +9,7 @@ $fileType = 'exe'
 $filePath = "$env:TEMP\chocolatey\$packageName"
 $fileFullPath = "$filePath\${packageName}Install.exe"
 
-$url = '{{DownloadUrl}}'
+$url = 'http://dl3.getz.tv/ZonaSetup_latest.exe'
 $silentArgs = '/S'
 $validExitCodes = @(0) #please insert other valid exit codes here, exit codes for ms http://msdn.microsoft.com/en-us/library/aa368542(VS.85).aspx
 $mantainer = 'tonigellida'

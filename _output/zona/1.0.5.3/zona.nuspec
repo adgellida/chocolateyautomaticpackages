@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>{{PackageName}}</id>
+    <id>zona</id>
 	<title>Zona</title>
-    <version>{{PackageVersion}}</version>
+    <version>1.0.5.3</version>
     <authors>zona.ru</authors>
     <owners>tonigellida</owners>
 	<summary>
@@ -17,7 +17,7 @@
     <copyright></copyright>
 	<licenseUrl>http://en.wikipedia.org/wiki/Freeware</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/icons/{{PackageName}}.png</iconUrl>
+	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/icons/zona.png</iconUrl>
 	<dependencies>
 		<dependency id="javaruntime" />
 		<dependency id="autohotkey.portable" />

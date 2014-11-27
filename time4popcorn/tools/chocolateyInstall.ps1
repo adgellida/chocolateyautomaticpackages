@@ -42,10 +42,10 @@ try {
 		
 		}
 	
-	Write-ChocolateySuccess $packageName
-	
+    Write-ChocolateySuccess $packageName
+
 } catch {
 
-		Write-ChocolateyFailure $packageName "$($_.Exception.Message)"
-		throw 
+    Write-ChocolateyFailure $packageName $($_.Exception.Message)
+    throw
 }
