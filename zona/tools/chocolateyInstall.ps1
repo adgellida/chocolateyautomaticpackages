@@ -1,9 +1,8 @@
 ﻿$packageName = 'zona'
 #$version = '1.0.5.3'
 $version = '1.0.4.7'
-#$exeToVersioning_x86 = "$Env:ProgramFiles\Zona\Zona.exe"
-#$exeToVersioning_x64 = "${Env:ProgramFiles(x86)}\Zona\Zona.exe"
-$exeToVersioning = "${Env:ProgramFiles(x86)}\Zona\Zona.exe"
+$exeToVersioning_x86 = "$Env:ProgramFiles\Zona\Zona.exe"
+$exeToVersioning_x64 = "${Env:ProgramFiles(x86)}\Zona\Zona.exe"
 $fileType = 'exe'
 
 #AutoHotKey 
@@ -19,10 +18,23 @@ $mantainer = 'tonigellida'
 $scriptPath = Split-Path -parent $MyInvocation.MyCommand.Definition
 $ahkFile = "$scriptPath\zonaInstall.ahk"
 
+$processor = Get-WmiObject Win32_Processor
+$is64bit = $processor.AddressWidth -eq 64
+
 try {
 
- 	if (Test-Path $exeToVersioning) {
-		$installedVersion = (Get-Command $exeToVersioning).FileVersionInfo.FileVersion
+	if ($is64bit) {
+	
+ 		if (Test-Path $exeToVersioning_x64) {
+			$installedVersion = (Get-Command $exeToVersioning_x64).FileVersionInfo.FileVersion
+		}
+
+	} else {
+  
+		if (Test-Path $exeToVersioning_x86) {
+			$installedVersion = (Get-Command $exeToVersioning_x86).FileVersionInfo.FileVersion
+		}	
+		
 	}
 
 	if ($installedVersion -gt $version) {
