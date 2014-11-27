@@ -1,8 +1,9 @@
 ﻿$packageName = 'zona'
 #$version = '1.0.5.3'
 $version = '1.0.4.7'
-$exeToVersioning_x86 = "$Env:ProgramFiles\Zona\Zona.exe"
-$exeToVersioning_x64 = "${Env:ProgramFiles(x86)}\Zona\Zona.exe"
+#$exeToVersioning_x86 = "$Env:ProgramFiles\Zona\Zona.exe"
+#$exeToVersioning_x64 = "${Env:ProgramFiles(x86)}\Zona\Zona.exe"
+$exeToVersioning = "${Env:ProgramFiles(x86)}\Zona\Zona.exe"
 $fileType = 'exe'
 
 #AutoHotKey 
@@ -10,13 +11,13 @@ $filePath = "$env:TEMP\chocolatey\$packageName"
 $fileFullPath = "$filePath\${packageName}Install.exe"
 
 $url = 'http://dl3.getz.tv/ZonaSetup_latest.exe'
-$silentArgs = ''
+$silentArgs = '/S'
 $validExitCodes = @(0) #please insert other valid exit codes here, exit codes for ms http://msdn.microsoft.com/en-us/library/aa368542(VS.85).aspx
 $mantainer = 'tonigellida'
 
 # Variables for the AutoHotkey-script
 $scriptPath = Split-Path -parent $MyInvocation.MyCommand.Definition
-$ahkFile = "$scriptPath\$packageName.ahk"
+$ahkFile = "$scriptPath\zonaInstall.ahk"
 
 try {
 

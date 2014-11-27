@@ -1,14 +1,14 @@
 $packageName = 'zona'
 $fileType = 'exe'
 
-$silentArgs = ''
+$silentArgs = '/S'
 $validExitCodes = @(0) #please insert other valid exit codes here, exit codes for ms http://msdn.microsoft.com/en-us/library/aa368542(VS.85).aspx
 $processor = Get-WmiObject Win32_Processor
 $is64bit = $processor.AddressWidth -eq 64
 
 # Variables for the AutoHotkey-script
 $scriptPath = Split-Path -parent $MyInvocation.MyCommand.Definition
-$ahkFile = "$scriptPath\$packageName.ahk"
+$ahkFile = "$scriptPath\zonaUninstall.ahk"
 
 try {
 
@@ -22,9 +22,7 @@ try {
 
 	Start-Process 'AutoHotkey' $ahkFile
 	Start-Process $unpath $silentArgs
-	Wait-Process -Name "zonaUninstall"
-	
-    }
+	#Wait-Process -Name "zonaUninstall"
 
     Write-ChocolateySuccess $packageName
 
