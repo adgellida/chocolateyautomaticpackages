@@ -4,6 +4,7 @@
 
 RELEASE NOTES
 
+* 27/11/14 - Converting all packages to "not checkables". Due to amount of work doing to "checkables".
 * 21/11/14 - Bugfixing all the detected packages with problems.
 * 20/11/14 - Moved all the icons to "icons" folder.
 * 18/11/14 - Moved all the images to "images" folder.
