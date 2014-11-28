@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>{{PackageName}}</id>
+    <id>advancedsystemtweaker</id>
     <title>Advanced System Tweaker</title>
-    <version>{{PackageVersion}}</version>
+    <version>2.0.0.20141128</version>
     <authors>Tweaking.com</authors>
     <owners>tonigellida</owners>
     <summary>
@@ -23,6 +23,6 @@
     <copyright></copyright>
     <licenseUrl>http://www.tweaking.com/core/termsofuse/index.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/icons/{{PackageName}}.png</iconUrl>
+	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/icons/advancedsystemtweaker.png</iconUrl>
   </metadata>
 </package>
