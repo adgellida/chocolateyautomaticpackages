@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>{{PackageName}}</id>
+    <id>unitywebplayer</id>
     <title>Unity Web Player</title>
-    <version>{{PackageVersion}}</version>
+    <version>4.6.0</version>
     <authors>Unity Technologies</authors>
     <owners>tonigellida</owners>
     <summary>
@@ -19,6 +19,6 @@
     <copyright></copyright>
     <licenseUrl>http://unity3d.com/company/legal/webplayer-eula</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/icons/{{PackageName}}.png</iconUrl>
+	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/icons/unitywebplayer.png</iconUrl>
   </metadata>
 </package>
