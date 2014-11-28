@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+$packageName = '360ts'
 $installerType = 'EXE'
 $silentArgs = '/S'
 $processor = Get-WmiObject Win32_Processor
