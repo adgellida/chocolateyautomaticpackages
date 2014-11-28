@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+$packageName = 'advancedsystemcarefree'
 $installerType = 'EXE'
 $silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
 $processor = Get-WmiObject Win32_Processor
