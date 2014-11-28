@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>{{PackageName}}</id>
+    <id>ccleaner</id>
     <title>CCleaner</title>
-    <version>{{PackageVersion}}</version>
+    <version>5.00.5050</version>
     <authors>Piriform</authors>
     <owners>maartenba, tonigellida</owners>
     <summary>
@@ -21,6 +21,6 @@
     <copyright></copyright>
     <licenseUrl>http://www.piriform.com/legal/software-license/ccleaner</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/icons/{{PackageName}}.png</iconUrl>
+	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/icons/ccleaner.png</iconUrl>
   </metadata>
 </package>
