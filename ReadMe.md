@@ -5,7 +5,7 @@
 DOING RIGHT NOW
 
 -Due to amount of work doing all my packages "checkables" I decided to convert all to "not checkables".
-This way on the same day all my packages will be updated to the latest version.
+This way on short period of time all my packages will be updated to the latest version.
 Doing all the packages checkables is a titanic charge of work, so for these reason I prefer all updated that a lot of problems.
 The unique inconvenient is if there's a program installed yet it reinstalls it another time although has the same version.
 In most cases no problems won't be present. A known problem is detected on vlc package that adds another entry on add/remove programs.
