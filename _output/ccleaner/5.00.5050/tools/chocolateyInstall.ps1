@@ -2,7 +2,7 @@
 $installerType = 'EXE'
 $LCID = (Get-Culture).LCID
 $url = 'http://download.piriform.com/ccsetup500.exe'
-$silentArgs = "/S /L=$LCID"
+$silentArgs = '/S /L=$LCID'
 
 # Please test every new version of CCleaner for possible adware/spyware/crapware which installs silently together with Piriform software products.
 # Only push the new package to the gallery if you are 100% sure that this package prevents the install of the bundled adware.
