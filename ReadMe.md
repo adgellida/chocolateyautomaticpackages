@@ -2,9 +2,17 @@
 
 ![](http://i.imgur.com/Tl52ASY.png)
 
+DOING RIGHT NOW
+
+Due to amount of work doing all my packages "checkables" I decided to convert all to "not checkables".
+This way on the same day all my packages will be updated to the latest version.
+Doing all the packages checkables is a titanic charge of work, so for these reason I prefer all updated that a lot of problems.
+The unique inconvenient is if there's a program installed yet it reinstalls it another time although has the same version.
+In most cases no problems won't be present. A known problem is detected on vlc package that adds another entry on add/remove programs.
+
 RELEASE NOTES
 
-* 27/11/14 - Converting all packages to "not checkables". Due to amount of work doing to "checkables".
+* 27/11/14 - Converting all packages to "not checkables". 
 * 21/11/14 - Bugfixing all the detected packages with problems.
 * 20/11/14 - Moved all the icons to "icons" folder.
 * 18/11/14 - Moved all the images to "images" folder.
@@ -14,10 +22,9 @@ RELEASE NOTES
 * 04/01/14 - Updated daily (only auto packages) or asap.
 * 06/12/13 - All versions works on windows vista, 7, 8, 8.1 etc. On xp wasn't tested 100% but works very very often. There're packages that don't do all the instructions (remove innecesary shortcuts), but the program is fully functional afterwards.
 
-TO DO & DOING IT
+TO DO
 
-* Do all packages "checksIfIsInstalled" - checkables if they are installed on system and not to install them if they exist. For example "cdex" package. With registry keys or executable version (prioritary, more quick).
-* Change name on shortcuts in packages that are not installables (portables). For example "AdwCleaner" package. By now F5 to refresh desktop is required or re-enter on the session.
+* Do all packages "checksIfIsInstalled" - checkables if they are installed on system and not to install them if they exist.
 
 ON FUTURE
 

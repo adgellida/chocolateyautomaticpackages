@@ -7,12 +7,12 @@
     <authors>Piriform</authors>
     <owners>maartenba, tonigellida</owners>
     <summary>
-CCleaner is the number-one tool for cleaning your Windows PC.
+	CCleaner is the number-one tool for cleaning your Windows PC.
 	</summary>
     <description>
-CCleaner is the number-one tool for cleaning your Windows PC.
-It protects your privacy online and makes your computer faster and more secure.
-Note: This package installs CCleaner without additional adware.</description>
+	CCleaner is the number-one tool for cleaning your Windows PC.
+	It protects your privacy online and makes your computer faster and more secure.
+	Note: This package installs CCleaner without additional adware.</description>
     <projectUrl>http://www.piriform.com/ccleaner</projectUrl>
     <tags>checksIfIsInstalled ccleaner system cleanup registry</tags>
     <copyright></copyright>
