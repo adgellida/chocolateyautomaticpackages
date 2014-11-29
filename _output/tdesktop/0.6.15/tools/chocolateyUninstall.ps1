@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+$packageName = 'tdesktop'
 $installerType = 'EXE'
 $silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
 $unpath = "$Env:userprofile\AppData\Roaming\Telegram Desktop\unins000.exe"
