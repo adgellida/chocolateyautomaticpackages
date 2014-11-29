@@ -20,5 +20,8 @@
     <licenseUrl>http://www.tweaking.com/core/termsofuse/index.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
 	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/icons/{{PackageName}}.png</iconUrl>
+	<dependencies>
+	<dependency id="autohotkey.portable" />
+    </dependencies>
   </metadata>
 </package>
