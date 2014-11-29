@@ -1,5 +1,5 @@
-﻿$packageName = '{{PackageName}}'
-$url = '{{DownloadUrl}}'
+﻿$packageName = 'jrt'
+$url = 'http://thisisudax.org/downloads/JRT.exe'
 $fileFullPath = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)\JRT.exe"
 
 try {

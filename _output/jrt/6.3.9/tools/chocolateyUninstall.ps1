@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+$packageName = 'jrt'
 $desktop = $([System.Environment]::GetFolderPath([System.Environment+SpecialFolder]::DesktopDirectory))
 $shortcut_to_remove = "JRT.exe.lnk"
 
