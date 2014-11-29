@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+$packageName = 'ares'
 $installerType = 'EXE'
 $silentArgs = '/S'
 $processor = Get-WmiObject Win32_Processor

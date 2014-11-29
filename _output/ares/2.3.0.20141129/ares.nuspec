@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>{{PackageName}}</id>
+    <id>ares</id>
     <title>Ares Galaxy</title>
-    <version>{{PackageVersion}}</version>
+    <version>2.3.0.20141129</version>
     <authors>lap3k</authors>
     <owners>tonigellida</owners>
     <summary>
@@ -21,6 +21,6 @@
     <copyright></copyright>
     <licenseUrl>http://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/icons/{{PackageName}}.png</iconUrl>
+	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/icons/ares.png</iconUrl>
   </metadata>
 </package>
