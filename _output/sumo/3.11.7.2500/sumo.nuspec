@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>{{PackageName}}</id>
+    <id>sumo</id>
     <title>SUMo</title>
-    <version>{{PackageVersion}}</version>
+    <version>3.11.7.2500</version>
     <authors>KC Softwares</authors>
     <owners>tonigellida</owners>
     <summary>
@@ -25,6 +25,6 @@
     <copyright></copyright>
     <licenseUrl>http://www.kcsoftwares.com/legal/ToU.pdf</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/icons/{{PackageName}}.png</iconUrl>
+	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/icons/sumo.png</iconUrl>
   </metadata>
 </package>
