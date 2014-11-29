@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+$packageName = 'winlockless'
 $desktop = $([System.Environment]::GetFolderPath([System.Environment+SpecialFolder]::DesktopDirectory))
 $shortcut_to_remove = "winlockless.exe.lnk"
 

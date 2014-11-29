@@ -1,5 +1,5 @@
-﻿$packageName = '{{PackageName}}'
-$url = '{{DownloadUrl}}'
+﻿$packageName = 'winlockless'
+$url = 'http://hispasec.com/resources/soft/winlockless.exe'
 $fileFullPath = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)\winlockless.exe"
 
 try {

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>{{PackageName}}</id>
+    <id>winlockless</id>
     <title>WinLockLess</title>
-    <version>{{PackageVersion}}</version>
+    <version>0.3.20141129</version>
     <authors>Hispasec</authors>
     <owners>tonigellida</owners>
     <summary>
@@ -20,6 +20,6 @@
     <copyright></copyright>
     <licenseUrl>http://en.wikipedia.org/wiki/Freeware</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/icons/{{PackageName}}.png</iconUrl>
+	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/icons/winlockless.png</iconUrl>
   </metadata>
 </package>
