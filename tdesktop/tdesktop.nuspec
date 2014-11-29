@@ -7,14 +7,15 @@
     <authors>telegramdesktop</authors>
     <owners>tonigellida</owners>
     <summary>
-An unofficial Windows desktop client for the secure Telegram Messenger.
+	An unofficial Windows desktop client for the secure Telegram Messenger.
 	</summary>
     <description>
-An unofficial Windows desktop client for the secure Telegram Messenger.
+	An unofficial Windows desktop client for the secure Telegram Messenger.
+	
+	###Notes
+	
+	Probably alpha release (automatic push). Package version less than v1, treat as stable.
 	</description>
-	<releaseNotes>
-Probably alpha release (automatic push). Package version less than v1, treat as stable.
-	</releaseNotes>
     <projectUrl>http://tdesktop.com/</projectUrl>
     <tags>instant-messenger smartphone-messaging telegram android</tags>
     <copyright></copyright>
