@@ -13,10 +13,10 @@ Doing all the packages checkables is a titanic charge of work, so for these reas
 The unique inconvenient is if there's a program installed yet it reinstalls it another time although has the same version.
 In most cases no problems won't be present. A known problem is detected on vlc package that adds another entry on add/remove programs.
 * Fix all packages following [this guide](https://github.com/chocolatey/chocolatey/wiki/CreatePackages#package-description-and-release-notes)
- ** Use https://cdn.rawgit.com/ for icons.
- ** Description formatting correction.
- ** Extract icons from executables and resize it to 256x256.
- ** etc.
+ * Use https://cdn.rawgit.com/ for icons.
+ * Description formatting correction.
+ * Extract icons from executables and resize it to 256x256.
+ * etc.
 
 ###RELEASE NOTES
 
@@ -60,5 +60,5 @@ In most cases no problems won't be present. A known problem is detected on vlc p
 * If you want to know more, go to the wiki of this repo [here](https://github.com/tonigellida/chocolateyautomaticpackages/wiki).
 
 * If there's an outdated version or an error:
- ** Do a PR. Recommended!
- ** You can contact me.
+ * Do a PR. Recommended!
+ * You can contact me.
