@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>{{PackageName}}</id>
+    <id>goodsync</id>
     <title>GoodSync</title>
-    <version>{{PackageVersion}}</version>
+    <version>9.9.11</version>
     <authors>Siber Systems Inc.</authors>
     <owners>tonigellida</owners>
     <summary>
@@ -20,6 +20,6 @@
     <copyright></copyright>
     <licenseUrl>http://www.goodsync.com/license</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/icons/{{PackageName}}.png</iconUrl>
+	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/icons/goodsync.png</iconUrl>
   </metadata>
 </package>

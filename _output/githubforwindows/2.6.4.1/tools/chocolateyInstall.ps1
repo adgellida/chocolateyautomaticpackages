@@ -1,31 +1,27 @@
 $packageName = 'githubforwindows'
-$version = '2.6.4.1'
 $uninstallRegistryPath = "HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\5f7eb300e2ea4ebf"
 $installerType = 'EXE'
 $url = 'https://github-windows.s3.amazonaws.com/GitHubSetup.exe'
 $silentArgs = ''
+
+# AutoIt
+$scriptDir = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
+$installerFile = Join-Path $scriptDir 'githubforwindows.au3'
+$tempDir = "$env:TEMP\chocolatey\$packageName"
+
 $validExitCodes = @(0) #please insert other valid exit codes here, exit codes for ms http://msdn.microsoft.com/en-us/library/aa368542(VS.85).aspx
-$mantainer = 'tonigellida'
 
 try {
 
 	if (Test-Path $uninstallRegistryPath) {
-		$installedVersion = (Get-ItemProperty $uninstallRegistryPath).DisplayVersion
-	}
+		Write-Host "You have $packageName installed yet"
+		Write-Host "Update it in-app if proceeds"
 
-	if ($installedVersion -gt $version) {
-		Write-Host "Your $packageName $installedVersion is higher than the $version proporcionated by chocolatey repo."
-		Write-Host "Please wait or contact the mantainer $mantainer to update this package."
-		Write-Host "When the package is updated try another time. Thanks."
-		
-	}elseif ($installedVersion -eq $version) {
-		Write-Host "$packageName $version is already installed."
-		
 	} else {
 
         # Download and install the program
 
-		# AUTOIT ANCIENT SCRIPT
+		# AutoIt
 
 	    $scriptDir = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
 	    $installerFile = Join-Path $scriptDir 'githubforwindows.au3'
@@ -44,7 +40,6 @@ try {
 	Write-ChocolateySuccess $packageName
 	
 } catch {
-
-		Write-ChocolateyFailure $packageName "$($_.Exception.Message)"
-		throw 
+	Write-ChocolateyFailure $packageName $($_.Exception.Message)
+	throw 
 }
