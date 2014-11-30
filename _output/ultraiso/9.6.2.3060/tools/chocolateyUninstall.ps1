@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+$packageName = 'ultraiso'
 $installerType = 'EXE'
 $silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
 $processor = Get-WmiObject Win32_Processor
@@ -8,9 +8,9 @@ $validExitCodes = @(0) #please insert other valid exit codes here, exit codes fo
 try {
 
 	if ($is64bit) {
-		$unpath = "${Env:ProgramFiles(x86)}\IObit\Advanced SystemCare 8\unins000.exe"
+		$unpath = "${Env:ProgramFiles(x86)}\UltraISO\unins000.exe"
 	} else {
-		$unpath = "$Env:ProgramFiles\IObit\Advanced SystemCare 8\unins000.exe"
+		$unpath = "$Env:ProgramFiles\UltraISO\unins000.exe"
 	}
   
 	Uninstall-ChocolateyPackage $packageName $installerType $silentArgs $unpath -validExitCodes $validExitCodes

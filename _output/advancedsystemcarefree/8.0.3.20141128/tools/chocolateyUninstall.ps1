@@ -8,9 +8,9 @@ $validExitCodes = @(0) #please insert other valid exit codes here, exit codes fo
 try {
 
 	if ($is64bit) {
-		$unpath = "${Env:ProgramFiles(x86)}\IObit\Advanced SystemCare 6\unins000.exe"
+		$unpath = "${Env:ProgramFiles(x86)}\IObit\Advanced SystemCare 8\unins000.exe"
 	} else {
-		$unpath = "$Env:ProgramFiles\IObit\Advanced SystemCare 6\unins000.exe"
+		$unpath = "$Env:ProgramFiles\IObit\Advanced SystemCare 8\unins000.exe"
 	}
   
 	Uninstall-ChocolateyPackage $packageName $installerType $silentArgs $unpath -validExitCodes $validExitCodes
