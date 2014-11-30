@@ -11,10 +11,6 @@
 	</summary>
     <description>
 	Ares is a free open source file sharing program that enables users to share any digital file including images, audio, video, software, documents, etc.
-	You may now easily publish your files through the Ares peer to peer network.
-	As a member of the virtual community, you can search and download just about any file shared by other users.
-	Latest versions support BitTorrent protocol and Shoutcast radio stations.
-	With Ares you can also join chat rooms or host your channel and meet new friends.
 	</description>
     <projectUrl>http://aresgalaxy.sourceforge.net/</projectUrl>
     <tags>file-sharing peer-to-peer</tags>
