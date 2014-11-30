@@ -7,10 +7,11 @@
     <authors>Unity Technologies</authors>
     <owners>tonigellida</owners>
     <summary>
-	Unity is a multiplatform game development tool, designed from the start to ease creation.
+	A multiplatform game development tool, designed from the start to ease creation.
 	</summary>
     <description>
-	Unity is a multiplatform game development tool, designed from the start to ease creation.
+	A multiplatform game development tool, designed from the start to ease creation.
+	
 	A fully integrated professional application, Unity just happens to contain the most powerful engine this side of a million dollars.
 	</description>
     <projectUrl>http://unity3d.com/unity/download/</projectUrl>

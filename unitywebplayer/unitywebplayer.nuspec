@@ -7,11 +7,13 @@
     <authors>Unity Technologies</authors>
     <owners>tonigellida</owners>
     <summary>
-	The Unity Web Player enables you to view blazing 3D content created with Unity directly in your browser, and autoupdates as necessary.
+	Enables you to view blazing 3D content created with Unity directly in your browser, and autoupdates as necessary.
 	</summary>
     <description>
-	The Unity Web Player enables you to view blazing 3D content created with Unity directly in your browser, and autoupdates as necessary.
+	Enables you to view blazing 3D content created with Unity directly in your browser, and autoupdates as necessary.
+	
 	Unity allows you to build rich 3D games with animated characters, sizzling graphics, immersive physics.
+	
 	Then you can deliver the games to the web or as standalone players.
 	</description>
     <projectUrl>http://unity3d.com/webplayer/</projectUrl>

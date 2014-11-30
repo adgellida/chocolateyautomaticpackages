@@ -7,15 +7,15 @@
     <authors>Avast</authors>
     <owners>tonigellida</owners>
 	<summary>
-avast! Free Antivirus often outperforms our competitors paid-for products and is the minimum protection anyone should have against viruses and spyware.
+	Often outperforms our competitors paid-for products and is the minimum protection anyone should have against viruses and spyware.
 	</summary>
 	<description>
-The most popular antivirus software in the world.
-avast! Free Antivirus often outperforms our competitors paid-for products and is the minimum protection anyone should have against viruses and spyware.
-	</description>
-	<releaseNotes>
-Not Silent version, if not installs Google Chrome.
-	</releaseNotes>
+	The most popular antivirus software in the world.
+	Often outperforms our competitors paid-for products and is the minimum protection anyone should have against viruses and spyware.
+	
+	###Notes
+	
+	Not Silent version, if not installs Google Chrome.
     <projectUrl>http://www.avast.com/index</projectUrl>
     <tags>notSilent notUninstallable security antivirus vulnerability</tags>
     <copyright></copyright>
