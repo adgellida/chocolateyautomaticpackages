@@ -2,20 +2,20 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>{{PackageName}}</id>
-    <title>SmartFTP</title>
+    <title>fbvlc</title>
     <version>{{PackageVersion}}</version>
-    <authors>SmartSoft</authors>
-    <owners>SmartSoft tonigellida</owners>
+    <authors>rsatom</authors>
+    <owners>tonigellida</owners>
     <summary>
-	FTP, FTPS, SFTP, HTTP, Amazon S3, WebDAV, Telnet, Terminal client.
+	Vlc web plugin based on FireBreath.
 	</summary>
     <description>
-	FTP, FTPS, SFTP, HTTP, Amazon S3, WebDAV, Telnet, Terminal client.
+	Vlc web plugin based on FireBreath.
 	</description>
-    <projectUrl>http://www.smartftp.com/</projectUrl>
-    <tags>notUninstallable trial-version ftp sftp sftp ssh webdav s3 amazon secure client</tags>
+    <projectUrl>https://code.google.com/p/fbvlc/</projectUrl>
+    <tags>notUninstallable vlc codec web</tags>
     <copyright></copyright>
-    <licenseUrl>http://www.smartftp.com/static/Products/Client/License.txt</licenseUrl>
+    <licenseUrl>http://www.gnu.org/licenses/lgpl.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
 	<iconUrl>https://cdn.rawgit.com/adgellida/chocolateyautomaticpackages/master/icons/{{PackageName}}.png</iconUrl>
   </metadata>
