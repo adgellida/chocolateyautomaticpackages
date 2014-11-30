@@ -21,7 +21,7 @@
     <copyright></copyright>
     <licenseUrl>https://help.github.com/articles/github-terms-of-service/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/icons/{{PackageName}}.png</iconUrl>
+	<iconUrl>https://cdn.rawgit.com/adgellida/chocolateyautomaticpackages/master/icons/{{PackageName}}.png</iconUrl>
     <dependencies>
     <dependency id="autoit.commandline" />
     </dependencies>

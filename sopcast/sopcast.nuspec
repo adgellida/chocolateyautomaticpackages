@@ -17,6 +17,6 @@ SopCast is a simple, free way to broadcast video and audio or watch the video an
     <copyright></copyright>
     <licenseUrl>http://www.sopcast.com/info/eula.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/icons/{{PackageName}}.png</iconUrl>
+	<iconUrl>https://cdn.rawgit.com/adgellida/chocolateyautomaticpackages/master/icons/{{PackageName}}.png</iconUrl>
   </metadata>
 </package>

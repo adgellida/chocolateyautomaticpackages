@@ -23,6 +23,6 @@ Only en-us, es-mx, pt-br, nl-nl, fr-be languages supported. Similar languages li
     <copyright></copyright>
     <licenseUrl>http://support.kaspersky.com/11189</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/icons/{{PackageName}}.png</iconUrl>
+	<iconUrl>https://cdn.rawgit.com/adgellida/chocolateyautomaticpackages/master/icons/{{PackageName}}.png</iconUrl>
   </metadata>
 </package>

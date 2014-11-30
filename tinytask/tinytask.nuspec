@@ -22,6 +22,6 @@ There's no installer, required files, or anything unnecessary; just a tiny progr
     <copyright></copyright>
     <licenseUrl>http://www.vtaskstudio.com/vista.pl?action=viewlicense</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/icons/{{PackageName}}.png</iconUrl>
+	<iconUrl>https://cdn.rawgit.com/adgellida/chocolateyautomaticpackages/master/icons/{{PackageName}}.png</iconUrl>
   </metadata>
 </package>

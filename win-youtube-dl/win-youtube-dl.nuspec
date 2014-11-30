@@ -17,7 +17,6 @@ This application only works on 64-bit Windows (I'm lazy to make it work on 32-bi
     <copyright />
     <language>en-US</language>
     <tags>youtube-dl gui ffmpeg youtube downloader converter mp3</tags>
-	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/icons/{{PackageName}}.png</iconUrl>
+	<iconUrl>https://cdn.rawgit.com/adgellida/chocolateyautomaticpackages/master/icons/{{PackageName}}.png</iconUrl>
   </metadata>
 </package>
-<!-- “UTF-8” test -->
