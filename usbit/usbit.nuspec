@@ -7,11 +7,12 @@
     <authors>Alexander Beug</authors>
     <owners>tonigellida</owners>
     <summary>
-USB Image Tool can create images of USB flash drives and MP3 players, that are mounted as USB drives.
+	Create images of USB flash drives and MP3 players, that are mounted as USB drives.
 	</summary>
     <description>
-USB Image Tool can create images of USB flash drives and MP3 players, that are mounted as USB drives.
-It allows you switch between images with different music styles on your MP3 Player or to make an exact backup image of your USB Stick.
+	Create images of USB flash drives and MP3 players, that are mounted as USB drives.
+	
+	It allows you switch between images with different music styles on your MP3 Player or to make an exact backup image of your USB Stick.
 	</description>
     <projectUrl>http://www.alexpage.de/usb-image-tool/</projectUrl>
     <tags>usb disk-cloning copier imager</tags>
