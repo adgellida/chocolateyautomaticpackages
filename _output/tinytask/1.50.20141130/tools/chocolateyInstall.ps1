@@ -1,5 +1,5 @@
-﻿$packageName = '{{PackageName}}'
-$url = '{{DownloadUrl}}'
+﻿$packageName = 'tinytask'
+$url = 'http://www.vtaskstudio.com/tinytask.exe'
 $fileFullPath = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)\tinytask.exe"
 
 try {

@@ -1,5 +1,6 @@
 $packageName = '{{PackageName}}'
 $desktop = $([System.Environment]::GetFolderPath([System.Environment+SpecialFolder]::DesktopDirectory))
+#$shortcut_to_remove = " "
 $processor = Get-WmiObject Win32_Processor
 $is64bit = $processor.AddressWidth -eq 64
 

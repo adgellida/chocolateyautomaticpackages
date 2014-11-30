@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>{{PackageName}}</id>
+    <id>tinytask</id>
     <title>TinyTask</title>
-    <version>{{PackageVersion}}</version>
+    <version>1.50.20141130</version>
     <authors>vTask Studio</authors>
     <owners>tonigellida</owners>
     <summary>
@@ -17,6 +17,6 @@
     <copyright></copyright>
     <licenseUrl>http://www.vtaskstudio.com/vista.pl?action=viewlicense</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://cdn.rawgit.com/adgellida/chocolateyautomaticpackages/master/icons/{{PackageName}}.png</iconUrl>
+	<iconUrl>https://cdn.rawgit.com/adgellida/chocolateyautomaticpackages/master/icons/tinytask.png</iconUrl>
   </metadata>
 </package>

@@ -7,11 +7,10 @@
     <authors>Lowlevel Studios</authors>
     <owners>tonigellida</owners>
     <summary>
-Wassapp is a PC application developed as a non-official client for WhatsApp Messenger.
+	A PC application developed as a non-official client for WhatsApp Messenger.
 	</summary>
     <description>
-Wassapp is a PC application developed as a non-official client for WhatsApp Messenger.
-Login with your phone number, import your contacts and chat with them instantly using your keyboard! Just like if you were using your smartphone.
+	A PC application developed as a non-official client for WhatsApp Messenger.
 	</description>
     <projectUrl>http://lowlevel-studios.com/wassapp/</projectUrl>
     <tags>notSilent notUninstallable whatsapp chat messenger</tags>

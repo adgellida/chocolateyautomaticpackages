@@ -1,5 +1,5 @@
-﻿$packageName = '{{PackageName}}'
-$url = '{{DownloadUrl}}'
+﻿$packageName = 'wincontig'
+$url = 'http://www.mdtzone.it/Files/WContig.zip'
 $unzipLocation = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
 #$executable = " "
 $targetFilePath = "$unzipLocation\$executable"
@@ -11,9 +11,9 @@ try {
 	Install-ChocolateyZipPackage $packageName $url $unzipLocation
 
 	if ($is64bit) {
-		$executable = "Xonotic\xonotic-x64.exe"
+		$executable = "WinContig64.exe"
 	} else {
-		$executable = "Xonotic\xonotic.exe"
+		$executable = "WinContig.exe"
 	}	
 	
 	Install-ChocolateyDesktopLink $targetFilePath
@@ -24,3 +24,14 @@ try {
 	Write-ChocolateyFailure $packageName $($_.Exception.Message)
 	throw 
 }
+
+
+
+
+
+
+
+
+
+
+

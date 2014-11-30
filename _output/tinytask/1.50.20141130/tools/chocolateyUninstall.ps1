@@ -1,16 +1,8 @@
-$packageName = 'xonotic'
+$packageName = 'tinytask'
 $desktop = $([System.Environment]::GetFolderPath([System.Environment+SpecialFolder]::DesktopDirectory))
-#$shortcut_to_remove = " "
-$processor = Get-WmiObject Win32_Processor
-$is64bit = $processor.AddressWidth -eq 64
+$shortcut_to_remove = "tinytask.exe.lnk"
 
 try {
-
-	if ($is64bit) {
-		$shortcut_to_remove = "xonotic-x64.exe.lnk"
-	} else {
-		$shortcut_to_remove = "xonotic.exe.lnk"
-	}
 
 	Remove-Item "$desktop\$shortcut_to_remove"
   
