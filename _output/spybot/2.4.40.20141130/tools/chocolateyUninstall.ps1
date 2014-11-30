@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+$packageName = 'spybot'
 $installerType = 'EXE'
 $silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
 $processor = Get-WmiObject Win32_Processor
@@ -8,9 +8,9 @@ $validExitCodes = @(0) #please insert other valid exit codes here, exit codes fo
 try {
 
 	if ($is64bit) {
-		$unpath = "${Env:ProgramFiles(x86)}\IObit\Start Menu 8\unins000.exe"
+		$unpath = "${Env:ProgramFiles(x86)}\Spybot - Search & Destroy 2\unins000.exe"
 	} else {
-		$unpath = "$Env:ProgramFiles\IObit\Start Menu 8\unins000.exe"
+		$unpath = "$Env:ProgramFiles\Spybot - Search & Destroy 2\unins000.exe"
 	}
   
 	Uninstall-ChocolateyPackage $packageName $installerType $silentArgs $unpath -validExitCodes $validExitCodes

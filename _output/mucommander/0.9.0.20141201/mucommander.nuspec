@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>{{PackageName}}</id>
+    <id>mucommander</id>
     <title>muCommander</title>
-    <version>{{PackageVersion}}</version>
+    <version>0.9.0.20141201</version>
     <authors>Maxence Bernard</authors>
     <owners>tonigellida</owners>
     <summary>
@@ -17,6 +17,6 @@
     <copyright></copyright>
     <licenseUrl>http://trac.mucommander.com/wiki/License</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://cdn.rawgit.com/adgellida/chocolateyautomaticpackages/master/icons/{{PackageName}}.png</iconUrl>
+	<iconUrl>https://cdn.rawgit.com/adgellida/chocolateyautomaticpackages/master/icons/mucommander.png</iconUrl>
   </metadata>
 </package>

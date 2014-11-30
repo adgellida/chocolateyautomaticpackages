@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>{{PackageName}}</id>
+    <id>startmenu8</id>
     <title>Start Menu 8</title>
-    <version>{{PackageVersion}}</version>
+    <version>1.6.0.20141130</version>
     <authors>IObit</authors>
     <owners>tonigellida</owners>
     <summary>
@@ -17,6 +17,6 @@
     <copyright></copyright>
     <licenseUrl>http://www.iobit.com/legal.php</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://cdn.rawgit.com/adgellida/chocolateyautomaticpackages/master/icons/{{PackageName}}.png</iconUrl>
+	<iconUrl>https://cdn.rawgit.com/adgellida/chocolateyautomaticpackages/master/icons/startmenu8.png</iconUrl>
   </metadata>
 </package>
