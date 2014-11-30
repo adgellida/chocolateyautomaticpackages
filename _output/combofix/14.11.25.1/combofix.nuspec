@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>{{PackageName}}</id>
+    <id>combofix</id>
     <title>ComboFix</title>
-    <version>{{PackageVersion}}</version>
+    <version>14.11.25.1</version>
     <authors>sUBs</authors>
     <owners>tonigellida</owners>
     <summary>
@@ -27,6 +27,6 @@
     <copyright></copyright>
     <licenseUrl>http://www.bleepingcomputer.com/user-agreement/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://cdn.rawgit.com/adgellida/chocolateyautomaticpackages/master/icons/{{PackageName}}.png</iconUrl>
+	<iconUrl>https://cdn.rawgit.com/adgellida/chocolateyautomaticpackages/master/icons/combofix.png</iconUrl>
   </metadata>
 </package>

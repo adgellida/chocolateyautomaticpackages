@@ -1,5 +1,5 @@
-﻿$packageName = '{{PackageName}}'
-$url = '{{DownloadUrl}}'
+﻿$packageName = 'combofix'
+$url = 'http://download.bleepingcomputer.com/sUBs/ComboFix.exe'
 $fileFullPath = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)\ComboFix.exe"
 
 try {
