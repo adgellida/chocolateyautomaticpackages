@@ -1,6 +1,6 @@
-$packageName = '{{PackageName}}'
+$packageName = 'sundance'
 $installerType = 'EXE'
-$silentArgs = '/S'
+$silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
 $processor = Get-WmiObject Win32_Processor
 $is64bit = $processor.AddressWidth -eq 64
 $validExitCodes = @(0) #please insert other valid exit codes here, exit codes for ms http://msdn.microsoft.com/en-us/library/aa368542(VS.85).aspx
@@ -8,9 +8,9 @@ $validExitCodes = @(0) #please insert other valid exit codes here, exit codes fo
 try {
 
 	if ($is64bit) {
-		$unpath = "${Env:ProgramFiles(x86)}\Dev-Cpp\uninstall.exe"
+		$unpath = "${Env:ProgramFiles(x86)}\Sundance\unins000.exe"
 	} else {
-		$unpath = "$Env:ProgramFiles\Dev-Cpp\uninstall.exe"
+		$unpath = "$Env:ProgramFiles\Sundance\unins000.exe"
 	}
   
 	Uninstall-ChocolateyPackage $packageName $installerType $silentArgs $unpath -validExitCodes $validExitCodes
