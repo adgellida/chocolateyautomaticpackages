@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>isoplex</id>
+    <title>Isoplex</title>
+    <version>0.0.5-alpha</version>
+    <authors>Isohunt</authors>
+    <owners>tonigellida</owners>
+    <summary>
+Isoplex is a movie searching and streaming application. It is digging the web to find a movie you want so you can stream it in any available quality without downloading.
+	</summary>
+    <description>
+Isoplex is a movie searching and streaming application. It is digging the web to find a movie you want so you can stream it in any available quality without downloading.
+Technologies we use are:
+
+-node-webkit
+-socket.io
+-peerflix
+-backbone.js
+-some back-end magic
+
+Some may think we're a Popcorn Time clone with slightly different interface, but we are not.
+For sure Popcorn Time set a high bar in content streaming. We want to join the technological race! Not against them but with them.
+
+The product is in a very early stage. We may experience downtime, content problems and other bugs.
+But we strive to deliver a great product for you following your precious feedback. So please be patient and stay tuned!
+And yes, we are closed-source at the moment. But if you would like to contribute to the project you're welcome to contact us at http://isohunt.to/contact-us.
+	</description>
+    <projectUrl>http://isoplex.isohunt.to</projectUrl>
+	<tags>peer-to-peer movie-catalog torrent-movies isohunt popcorntime</tags>
+    <copyright></copyright>
+    <licenseUrl>http://en.wikipedia.org/wiki/Freeware</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackagesalpha/master/icons/isoplex.png</iconUrl>
+  </metadata>
+</package>
