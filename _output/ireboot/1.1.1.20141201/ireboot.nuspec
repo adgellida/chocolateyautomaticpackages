@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>{{PackageName}}</id>
+    <id>ireboot</id>
     <title>iReboot</title>
-    <version>{{PackageVersion}}</version>
+    <version>1.1.1.20141201</version>
     <authors>NeoSmart Technologies</authors>
     <owners>tonigellida</owners>
     <summary>
@@ -21,6 +21,6 @@
     <copyright></copyright>
     <licenseUrl>https://neosmart.net/iReboot/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://cdn.rawgit.com/adgellida/chocolateyautomaticpackages/master/icons/{{PackageName}}.png</iconUrl>
+	<iconUrl>https://cdn.rawgit.com/adgellida/chocolateyautomaticpackages/master/icons/ireboot.png</iconUrl>
   </metadata>
 </package>

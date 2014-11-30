@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+$packageName = 'ireboot'
 $installerType = 'EXE'
 $silentArgs = '/S'
 $validExitCodes = @(0) #please insert other valid exit codes here, exit codes for ms http://msdn.microsoft.com/en-us/library/aa368542(VS.85).aspx
@@ -21,7 +21,7 @@ try {
 }
 
 
-$packageName = '{{PackageName}}'
+$packageName = 'ireboot'
 $installerType = 'EXE'
 $silentArgs = '/S'
 $processor = Get-WmiObject Win32_Processor
