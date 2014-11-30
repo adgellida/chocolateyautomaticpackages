@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+$packageName = 'mozbackup'
 $installerType = 'EXE'
 $silentArgs = '/S'
 $processor = Get-WmiObject Win32_Processor
@@ -8,9 +8,9 @@ $validExitCodes = @(0) #please insert other valid exit codes here, exit codes fo
 try {
 
 	if ($is64bit) {
-		$unpath = "${Env:ProgramFiles(x86)}\Clover\uninst.exe"
+		$unpath = "${Env:ProgramFiles(x86)}\MozBackup\Uninstall.exe"
 	} else {
-		$unpath = "$Env:ProgramFiles\Clover\uninst.exe"
+		$unpath = "$Env:ProgramFiles\MozBackup\Uninstall.exe"
 	}
   
 	Uninstall-ChocolateyPackage $packageName $installerType $silentArgs $unpath -validExitCodes $validExitCodes

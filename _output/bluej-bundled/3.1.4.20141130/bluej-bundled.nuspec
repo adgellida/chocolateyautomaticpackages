@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>{{PackageName}}</id>
+    <id>bluej-bundled</id>
     <title>BlueJ Combined Installer (includes JDK)</title>
-    <version>{{PackageVersion}}</version>
+    <version>3.1.4.20141130</version>
     <authors>Michael Kölling</authors>
     <owners>tonigellida</owners>
     <summary>
@@ -23,6 +23,6 @@
     <copyright></copyright>
     <licenseUrl>http://www.gnu.org/copyleft/gpl.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://cdn.rawgit.com/adgellida/chocolateyautomaticpackages/master/icons/{{PackageName}}.png</iconUrl>
+	<iconUrl>https://cdn.rawgit.com/adgellida/chocolateyautomaticpackages/master/icons/bluej-bundled.png</iconUrl>
   </metadata>
 </package>

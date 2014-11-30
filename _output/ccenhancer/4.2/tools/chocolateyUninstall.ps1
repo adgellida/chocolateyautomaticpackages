@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+$packageName = 'ccenhancer'
 $desktop = $([System.Environment]::GetFolderPath([System.Environment+SpecialFolder]::DesktopDirectory))
 $shortcut_to_remove = "CCEnhancer-4.2.exe.lnk"
 

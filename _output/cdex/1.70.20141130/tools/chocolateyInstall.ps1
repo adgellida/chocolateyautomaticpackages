@@ -1,6 +1,6 @@
-﻿$packageName = '{{PackageName}}'
+﻿$packageName = 'cdex'
 $installerType = 'EXE'
-$url = '{{DownloadUrl}}'
+$url = 'http://garr.dl.sourceforge.net/project/cdexos/cdexos/CDex 1.73/CDex-1.73-win32.exe'
 $silentArgs = '/S'
 $executable = "CDex\CDex.exe"
 #$targetFilePath = " "

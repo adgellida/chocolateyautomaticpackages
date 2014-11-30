@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>{{PackageName}}</id>
+    <id>clover</id>
     <title>Clover</title>
-    <version>{{PackageVersion}}</version>
+    <version>3.0.4060</version>
     <authors>EJIE Technology</authors>
     <owners>Ishan tonigellida</owners>
     <summary>
@@ -21,6 +21,6 @@
     <copyright></copyright>
     <licenseUrl>http://www.scribd.com/doc/164355290/License</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://cdn.rawgit.com/adgellida/chocolateyautomaticpackages/master/icons/{{PackageName}}.png</iconUrl>
+	<iconUrl>https://cdn.rawgit.com/adgellida/chocolateyautomaticpackages/master/icons/clover.png</iconUrl>
   </metadata>
 </package>
