@@ -15,6 +15,7 @@ In most cases no problems won't be present. A known problem is detected on vlc p
 **Use https://cdn.rawgit.com/ for icons.
 **Description formatting correction.
 **Extract icons from executables and resize it to 256x256.
+**etc.
 
 RELEASE NOTES
 
