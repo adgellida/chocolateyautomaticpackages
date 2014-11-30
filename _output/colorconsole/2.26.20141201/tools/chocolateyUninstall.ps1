@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+$packageName = 'colorconsole'
 $desktop = $([System.Environment]::GetFolderPath([System.Environment+SpecialFolder]::DesktopDirectory))
 $shortcut_to_remove = "ColorConsole.exe.lnk"
 

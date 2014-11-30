@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+$packageName = 'geany'
 $installerType = 'EXE'
 $silentArgs = '/S'
 $processor = Get-WmiObject Win32_Processor

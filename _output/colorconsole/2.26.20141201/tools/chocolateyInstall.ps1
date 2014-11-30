@@ -1,5 +1,5 @@
-﻿$packageName = '{{PackageName}}'
-$url = '{{DownloadUrl}}'
+﻿$packageName = 'colorconsole'
+$url = 'http://www.softwareok.com/Download/ColorConsole.zip'
 $unzipLocation = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
 $executable = "ColorConsole.exe"
 $targetFilePath = "$unzipLocation\$executable"
