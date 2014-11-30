@@ -7,10 +7,11 @@
     <authors>Unity Technologies</authors>
     <owners>tonigellida</owners>
     <summary>
-	Unity is a multiplatform game development tool, designed from the start to ease creation.
+	A multiplatform game development tool, designed from the start to ease creation.
 	</summary>
     <description>
-	Unity is a multiplatform game development tool, designed from the start to ease creation.
+	A multiplatform game development tool, designed from the start to ease creation.
+	
 	A fully integrated professional application, Unity just happens to contain the most powerful engine this side of a million dollars.
 	</description>
     <projectUrl>http://unity3d.com/unity/download/</projectUrl>
@@ -18,6 +19,6 @@
     <copyright></copyright>
     <licenseUrl>http://unity3d.com/company/legal/eula</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/icons/unity4.png</iconUrl>
+	<iconUrl>https://cdn.rawgit.com/adgellida/chocolateyautomaticpackages/master/icons/unity4.png</iconUrl>
   </metadata>
 </package>

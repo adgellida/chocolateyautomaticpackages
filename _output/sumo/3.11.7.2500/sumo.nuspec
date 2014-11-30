@@ -7,24 +7,16 @@
     <authors>KC Softwares</authors>
     <owners>tonigellida</owners>
     <summary>
-	Thanks to SUMo you'll be able to keep your PC up-to-date by using the most recent version of your favorite software!
+	Keep your PC up-to-date by using the most recent version of your favorite software.
 	</summary>
     <description>
-	SUMo, which stands for Software Update Monitor. Thanks to SUMo you'll be able to keep your PC up-to-date by using the most recent version of your favorite software!
-	Unlike build-in auto update features, SUMo tells you if updates are available before you need to use your software.
-
-	Features
-
-	Automatic detection of installed software
-	Detects required updates / patchs for your software
-	Filter / authorize Beta versions (user setting)
-	Ignore list : only tracks software YOU want to track
+	Keep your PC up-to-date by using the most recent version of your favorite software.
 	</description>
     <projectUrl>http://www.kcsoftwares.com/?sumo</projectUrl>
     <tags>update-notifier</tags>
     <copyright></copyright>
     <licenseUrl>http://www.kcsoftwares.com/legal/ToU.pdf</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackages/master/icons/sumo.png</iconUrl>
+	<iconUrl>https://cdn.rawgit.com/adgellida/chocolateyautomaticpackages/master/icons/sumo.png</iconUrl>
   </metadata>
 </package>
