@@ -5,8 +5,8 @@ On [this](https://github.com/adgellida/chocolateyautomaticpackages/blob/master/c
 ![](http://i.imgur.com/Tl52ASY.png)
 
 DOING RIGHT NOW
-(priority order showed, first is high)
 =============================================
+(priority order showed, first is high)
 * Due to amount of work doing all my packages "checkables" I decided to convert all to "not checkables".
 This way on short period of time all my packages will be updated to the latest version.
 Doing all the packages checkables is a titanic charge of work, so for these reason I prefer all updated that a lot of problems.
