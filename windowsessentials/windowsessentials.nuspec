@@ -2,16 +2,15 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>{{PackageName}}</id>
+	<version>{{PackageVersion}}</version>
     <title>Windows Essentials</title>
-    <version>{{PackageVersion}}</version>
     <authors>Microsoft</authors>
     <owners>tonigellida</owners>
     <summary>
-Windows Essentials is a suite of free software by Microsoft, that helps you do more with photos, movies, instant messaging, email, blogging, and family safety.
+	A suite of free software by Microsoft, that helps you do more with photos, movies, instant messaging, email, blogging, and family safety.
 	</summary>
     <description>
-Windows Essentials is a suite of free software by Microsoft, that helps you do more with photos, movies, instant messaging, email, blogging, and family safety.
-It includes Windows Movie Maker, Photo Gallery, Messenger, Live Mesh, and more.
+	A suite of free software by Microsoft, that helps you do more with photos, movies, instant messaging, email, blogging, and family safety.
 	</description>
     <projectUrl>http://windows.microsoft.com/en-us/windows-live/essentials</projectUrl>
     <tags>notSilent messenger software-collection suite photo-gallery movie-maker windows-live live-mesh</tags>

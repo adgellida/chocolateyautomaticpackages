@@ -5,18 +5,20 @@
     <version>{{PackageVersion}}</version>
     <title>win-youtube-dl</title>
     <authors>fredyw</authors>
-    <licenseUrl>https://github.com/fredyw/win-youtube-dl/</licenseUrl>
-    <projectUrl>https://github.com/fredyw/win-youtube-dl</projectUrl>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>
-A very simple GUI wrapper for youtube-dl (http://rg3.github.io/youtube-dl/download.html) Python script.
-This application only works on 64-bit Windows (I'm lazy to make it work on 32-bit Windows).
+	<owners>tonigellida</owners>
+	<summary>
+	A very simple GUI wrapper for youtube-dl (http://rg3.github.io/youtube-dl/download.html) Python script.
+	</summary>
+ 	<description>
+	A very simple GUI wrapper for youtube-dl (http://rg3.github.io/youtube-dl/download.html) Python script.
+
+	This application only works on 64-bit Windows (I'm lazy to make it work on 32-bit Windows).
     </description>
-    <summary>A very simple GUI wrapper for youtube-dl (http://rg3.github.io/youtube-dl/download.html) Python script.</summary>
-    <releaseNotes />
-    <copyright />
-    <language>en-US</language>
+	<projectUrl>https://github.com/fredyw/win-youtube-dl</projectUrl>	
+    <copyright></copyright>
+	<licenseUrl>https://github.com/fredyw/win-youtube-dl/</licenseUrl>
     <tags>youtube-dl gui ffmpeg youtube downloader converter mp3</tags>
+	<requireLicenseAcceptance>false</requireLicenseAcceptance>
 	<iconUrl>https://cdn.rawgit.com/adgellida/chocolateyautomaticpackages/master/icons/{{PackageName}}.png</iconUrl>
   </metadata>
 </package>
