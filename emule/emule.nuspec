@@ -7,10 +7,10 @@
     <authors>Merkur and eMule-Team</authors>
     <owners>tonigellida</owners>
     <summary>
-eMule is a free peer-to-peer file sharing application for Microsoft Windows. Connects to the eDonkey network and the Kad network.
+	A free peer-to-peer file sharing application. Connects to the eDonkey network and the Kad network.
 	</summary>
     <description>
-eMule is a free peer-to-peer file sharing application for Microsoft Windows. Connects to the eDonkey network and the Kad network.
+	A free peer-to-peer file sharing application. Connects to the eDonkey network and the Kad network.
 	</description>
     <projectUrl>http://www.emule-project.net/home/perl/general.cgi?l=17</projectUrl>
     <tags>file-sharing peer-to-peer edonkey kad</tags>
