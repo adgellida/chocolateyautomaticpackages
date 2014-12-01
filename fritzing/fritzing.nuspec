@@ -1,23 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>fritzing</id>
+    <id>{{PackageName}}</id>
     <title>Fritzing</title>
-    <version>0.9.0.20140906-beta</version>
+    <version>{{PackageVersion}}</version>
     <authors>Fachhochschule Potsdam</authors>
     <owners>tonigellida</owners>
     <summary>
-Fritzing is an open-source initiative to support designers, artists, researchers and hobbyists to take the step from physical prototyping to actual product.
+	An open-source initiative to support designers, artists, researchers and hobbyists to take the step from physical prototyping to actual product.
 	</summary>
     <description>
-Fritzing is an open-source initiative to support designers, artists, researchers and hobbyists to take the step from physical prototyping to actual product.
-We are creating this software in the spirit of Processing and Arduino, developing a tool that allows users to document their Arduino and other electronic-based prototypes, share them with others, teach electronics in a classroom, and to create a pcb layout for manufacturing.
-</description>
+	An open-source initiative to support designers, artists, researchers and hobbyists to take the step from physical prototyping to actual product.
+	
+	###Notes
+	
+	Probably beta release (automatic push). Package version less than v1, treat as stable.
+	</description>
     <projectUrl>http://fritzing.org/download/</projectUrl>
-    <tags>beta-version prototype pcb processing arduino breadboard</tags>
+    <tags>prototype pcb processing arduino breadboard</tags>
     <copyright></copyright>
     <licenseUrl>http://www.gnu.org/licenses/gpl.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackagesbeta/master/icons/fritzing.png</iconUrl>
+	<iconUrl>https://cdn.rawgit.com/adgellida/chocolateyautomaticpackages/master/icons/{{PackageName}}.png</iconUrl>
   </metadata>
 </package>

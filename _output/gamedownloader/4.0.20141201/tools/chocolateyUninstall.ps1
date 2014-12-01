@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+$packageName = 'gamedownloader'
 $installerType = 'EXE'
 $silentArgs = '/S'
 $processor = Get-WmiObject Win32_Processor
