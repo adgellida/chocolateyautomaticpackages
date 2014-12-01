@@ -7,11 +7,10 @@
     <authors>doitux floty lotodore</authors>
     <owners>tonigellida</owners>
     <summary>
-pokerth is a free implementation of the Texas hold'em poker game which is mostly played in casinos and has a growing popularity worldwide.
+	A free implementation of the Texas hold'em poker game which is mostly played in casinos and has a growing popularity worldwide.
 	</summary>
     <description>
-pokerth is a free implementation of the Texas hold'em poker game which is mostly played in casinos and has a growing popularity worldwide.
-Texas hold'em is easy to learn but needs a good strategy to win and a lot of luck. This package helps you when practicing or just playing for fun.
+	A free implementation of the Texas hold'em poker game which is mostly played in casinos and has a growing popularity worldwide.
 	</description>
     <projectUrl>http://www.pokerth.net/</projectUrl>
     <tags>notSilent game online-game poker</tags>

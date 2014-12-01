@@ -16,7 +16,7 @@
 
 	###Notes
 	
-	Probably beta release (automatic push). Package version less than v1, treat as stable.	
+	Probably beta release (automatic push). Package version less than v1, treat as stable.
 	</description>
     <projectUrl>https://popcorntime.io/</projectUrl>
 	<tags>peer-to-peer movie-catalog torrent-movies popcorntime</tags>

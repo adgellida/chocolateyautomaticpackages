@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+$packageName = 'revouninstallerpro'
 $installerType = 'EXE'
 $silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
 $unpath = "$Env:ProgramFiles\VS Revo Group\Revo Uninstaller Pro\unins000.exe"

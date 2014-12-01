@@ -1,13 +1,13 @@
-$packageName = '{{PackageName}}'
+﻿$packageName = 'revouninstallerpro'
 $installerType = 'EXE'
+$url = 'http://www.revouninstaller.com/download-professional-version.php'
 $silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
-$unpath = "$Env:ProgramFiles\VS Revo Group\Revo Uninstaller Pro\unins000.exe"
 $validExitCodes = @(0) #please insert other valid exit codes here, exit codes for ms http://msdn.microsoft.com/en-us/library/aa368542(VS.85).aspx
 
 try {
 
-	Uninstall-ChocolateyPackage $packageName $installerType $silentArgs $unpath -validExitCodes $validExitCodes
-    
+	Install-ChocolateyPackage $packageName $installerType $silentArgs $url -validExitCodes $validExitCodes
+	
 	Write-ChocolateySuccess $packageName
 	
 } catch {

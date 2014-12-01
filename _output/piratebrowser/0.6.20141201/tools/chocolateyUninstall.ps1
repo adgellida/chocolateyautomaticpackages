@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+$packageName = 'piratebrowser'
 $desktop = $([System.Environment]::GetFolderPath([System.Environment+SpecialFolder]::DesktopDirectory))
 $shortcut_to_remove = "Start PirateBrowser.exe.lnk"
 
