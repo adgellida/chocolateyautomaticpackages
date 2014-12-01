@@ -1,25 +1,10 @@
 #### A collection of automatic packages pushed to chocolatey official feed
 
-On [this](https://github.com/adgellida/chocolateyautomaticpackages/blob/master/chocolateyautomaticpackages.ods?raw=true) link you can download and watch the exact state of them.
-
-![](http://i.imgur.com/Tl52ASY.png)
-
-DOING RIGHT NOW
-=============================================
-(priority order showed, first is high)
-* Due to amount of work doing all my packages "checkables" I decided to convert all to "not checkables".
-This way on short period of time all my packages will be updated to the latest version.
-Doing all the packages checkables is a titanic charge of work, so for these reason I prefer all updated that a lot of problems.
-The unique inconvenient is if there's a program installed yet it reinstalls it another time although has the same version.
-In most cases no problems won't be present. A known problem is detected on vlc package that adds another entry on add/remove programs.
-* Fix all packages following [this guide](https://github.com/chocolatey/chocolatey/wiki/CreatePackages#package-description-and-release-notes)
- * Use https://cdn.rawgit.com/ for icons.
- * Description formatting correction.
- * Extract icons from executables and resize it to 256x256.
- * etc.
+On [this](https://github.com/adgellida/chocolateyautomaticpackages/blob/master/chocolateyautomaticpackages.ods?raw=true) link you can download and watch the last state of them.
 
 RELEASE NOTES
 =============================================
+* 02/12/14 - I decided to not maintain on chocolatey, so I added as maintainer "chocolatey team" for integrate packages on "chocolatey-coreteampackages" to maintain them the most up-to-date possible.
 * 27/11/14 - Converting all packages to "not checkables". 
 * 21/11/14 - Bugfixing all the detected packages with problems.
 * 20/11/14 - Moved all the icons to "icons" folder.
@@ -30,16 +15,21 @@ RELEASE NOTES
 * 04/01/14 - Updated daily (only auto packages) or asap.
 * 06/12/13 - All versions works on windows vista, 7, 8, 8.1 etc. On xp wasn't tested 100% but works very very often. There're packages that don't do all the instructions (remove innecesary shortcuts), but the program is fully functional afterwards.
 
-TO DO
+ON FUTURE - PENDING TASKS
 =============================================
-* Do all packages "checksIfIsInstalled" - checkables if they are installed on system and not to install them if they exist.
-
-ON FUTURE
-=============================================
-* Do a package (or that choco core integrates the ability) that checks all installed programs and install all the packages of them. If a new version is detected on choco installs them.
-  If not a message is showed to contact to mantainer to update it.
+* Unmaintained repo.
+* Convert all packages to "not checkables".
+* Fix all packages following [this guide](https://github.com/chocolatey/chocolatey/wiki/CreatePackages#package-description-and-release-notes)
+ * Use https://cdn.rawgit.com/ for icons.
+ * Description formatting correction.
+ * Extract icons from executables and resize it to 256x256.
+ * etc.
+* Do a package (or that choco core integrates the ability) that checks all installed programs and install all the packages of them.
+If a new version is detected on choco installs them.
+If not a message is showed to contact to mantainer to update it.
 * Integrate packages on chocolatey-coreteampackages.
 * Do a choco policy to do all the packages the same way. Each type, each form, not substantial differences like now.
+* Do all packages "checksIfIsInstalled" - checkables if they are installed on system and not to install them if they exist.
 
 Causes of errors:
 =============================================
@@ -58,3 +48,5 @@ Notes
 * If there's an outdated version or an error:
  * Do a PR. Recommended!
  * You can contact me.
+ 
+![](http://i.imgur.com/Tl52ASY.png)

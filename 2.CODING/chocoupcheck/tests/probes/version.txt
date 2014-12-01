@@ -1,0 +1,21 @@
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Products\EC7EE32C3A1C49F48A0FE9A09C6CEDE6\InstallProperties
+
+
+
+change a key 
+
+{C23EE7CE-C1A3-4F94-A8F0-9E0AC9C6DE6E}
+
+
+$val = Get-ItemProperty -Path hklm:SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Products\EC7EE32C3A1C49F48A0FE9A09C6CEDE6\InstallProperties -Name "DisplayVersion"
+if($val.DisplayVersion -ne 1.2)
+{
+ set-itemproperty -Path hklm:SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Products\EC7EE32C3A1C49F48A0FE9A09C6CEDE6\InstallProperties -Name "DisplayVersion" -value 1.2
+}
+
+
+$value =(Get-Itemproperty hklm:SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Products\EC7EE32C3A1C49F48A0FE9A09C6CEDE6\InstallProperties.DisplayVersion
+ 
+If ($value -ne 1.2){
+ Set-ItemProperty -Path hklm:SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Products\EC7EE32C3A1C49F48A0FE9A09C6CEDE6\InstallProperties -Name DisplayVersion -String 1.2
+}
