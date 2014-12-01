@@ -1,6 +1,6 @@
-$packageName = '{{PackageName}}'
+$packageName = 'fritzing'
 $desktop = $([System.Environment]::GetFolderPath([System.Environment+SpecialFolder]::DesktopDirectory))
-$shortcut_to_remove = "flare.exe.lnk"
+$shortcut_to_remove = "Fritzing.exe.lnk"
 
 try {
 

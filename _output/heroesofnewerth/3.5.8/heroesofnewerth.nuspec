@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>{{PackageName}}</id>
+    <id>heroesofnewerth</id>
     <title>Heroes of Newerth</title>
-    <version>{{PackageVersion}}</version>
+    <version>3.5.8</version>
     <authors>S2 Games</authors>
     <owners>tonigellida</owners>
     <summary>
@@ -17,6 +17,6 @@
     <copyright></copyright>
     <licenseUrl>http://www.heroesofnewerth.com/documents/tos/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://cdn.rawgit.com/adgellida/chocolateyautomaticpackages/master/icons/{{PackageName}}.png</iconUrl>
+	<iconUrl>https://cdn.rawgit.com/adgellida/chocolateyautomaticpackages/master/icons/heroesofnewerth.png</iconUrl>
   </metadata>
 </package>

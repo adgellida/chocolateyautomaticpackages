@@ -1,6 +1,6 @@
-$packageName = '{{PackageName}}'
+$packageName = 'dumeter'
 $installerType = 'EXE'
-$silentArgs = '/S'
+$silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
 $processor = Get-WmiObject Win32_Processor
 $is64bit = $processor.AddressWidth -eq 64
 $validExitCodes = @(0) #please insert other valid exit codes here, exit codes for ms http://msdn.microsoft.com/en-us/library/aa368542(VS.85).aspx
@@ -8,9 +8,9 @@ $validExitCodes = @(0) #please insert other valid exit codes here, exit codes fo
 try {
 
 	if ($is64bit) {
-		$unpath = "${Env:ProgramFiles(x86)}\Heroes of Newerth\uninstall.exe"
+		$unpath = "${Env:ProgramFiles(x86)}\DU Meter\unins000.exe"
 	} else {
-		$unpath = "$Env:ProgramFiles\Heroes of Newerth\uninstall.exe"
+		$unpath = "$Env:ProgramFiles\DU Meter\unins000.exe"
 	}
   
 	Uninstall-ChocolateyPackage $packageName $installerType $silentArgs $unpath -validExitCodes $validExitCodes

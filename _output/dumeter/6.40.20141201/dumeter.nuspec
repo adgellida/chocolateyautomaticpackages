@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>{{PackageName}}</id>
+    <id>dumeter</id>
     <title>DU Meter</title>
-    <version>{{PackageVersion}}</version>
+    <version>6.40.20141201</version>
     <authors>Hagel Technologies Ltd.</authors>
     <owners>tonigellida</owners>
     <summary>
@@ -17,6 +17,6 @@
     <copyright></copyright>
     <licenseUrl>http://www.hageltech.com/dumeter/license</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://cdn.rawgit.com/adgellida/chocolateyautomaticpackages/master/icons/{{PackageName}}.png</iconUrl>
+	<iconUrl>https://cdn.rawgit.com/adgellida/chocolateyautomaticpackages/master/icons/dumeter.png</iconUrl>
   </metadata>
 </package>

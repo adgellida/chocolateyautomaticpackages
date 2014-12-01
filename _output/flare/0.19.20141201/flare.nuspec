@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>{{PackageName}}</id>
+    <id>flare</id>
     <title>Flare</title>
-    <version>{{PackageVersion}}</version>
+    <version>0.19.20141201</version>
     <authors>Clint Bellanger</authors>
     <owners>tonigellida</owners>
     <summary>
@@ -22,6 +22,6 @@
     <copyright></copyright>
     <licenseUrl>http://www.gnu.org/licenses/gpl.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://cdn.rawgit.com/adgellida/chocolateyautomaticpackages/master/icons/{{PackageName}}.png</iconUrl>
+	<iconUrl>https://cdn.rawgit.com/adgellida/chocolateyautomaticpackages/master/icons/flare.png</iconUrl>
   </metadata>
 </package>

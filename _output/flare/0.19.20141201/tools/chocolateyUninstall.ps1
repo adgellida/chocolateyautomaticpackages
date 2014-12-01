@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+$packageName = 'flare'
 $desktop = $([System.Environment]::GetFolderPath([System.Environment+SpecialFolder]::DesktopDirectory))
 $shortcut_to_remove = "flare.exe.lnk"
 
