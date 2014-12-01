@@ -1,6 +1,7 @@
 #### A collection of automatic packages pushed to chocolatey official feed
 
 On [this](https://github.com/adgellida/chocolateyautomaticpackages/blob/master/chocolateyautomaticpackages.ods?raw=true) link you can download and watch the last state of them.
+On [this](https://github.com/adgellida/chocolateyautomaticpackages/tree/master/KETARIN) folder, you can execute ketarin.exe on your device to use the work left for auto.
 
 RELEASE NOTES
 =============================================
