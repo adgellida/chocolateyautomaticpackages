@@ -7,11 +7,10 @@
     <authors>Little Apps</authors>
     <owners>tonigellida</owners>
     <summary>
-Little Registry Cleaner is an open source program that is designed to cleanup Microsoft Windows Registry.
+	An open source program that is designed to cleanup Microsoft Windows Registry.
 	</summary>
     <description>
-Little Registry Cleaner is an open source program that is designed to cleanup Microsoft Windows Registry.
-It removes obsolete or unwanted items that build up in the registry over time in order to improve the stability and performance of your computer.
+	An open source program that is designed to cleanup Microsoft Windows Registry.
 	</description>
     <projectUrl>http://www.little-apps.eu/little-registry-cleaner/index.html</projectUrl>
     <tags>registry-cleaner registry-maintenance registry-optimization</tags>

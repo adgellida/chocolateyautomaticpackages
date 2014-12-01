@@ -7,16 +7,13 @@
     <authors>Microsoft</authors>
     <owners>tonigellida</owners>
     <summary>
-OneDrive (formerly SkyDrive) delivers a satisfactory online file storage and sharing solution in a free and easy to use service.
+	Delivers a satisfactory online file storage and sharing solution in a free and easy to use service.
 	</summary>
     <description>
-OneDrive (formerly SkyDrive) delivers a satisfactory online file storage and sharing solution in a free and easy to use service.
-OneDrive lets you edit your Microsoft Office documents online, it offers a lite version of three of the major softwares of the suite Word, Excel, and PowerPoint, so if you don't have the suite installed on your PC or Mac you can simply edit them online.
-OneDrive space starts at 7Gb (and for a short period it is able to extend this space up to 25Gb for free).
-It also has the cheapest online storage services. So you have full access to your documents on all your computers, wherever you are.
+	Delivers a satisfactory online file storage and sharing solution in a free and easy to use service.
 	</description>
     <projectUrl>https://onedrive.live.com/about/</projectUrl>
-    <tags>checksIfIsInstalled notSilent notUninstallable backup webdav online-backup selective-sync</tags>
+    <tags>notSilent notUninstallable backup webdav online-backup selective-sync</tags>
     <copyright></copyright>
     <licenseUrl>http://windows.microsoft.com/en-US/windows-live/microsoft-service-agreement</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

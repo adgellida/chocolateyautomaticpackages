@@ -7,17 +7,15 @@
     <authors>tgutzler</authors>
     <owners>tonigellida</owners>
     <summary>
-MouseController lets you record and save mouse movement and clicks with a push of a key.
+	Lets you record and save mouse movement and clicks with a push of a key.
 	</summary>
     <description>
-MouseController lets you record and save mouse movement and clicks with a push of a key.
-Shortcut keys for record and playback are configurable (function keys only).
-Playback can be delayed and repeated infinitely at a configurable interval.
-A time stretch function lets you slow down or speed up the playback.
+	Lets you record and save mouse movement and clicks with a push of a key.
+
+	###Notes
+	
+	This application requires the .NET Framework to be installed.
 	</description>
-	<releaseNotes>
-This application requires the .NET Framework to be installed, which is available via Windows Updates.
-	</releaseNotes>
     <projectUrl>http://sourceforge.net/projects/mousecontroller/</projectUrl>
     <tags>mouse controller macro-recorder task-automation</tags>
     <copyright></copyright>

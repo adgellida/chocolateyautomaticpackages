@@ -7,18 +7,10 @@
     <authors>Christian Dywan, Nancy Runge</authors>
     <owners>tonigellida</owners>
     <summary>
-Midori is a lightweight, fast, and free web browser.
+	A lightweight, fast, and free web browser.
 	</summary>
     <description>
-Midori is a lightweight, fast, and free web browser.
-It aligns well with the Xfce philosophy of making the most out of available resources.
-It is also the default browser of the beautiful elementary os. Features:
--Fast
--Lightweight
--Open-Source
--GTK 2/3
--WebKit
--Granite
+	A lightweight, fast, and free web browser.
 	</description>
     <projectUrl>http://midori-browser.org/download/</projectUrl>
     <tags>web-browser internet-browser webkit</tags>
