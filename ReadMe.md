@@ -17,7 +17,6 @@ RELEASE NOTES
 * 18/11/14 - Moved all the images to "images" folder.
 * 21/09/14 - Updated checks on ketarin.
 * 23/08/14 - There're a lot of manual packages, for testing causes or for impossibility to do it auto.
-* 24/05/14 - Go to "1.SCRIPTS" folder and execute what you want. Packages are on "MULTIINSTALL.ps1" and on "MULTIINSTALL_2.ps1" there are extra packages.
 * 04/01/14 - Updated daily (only auto packages) or asap.
 * 06/12/13 - All versions works on windows vista, 7, 8, 8.1 etc. On xp wasn't tested 100% but works very very often. There're packages that don't do all the instructions (remove innecesary shortcuts), but the program is fully functional afterwards.
 
