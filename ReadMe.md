@@ -1,3 +1,8 @@
+UNMAINTAINED
+=============================================
+
+This doesn't mean that occasionally I update any packages or that finished updating all, at another time.
+
 #### A collection of automatic packages pushed to chocolatey official feed
 
 On [this](https://github.com/adgellida/chocolateyautomaticpackages/blob/master/chocolateyautomaticpackages.ods?raw=true) link you can download and watch the last state of them.
@@ -5,7 +10,7 @@ On [this](https://github.com/adgellida/chocolateyautomaticpackages/tree/master/K
 
 RELEASE NOTES
 =============================================
-* 02/12/14 - I decided to not maintain on chocolatey, so I added as maintainer "chocolatey team" for integrate packages on "chocolatey-coreteampackages" to maintain them the most up-to-date possible.
+* 02/12/14 - I decided to not maintain regularly on chocolatey, so I added as maintainer "chocolatey team" for integrate packages on "chocolatey-coreteampackages" to maintain them the most up-to-date possible.
 * 27/11/14 - Converting all packages to "not checkables". 
 * 21/11/14 - Bugfixing all the detected packages with problems.
 * 20/11/14 - Moved all the icons to "icons" folder.
