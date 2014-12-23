@@ -1,7 +1,12 @@
 UNMAINTAINED
 =============================================
 
-This doesn't mean that occasionally I update any packages or that finished updating all, at another time.
+Right now I'm off on chocolatey. This doesn't mean that occasionally I update any packages or that I finished updating all, at another time.
+
+If you detect a package outdated you have a lot of options to get it updated.
+* Create a thread on [forum](https://groups.google.com/forum/#!forum/chocolatey) and demand a new maintainer for these package. Maintainer contact me to get maintainer permissions on these package and he has the responsability to get package updated.
+* If your knowledge maintaning packages is average contact me at adgellida@gmail.com, write your choco username and request permissions on these package.
+* Others...
 
 #### A collection of automatic packages pushed to chocolatey official feed
 
@@ -22,7 +27,7 @@ RELEASE NOTES
 
 ON FUTURE - PENDING TASKS
 =============================================
-* Unmaintained repo.
+
 * Convert all packages to "not checkables".
 * Fix all packages following [this guide](https://github.com/chocolatey/chocolatey/wiki/CreatePackages#package-description-and-release-notes)
  * Use https://cdn.rawgit.com/ for icons.
