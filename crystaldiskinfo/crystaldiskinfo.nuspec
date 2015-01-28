@@ -19,6 +19,6 @@ If it increases over time or is very high already, the hard drive may need to be
     <copyright></copyright>
     <licenseUrl>http://crystalmark.info/software/CrystalDiskInfo/manual-en/License.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/crystaldiskinfo/crystaldiskinfo.png</iconUrl>
+	<iconUrl>https://cdn.rawgit.com/adgellida/chocolateyautomaticpackages/master/icons/{{PackageName}}.png</iconUrl>
   </metadata>
 </package>

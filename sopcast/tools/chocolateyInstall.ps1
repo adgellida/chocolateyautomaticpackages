@@ -46,7 +46,7 @@ try {
 	    Install-ChocolateyZipPackage "$packageName" "$url" $tempDir
 	  
 	    # Run the installer
-	    $installer = Join-Path $tempDir 'Setup-SopCast-3.9.2-2014-7-10.exe'
+	    $installer = Join-Path $tempDir 'Setup-SopCast-3.9.3-2014-9-22.exe'
 	    Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$installer" -validExitCodes $validExitCodes
 		
 		}

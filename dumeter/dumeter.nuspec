@@ -7,18 +7,16 @@
     <authors>Hagel Technologies Ltd.</authors>
     <owners>tonigellida</owners>
     <summary>
-DU Meter is a network bandwidth monitor for your computer.
+	A network bandwidth monitor for your computer.
 	</summary>
     <description>
-DU Meter is a network bandwidth monitor for your computer.
-It shows real-time graphs and can create reports and alerts based on your downloads and uploads.
-It enables you to use your internet connection more efficiently by providing an accurate visualization of the data that flows through your computer's network connection.
+	A network bandwidth monitor for your computer.
 	</description>
     <projectUrl>http://www.hageltech.com/dumeter/about</projectUrl>
     <tags>trial-version monitoring connection bandwidth isdn</tags>
     <copyright></copyright>
     <licenseUrl>http://www.hageltech.com/dumeter/license</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/dumeter/dumeter.png</iconUrl>
+	<iconUrl>https://cdn.rawgit.com/adgellida/chocolateyautomaticpackages/master/icons/{{PackageName}}.png</iconUrl>
   </metadata>
 </package>

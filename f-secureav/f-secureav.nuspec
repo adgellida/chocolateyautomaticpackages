@@ -21,6 +21,6 @@ F-Secure Anti-Virus will protect you.
     <copyright></copyright>
     <licenseUrl>http://www.f-secure.com/en/web/home_global/license-terms</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/f-secureav/f-secureav.png</iconUrl>
+	<iconUrl>https://cdn.rawgit.com/adgellida/chocolateyautomaticpackages/master/icons/{{PackageName}}.png</iconUrl>
   </metadata>
 </package>

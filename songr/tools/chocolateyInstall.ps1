@@ -8,9 +8,9 @@ $validExitCodes = @(0) #please insert other valid exit codes here, exit codes fo
 $mantainer = 'tonigellida'
 
 try {
- 		if (Test-Path $uninstallRegistryPath) {
-			$installedVersion = (Get-ItemProperty $uninstallRegistryPath).DisplayVersion
-		}
+ 	if (Test-Path $uninstallRegistryPath) {
+		$installedVersion = (Get-ItemProperty $uninstallRegistryPath).DisplayVersion
+	}
 	
 	if ($installedVersion -gt $version) {
 		Write-Host "Your $packageName $installedVersion is higher than the $version proporcionated by chocolatey repo."

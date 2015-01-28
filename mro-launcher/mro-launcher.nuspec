@@ -6,21 +6,21 @@
     <version>{{PackageVersion}}</version>
     <authors>Kotai</authors>
     <owners>tonigellida</owners>
-    <summary>
-Recommended tool to download, run and have always updated the game, its tracks, cars and other components.
-MiniRacingOnline is an addictive and very interesting multiplayer racing game in which you will be able to compete with players of any part of the world.
+	<summary>
+	An addictive and very interesting multiplayer racing game in which you will be able to compete with players of any part of the world.
 	</summary>
     <description>
-Recommended tool to download, run and have always updated the game, its tracks, cars and other components.
-MiniRacingOnline is an addictive and very interesting multiplayer racing game in which you will be able to compete with players of any part of the world.
-Graphics are pretty basic but it offers a large amount of interesting options to compensate that.
-For example, you can play with up to 16 players on the Internet and the game shows publication of results automatically, publishing of circuits and cars, ranks, different types from statistics, multiplayer options in a computer, support pad, keyboard and joystick, car specs customization, adjustment of tire types.
+	An addictive and very interesting multiplayer racing game in which you will be able to compete with players of any part of the world.
+	
+	###Notes
+	
+	Recommended tool to download, run and have always updated the game, its tracks, cars and other components.
 	</description>
     <projectUrl>http://www.miniracingonline.com/</projectUrl>
     <tags>game racing f1 online</tags>
     <copyright></copyright>
     <licenseUrl>http://en.wikipedia.org/wiki/Freeware</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/{{PackageName}}/{{PackageName}}.png</iconUrl>
+	<iconUrl>https://cdn.rawgit.com/adgellida/chocolateyautomaticpackages/master/icons/{{PackageName}}.png</iconUrl>
   </metadata>
 </package>

@@ -7,20 +7,16 @@
     <authors>cstkingkey</authors>
     <owners>tonigellida</owners>
     <summary>
-A light Firefox edition.
+	A light Firefox edition.
 	</summary>
     <description>
-A light Firefox edition. Many components are slimmed down. So it can start faster and use less memory.
-By default, Light can run along with official firefox. Both x86 and x64 builds are available.
+	A light Firefox edition.
 	</description>
-	<releaseNotes>
-VC Sync version.
-	</releaseNotes>
     <projectUrl>http://sourceforge.net/projects/lightfirefox/</projectUrl>
     <tags>browser mozilla firefox</tags>
     <copyright></copyright>
     <licenseUrl>http://www.mozilla.org/MPL/2.0/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/{{PackageName}}/{{PackageName}}.png</iconUrl>
+	<iconUrl>https://cdn.rawgit.com/adgellida/chocolateyautomaticpackages/master/icons/{{PackageName}}.png</iconUrl>
   </metadata>
 </package>

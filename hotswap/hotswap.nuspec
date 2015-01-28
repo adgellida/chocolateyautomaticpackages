@@ -33,6 +33,6 @@ Windows XP and Server 2003 are no longer supported as of Version 6.0.0.0. Please
     <copyright></copyright>
     <licenseUrl>http://mt-naka.com/hotswap/index_enu.htm</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/hotswap/hotswap.gif</iconUrl>
+	<iconUrl>https://cdn.rawgit.com/adgellida/chocolateyautomaticpackages/master/icons/{{PackageName}}.png</iconUrl>
   </metadata>
 </package>

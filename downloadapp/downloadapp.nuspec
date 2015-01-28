@@ -24,6 +24,6 @@ Using the Utilities features, you can scan your computer for junk files that mig
     <copyright></copyright>
     <licenseUrl>http://www.cnet.com/downloadapp/app-eula/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/downloadapp/downloadapp.png</iconUrl>
+	<iconUrl>https://cdn.rawgit.com/adgellida/chocolateyautomaticpackages/master/icons/{{PackageName}}.png</iconUrl>
   </metadata>
 </package>

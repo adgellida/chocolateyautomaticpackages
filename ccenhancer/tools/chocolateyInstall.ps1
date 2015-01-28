@@ -1,7 +1,18 @@
 ﻿$packageName = '{{PackageName}}'
 $url = '{{DownloadUrl}}'
-$fileFullPath = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)\CCEnhancer-{version}.exe"
+$unzipLocation = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
+$executable = "CCEnhancer-4.2-mulitlingual\CCEnhancer-4.2.exe"
+$targetFilePath = "$unzipLocation\$executable"
 
-Get-ChocolateyWebFile $packageName $fileFullPath $url
+try {
+	
+	Install-ChocolateyZipPackage $packageName $url $unzipLocation
 
-Install-ChocolateyDesktopLink $fileFullPath
+	Install-ChocolateyDesktopLink $targetFilePath
+
+	Write-ChocolateySuccess $packageName
+	
+} catch {
+	Write-ChocolateyFailure $packageName $($_.Exception.Message)
+	throw 
+}

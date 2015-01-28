@@ -7,18 +7,16 @@
     <authors>IObit</authors>
     <owners>tonigellida</owners>
     <summary>
-Driver Booster scans and identifies outdated drivers automatically, and downloads and installs the right update for you with just ONE click, saving you loads of time.
+	Scans and identifies outdated drivers automatically, and downloads and installs the right update for you with just ONE click, saving you loads of time.
 	</summary>
     <description>
-Driver Booster scans and identifies outdated drivers automatically, and downloads and installs the right update for you with just ONE click, saving you loads of time.
-Moreover, it's specially designed to tweak drivers for best gaming performance.
-It's the right tool to protect your PC from hardware failures, conflicts, and system crashes.
+	Scans and identifies outdated drivers automatically, and downloads and installs the right update for you with just ONE click, saving you loads of time.
 	</description>
     <projectUrl>http://www.iobit.com/driver-booster.php</projectUrl>
     <tags>driver-update driver-download</tags>
     <copyright></copyright>
     <licenseUrl>http://www.iobit.com/legal.php</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/driverbooster/driverbooster.png</iconUrl>
+	<iconUrl>https://cdn.rawgit.com/adgellida/chocolateyautomaticpackages/master/icons/{{PackageName}}.png</iconUrl>
   </metadata>
 </package>

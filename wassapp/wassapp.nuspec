@@ -7,17 +7,16 @@
     <authors>Lowlevel Studios</authors>
     <owners>tonigellida</owners>
     <summary>
-Wassapp is a PC application developed as a non-official client for WhatsApp Messenger.
+	A PC application developed as a non-official client for WhatsApp Messenger.
 	</summary>
     <description>
-Wassapp is a PC application developed as a non-official client for WhatsApp Messenger.
-Login with your phone number, import your contacts and chat with them instantly using your keyboard! Just like if you were using your smartphone.
+	A PC application developed as a non-official client for WhatsApp Messenger.
 	</description>
     <projectUrl>http://lowlevel-studios.com/wassapp/</projectUrl>
     <tags>notSilent notUninstallable whatsapp chat messenger</tags>
     <copyright></copyright>
     <licenseUrl>http://en.wikipedia.org/wiki/Free_software_license</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/wassapp/wassapp.jpg</iconUrl>
+	<iconUrl>https://cdn.rawgit.com/adgellida/chocolateyautomaticpackages/master/icons/{{PackageName}}.png</iconUrl>
   </metadata>
 </package>

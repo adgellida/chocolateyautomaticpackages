@@ -1,21 +1,20 @@
 $packageName = '{{PackageName}}'
 $installerType = 'EXE'
 $silentArgs = '/S'
-$validExitCodes = @(0) #please insert other valid exit codes here, exit codes for ms http://msdn.microsoft.com/en-us/library/aa368542(VS.85).aspx
+$hklm = "hklm:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Unity"
+$file = (Get-ItemProperty -Path $hklm).UninstallString;
 
 try {
-  $processor = Get-WmiObject Win32_Processor
-  $is64bit = $processor.AddressWidth -eq 64
-  if ($is64bit) {
-    $unpath = "${Env:ProgramFiles(x86)}\Unity\Editor\Uninstall.exe"
-  } else {
-    $unpath = "$Env:ProgramFiles\Unity\Editor\Uninstall.exe"
-  }
-  Uninstall-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$unpath" -validExitCodes $validExitCodes
-    
-  # the following is all part of error handling
-  Write-ChocolateySuccess "$packageName"
+	
+	if (Get-ProcessorBits 64) {
+  		$hklm = "hklm:\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Unity"
+	}
+		
+	Uninstall-ChocolateyPackage -PackageName $packageName -FileType $installerType -silentArgs $silentArgs -File $file
+  
+	Write-ChocolateySuccess $packageName
+	
 } catch {
-  Write-ChocolateyFailure "$packageName" "$($_.Exception.Message)"
-  throw 
+	Write-ChocolateyFailure $packageName $($_.Exception.Message)
+	throw
 }

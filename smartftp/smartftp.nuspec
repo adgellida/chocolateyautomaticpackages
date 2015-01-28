@@ -7,16 +7,16 @@
     <authors>SmartSoft</authors>
     <owners>SmartSoft tonigellida</owners>
     <summary>
-SmartFTP FTP, FTPS, SFTP, HTTP, Amazon S3, WebDAV, Telnet, Terminal client for Windows.
+	FTP, FTPS, SFTP, HTTP, Amazon S3, WebDAV, Telnet, Terminal client.
 	</summary>
     <description>
-SmartFTP is an FTP (File Transfer Protocol), FTPS, SFTP, WebDAV, S3, SSH, Terminal client. It allows you to transfer files between your local computer and a server on the Internet.
+	FTP, FTPS, SFTP, HTTP, Amazon S3, WebDAV, Telnet, Terminal client.
 	</description>
     <projectUrl>http://www.smartftp.com/</projectUrl>
     <tags>notUninstallable trial-version ftp sftp sftp ssh webdav s3 amazon secure client</tags>
     <copyright></copyright>
     <licenseUrl>http://www.smartftp.com/static/Products/Client/License.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/smartftp/smartftp128.png</iconUrl>
+	<iconUrl>https://cdn.rawgit.com/adgellida/chocolateyautomaticpackages/master/icons/{{PackageName}}.png</iconUrl>
   </metadata>
 </package>

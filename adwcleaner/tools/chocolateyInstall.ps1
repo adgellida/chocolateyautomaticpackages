@@ -1,11 +1,8 @@
 ﻿$packageName = '{{PackageName}}'
+$version = '{{PackageVersion}}'
 $url = '{{DownloadUrl}}'
-$fileFullPath = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)\adwcleaner.exe"
-$shortcut_to_modify = "$Home\Desktop\adwcleaner.exe.lnk"
-$shortcut_modified = "$Home\Desktop\AdwCleaner.lnk"
+$fileFullPath = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)\adwcleaner_$version.exe"
 
 Get-ChocolateyWebFile $packageName $fileFullPath $url
 
 Install-ChocolateyDesktopLink $fileFullPath
-
-Rename-Item $shortcut_to_modify $shortcut_modified

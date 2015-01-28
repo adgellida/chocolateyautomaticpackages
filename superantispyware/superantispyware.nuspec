@@ -7,17 +7,15 @@
     <authors>SUPERAntiSpyware</authors>
     <owners>tonigellida</owners>
     <summary>
-SUPERAntiSpyware is a software application which can detect and remove spyware, adware, malware, trojans, rogue software, worms, rootkits, parasites and other potentially harmful software applications, as well as restore modified system settings.
+	Detects and remove spyware, adware, malware, trojans, rogue software, worms, rootkits, parasites and other potentially harmful software applications, as well as restore modified system settings.
 	</summary>
     <description>
-SUPERAntiSpyware is a software application which can detect and remove spyware, adware, malware, trojans, rogue software, worms, rootkits, parasites and other potentially harmful software applications, as well as restore modified system settings.
-It can detect malware, however it is not designed to replace an antivirus software.
-	</description>
+	Detects and remove spyware, adware, malware, trojans, rogue software, worms, rootkits, parasites and other potentially harmful software applications, as well as restore modified system settings.	</description>
     <projectUrl>http://www.superantispyware.com/</projectUrl>
     <tags>notSilent anti-spyware anti-malware adware malware-removal trojans</tags>
     <copyright></copyright>
     <licenseUrl>http://www.superantispyware.com/eula.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/superantispyware/superantispyware.png</iconUrl>	
+	<iconUrl>https://cdn.rawgit.com/adgellida/chocolateyautomaticpackages/master/icons/{{PackageName}}.png</iconUrl>
   </metadata>
 </package>

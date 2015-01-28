@@ -1,11 +1,16 @@
 ﻿$packageName = '{{PackageName}}'
 $url = '{{DownloadUrl}}'
-$unzipLocation = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
+$fileFullPath = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)\USB Image Tool.exe"
 
-Install-ChocolateyZipPackage $packageName $url $unzipLocation
+try {
 
-$targetFilePath = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)\USB Image Tool.exe"
+	Get-ChocolateyWebFile $packageName $fileFullPath $url
 
-Install-ChocolateyDesktopLink $targetFilePath
+	Install-ChocolateyDesktopLink $fileFullPath
 
-
+	Write-ChocolateySuccess $packageName
+	
+} catch {
+	Write-ChocolateyFailure $packageName $($_.Exception.Message)
+	throw 
+}

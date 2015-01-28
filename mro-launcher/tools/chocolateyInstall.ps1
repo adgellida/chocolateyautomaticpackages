@@ -1,9 +1,18 @@
 ﻿$packageName = '{{PackageName}}'
 $url = '{{DownloadUrl}}'
 $unzipLocation = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
+$executable = "MiniRacingOnline\mro_launcher.exe"
+$targetFilePath = "$unzipLocation\$executable"
 
-Install-ChocolateyZipPackage $packageName $url $unzipLocation
+try {
+	
+	Install-ChocolateyZipPackage $packageName $url $unzipLocation
 
-$targetFilePath = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)\MiniRacingOnline\mro_launcher.exe"
+	Install-ChocolateyDesktopLink $targetFilePath
 
-Install-ChocolateyDesktopLink $targetFilePath
+	Write-ChocolateySuccess $packageName
+	
+} catch {
+	Write-ChocolateyFailure $packageName $($_.Exception.Message)
+	throw 
+}

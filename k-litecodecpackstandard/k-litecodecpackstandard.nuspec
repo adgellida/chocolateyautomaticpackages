@@ -26,6 +26,6 @@ This is the recommended variant for the average user.
     <copyright></copyright>
     <licenseUrl>http://codecguide.com/termsofuse.htm</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/k-litecodecpackstandard/mpc_logo.png</iconUrl>
+	<iconUrl>https://cdn.rawgit.com/adgellida/chocolateyautomaticpackages/master/icons/{{PackageName}}.png</iconUrl>
   </metadata>
 </package>

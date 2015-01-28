@@ -7,22 +7,16 @@
     <authors>Horizon DataSys</authors>
     <owners>tonigellida</owners>
     <summary>
-RollBack Rx client is a robust system restore utility that enables home users and IT professionals to easily restore a PC to a time before certain events occurred.
+	A robust system restore utility that enables home users and IT professionals to easily restore a PC to a time before certain events occurred.
 	</summary>
     <description>
-RollBack Rx client is a robust system restore utility that enables home users and IT professionals to easily restore a PC to a time before certain events occurred.
-RollBack Rx makes it easy for users of all skill levels to quickly and easily repair PC issues - saving time, money and PC trouble.
-This solution is especially useful in the case of a situation where you cannot get into Windows.
-Simply restart the computer into its sub-console and you will be able to access all previous data, settings and programs.
-Takes just seconds - in the time it takes to reboot your computer, you are fully operational again!
-======= Notes =======
-Select Advanced on type installation.
-</description>
+	A robust system restore utility that enables home users and IT professionals to easily restore a PC to a time before certain events occurred.
+	</description>
     <projectUrl>http://www.horizondatasys.com/en/products_and_solutions.aspx?ProductId=1</projectUrl>
     <tags>notSilent trial-version restore backup</tags>
     <copyright></copyright>
     <licenseUrl>https://www.horizondatasys.com/en/termsofuse.aspx</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/rollbackrx/rollbackrx.png</iconUrl>	
+	<iconUrl>https://cdn.rawgit.com/adgellida/chocolateyautomaticpackages/master/icons/{{PackageName}}.png</iconUrl>
   </metadata>
 </package>

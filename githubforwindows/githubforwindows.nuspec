@@ -7,18 +7,21 @@
     <authors>GitHub</authors>
     <owners>Adam Wright tonigellida</owners>
     <summary>
-GitHub for Windows is a git client for windows and GitHub.
+	A git client for windows and GitHub.
 	</summary>
     <description>
-GitHub for Windows is a git client for windows and GitHub.
-GitHub for Windows is a 100% native application that will run on all Windows version. Included in the application is a complete installation of msysGit making this the single best way to start using Git on Windows.
+	A git client for windows and GitHub.
+	
+	A 100% native application that will run on all Windows version.
+	
+	Included in the application is a complete installation of msysGit making this the single best way to start using Git on Windows.
 	</description>
     <projectUrl>https://windows.github.com</projectUrl>
-    <tags>checksIfIsInstalled notUninstallable git client github distributed version control</tags>
+    <tags>notUninstallable git client github distributed version control</tags>
     <copyright></copyright>
-    <licenseUrl>http://www.aida64.com/licensing-aida64</licenseUrl>
+    <licenseUrl>https://help.github.com/articles/github-terms-of-service/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/{{PackageName}}/{{PackageName}}.png</iconUrl>
+	<iconUrl>https://cdn.rawgit.com/adgellida/chocolateyautomaticpackages/master/icons/{{PackageName}}.png</iconUrl>
     <dependencies>
     <dependency id="autoit.commandline" />
     </dependencies>

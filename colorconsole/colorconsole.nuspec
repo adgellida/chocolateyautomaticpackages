@@ -7,22 +7,16 @@
     <authors>Nenad Hrg</authors>
     <owners>tonigellida</owners>
     <summary>
-ColorConsole brings a little color to your black and white world of Windows console.
+	Brings a little color to your black and white world of Windows console.
 	</summary>
     <description>
-ColorConsole brings a little color to your black and white world of Windows console.
-One can save many hand moves and also time!
-An installation of ColorConsole is not required and can be executed easily from the desktop.
-Features:
--Favorites commands Export to HTML and RTF Copy,Paste,Cut...
--Changeable font style and color Tabbed working with multi cmd.exe.
--Fast folder switch. 
+	Brings a little color to your black and white world of Windows console.
 	</description>
     <projectUrl>http://www.softwareok.com/?seite=Freeware/ColorConsole</projectUrl>
     <tags>console command cmd-replacement prompt cmd</tags>
     <copyright></copyright>
     <licenseUrl>http://www.softwareok.com/?seite=Freeware/ColorConsole/Eula</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/colorconsole/colorconsole.png</iconUrl>
+	<iconUrl>https://cdn.rawgit.com/adgellida/chocolateyautomaticpackages/master/icons/{{PackageName}}.png</iconUrl>
   </metadata>
 </package>

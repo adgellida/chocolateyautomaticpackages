@@ -7,17 +7,16 @@
     <authors>QupZilla</authors>
     <owners>tonigellida</owners>
     <summary>
-QupZilla is a cross-platform lightweight browser built on the QtWebKit engine.
+	A cross-platform lightweight browser built on the QtWebKit engine.
 	</summary>
     <description>
-QupZilla is a cross-platform lightweight browser built on the QtWebKit engine.
-Designed to look and feel native in various environments it incorporates some of the most useful features of a modern day web surfing tool, including a unified library for bookmarks, history and feeds, an integrated ad blocker, speed-dial, cookie manager, private browsing mode, and a plugin system to extend it all
+	A cross-platform lightweight browser built on the QtWebKit engine.
 	</description>
     <projectUrl>http://www.qupzilla.com/</projectUrl>
-    <tags>checksIfIsInstalled notSilent web-browser plugins webkit</tags>
+    <tags>notSilent web-browser plugins webkit</tags>
     <copyright></copyright>
     <licenseUrl>https://www.gnu.org/licenses/quick-guide-gplv3.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/{{PackageName}}/{{PackageName}}.png</iconUrl>
+	<iconUrl>https://cdn.rawgit.com/adgellida/chocolateyautomaticpackages/master/icons/{{PackageName}}.png</iconUrl>
   </metadata>
 </package>

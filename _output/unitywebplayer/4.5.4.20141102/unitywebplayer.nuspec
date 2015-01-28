@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>unitywebplayer</id>
+    <title>Unity Web Player</title>
+    <version>4.5.4.20141102</version>
+    <authors>Unity Technologies</authors>
+    <owners>tonigellida</owners>
+    <summary>
+The Unity Web Player enables you to view blazing 3D content created with Unity directly in your browser, and autoupdates as necessary.
+	</summary>
+    <description>
+The Unity Web Player enables you to view blazing 3D content created with Unity directly in your browser, and autoupdates as necessary.
+Unity allows you to build rich 3D games with animated characters, sizzling graphics, immersive physics.
+Then you can deliver the games to the web or as standalone players.
+	</description>
+    <projectUrl>http://unity3d.com/webplayer/</projectUrl>
+    <tags>plugin browser-addon 3d-games web-player</tags>
+    <copyright></copyright>
+    <licenseUrl>http://unity3d.com/company/legal/webplayer-eula</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/unitywebplayer/unitywebplayer.jpg</iconUrl>
+  </metadata>
+</package>

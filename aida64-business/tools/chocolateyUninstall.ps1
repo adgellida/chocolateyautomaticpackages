@@ -1,11 +1,14 @@
 $packageName = '{{PackageName}}'
-$shortcut_to_remove = "$Home\Desktop\AIDA64 Business.lnk"
+$desktop = $([System.Environment]::GetFolderPath([System.Environment+SpecialFolder]::DesktopDirectory))
+$shortcut_to_remove = "aida64.exe.lnk"
 
 try {
-  Remove-Item $shortcut_to_remove
-  # the following is all part of error handling
-  Write-ChocolateySuccess "$packageName"
+
+	Remove-Item "$desktop\$shortcut_to_remove"
+  
+	Write-ChocolateySuccess $packageName
+	
 } catch {
-  Write-ChocolateyFailure "$packageName" "$($_.Exception.Message)"
-  throw 
+	Write-ChocolateyFailure $packageName $($_.Exception.Message)
+	throw 
 }

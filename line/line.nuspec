@@ -7,16 +7,16 @@
     <authors>LINE Corporation</authors>
     <owners>tonigellida</owners>
     <summary>
-Free SMS, Free Voice call messenger application.
+	Free SMS, Free Voice call messenger application.
 	</summary>
     <description>
-Free SMS, Free Voice call messenger application.
+	Free SMS, Free Voice call messenger application.
 	</description>
     <projectUrl>http://line.naver.jp/en/#</projectUrl>
     <tags>messenger communication messaging voice-chat video-call voice-call</tags>
     <copyright></copyright>
     <licenseUrl>http://line.naver.jp/terms_pc/en/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/line/line.png</iconUrl>
+	<iconUrl>https://cdn.rawgit.com/adgellida/chocolateyautomaticpackages/master/icons/{{PackageName}}.png</iconUrl>
   </metadata>
 </package>

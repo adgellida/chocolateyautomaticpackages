@@ -27,6 +27,6 @@ The following (but not limited to) features allow IT pros to:
     <copyright></copyright>
     <licenseUrl>http://www.spiceworks.com/terms/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/{{PackageName}}/{{PackageName}}.png</iconUrl>
+	<iconUrl>https://cdn.rawgit.com/adgellida/chocolateyautomaticpackages/master/icons/{{PackageName}}.png</iconUrl>
   </metadata>
 </package>

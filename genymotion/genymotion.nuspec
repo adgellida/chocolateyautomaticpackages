@@ -7,18 +7,19 @@
     <authors>Genymobile</authors>
     <owners>tonigellida</owners>
     <summary>
-The fastest Android emulator for app testing and presentation.
+	The fastest Android emulator for app testing and presentation.
 	</summary>
     <description>
-The fastest Android emulator for app testing and presentation.
-Genymotion is the evolution of AndroVM open source project, already trusted by 300 000 developers!
+	The fastest Android emulator for app testing and presentation.
+	
+	Genymotion is the evolution of AndroVM open source project, already trusted by 300 000 developers!
 	</description>
     <projectUrl>https://cloud.genymotion.com/page/customer/login/?next=/page/launchpad/download/</projectUrl>
     <tags>testing software-testing android-emulator androvm virtualbox virtualization VM</tags>
     <copyright></copyright>
     <licenseUrl>http://www.gnu.org/licenses/gpl.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/genymotion/genymotion.png</iconUrl>
+	<iconUrl>https://cdn.rawgit.com/adgellida/chocolateyautomaticpackages/master/icons/{{PackageName}}.png</iconUrl>
 	<dependencies>
 		<dependency id="virtualbox" />
     </dependencies>

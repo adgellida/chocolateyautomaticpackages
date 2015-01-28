@@ -7,17 +7,16 @@
     <authors>IObit</authors>
     <owners>tonigellida</owners>
     <summary>
-Advanced SystemCare 6 Free takes a one-click approach to protect, repair, clean, and optimize your PC.
+	Takes a one-click approach to protect, repair, clean, and optimize your PC.
 	</summary>
     <description>
-Advanced SystemCare 6 Free takes a one-click approach to protect, repair, clean, and optimize your PC.
-Why waste money on expensive "registry cleaners" to fix your PC when Advanced SystemCare Free can repair, tune up, and maintain it for you – for FREE!
+	Takes a one-click approach to protect, repair, clean, and optimize your PC.
 	</description>
     <projectUrl>http://www.iobit.com/advancedsystemcareper.php#none</projectUrl>
     <tags>privacy optimization registry-cleaner cleaner</tags>
     <copyright></copyright>
     <licenseUrl>http://www.iobit.com/legal.php</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/advancedsystemcarefree/advancedsystemcarefree.png</iconUrl>
+	<iconUrl>https://cdn.rawgit.com/adgellida/chocolateyautomaticpackages/master/icons/{{PackageName}}.png</iconUrl>
   </metadata>
 </package>

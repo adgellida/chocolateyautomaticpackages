@@ -2,9 +2,18 @@
 $installerType = 'EXE'
 $url = '{{DownloadUrl}}'
 $silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
-$validExitCodes = @(0) #please insert other valid exit codes here, exit codes for ms http://msdn.microsoft.com/en-us/library/aa368542(VS.85).aspx
 $fileFullPath = "$Env:ProgramFiles\Light\light.exe"
+$validExitCodes = @(0) #please insert other valid exit codes here, exit codes for ms http://msdn.microsoft.com/en-us/library/aa368542(VS.85).aspx
 
-Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url" -validExitCodes $validExitCodes
+try {
 
-Install-ChocolateyDesktopLink $fileFullPath
+	Install-ChocolateyPackage $packageName $installerType $silentArgs $url -validExitCodes $validExitCodes
+	
+	Install-ChocolateyDesktopLink $fileFullPath
+	
+	Write-ChocolateySuccess $packageName
+	
+} catch {
+	Write-ChocolateyFailure $packageName $($_.Exception.Message)
+	throw 
+}

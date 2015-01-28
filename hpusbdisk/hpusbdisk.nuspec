@@ -21,6 +21,6 @@ Downloaded from Softpedia, due to redirection and download error, hosted on my p
     <copyright></copyright>
     <licenseUrl>http://en.wikipedia.org/wiki/Freeware</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/hpusbdisk/hpusbdisk.jpeg</iconUrl>
+	<iconUrl>https://cdn.rawgit.com/adgellida/chocolateyautomaticpackages/master/icons/{{PackageName}}.png</iconUrl>
   </metadata>
 </package>

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>chocoupcheck</id>
+    <title>Chocolatey Update Checker</title>
+    <version>0.0.0.1-alpha</version>
+    <authors>tonigellida</authors>
+    <owners>tonigellida</owners>
+    <summary>
+Checks if you have outdated apps on your system and update them the more silently possible.
+	</summary>
+    <description>
+This script integrates a functionality to choco checking apps you have installed on your system and updating to the latest version on the feed.
+Coming soon it will has a gui or it will be integrated on one done.
+Over time it wil support more apps.
+======= Notes =======
+Experimental version.
+	</description>
+    <projectUrl>http://sourceforge.net/projects/lightfirefox/</projectUrl>
+    <tags>browser mozilla firefox</tags>
+    <copyright></copyright>
+    <licenseUrl>http://www.mozilla.org/MPL/2.0/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackagesalpha/master/chocoupcheck/chocoupcheck.png</iconUrl>
+  </metadata>
+</package>

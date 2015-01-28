@@ -1,17 +1,22 @@
 $packageName = '{{PackageName}}'
+$desktop = $([System.Environment]::GetFolderPath([System.Environment+SpecialFolder]::DesktopDirectory))
+#$shortcut_to_remove = " "
+$processor = Get-WmiObject Win32_Processor
+$is64bit = $processor.AddressWidth -eq 64
 
 try {
-  $processor = Get-WmiObject Win32_Processor
-  $is64bit = $processor.AddressWidth -eq 64
-  if ($is64bit) {
-    Remove-Item "$Home\Desktop\WinContig64.exe.lnk"
-  } else {
-    Remove-Item "$Home\Desktop\WinContig.exe.lnk"
-  }
+
+	if ($is64bit) {
+		$shortcut_to_remove = "WinContig64.exe.lnk"
+	} else {
+		$shortcut_to_remove = "WinContig.exe.lnk"
+	}	
+
+	Remove-Item "$desktop\$shortcut_to_remove"
   
-  # the following is all part of error handling
-  Write-ChocolateySuccess "$packageName"
+	Write-ChocolateySuccess $packageName
+	
 } catch {
-  Write-ChocolateyFailure "$packageName" "$($_.Exception.Message)"
-  throw 
+	Write-ChocolateyFailure $packageName $($_.Exception.Message)
+	throw 
 }
