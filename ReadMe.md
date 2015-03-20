@@ -1,7 +1,7 @@
 UNMAINTAINED
 =============================================
 
-Right now I'm off on chocolatey. This doesn't mean that occasionally I update any packages or that I finished updating all, at another time.
+I'm off on chocolatey. I think that never will update regularly packages. This doesn't mean that occasionally I update any packages.
 
 If you detect a package outdated you have a lot of options to get it updated.
 * Create a thread on [forum](https://groups.google.com/forum/#!forum/chocolatey) and demand a new maintainer for these package. Maintainer contact me to get maintainer permissions on these package and he has the responsability to get package updated.
@@ -10,11 +10,12 @@ If you detect a package outdated you have a lot of options to get it updated.
 
 #### A collection of automatic packages pushed to chocolatey official feed
 
-On [this](https://github.com/adgellida/chocolateyautomaticpackages/blob/master/chocolateyautomaticpackages.ods?raw=true) link you can download and watch the last state of them.
+On [this](https://github.com/adgellida/chocolateyautomaticpackages/blob/master/chocolateyautomaticpackages.ods?raw=true) link you can download and watch the last state of them when I left them.
 On [this](https://github.com/adgellida/chocolateyautomaticpackages/tree/master/KETARIN) folder, you can execute ketarin.exe on your device to use the work left for auto.
 
 RELEASE NOTES
 =============================================
+* 20/03/15 - [doc](https://chocolatey.org/profiles/doc),[dtgm](https://chocolatey.org/profiles/dtgm), [choco team](https://chocolatey.org/profiles/chocolatey) are examples of part of people that merged my repos to get it updated. Thanks for that.
 * 02/12/14 - I decided to not maintain regularly on chocolatey, so I added as maintainer "chocolatey team" for integrate packages on "chocolatey-coreteampackages" to maintain them the most up-to-date possible.
 * 27/11/14 - Converting all packages to "not checkables". 
 * 21/11/14 - Bugfixing all the detected packages with problems.
