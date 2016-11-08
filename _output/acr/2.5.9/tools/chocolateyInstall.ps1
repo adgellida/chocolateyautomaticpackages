@@ -1,5 +1,5 @@
 ﻿$packageName = 'acr'
-$url = 'http://assaultcuber.googlecode.com/files/acr_02_05_09-w.zip'
+$url = 'https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/assaultcuber/acr_02_05_09-w.zip'
 $unzipLocation = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
 
 Install-ChocolateyZipPackage $packageName $url $unzipLocation
