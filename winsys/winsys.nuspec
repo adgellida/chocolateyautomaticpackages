@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>winsys</id>
+    <title>winsys</title>
+    <version>2017.06.16</version>
+    <authors>Antonio David Gellida Lavara</authors>
+    <owners>adgellida</owners>
+    <summary>
+	Software installer of a helpful program list, able to do changes on system configuration, updates, execute improves, fixes, executing actions to blow of mouse click.
+	</summary>
+    <description>
+	Software installer of a helpful program list, able to do changes on system configuration, updates, execute improves, fixes, executing actions to blow of mouse click.
+	</description>
+    <projectUrl>https://github.com/adgellida/winsys</projectUrl>
+    <tags>silent tweaks admin powershell cmd services appInstaller fixes</tags>
+    <copyright></copyright>
+    <licenseUrl>https://github.com/adgellida/winsys/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<iconUrl>https://cdn.rawgit.com/adgellida/chocolateyautomaticpackages/master/icons/winsys.png</iconUrl>
+  </metadata>
+</package>
