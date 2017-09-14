@@ -1,6 +1,18 @@
-# chocolateyatomaticpackages
+<img src="https://chocolatey.org/content/images/logo_small.svg" width="80"> chocolateyatomaticpackages
+=============================================
 
-<img src="https://chocolatey.org/content/images/logo_small.svg" width="80">
+<p align="center">
+    <a href="https://www.gnu.org/licenses/gpl-2.0.en.html" target="_blank"><img src="https://img.shields.io/badge/license-GPLv2-blue.svg" alt="GNU GPL v2"></a>
+    <a href="https://github.com/adgellida/chocolateyautomaticpackages/stargazers" target="_blank"><img src="https://img.shields.io/github/stars/adgellida/chocolateyautomaticpackages.svg" alt="stars"></a>
+    <a href="https://github.com/adgellida/chocolateyautomaticpackages/network" target="_blank"><img src="https://img.shields.io/github/forks/adgellida/chocolateyautomaticpackages.svg" alt="forks"></a>
+    <a href="https://github.com/adgellida/chocolateyautomaticpackages/issues?q=is%3Aopen" target="_blank"><img src="https://img.shields.io/github/issues/adgellida/chocolateyautomaticpackages.svg" alt="open issues"></a>
+    <a href="https://github.com/adgellida/chocolateyautomaticpackages/releases/latest" target="_blank"><img src="https://img.shields.io/github/downloads/adgellida/chocolateyautomaticpackages/total.svg" alt="total downloads"></a>
+    <a href="https://github.com/adgellida/chocolateyautomaticpackages/releases/latest" target="_blank"><img src="https://img.shields.io/github/downloads/adgellida/chocolateyautomaticpackages/v2017.09.09/total.svg" alt="total downloads latest release"></a>
+    <a href="https://github.com/adgellida/chocolateyautomaticpackages/releases/latest" target="_blank"><img src="https://img.shields.io/badge/latest release-no releases-blue.svg" alt="latest release"></a>
+    <a href="https://github.com/adgellida/chocolateyautomaticpackages/commits/master" target="_blank"><img src="https://img.shields.io/badge/maintained-no-red.svg" alt="maintained"></a>
+    <a href="https://github.com/adgellida/chocolateyautomaticpackages/releases"><img src="https://img.shields.io/badge/platform-Windows-lightgrey.svg" alt="Platforms"></a>
+    <a href="https://github.com/adgellida/chocolateyautomaticpackages/releases"><img src="https://img.shields.io/badge/status-alpha-orange.svg" alt="Status"></a>
+</p>
 
 Packages for [Chocolatey](https://chocolatey.org) platform.
 
