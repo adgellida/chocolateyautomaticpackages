@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>driverbooster</id>
+    <version>6.0.20</version>
+    <title>Driver Booster</title>
+    <authors>IObit</authors>
+    <owners>IObit</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>http://www.iobit.com/legal.php</licenseUrl>
+    <projectUrl>http://www.iobit.com/driver-booster.php</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/adgellida/chocolateyautomaticpackages/master/icons/driverbooster.png</iconUrl>
+    <description>Scans and identifies outdated drivers automatically, and downloads and installs the right update for you with just ONE click, saving you loads of time.</description>
+    <summary>Scans and identifies outdated drivers automatically, and downloads and installs the right update for you with just ONE click, saving you loads of time.</summary>
+    <copyright></copyright>
+    <tags>driver-update driver-download</tags>
+  </metadata>
+  <files>
+    <file src="tools\chocolateyInstall.ps1" target="tools\chocolateyInstall.ps1" />
+    <file src="tools\chocolateyUninstall.ps1" target="tools\chocolateyUninstall.ps1" />
+  </files>
+</package>
