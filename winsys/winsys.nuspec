@@ -3,14 +3,14 @@
   <metadata>
     <id>winsys</id>
     <title>winsys</title>
-    <version>2017.06.16</version>
+    <version>2018.10.26</version>
     <authors>Antonio David Gellida Lavara</authors>
     <owners>adgellida</owners>
     <summary>
-	Software installer of a helpful program list, able to do changes on system configuration, updates, execute improves, fixes, executing actions to blow of mouse click.
+	Gives the user a powerful control center to toggle on and off many system settings in Windows 10, it is able to change system configurations, system updates, executable improvements, small system fixes, and more at the touch of a button.
 	</summary>
     <description>
-	Software installer of a helpful program list, able to do changes on system configuration, updates, execute improves, fixes, executing actions to blow of mouse click.
+	Gives the user a powerful control center to toggle on and off many system settings in Windows 10, it is able to change system configurations, system updates, executable improvements, small system fixes, and more at the touch of a button.
 	</description>
     <projectUrl>https://github.com/adgellida/winsys</projectUrl>
     <tags>silent tweaks admin powershell cmd services appInstaller fixes</tags>
