@@ -1,4 +1,4 @@
-<img src="https://chocolatey.org/content/images/logo_small.svg" width="80"> chocolateyatomaticpackages
+<img src="https://raw.githubusercontent.com/adgellida/chocolateyatomaticpackages/master/logo.png" width="80"> chocolateyatomaticpackages
 =============================================
 
 <p align="center">
