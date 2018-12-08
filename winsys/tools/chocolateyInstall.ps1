@@ -2,8 +2,8 @@
  
 $toolsDir            = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
 $PackageParameters   = Get-PackageParameters
-$urlPackage          = 'https://github.com/adgellida/winsys/releases/download/v2018.10.26/winsys-2018.10.26-windows-installer.exe'
-$checksumPackage     = 'F88F37E07A608FC5539B5358DE2323477D80EF15828558717E1830032D5F5FFE2A2F212CE8CD90D90744ECD236DDB3BAA171BEBCBB5D20F83CC1B01F79A23E8D'
+$urlPackage          = 'https://github.com/adgellida/winsys/releases/download/v2018.12.08/winsys-2018.12.08-windows-installer.exe'
+$checksumPackage     = '4FAE77B3862DDA779831E4037D3871635979F7A442D8B10021A598E0DFE2D5D7B5A91325FB9945C4DFDCCD6148643AECBEDE4542A599881D12CE656D536EBDD8'
 $checksumTypePackage = 'SHA512'
  
 $packageArgs = @{
@@ -12,7 +12,7 @@ $packageArgs = @{
     url            = $urlPackage
     checksum       = $checksumPackage
     checksumType   = $checksumTypePackage
-	silentArgs     = '--mode unattended'
+	silentArgs     = '/VERYSILENT'
     validExitCodes = @(0, 1000, 1101)
 }
  
