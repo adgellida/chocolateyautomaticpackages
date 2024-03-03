@@ -1,23 +1,36 @@
-$packageName = '{{PackageName}}'
-$installerType = 'EXE'
-$silentArgs = '/S'
-$processor = Get-WmiObject Win32_Processor
-$is64bit = $processor.AddressWidth -eq 64
-$validExitCodes = @(0) #please insert other valid exit codes here, exit codes for ms http://msdn.microsoft.com/en-us/library/aa368542(VS.85).aspx
+$ErrorActionPreference = 'Stop';
 
-try {
+$packageArgs = @{
+  packageName    = $env:ChocolateyPackageName
+  softwareName   = 'Midori'
+  fileType       = 'EXE'
+  silentArgs     = '/S'
+  validExitCodes = @(0)
+}
 
-	if ($is64bit) {
-		$unpath = "${Env:ProgramFiles(x86)}\Midori\uninst.exe"
-	} else {
-		$unpath = "$Env:ProgramFiles\Midori\uninst.exe"
-	}
-  
-	Uninstall-ChocolateyPackage $packageName $installerType $silentArgs $unpath -validExitCodes $validExitCodes
-    
-	Write-ChocolateySuccess $packageName
-	
-} catch {
-	Write-ChocolateyFailure $packageName $($_.Exception.Message)
-	throw 
+[array]$key = Get-UninstallRegistryKey @packageArgs
+
+if ($key.Count -eq 1) {
+    $key | ForEach-Object { 
+        # some uninstall strings include parameters - remove them as we will use our own
+        $packageArgs.file = "$($_.UninstallString)" -replace '/.*$', ''
+
+        if ($packageArgs.fileType -eq 'EXE') {
+            $packageArgs.silentArgs = "$($_.PSChildName) $($packageArgs.silentArgs)"
+            $packageArgs.file = ''
+        }
+
+        Uninstall-ChocolateyPackage @packageArgs
+    }
+}
+elseif ($key.Count -eq 0) {
+    Write-Warning "$env:ChocolateyPackageName has already been uninstalled by other means."
+}
+elseif ($key.Count -gt 1) {
+    Write-Warning "$key.Count matches found!"
+    Write-Warning "To prevent accidental data loss, no programs will be uninstalled."
+    Write-Warning "Please alert package maintainer the following keys were matched:"
+    $key | ForEach-Object {
+        Write-Warning "- $_.DisplayName"
+    }
 }
