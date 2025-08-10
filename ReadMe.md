@@ -33,16 +33,16 @@ On [this](https://github.com/adgellida/chocolateyautomaticpackages/tree/master/K
 
 RELEASE NOTES
 =============================================
-* 20/03/15 - [doc](https://chocolatey.org/profiles/doc),[dtgm](https://chocolatey.org/profiles/dtgm), [choco team](https://chocolatey.org/profiles/chocolatey) are examples of part of people that merged my repos to get it updated. Thanks for that.
-* 02/12/14 - I decided to not maintain regularly on chocolatey, so I added as maintainer "chocolatey team" for integrate packages on "chocolatey-coreteampackages" to maintain them the most up-to-date possible.
-* 27/11/14 - Converting all packages to "not checkables". 
-* 21/11/14 - Bugfixing all the detected packages with problems.
-* 20/11/14 - Moved all the icons to "icons" folder.
-* 18/11/14 - Moved all the images to "images" folder.
-* 21/09/14 - Updated checks on ketarin.
-* 23/08/14 - There're a lot of manual packages, for testing causes or for impossibility to do it auto.
-* 04/01/14 - Updated daily (only auto packages) or asap.
-* 06/12/13 - All versions works on windows vista, 7, 8, 8.1 etc. On xp wasn't tested 100% but works very very often. There're packages that don't do all the instructions (remove innecesary shortcuts), but the program is fully functional afterwards.
+* 20/03/2015 - [doc](https://chocolatey.org/profiles/doc),[dtgm](https://chocolatey.org/profiles/dtgm), [choco team](https://chocolatey.org/profiles/chocolatey) are examples of part of people that merged my repos to get it updated. Thanks for that.
+* 02/12/2014 - I decided to not maintain regularly on chocolatey, so I added as maintainer "chocolatey team" for integrate packages on "chocolatey-coreteampackages" to maintain them the most up-to-date possible.
+* 27/11/2014 - Converting all packages to "not checkables". 
+* 21/11/2014 - Bugfixing all the detected packages with problems.
+* 20/11/2014 - Moved all the icons to "icons" folder.
+* 18/11/2014 - Moved all the images to "images" folder.
+* 21/09/2014 - Updated checks on Ketarin.
+* 23/08/2014 - There're a lot of manual packages, for testing causes or for impossibility to do it auto.
+* 04/01/2014 - Updated daily (only auto packages) or asap.
+* 06/12/2013 - All versions works on windows vista, 7, 8, 8.1 etc. On xp wasn't tested 100% but works very very often. There're packages that don't do all the instructions (remove innecesary shortcuts), but the program is fully functional afterwards.
 
 ON FUTURE - PENDING TASKS
 =============================================
